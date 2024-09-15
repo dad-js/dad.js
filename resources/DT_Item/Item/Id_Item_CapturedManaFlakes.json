@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_CapturedManaFlakes",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.CapturedManaFlakes"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_CapturedManaFlakes"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_CapturedManaFlakes",
+          "SourceString": "Text_DesignData_Item_Item_CapturedManaFlakes",
+          "LocalizedString": "Captured Mana Flakes"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_CapturedManaFlakes",
+          "SourceString": "Text_DesignData_Item_Flavor_CapturedManaFlakes",
+          "LocalizedString": "Luminescent flakes radiating a soft glow and carrying traces of otherworldly magic."
+        },
+        "ItemType": "EItemType::Misc",
+        "MiscType": {
+          "TagName": "Type.Item.Misc.HuntingLoot"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Epic"
+        },
+        "MaxCount": 3,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "CapturedManaFlakes"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "CapturedManaFlakes_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 1,
+        "InventoryHeight": 1,
+        "AdvPoint": 2,
+        "ExpPoint": 1
+      }
+    }
+  }
+]

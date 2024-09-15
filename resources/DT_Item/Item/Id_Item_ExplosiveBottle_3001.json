@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_ExplosiveBottle_3001",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.ExplosiveBottle"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_ExplosiveBottle_1001"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_ExplosiveBottle_3001",
+          "SourceString": "Text_DesignData_Item_Item_ExplosiveBottle_3001",
+          "LocalizedString": "Explosive Bottle"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_ExplosiveBottle_0001",
+          "SourceString": "Text_DesignData_Item_Flavor_ExplosiveBottle_0001",
+          "LocalizedString": "A bottle containing a flammable mixture that explodes when ignited and thrown."
+        },
+        "ItemType": "EItemType::Utility",
+        "SlotType": {
+          "TagName": "Type.Item.Slot.Utility"
+        },
+        "HandType": {
+          "TagName": "Type.Item.Hand.TwoHanded"
+        },
+        "UtilityType": {
+          "TagName": "Type.Item.Utility.LightSource"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Uncommon"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "ExplosiveBottle"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "ExplosiveBottle_Sound"
+        },
+        "ActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_ExplosiveBottle_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/ExplosiveBottle/BP_ExplosiveBottle.1"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 1,
+        "InventoryHeight": 2,
+        "WearingDelayTime": 1.0,
+        "SelfAbilities": [
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_ExplosiveBottleActivateOnEquip"
+          }
+        ],
+        "Abilities": [
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_ExplosiveBottleThrow_3001"
+          }
+        ],
+        "PrimaryProperty": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemProperty"
+          },
+          "PrimaryAssetName": "Id_ItemProperty_Primary_ExplosiveBottle"
+        },
+        "Requirement": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemRequirement"
+          },
+          "PrimaryAssetName": "Id_ItemRequirement_ExplosiveBottle_3001"
+        },
+        "ExpPoint": 2,
+        "GearScore": 8
+      }
+    }
+  }
+]

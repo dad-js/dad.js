@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_RondelDaggerAttack02_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerCharMeleeAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharMeleeAttack.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerCharMeleeAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharMeleeAttack.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_RondelDaggerAttack02_C'Default__GA_RondelDaggerAttack02_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RondelDagger/GameplayAbility/GA_RondelDaggerAttack02.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_RondelDaggerAttack02_C",
+    "Name": "Default__GA_RondelDaggerAttack02_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RondelDagger/GameplayAbility/GA_RondelDaggerAttack02.GA_RondelDaggerAttack02_C'",
+    "Template": {
+      "ObjectName": "GA_PlayerCharMeleeAttack_C'Default__GA_PlayerCharMeleeAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharMeleeAttack.1"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_RondelDagger_Stand_Attack_02'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RondelDagger/Animations/AM_RondelDagger_Stand_Attack_02.0"
+      },
+      "MeleeAttackData": {
+        "ObjectName": "DesignDataAssetMeleeAttack'Id_MeleeAttack_GA_RondelDaggerAttack02'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/DT_MeleeAttack/MeleeAttack/Id_MeleeAttack_GA_RondelDaggerAttack02.0"
+      },
+      "ChangeCrossHairWhenEventTag": {
+        "TagName": "Ability.Player.Act.Attack.PrimaryAttack.Press.Attack03"
+      },
+      "OnPinPoint": true,
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Ability.Player.Act.Attack.PrimaryAttack.Press.Attack02"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "Hounskull_1001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.5
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::UnderHair",
+          "Value": 2.471141
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icom_Hounskull'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Hounskull/Icon/Item_Icom_Hounskull.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Hounskull'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Hounskull/SK_Hounskull.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Hounskull_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Hounskull/SM_Hounskull_Holder.2"
+      }
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_LanternShieldGuard_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerGuardBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerGuardBase.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerGuardBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerGuardBase.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_LanternShieldGuard_C'Default__GA_LanternShieldGuard_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldGuard.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_LanternShieldGuard_C",
+    "Name": "Default__GA_LanternShieldGuard_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldGuard.GA_LanternShieldGuard_C'",
+    "Template": {
+      "ObjectName": "GA_PlayerGuardBase_C'Default__GA_PlayerGuardBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerGuardBase.6"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_LanternShield_Guard'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard.0"
+      },
+      "AbilityTags": [
+        "Ability.Player.Act.Attack.SecondaryAttack.Press.Attack01",
+        "Type.Ability.Act"
+      ],
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Ability.Player.Act.Attack.SecondaryAttack.Press.Attack01"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

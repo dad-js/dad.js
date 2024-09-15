@@ -1,0 +1,600 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_LanternShieldLightActivate_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ActivateItem_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ActivateItem.0"
+    },
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ActivateItem_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ActivateItem.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_LanternShieldLightActivate_C:AbilityActivated'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.1"
+      },
+      {
+        "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_LanternShieldLightActivate": {
+        "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+      },
+      "AbilityActivated": {
+        "ObjectName": "Function'GA_LanternShieldLightActivate_C:AbilityActivated'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.1"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_LanternShieldLightActivate_C'Default__GA_LanternShieldLightActivate_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AbilityActivated",
+    "Outer": "GA_LanternShieldLightActivate_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'GA_ActivateItem_C:AbilityActivated'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ActivateItem.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'GA_ActivateItem_C:AbilityActivated'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ActivateItem.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TriggerEventData",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+          },
+          "Property": {
+            "Type": "StructProperty",
+            "Name": "K2Node_Event_TriggerEventData",
+            "Flags": "RF_Public",
+            "ElementSize": 184,
+            "PropertyFlags": "ConstParm",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayEventData'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_LanternShieldLightActivate_C:AbilityActivated'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.1"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "TriggerEventData",
+              "Flags": "RF_Public",
+              "ElementSize": 184,
+              "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 10
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.ExecuteUbergraph_GA_LanternShieldLightActivate[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_LanternShieldLightActivate",
+    "Outer": "GA_LanternShieldLightActivate_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_TriggerEventData",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentSourceObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_HasAuthority_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsItem_Actor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'ItemActor'",
+          "ObjectPath": "/Script/DungeonCrawler"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_AddGameplayTag_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 10,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_K2_HasAuthority_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:K2_HasAuthority'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 30,
+        "CodeOffset": 199,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.ExecuteUbergraph_GA_LanternShieldLightActivate[199]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_K2_HasAuthority_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 44,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetCurrentSourceObject_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Object'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetCurrentSourceObject'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 64,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsItem_Actor",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'ItemActor'",
+                "ObjectPath": "/Script/DungeonCrawler"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'ItemActor'",
+            "ObjectPath": "/Script/DungeonCrawler"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetCurrentSourceObject_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Object'",
+                  "ObjectPath": "/Script/CoreUObject"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 100,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsItem_Actor",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'ItemActor'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 129,
+        "CodeOffset": 199,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.ExecuteUbergraph_GA_LanternShieldLightActivate[199]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 143,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_AddGameplayTag_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'DCAbilitySystemBlueprintLibrary:AddGameplayTag'",
+            "ObjectPath": "/Script/DungeonCrawler"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_LanternShieldLightActivate_C:ExecuteUbergraph_GA_LanternShieldLightActivate'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "K2Node_DynamicCast_AsItem_Actor",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'ItemActor'",
+                    "ObjectPath": "/Script/DungeonCrawler"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "State.Item.Activate.LightSource"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 199,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 201
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "GA_LanternShieldLightActivate_C",
+    "Name": "Default__GA_LanternShieldLightActivate_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShieldLightActivate.GA_LanternShieldLightActivate_C'",
+    "Template": {
+      "ObjectName": "GA_ActivateItem_C'Default__GA_ActivateItem_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ActivateItem.3"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_LanternShield_Lantern_On'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Lantern_On.0"
+      },
+      "MontageToPlayOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_LanternShield_Lantern_On'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_WP_LanternShield_Lantern_On.0"
+      },
+      "ActivateTag": {
+        "TagName": "None"
+      },
+      "DeactivateTag": {
+        "TagName": "None"
+      },
+      "AbilityTags": [
+        "Type.Item.Special"
+      ],
+      "bRetriggerInstancedAbility": true,
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Ability.Item.Special.Activate"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

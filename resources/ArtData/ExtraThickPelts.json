@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "ExtraThickPelts",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_ExtraThickPelts'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/ExtraThickPelts/Icon/Item_Icon_ExtraThickPelts.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_ExtraThickPelt_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/ExtraThickPelts/SM_ExtraThickPelt_Holder.2"
+      }
+    }
+  }
+]

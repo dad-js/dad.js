@@ -1,0 +1,115 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_RodOfRighteousness_3001",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.RodOfRighteousness"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_RodOfRighteousness_3001"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_RodOfRighteousness_3001",
+          "SourceString": "Text_DesignData_Item_Item_RodOfRighteousness_3001",
+          "LocalizedString": "Rod of Righteousness"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_RodOfRighteousness_3001",
+          "SourceString": "Text_DesignData_Item_Flavor_RodOfRighteousness_3001",
+          "LocalizedString": "Designed for functionality, the silver integration in this mace subtly improves its performance against undead beings."
+        },
+        "ItemType": "EItemType::Weapon",
+        "SlotType": {
+          "TagName": "Type.Item.Slot.Primary"
+        },
+        "HandType": {
+          "TagName": "Type.Item.Hand.OneHanded"
+        },
+        "WeaponTypes": [
+          {
+            "TagName": "Type.Item.Weapon.Mace"
+          }
+        ],
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Uncommon"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "RodOfRighteousness_3001"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "Mace_Sound"
+        },
+        "ActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_FlangedMace_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/FlangedMace/BP_FlangedMace.1"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 1,
+        "InventoryHeight": 3,
+        "Abilities": [
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_FlangedMaceAttack01"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_FlangedMaceAttack02"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_FlangedMaceAttack03"
+          }
+        ],
+        "PrimaryProperty": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemProperty"
+          },
+          "PrimaryAssetName": "Id_ItemProperty_Primary_RodOfRighteousness_3001"
+        },
+        "SecondaryProperties": [
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Onehand_Weapon"
+          }
+        ],
+        "Requirement": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemRequirement"
+          },
+          "PrimaryAssetName": "Id_ItemRequirement_RodOfRighteousness_3001"
+        },
+        "AdvPoint": 2,
+        "ExpPoint": 5,
+        "GearScore": 27
+      }
+    }
+  }
+]

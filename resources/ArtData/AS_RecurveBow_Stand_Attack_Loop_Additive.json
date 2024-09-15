@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "AnimSequence",
+    "Name": "AS_RecurveBow_Stand_Attack_Loop_Additive",
+    "Class": "UScriptClass'AnimSequence'",
+    "Properties": {
+      "BoneCompressionSettings": {
+        "ObjectName": "AnimBoneCompressionSettings'DefaultAnimBoneCompressionSettings'",
+        "ObjectPath": "Engine/Content/Animation/DefaultAnimBoneCompressionSettings.0"
+      },
+      "CurveCompressionSettings": {
+        "ObjectName": "AnimCurveCompressionSettings'DefaultAnimCurveCompressionSettings'",
+        "ObjectPath": "Engine/Content/Animation/DefaultAnimCurveCompressionSettings.1"
+      },
+      "VariableFrameStrippingSettings": {
+        "ObjectName": "VariableFrameStrippingSettings'DefaultVariableFrameStrippingSettings'",
+        "ObjectPath": "Engine/Content/Animation/DefaultVariableFrameStrippingSettings.0"
+      },
+      "AdditiveAnimType": "EAdditiveAnimationType::AAT_LocalSpaceBase",
+      "RefPoseType": "EAdditiveBasePoseType::ABPT_AnimFrame",
+      "RefPoseSeq": {
+        "ObjectName": "AnimSequence'AS_RecurveBow_Stand_Attack_Loop'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_RecurveBow_Stand_Attack_Loop.0"
+      },
+      "TargetFrameRate": {
+        "Numerator": 30
+      },
+      "SequenceLength": 1.2,
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_PC_Man'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Player/Meshes/SKEL_PC_Man.84"
+      }
+    },
+    "SkeletonGuid": "86C18DA5-4F726D68-AB1C48A9-134BF080",
+    "CompressedTrackToSkeletonMapTable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      25,
+      27,
+      28,
+      30,
+      31,
+      32,
+      34,
+      51,
+      53,
+      54,
+      58,
+      60,
+      61,
+      63,
+      64,
+      69,
+      70,
+      71
+    ],
+    "CompressedCurveData": {
+      "FloatCurves": []
+    },
+    "CompressedDataStructure": {
+      "CompressedNumberOfFrames": 37,
+      "KeyEncodingFormat": "AKF_PerTrackCompression",
+      "TranslationCompressionFormat": "ACF_Identity",
+      "RotationCompressionFormat": "ACF_Identity",
+      "ScaleCompressionFormat": "ACF_Identity"
+    },
+    "BoneCompressionCodec": {
+      "ObjectName": "AnimCompress_PerTrackCompression'DefaultAnimBoneCompressionSettings:AnimCompress_PerTrackCompression_3'",
+      "ObjectPath": "Engine/Content/Animation/DefaultAnimBoneCompressionSettings"
+    },
+    "CurveCompressionCodec": {
+      "ObjectName": "AnimCurveCompressionCodec_CompressedRichCurve'DefaultAnimCurveCompressionSettings:CurveCompressionCodec'",
+      "ObjectPath": "Engine/Content/Animation/DefaultAnimCurveCompressionSettings"
+    },
+    "CompressedRawDataSize": 32128
+  }
+]

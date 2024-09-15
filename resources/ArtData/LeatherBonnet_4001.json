@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "LeatherBonnet_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 0.5
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 0.65
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_LeatherBonnet'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/LeatherBonnet/Icon/Item_Icon_LeatherBonnet.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_LeatherBonnet'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/LeatherBonnet/SK_LeatherBonnet.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_LeatherBonnet_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/LeatherBonnet/SM_LeatherBonnet_Holder.2"
+      }
+    }
+  }
+]

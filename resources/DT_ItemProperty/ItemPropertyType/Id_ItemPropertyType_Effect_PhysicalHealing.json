@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_PhysicalHealing",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 32,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.PhysicalHealing"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyPhysicalHealing_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyPhysicalHealing.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.PhysicalHealBase"
+        }
+      }
+    }
+  }
+]

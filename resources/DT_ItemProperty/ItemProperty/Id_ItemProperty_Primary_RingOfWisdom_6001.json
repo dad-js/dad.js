@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "DesignDataAssetItemProperty",
+    "Name": "Id_ItemProperty_Primary_RingOfWisdom_6001",
+    "Class": "UScriptClass'DesignDataAssetItemProperty'",
+    "Properties": {
+      "Item": {
+        "ItemPropertyItemArray": [
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Knowledge"
+            },
+            "MinValue": 4,
+            "MaxValue": 4,
+            "PropertyRate": 0
+          }
+        ]
+      }
+    }
+  }
+]

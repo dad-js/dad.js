@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "Ruby",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Ruby'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Gems/Icon/Item_Icon_Ruby.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Gems_01a_HolderOnly'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Gems/SM_Gems_01a_HolderOnly.2"
+      }
+    }
+  }
+]

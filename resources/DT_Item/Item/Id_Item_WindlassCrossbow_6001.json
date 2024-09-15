@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_WindlassCrossbow_6001",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.WindlassCrossbow"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_WindlassCrossbow_1001"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_WindlassCrossbow_6001",
+          "SourceString": "Text_DesignData_Item_Item_WindlassCrossbow_6001",
+          "LocalizedString": "Windlass Crossbow"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_WindlassCrossbow_0001",
+          "SourceString": "Text_DesignData_Item_Flavor_WindlassCrossbow_0001",
+          "LocalizedString": "Crafted with added metal around it's wooden bend for a more stable shot, requiring a bit of effort to reload."
+        },
+        "ItemType": "EItemType::Weapon",
+        "SlotType": {
+          "TagName": "Type.Item.Slot.Primary"
+        },
+        "HandType": {
+          "TagName": "Type.Item.Hand.TwoHanded"
+        },
+        "WeaponTypes": [
+          {
+            "TagName": "Type.Item.Weapon.Crossbow"
+          }
+        ],
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Legend"
+        },
+        "MaxCount": 1,
+        "MaxAmmoCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "WindlassCrossbow_6001"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "WindlassCrossbow_Sound"
+        },
+        "ActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_WindlassCrossbow_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/BP_WindlassCrossbow.1"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 2,
+        "InventoryHeight": 4,
+        "WearingDelayTime": 1.0,
+        "Abilities": [
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_WindlassCrossbowAttack"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_WindlassCrossbowReload"
+          }
+        ],
+        "PrimaryProperty": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemProperty"
+          },
+          "PrimaryAssetName": "Id_ItemProperty_Primary_WindlassCrossbow_6001"
+        },
+        "SecondaryProperties": [
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Twohand_PhysicalWeapon"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Twohand_PhysicalWeapon"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Twohand_PhysicalWeapon"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Twohand_PhysicalWeapon"
+          }
+        ],
+        "Requirement": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemRequirement"
+          },
+          "PrimaryAssetName": "Id_ItemRequirement_WindlassCrossbow_6001"
+        },
+        "AdvPoint": 20,
+        "ExpPoint": 6,
+        "GearScore": 120
+      }
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "DescData",
+    "Name": "SurgicalKit_Desc",
+    "Class": "UScriptClass'DescData'",
+    "Properties": {
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_SurgicalKit_Desc_SurgicalKitDesc",
+        "SourceString": "Text_DataAsset_SurgicalKit_Desc_SurgicalKitDesc",
+        "LocalizedString": "A medical kit used to dress serious wounds."
+      }
+    }
+  }
+]

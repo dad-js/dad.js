@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "CobaltTemplarArmor",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 0.9
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CobaltTemplarArmor'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/CobaltTemplarArmor/Icon/Item_Icon_CobaltTemplarArmor.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_CobaltTemplarArmor'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/CobaltTemplarArmor/SK_CobaltTemplarArmor.6"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CobaltTemplarArmor_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/CobaltTemplarArmor/SM_CobaltTemplarArmor_Holder.2"
+      }
+    }
+  }
+]

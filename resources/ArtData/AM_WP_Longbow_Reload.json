@@ -1,0 +1,704 @@
+[
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_0",
+    "Outer": "AM_WP_Longbow_Reload",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root3"
+    }
+  },
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_1",
+    "Outer": "AM_WP_Longbow_Reload",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root1"
+    }
+  },
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_2",
+    "Outer": "AM_WP_Longbow_Reload",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root2"
+    }
+  },
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_4",
+    "Outer": "AM_WP_Longbow_Reload",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root4"
+    }
+  },
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_5",
+    "Outer": "AM_WP_Longbow_Reload",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root5"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_0",
+    "Outer": "AM_WP_Longbow_Reload",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root1"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_1",
+    "Outer": "AM_WP_Longbow_Reload",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root3"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_2",
+    "Outer": "AM_WP_Longbow_Reload",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root2"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_3",
+    "Outer": "AM_WP_Longbow_Reload",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_4",
+    "Outer": "AM_WP_Longbow_Reload",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root4"
+    }
+  },
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_WP_Longbow_Reload",
+    "Class": "UScriptClass'AnimMontage'",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.10"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.9666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_Longbow_Reload.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_Longbow_Reload'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_Longbow_Reload.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.9666667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "BranchingPointMarkers": [
+        {
+          "NotifyIndex": 0,
+          "TriggerTime": 0.333333,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 1,
+          "TriggerTime": 0.342191,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 2,
+          "TriggerTime": 0.345176,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 3,
+          "TriggerTime": 0.347116,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 4,
+          "TriggerTime": 0.347735,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 5,
+          "TriggerTime": 0.348555,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 6,
+          "TriggerTime": 1.066667,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 7,
+          "TriggerTime": 1.5,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 8,
+          "TriggerTime": 1.933333,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 9,
+          "TriggerTime": 2.306779,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        }
+      ],
+      "CommonTargetFrameRate": {
+        "Numerator": 30
+      },
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_Longbow_Reload:AN_UnHideBone_C_3'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.333333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.10"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.9666667,
+          "LinkValue": 0.333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_Longbow_Reload.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_Longbow_Reload:AN_HideBone_C_5'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.342191,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.10"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.9666667,
+          "LinkValue": 0.342191,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_Longbow_Reload.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_Longbow_Reload:AN_UnHideBone_C_4'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.345176,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.10"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.9666667,
+          "LinkValue": 0.345176,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_Longbow_Reload.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_Longbow_Reload:AN_UnHideBone_C_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.347116,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.10"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.9666667,
+          "LinkValue": 0.347116,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_Longbow_Reload.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_Longbow_Reload:AN_UnHideBone_C_1'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.347735,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.10"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.9666667,
+          "LinkValue": 0.347735,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_Longbow_Reload.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_Longbow_Reload:AN_UnHideBone_C_2'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.348555,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.10"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.9666667,
+          "LinkValue": 0.348555,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_Longbow_Reload.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_Longbow_Reload:AN_HideBone_C_1'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.066667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.10"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.9666667,
+          "LinkValue": 1.066667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_Longbow_Reload.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_Longbow_Reload:AN_HideBone_C_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.0"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.5,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.10"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.9666667,
+          "LinkValue": 1.5,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_Longbow_Reload.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_Longbow_Reload:AN_HideBone_C_4'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.933333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.10"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.9666667,
+          "LinkValue": 1.933333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_Longbow_Reload.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_Longbow_Reload:AN_HideBone_C_2'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.306779,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.10"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.9666667,
+          "LinkValue": 2.306779,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Longbow_Reload'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_Longbow_Reload.0"
+          }
+        }
+      ],
+      "SequenceLength": 2.9666667,
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_Longbow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/SKEL_Longbow.4"
+      }
+    },
+    "SkeletonGuid": "B8728378-4C3BB9EE-F4EC8B89-9999A2ED"
+  }
+]

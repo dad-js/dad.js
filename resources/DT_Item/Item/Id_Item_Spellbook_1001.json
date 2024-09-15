@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_Spellbook_1001",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.Spellbook"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_Spellbook_1001"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_Spellbook_1001",
+          "SourceString": "Text_DesignData_Item_Item_Spellbook_1001",
+          "LocalizedString": "Spellbook"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_Spellbook_0001",
+          "SourceString": "Text_DesignData_Item_Flavor_Spellbook_0001",
+          "LocalizedString": "Crafted from engraved leather bindings and pages etched with magical ancient runes and markings."
+        },
+        "ItemType": "EItemType::Weapon",
+        "SlotType": {
+          "TagName": "Type.Item.Slot.Primary"
+        },
+        "HandType": {
+          "TagName": "Type.Item.Hand.TwoHanded"
+        },
+        "WeaponTypes": [
+          {
+            "TagName": "Type.Item.Weapon.MagicStuff"
+          }
+        ],
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Poor"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "Spellbook_1001"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "Spellbook_Sound"
+        },
+        "ActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_Spellbook_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spellbook/BP_Spellbook.1"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 2,
+        "InventoryHeight": 2,
+        "Abilities": [
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_SpellbookCasting"
+          }
+        ],
+        "PrimaryProperty": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemProperty"
+          },
+          "PrimaryAssetName": "Id_ItemProperty_Primary_Spellbook_1001"
+        },
+        "Requirement": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemRequirement"
+          },
+          "PrimaryAssetName": "Id_ItemRequirement_Spellbook_1001"
+        },
+        "ExpPoint": 1,
+        "GearScore": 2
+      }
+    }
+  }
+]

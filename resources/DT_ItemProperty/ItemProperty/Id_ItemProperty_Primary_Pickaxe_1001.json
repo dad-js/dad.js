@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "DesignDataAssetItemProperty",
+    "Name": "Id_ItemProperty_Primary_Pickaxe_1001",
+    "Class": "UScriptClass'DesignDataAssetItemProperty'",
+    "Properties": {
+      "Item": {
+        "ItemPropertyItemArray": [
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalWeaponDamage"
+            },
+            "MinValue": 25,
+            "MaxValue": 25,
+            "PropertyRate": 0
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_RegularInteractionSpeed"
+            },
+            "MinValue": 10,
+            "MaxValue": 10,
+            "PropertyRate": 0
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MoveSpeed"
+            },
+            "MinValue": -45,
+            "MaxValue": -45,
+            "PropertyRate": 0
+          }
+        ]
+      }
+    }
+  }
+]

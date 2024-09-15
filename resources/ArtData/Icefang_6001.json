@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "Icefang_6001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_CastillonDagger_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CastillonDagger/Animations/AM_CastillonDagger_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_CastillonDagger_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CastillonDagger/Animations/AM_CastillonDagger_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_CastillonDagger_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CastillonDagger/Animations/AS_CastillonDagger_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_CastillonDagger_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CastillonDagger/Animations/AS_CastillonDagger_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_CastillonDagger_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CastillonDagger/Animations/BS_CastillonDagger_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_thigh_r_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Icefang'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Icefang/Icon/Item_Icon_Icefang.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Icefang'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Icefang/SK_Icefang.1"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_dagger_2",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_CastillonDagger_6001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CastillonDagger/Materials/MI_CastillonDagger_6001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Icefang_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Icefang/SM_Icefang_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_dagger_2",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Icefang_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Icefang/Materials/MI_Icefang_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

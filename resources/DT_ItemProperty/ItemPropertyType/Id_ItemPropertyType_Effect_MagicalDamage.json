@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_MagicalDamage",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 25,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.MagicalDamage"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyMagicalDamage_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyMagicalDamage.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.MagicalDamageBase"
+        },
+        "PrimaryTooltipPriority": 4
+      }
+    }
+  }
+]

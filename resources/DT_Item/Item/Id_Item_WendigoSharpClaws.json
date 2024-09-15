@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_WendigoSharpClaws",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.WendigoSharpClaws"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_WendigoSharpClaws"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_WendigoSharpClaws",
+          "SourceString": "Text_DesignData_Item_Item_WendigoSharpClaws",
+          "LocalizedString": "Wendigo's Sharp Claws"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_WendigoSharpClaws",
+          "SourceString": "Text_DesignData_Item_Flavor_WendigoSharpClaws",
+          "LocalizedString": "These are the nails of Wendigo, who has slaughtered countless creatures, tearing their flesh apart."
+        },
+        "ItemType": "EItemType::Misc",
+        "MiscType": {
+          "TagName": "Type.Item.Misc.HuntingLoot"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Uncommon"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "WendigoSharpClaws"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "WendigoSharpClaws_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 2,
+        "InventoryHeight": 1,
+        "AdvPoint": 1,
+        "ExpPoint": 1
+      }
+    }
+  }
+]

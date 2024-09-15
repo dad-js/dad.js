@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "NorthernFullTunic_3001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_NorthernFullTunic'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/NorthernFullTunic/Icon/Item_Icon_NorthernFullTunic.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_NorthernFullTunic'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/NorthernFullTunic/SK_NorthernFullTunic.6"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_NorthernFullTunic_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/NorthernFullTunic/SM_NorthernFullTunic_Holder.2"
+      }
+    }
+  }
+]

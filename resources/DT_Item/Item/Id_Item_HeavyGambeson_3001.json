@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_HeavyGambeson_3001",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.HeavyGambeson"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_HeavyGambeson_1001"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_HeavyGambeson_3001",
+          "SourceString": "Text_DesignData_Item_Item_HeavyGambeson_3001",
+          "LocalizedString": "Heavy Gambeson"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_HeavyGambeson_0001",
+          "SourceString": "Text_DesignData_Item_Flavor_HeavyGambeson_0001",
+          "LocalizedString": "Robust padded armor garment, with layers of thick, quilted fabric, offering formidable protection."
+        },
+        "ItemType": "EItemType::Armor",
+        "SlotType": {
+          "TagName": "Type.Item.Slot.Chest"
+        },
+        "ArmorType": {
+          "TagName": "Type.Item.Armor.Cloth"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Uncommon"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "HeavyGambeson_3001"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "HeavyGambeson_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 2,
+        "InventoryHeight": 3,
+        "WearingDelayTime": 2.0,
+        "PrimaryProperty": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemProperty"
+          },
+          "PrimaryAssetName": "Id_ItemProperty_Primary_HeavyGambeson_3001"
+        },
+        "SecondaryProperties": [
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Chest"
+          }
+        ],
+        "Requirement": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemRequirement"
+          },
+          "PrimaryAssetName": "Id_ItemRequirement_HeavyGambeson_3001"
+        },
+        "AdvPoint": 3,
+        "ExpPoint": 3,
+        "GearScore": 15
+      }
+    }
+  }
+]

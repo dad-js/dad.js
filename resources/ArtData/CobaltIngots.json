@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "CobaltIngots",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CobaltIngots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ingots/Cobalt/Icon/Item_Icon_CobaltIngots.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CobaltIngots_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ingots/Cobalt/SM_CobaltIngots_Holder.2"
+      }
+    }
+  }
+]

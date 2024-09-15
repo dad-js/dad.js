@@ -1,0 +1,118 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_WarMaul_1001",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.WarMaul"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_WarMaul_1001"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_WarMaul_1001",
+          "SourceString": "Text_DesignData_Item_Item_WarMaul_1001",
+          "LocalizedString": "War Maul"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_WarMaul_0001",
+          "SourceString": "Text_DesignData_Item_Flavor_WarMaul_0001",
+          "LocalizedString": "Only the sturdiest wooden hilt could sustain the giant metal slab on top. The weight of this maul can be felt in every swing."
+        },
+        "ItemType": "EItemType::Weapon",
+        "SlotType": {
+          "TagName": "Type.Item.Slot.Primary"
+        },
+        "HandType": {
+          "TagName": "Type.Item.Hand.TwoHanded"
+        },
+        "WeaponTypes": [
+          {
+            "TagName": "Type.Item.Weapon.Mace"
+          }
+        ],
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Poor"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "WarMaul_1001"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "Hammer_Sound"
+        },
+        "ActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_WarMaul_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WarMaul/BP_WarMaul.1"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 2,
+        "InventoryHeight": 4,
+        "Abilities": [
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_WarMaulAttack01"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_WarMaulAttack02"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_WarMaulAttack03"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_WarMaulAttackSecondary01"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_WarMaulAttackSecondary02"
+          }
+        ],
+        "PrimaryProperty": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemProperty"
+          },
+          "PrimaryAssetName": "Id_ItemProperty_Primary_WarMaul_1001"
+        },
+        "Requirement": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemRequirement"
+          },
+          "PrimaryAssetName": "Id_ItemRequirement_WarMaul_1001"
+        },
+        "ExpPoint": 1,
+        "GearScore": 2
+      }
+    }
+  }
+]

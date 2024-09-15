@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataAccessory",
+    "Name": "WindLocket",
+    "Class": "UScriptClass'ArtDataAccessory'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_BasicNecklace02'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Necklace/Icon/Item_Icon_BasicNecklace02.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Necklace02_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Necklace/SM_Necklace02_Holder.2"
+      }
+    }
+  }
+]

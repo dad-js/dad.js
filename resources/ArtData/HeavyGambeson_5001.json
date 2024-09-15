@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "HeavyGambeson_5001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_HeavyGambeson'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/HeavyGambeson/Icon/Item_Icon_HeavyGambeson.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_HeavyGambeson'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/HeavyGambeson/SK_HeavyGambeson.4"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_HeavyGambeson_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/HeavyGambeson/SM_HeavyGambeson_Holder.2"
+      }
+    }
+  }
+]

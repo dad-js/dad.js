@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_1",
+    "Outer": "AM_WP_WindlassCrossbow_Stand_Attack",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "arrow"
+    }
+  },
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_WP_WindlassCrossbow_Stand_Attack",
+    "Class": "UScriptClass'AnimMontage'",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.05
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_WindlassCrossbow_Stand_Attack'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Animations/AM_WP_WindlassCrossbow_Stand_Attack.1"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_WindlassCrossbow_Stand_Attack'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Animations/AS_WP_WindlassCrossbow_Stand_Attack.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_WindlassCrossbow_Stand_Attack'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Animations/AS_WP_WindlassCrossbow_Stand_Attack.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.0,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "BranchingPointMarkers": [
+        {
+          "NotifyIndex": 0,
+          "TriggerTime": 0.06666667,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        }
+      ],
+      "CommonTargetFrameRate": {
+        "Numerator": 30
+      },
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_WindlassCrossbow_Stand_Attack:AN_HideBone_C_1'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Animations/AM_WP_WindlassCrossbow_Stand_Attack.0"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.06666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_WindlassCrossbow_Stand_Attack'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Animations/AM_WP_WindlassCrossbow_Stand_Attack.1"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.0,
+          "LinkValue": 0.06666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_WindlassCrossbow_Stand_Attack'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Animations/AS_WP_WindlassCrossbow_Stand_Attack.0"
+          }
+        }
+      ],
+      "SequenceLength": 1.0,
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_WindlassCrossbow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/SKEL_WindlassCrossbow.4"
+      }
+    },
+    "SkeletonGuid": "0C1D47D0-44B6800C-14537F92-95905A80"
+  }
+]

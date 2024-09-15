@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "Maggots",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Maggots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/Maggots/Icon/Item_Icon_Maggots.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Maggots_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/Maggots/SM_Maggots_Holder.2"
+      }
+    }
+  }
+]

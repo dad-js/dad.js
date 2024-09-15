@@ -1,0 +1,115 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_DaggerOfRighteousness_3001",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.DaggerOfRighteousness"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_DaggerOfRighteousness_3001"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_DaggerOfRighteousness_3001",
+          "SourceString": "Text_DesignData_Item_Item_DaggerOfRighteousness_3001",
+          "LocalizedString": "Dagger of Righteousness"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_DaggerOfRighteousness_3001",
+          "SourceString": "Text_DesignData_Item_Flavor_DaggerOfRighteousness_3001",
+          "LocalizedString": "Featuring minimalistic silver designs, is perfect for those who value subtlety and effectiveness."
+        },
+        "ItemType": "EItemType::Weapon",
+        "SlotType": {
+          "TagName": "Type.Item.Slot.Primary"
+        },
+        "HandType": {
+          "TagName": "Type.Item.Hand.OneHanded"
+        },
+        "WeaponTypes": [
+          {
+            "TagName": "Type.Item.Weapon.Dagger"
+          }
+        ],
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Uncommon"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "DaggerOfRighteousness_3001"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "Dagger_Sound"
+        },
+        "ActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_RondelDagger_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RondelDagger/BP_RondelDagger.1"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 1,
+        "InventoryHeight": 2,
+        "Abilities": [
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_RondelDaggerAttack01"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_RondelDaggerAttack02"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataGameplayAbility"
+            },
+            "PrimaryAssetName": "Id_ItemAbility_RondelDaggerAttack03"
+          }
+        ],
+        "PrimaryProperty": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemProperty"
+          },
+          "PrimaryAssetName": "Id_ItemProperty_Primary_DaggerOfRighteousness_3001"
+        },
+        "SecondaryProperties": [
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Onehand_Weapon"
+          }
+        ],
+        "Requirement": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemRequirement"
+          },
+          "PrimaryAssetName": "Id_ItemRequirement_DaggerOfRighteousness_3001"
+        },
+        "AdvPoint": 1,
+        "ExpPoint": 5,
+        "GearScore": 27
+      }
+    }
+  }
+]

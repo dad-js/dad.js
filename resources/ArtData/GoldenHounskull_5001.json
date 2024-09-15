@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "GoldenHounskull_5001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.5
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::UnderHair",
+          "Value": 2.471141
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icom_GoldenHounskull'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/GoldenHounskull/Icon/Item_Icom_GoldenHounskull.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_GoldenHounskull'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/GoldenHounskull/SK_GoldenHounskull.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_GoldenHounskull_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/GoldenHounskull/SM_GoldenHounskull_Holder.2"
+      }
+    }
+  }
+]

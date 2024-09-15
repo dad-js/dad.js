@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "AdventurerTunic_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_AdventurerTunic_6001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/AdventurerTunic/Icon/Item_Icon_AdventurerTunic_6001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_AdventurerTunic'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/AdventurerTunic/SK_AdventurerTunic.1"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "M_ma_chest_villager_03",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_AdventurerTunic_6001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/AdventurerTunic/Materials/MI_AdventurerTunic_6001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_AdventurerTunic_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/AdventurerTunic/SM_AdventurerTunic_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "M_ma_chest_villager_03",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_AdventurerTunic_6001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/AdventurerTunic/Materials/MI_AdventurerTunic_6001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

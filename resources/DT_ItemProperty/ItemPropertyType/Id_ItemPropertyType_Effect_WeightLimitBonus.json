@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_WeightLimitBonus",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 49,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.WeightLimitBonus"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyWeightLimitBonus_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyWeightLimitBonus.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.WeightLimitMod"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

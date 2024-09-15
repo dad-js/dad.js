@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "SplendidCloak_1001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_SplendidCloak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/SplendidCloak/Icon/Item_Icon_SplendidCloak.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_SplendidCloak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/SplendidCloak/SK_SplendidCloak.4"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_SplendidCloak_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/SplendidCloak/SM_SplendidCloak_Holder.2"
+      }
+    }
+  }
+]

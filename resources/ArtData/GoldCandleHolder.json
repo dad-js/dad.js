@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "GoldCandleHolder",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_GoldCandleHolder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Treasures/Icon/Item_Icon_GoldCandleHolder.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CandleHolderOnly'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Treasures/SM_CandleHolderOnly.2"
+      }
+    }
+  }
+]

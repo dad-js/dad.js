@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_TrapDisarmingKit",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.TrapDisarmingKit"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_TrapDisarmingKit"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_TrapDisarmingKit",
+          "SourceString": "Text_DesignData_Item_Item_TrapDisarmingKit",
+          "LocalizedString": "Trap Disarming Kit"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_TrapDisarmingKit",
+          "SourceString": "Text_DesignData_Item_Flavor_TrapDisarmingKit",
+          "LocalizedString": "A compact kit filled with an assortment of finely crafted specialized tools that make disarming even the most complex traps seem like child's play."
+        },
+        "ItemType": "EItemType::Utility",
+        "SlotType": {
+          "TagName": "Type.Item.Slot.Utility"
+        },
+        "HandType": {
+          "TagName": "Type.Item.Hand.TwoHanded"
+        },
+        "UtilityType": {
+          "TagName": "Type.Item.Utility.Consumable"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Uncommon"
+        },
+        "MaxCount": 3,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "TrapDisarmingKit"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "TrapDisarmingKit_Sound"
+        },
+        "ActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_TrapDisarmingKit_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/TrapDisarmingKit/BP_TrapDisarmingKit.1"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 1,
+        "InventoryHeight": 2,
+        "Requirement": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemRequirement"
+          },
+          "PrimaryAssetName": "Id_ItemRequirement_TrapDisarmingKit"
+        }
+      }
+    }
+  }
+]

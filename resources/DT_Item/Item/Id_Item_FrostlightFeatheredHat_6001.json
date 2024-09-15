@@ -1,0 +1,111 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_FrostlightFeatheredHat_6001",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.FrostlightFeatheredHat"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_FrostlightFeatheredHat_6001"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_FrostlightFeatheredHat_6001",
+          "SourceString": "Text_DesignData_Item_Item_FrostlightFeatheredHat_6001",
+          "LocalizedString": "Frostlight Feathered Hat"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_FrostlightFeatheredHat_6001",
+          "SourceString": "Text_DesignData_Item_Flavor_FrostlightFeatheredHat_6001",
+          "LocalizedString": "A charming hat infused with Froststone Powder, merging the perpetual frost of the frozen abyss with the quick-witted finesse of the nimble and clever."
+        },
+        "ItemType": "EItemType::Armor",
+        "SlotType": {
+          "TagName": "Type.Item.Slot.Head"
+        },
+        "ArmorType": {
+          "TagName": "Type.Item.Armor.Leather"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Legend"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "FrostlightFeatheredHat_6001"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "FeatheredHat_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 2,
+        "InventoryHeight": 2,
+        "WearingDelayTime": 1.0,
+        "PrimaryProperty": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemProperty"
+          },
+          "PrimaryAssetName": "Id_ItemProperty_Primary_FrostlightFeatheredHat_6001"
+        },
+        "SecondaryProperties": [
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Head"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Head"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Head"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Head"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Head"
+          }
+        ],
+        "Requirement": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemRequirement"
+          },
+          "PrimaryAssetName": "Id_ItemRequirement_FrostlightFeatheredHat_6001"
+        },
+        "AdvPoint": 10,
+        "ExpPoint": 6,
+        "GearScore": 32
+      }
+    }
+  }
+]

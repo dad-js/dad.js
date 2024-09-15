@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_GlovesOfUtility_4001",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.GlovesOfUtility"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_GlovesOfUtility_1001"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_GlovesOfUtility_4001",
+          "SourceString": "Text_DesignData_Item_Item_GlovesOfUtility_4001",
+          "LocalizedString": "Gloves of Utility"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_GlovesOfUtility_0001",
+          "SourceString": "Text_DesignData_Item_Flavor_GlovesOfUtility_0001",
+          "LocalizedString": "Sturdy utilitarian gloves allowing for good grip and quick interaction with objects."
+        },
+        "ItemType": "EItemType::Armor",
+        "SlotType": {
+          "TagName": "Type.Item.Slot.Hands"
+        },
+        "ArmorType": {
+          "TagName": "Type.Item.Armor.Leather"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Rare"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "LeatherGloves_4001"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "LeatherGloves_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 2,
+        "InventoryHeight": 2,
+        "WearingDelayTime": 0.5,
+        "PrimaryProperty": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemProperty"
+          },
+          "PrimaryAssetName": "Id_ItemProperty_Primary_GlovesOfUtility_4001"
+        },
+        "SecondaryProperties": [
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Hands"
+          },
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Hands"
+          }
+        ],
+        "Requirement": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemRequirement"
+          },
+          "PrimaryAssetName": "Id_ItemRequirement_GlovesOfUtility_4001"
+        },
+        "AdvPoint": 4,
+        "ExpPoint": 4,
+        "GearScore": 16
+      }
+    }
+  }
+]

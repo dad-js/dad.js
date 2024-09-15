@@ -1,0 +1,203 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Ignite_Fire",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Ignite_Fire'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Spell/Ignite/M_Ignite_Fire.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Distortor UV Scale",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 3.0,
+          "ExpressionGUID": "E7CF10D5-42ADF84D-4B8265BD-EDCCEF04"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Panning X Bias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.2,
+          "ExpressionGUID": "C779DC6D-485EF667-B25B26B9-97E4D68A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Panning Y Bias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": -0.5,
+          "ExpressionGUID": "2150A21C-439D694C-C330D48D-CCBCE968"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "CameraDepthFade Dist",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 100.0,
+          "ExpressionGUID": "51A5CE48-4872D5A6-554340B7-192F9472"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "CameraDepthFade Offset",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 5.0,
+          "ExpressionGUID": "D613E1D0-42FEF792-2F016A9C-642DB2F4"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Depthfade Dist",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 15.0,
+          "ExpressionGUID": "A8D099D6-4A4D0472-C07A59B6-2838FB1E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Distortion Bias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "21CA6DE4-4D8E6DF7-CE12ABA4-8AD10024"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Primary",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 25.604088,
+            "G": 43.448303,
+            "B": 50.0,
+            "A": 0.0,
+            "Hex": "FFFFFF"
+          },
+          "ExpressionGUID": "786F1181-49CC382B-DA6E6488-9219EF5B"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Secondary",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 23.82845,
+            "G": 29.31596,
+            "B": 50.0,
+            "A": 0.0,
+            "Hex": "FFFFFF"
+          },
+          "ExpressionGUID": "41C4C3EC-4A1C03B2-57B8C091-90E499FF"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Distortion/Erosion",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_protection_caustics'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Barrier/Resources/Textures/T_protection_caustics.0"
+          },
+          "ExpressionGUID": "A37C074F-4EEE5C75-69CB7DA3-F5D0A991"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param_1",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_FX_Snapshots_4_Fire_01'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Spell/Ignite/T_FX_Snapshots_4_Fire_01.0"
+          },
+          "ExpressionGUID": "DA440136-44E553FC-B8FD88BC-70897682"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Modulate",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Camera Depthfade",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "9BD7BA69-4E7B729F-59C5959E-8FD9769C"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Depthfade",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "4D02B6F4-4383C42C-A11CA8B2-ED8DFEB0"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use With Modulation",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "2D227365-4193BAE2-995E5493-2FB6C0E3"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true,
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_FX_Snapshots_4_Fire_01"
+        },
+        {
+          "SamplingScale": 3.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_protection_caustics"
+        }
+      ]
+    },
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

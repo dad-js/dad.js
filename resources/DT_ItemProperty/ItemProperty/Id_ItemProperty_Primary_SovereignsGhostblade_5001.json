@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "DesignDataAssetItemProperty",
+    "Name": "Id_ItemProperty_Primary_SovereignsGhostblade_5001",
+    "Class": "UScriptClass'DesignDataAssetItemProperty'",
+    "Properties": {
+      "Item": {
+        "ItemPropertyItemArray": [
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalWeaponDamage"
+            },
+            "MinValue": 19,
+            "MaxValue": 19,
+            "PropertyRate": 0
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MagicalWeaponDamage"
+            },
+            "MinValue": 19,
+            "MaxValue": 19,
+            "PropertyRate": 0
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MoveSpeed"
+            },
+            "MinValue": -25,
+            "MaxValue": -25,
+            "PropertyRate": 0
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MoveSpeedBonus"
+            },
+            "MinValue": 20,
+            "MaxValue": 20,
+            "PropertyRate": 0
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MagicalHealing"
+            },
+            "MinValue": 2,
+            "MaxValue": 2,
+            "PropertyRate": 0
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "DesignDataAssetItemProperty",
+    "Name": "Id_ItemProperty_Primary_SoulTorq_2001",
+    "Class": "UScriptClass'DesignDataAssetItemProperty'",
+    "Properties": {
+      "Item": {
+        "ItemPropertyItemArray": [
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MagicRegistance"
+            },
+            "MinValue": 8,
+            "MaxValue": 10,
+            "PropertyRate": 0
+          }
+        ]
+      }
+    }
+  }
+]

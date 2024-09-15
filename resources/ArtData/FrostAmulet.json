@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataAccessory",
+    "Name": "FrostAmulet",
+    "Class": "UScriptClass'ArtDataAccessory'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_BasicNecklace03'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Necklace/Icon/Item_Icon_BasicNecklace03.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Necklace03_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Necklace/SM_Necklace03_Holder.2"
+      }
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_PrimitiveBracelet",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.PrimitiveBracelet"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_PrimitiveBracelet"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_PrimitiveBracelet",
+          "SourceString": "Text_DesignData_Item_Item_PrimitiveBracelet",
+          "LocalizedString": "Primitive Bracelet"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_PrimitiveBracelet",
+          "SourceString": "Text_DesignData_Item_Flavor_PrimitiveBracelet",
+          "LocalizedString": "A simple adornment crafted from raw materials, its crude design belies the skill of its maker."
+        },
+        "ItemType": "EItemType::Misc",
+        "MiscType": {
+          "TagName": "Type.Item.Misc.HuntingLoot"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Uncommon"
+        },
+        "MaxCount": 3,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "PrimitiveBracelet"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "PrimitiveBracelet_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 1,
+        "InventoryHeight": 1,
+        "AdvPoint": 1,
+        "ExpPoint": 1
+      }
+    }
+  }
+]

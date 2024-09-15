@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Skill_Sprint",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 5,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Skill.Sprint"
+        },
+        "SkillId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataSkill"
+          },
+          "PrimaryAssetName": "Id_Skill_Sprint"
+        }
+      }
+    }
+  }
+]

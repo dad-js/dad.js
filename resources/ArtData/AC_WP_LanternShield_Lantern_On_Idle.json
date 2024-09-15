@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "AnimComposite",
+    "Name": "AC_WP_LanternShield_Lantern_On_Idle",
+    "Class": "UScriptClass'AnimComposite'",
+    "Properties": {
+      "AnimationTrack": {
+        "AnimSegments": [
+          {
+            "AnimReference": {
+              "ObjectName": "AnimSequence'AS_WP_LanternShield_Lantern_Off'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AS_WP_LanternShield_Lantern_Off.0"
+            },
+            "StartPos": 0.0,
+            "AnimStartTime": 0.0,
+            "AnimEndTime": 0.066,
+            "AnimPlayRate": 1.0,
+            "LoopingCount": 1
+          }
+        ]
+      },
+      "CommonTargetFrameRate": {
+        "Numerator": 30
+      },
+      "SequenceLength": 0.06598333,
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_LanternShield'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/SKEL_LanternShield.78"
+      }
+    },
+    "SkeletonGuid": "6D4AEE27-4B813F0A-BE5F70B6-A0384687"
+  }
+]

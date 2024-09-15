@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_RangerHood_3001",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.RangerHood"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_RangerHood_1001"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_RangerHood_3001",
+          "SourceString": "Text_DesignData_Item_Item_RangerHood_3001",
+          "LocalizedString": "Ranger Hood"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_RangerHood_0001",
+          "SourceString": "Text_DesignData_Item_Flavor_RangerHood_0001",
+          "LocalizedString": "Lightweight and breathable, cut to hug the head and protect from the elements."
+        },
+        "ItemType": "EItemType::Armor",
+        "SlotType": {
+          "TagName": "Type.Item.Slot.Head"
+        },
+        "ArmorType": {
+          "TagName": "Type.Item.Armor.Cloth"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Uncommon"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "RangerHood_3001"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "RangerHood_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 2,
+        "InventoryHeight": 2,
+        "WearingDelayTime": 2.0,
+        "PrimaryProperty": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemProperty"
+          },
+          "PrimaryAssetName": "Id_ItemProperty_Primary_RangerHood_3001"
+        },
+        "SecondaryProperties": [
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Head"
+          }
+        ],
+        "Requirement": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemRequirement"
+          },
+          "PrimaryAssetName": "Id_ItemRequirement_RangerHood_3001"
+        },
+        "AdvPoint": 2,
+        "ExpPoint": 3,
+        "GearScore": 12
+      }
+    }
+  }
+]

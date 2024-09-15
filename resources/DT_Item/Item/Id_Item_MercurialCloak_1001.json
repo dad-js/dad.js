@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_MercurialCloak_1001",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.MercurialCloak"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_MercurialCloak_1001"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_MercurialCloak_1001",
+          "SourceString": "Text_DesignData_Item_Item_MercurialCloak_1001",
+          "LocalizedString": "Mercurial Cloak"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_MercurialCloak_1001",
+          "SourceString": "Text_DesignData_Item_Flavor_MercurialCloak_1001",
+          "LocalizedString": "This cloak's deep navy shade allows one to easily vanish into the shadows, a perfect companion for the stealthy and mysterious."
+        },
+        "ItemType": "EItemType::Armor",
+        "SlotType": {
+          "TagName": "Type.Item.Slot.Back"
+        },
+        "ArmorType": {
+          "TagName": "Type.Item.Armor.Cloth"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Poor"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "MercurialCloak_1001"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "AdventurerCloak_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 2,
+        "InventoryHeight": 3,
+        "WearingDelayTime": 1.0,
+        "PrimaryProperty": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemProperty"
+          },
+          "PrimaryAssetName": "Id_ItemProperty_Primary_MercurialCloak_1001"
+        },
+        "Requirement": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemRequirement"
+          },
+          "PrimaryAssetName": "Id_ItemRequirement_MercurialCloak_1001"
+        },
+        "ExpPoint": 1,
+        "GearScore": 1
+      }
+    }
+  }
+]

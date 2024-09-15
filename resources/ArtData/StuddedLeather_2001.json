@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "StuddedLeather_2001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_StuddedLeather'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/StuddedLeather/Icon/Item_Icon_StuddedLeather.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_StuddedLeather'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/StuddedLeather/SK_StuddedLeather.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_StuddedLeather_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/StuddedLeather/SM_StuddedLeather_Holder.2"
+      }
+    }
+  }
+]

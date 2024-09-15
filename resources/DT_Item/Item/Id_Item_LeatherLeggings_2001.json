@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_LeatherLeggings_2001",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.LeatherLeggings"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_LeatherLeggings_1001"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_LeatherLeggings_2001",
+          "SourceString": "Text_DesignData_Item_Item_LeatherLeggings_2001",
+          "LocalizedString": "Leather Leggings"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_LeatherLeggings_0001",
+          "SourceString": "Text_DesignData_Item_Flavor_LeatherLeggings_0001",
+          "LocalizedString": "\nCrafted using rough leathers, shaped and sewn to fit the body comfortably."
+        },
+        "ItemType": "EItemType::Armor",
+        "SlotType": {
+          "TagName": "Type.Item.Slot.Legs"
+        },
+        "ArmorType": {
+          "TagName": "Type.Item.Armor.Leather"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Common"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "LeatherLeggings_2001"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "LeatherLeggings_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 2,
+        "InventoryHeight": 3,
+        "WearingDelayTime": 1.25,
+        "PrimaryProperty": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemProperty"
+          },
+          "PrimaryAssetName": "Id_ItemProperty_Primary_LeatherLeggings_2001"
+        },
+        "Requirement": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemRequirement"
+          },
+          "PrimaryAssetName": "Id_ItemRequirement_LeatherLeggings_2001"
+        },
+        "ExpPoint": 2,
+        "GearScore": 1
+      }
+    }
+  }
+]

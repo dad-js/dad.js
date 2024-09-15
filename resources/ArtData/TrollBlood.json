@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataUtility",
+    "Name": "TrollBlood",
+    "Class": "UScriptClass'ArtDataUtility'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_TrollBlood_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AM_TrollBlood_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_TrollBlood_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AM_TrollBlood_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_TrollBlood_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/BS_TrollBlood_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "potion_pelvis_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_TrollBlood'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Icon/Item_Icon_TrollBlood.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_TrollBlood'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/SK_TrollBlood.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_TrollBlood_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/SM_TrollBlood_Holder.2"
+      }
+    }
+  }
+]

@@ -1,0 +1,3386 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_SoulHeartConsume_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemConsume.0"
+    },
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemConsume.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_SoulHeartConsume_C:GetAccountIdString'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.3"
+      },
+      {
+        "ObjectName": "Function'GA_SoulHeartConsume_C:AbilityActivated'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.1"
+      },
+      {
+        "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "InitAttributeArray",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "InitAttributeArray",
+          "Flags": "RF_Public",
+          "ElementSize": 16,
+          "Struct": {
+            "ObjectName": "ScriptStruct'DCGameplayEffectSetByCallerData'",
+            "ObjectPath": "/Script/DungeonCrawler"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "InitAttributeArray_Requiem",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "InitAttributeArray_Requiem",
+          "Flags": "RF_Public",
+          "ElementSize": 16,
+          "Struct": {
+            "ObjectName": "ScriptStruct'DCGameplayEffectSetByCallerData'",
+            "ObjectPath": "/Script/DungeonCrawler"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "RespawnHealthEffectData",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 112,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'DCGameplayEffectData'",
+          "ObjectPath": "/Script/DungeonCrawler"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "RespawnHealthEffectData_Requiem",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 112,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'DCGameplayEffectData'",
+          "ObjectPath": "/Script/DungeonCrawler"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_SoulHeartConsume": {
+        "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+      },
+      "AbilityActivated": {
+        "ObjectName": "Function'GA_SoulHeartConsume_C:AbilityActivated'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.1"
+      },
+      "GetAccountIdString": {
+        "ObjectName": "Function'GA_SoulHeartConsume_C:GetAccountIdString'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.3"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_SoulHeartConsume_C'Default__GA_SoulHeartConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AbilityActivated",
+    "Outer": "GA_SoulHeartConsume_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'GA_ItemConsumeBase:AbilityActivated'",
+      "ObjectPath": "/Script/DungeonCrawler"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TriggerEventData",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+          },
+          "Property": {
+            "Type": "StructProperty",
+            "Name": "K2Node_Event_TriggerEventData",
+            "Flags": "RF_Public",
+            "ElementSize": 184,
+            "PropertyFlags": "ConstParm",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayEventData'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:AbilityActivated'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.1"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "TriggerEventData",
+              "Flags": "RF_Public",
+              "ElementSize": 184,
+              "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 1659
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.ExecuteUbergraph_GA_SoulHeartConsume[1659]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_SoulHeartConsume",
+    "Outer": "GA_SoulHeartConsume_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetAccountIdString_AccountIdString",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameMode_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'GameModeBase'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsBase_Interface",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'BaseInterface'",
+          "ObjectPath": "/Script/DungeonCrawlerMessageRuntime"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_TriggerEventData",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAbilitySystemComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AbilitySystemComponent'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Altar_Of_Sacrifice",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AltarOfSacrifice_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Props/Common/Statue/BP_AltarOfSacrifice.3"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetComponentToWorld_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 96,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Player_Character_Dungeon",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PlayerCharacterDungeon_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Player/BP_PlayerCharacterDungeon.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_ApplyEffectContainer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_ApplyEffectContainer_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "Struct": {
+            "ObjectName": "ScriptStruct'ActiveGameplayEffectHandle'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          }
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetAccountId_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 112,
+          "Struct": {
+            "ObjectName": "ScriptStruct'DCGameplayEffectData'",
+            "ObjectPath": "/Script/DungeonCrawler"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest",
+        "Flags": "RF_Public",
+        "ElementSize": 192,
+        "Struct": {
+          "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+          "ObjectPath": "/Script/DungeonCrawler"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetPrimaryAssetIdFromObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'PrimaryAssetId'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array_1",
+          "Flags": "RF_Public",
+          "ElementSize": 112,
+          "Struct": {
+            "ObjectName": "ScriptStruct'DCGameplayEffectData'",
+            "ObjectPath": "/Script/DungeonCrawler"
+          }
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetConstantFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest_1",
+        "Flags": "RF_Public",
+        "ElementSize": 192,
+        "Struct": {
+          "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+          "ObjectPath": "/Script/DungeonCrawler"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_DCGameplayEffectSetByCallerData",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct'DCGameplayEffectSetByCallerData'",
+          "ObjectPath": "/Script/DungeonCrawler"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_FinalFunction",
+        "StatementIndex": 10,
+        "Function": {
+          "ObjectName": "Function'GameplayAbility:K2_CancelAbility'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        },
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 20,
+        "CodeOffset": 1771,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.ExecuteUbergraph_GA_SoulHeartConsume[1771]"
+      },
+      {
+        "Inst": "EX_VirtualFunction",
+        "StatementIndex": 25,
+        "Function": "K2_EndAbility",
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 39,
+        "CodeOffset": 1771,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.ExecuteUbergraph_GA_SoulHeartConsume[1771]"
+      },
+      {
+        "Inst": "EX_FinalFunction",
+        "StatementIndex": 44,
+        "Function": {
+          "ObjectName": "Function'GameplayAbility:K2_CancelAbility'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        },
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 54,
+        "CodeOffset": 1771,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.ExecuteUbergraph_GA_SoulHeartConsume[1771]"
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 59,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetGameMode_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'GameModeBase'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'GameplayStatics:GetGameMode'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 80,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "InterfaceProperty",
+              "Name": "K2Node_DynamicCast_AsBase_Interface",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "InterfaceClass": {
+                "ObjectName": "Class'BaseInterface'",
+                "ObjectPath": "/Script/DungeonCrawlerMessageRuntime"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_ObjToInterfaceCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'BaseInterface'",
+            "ObjectPath": "/Script/DungeonCrawlerMessageRuntime"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetGameMode_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'GameModeBase'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 116,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_InterfaceToBool",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "InterfaceProperty",
+                "Name": "K2Node_DynamicCast_AsBase_Interface",
+                "Flags": "RF_Public",
+                "ElementSize": 16,
+                "InterfaceClass": {
+                  "ObjectName": "Class'BaseInterface'",
+                  "ObjectPath": "/Script/DungeonCrawlerMessageRuntime"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 145,
+        "CodeOffset": 44,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.ExecuteUbergraph_GA_SoulHeartConsume[44]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 159,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetAvatarActorFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 179,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsBP_Player_Character_Dungeon",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_PlayerCharacterDungeon_C'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Player/BP_PlayerCharacterDungeon.2"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PlayerCharacterDungeon_C'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Player/BP_PlayerCharacterDungeon.2"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue_1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 215,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_2",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsBP_Player_Character_Dungeon",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_PlayerCharacterDungeon_C'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Player/BP_PlayerCharacterDungeon.2"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 244,
+        "CodeOffset": 1771,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.ExecuteUbergraph_GA_SoulHeartConsume[1771]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_2",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 258,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetAvatarActorFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 278,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAbilitySystemComponent_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'AbilitySystemComponent'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'AbilitySystemBlueprintLibrary:GetAbilitySystemComponent'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'Actor'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 307,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InterfaceContext",
+            "InterfaceValue": {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetAbilitySystemComponent_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyFlags": "InstancedReference",
+                  "PropertyClass": {
+                    "ObjectName": "Class'AbilitySystemComponent'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          },
+          "Offset": 41,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "HasMatchingGameplayTag",
+            "Parameters": [
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTag'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_NameConst",
+                    "Value": "State.ActorStatus.Buff.Requiem"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 381,
+        "CodeOffset": 1140,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.ExecuteUbergraph_GA_SoulHeartConsume[1140]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 395,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetPrimaryAssetIdFromObject_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "ScriptStruct'PrimaryAssetId'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetSystemLibrary:GetPrimaryAssetIdFromObject'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_ObjectConst",
+              "Value": {
+                "ObjectName": "DCConstantDataAsset'Id_Constant_Requiem'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Constant/Constant/Id_Constant_Requiem.0"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 432,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_GetConstantFloat_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'DCDataBlueprintLibrary:GetConstantFloat'",
+            "ObjectPath": "/Script/DungeonCrawler"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_GetPrimaryAssetIdFromObject_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 24,
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'PrimaryAssetId'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 469,
+        "ObjectExpression": {
+          "Inst": "EX_ObjectConst",
+          "Value": {
+            "ObjectName": "KismetArrayLibrary'Default__KismetArrayLibrary'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        "Offset": 28,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'KismetArrayLibrary:Array_Clear'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_StructMemberContext",
+              "Property": {
+                "Path": [
+                  "SetByCallerArray"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "ScriptStruct'DCGameplayEffectData'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              },
+              "StructExpression": {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "BlueprintGeneratedClass'GA_SoulHeartConsume_C'",
+                    "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.0"
+                  },
+                  "Property": {
+                    "Type": "StructProperty",
+                    "Name": "RespawnHealthEffectData_Requiem",
+                    "Flags": "RF_Public | RF_LoadCompleted",
+                    "ElementSize": 112,
+                    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                    "Struct": {
+                      "ObjectName": "ScriptStruct'DCGameplayEffectData'",
+                      "ObjectPath": "/Script/DungeonCrawler"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 519,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "SetByCallerTag"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'DCGameplayEffectSetByCallerData'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_DCGameplayEffectSetByCallerData",
+                "Flags": "RF_Public",
+                "ElementSize": 16,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'DCGameplayEffectSetByCallerData'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_StructConst",
+          "Struct": {
+            "ObjectName": "ScriptStruct'GameplayTag'",
+            "ObjectPath": "/Script/GameplayTags"
+          },
+          "Properties": [
+            {
+              "Inst": "EX_NameConst",
+              "Value": "Data.SetByCaller.Exec.AddHealthByMaxHealthRatio"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 573,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "SetByCallerValue"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'DCGameplayEffectSetByCallerData'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_DCGameplayEffectSetByCallerData",
+                "Flags": "RF_Public",
+                "ElementSize": 16,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'DCGameplayEffectSetByCallerData'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_GetConstantFloat_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 609,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_Array_Add_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "KismetArrayLibrary'Default__KismetArrayLibrary'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "Offset": 37,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_Array_Add_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'KismetArrayLibrary:Array_Add'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_StructMemberContext",
+                "Property": {
+                  "Path": [
+                    "SetByCallerArray"
+                  ],
+                  "ResolvedOwner": {
+                    "ObjectName": "ScriptStruct'DCGameplayEffectData'",
+                    "ObjectPath": "/Script/DungeonCrawler"
+                  }
+                },
+                "StructExpression": {
+                  "Inst": "EX_InstanceVariable",
+                  "Variable": {
+                    "Owner": {
+                      "ObjectName": "BlueprintGeneratedClass'GA_SoulHeartConsume_C'",
+                      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.0"
+                    },
+                    "Property": {
+                      "Type": "StructProperty",
+                      "Name": "RespawnHealthEffectData_Requiem",
+                      "Flags": "RF_Public | RF_LoadCompleted",
+                      "ElementSize": 112,
+                      "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                      "Struct": {
+                        "ObjectName": "ScriptStruct'DCGameplayEffectData'",
+                        "ObjectPath": "/Script/DungeonCrawler"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                    "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+                  },
+                  "Property": {
+                    "Type": "StructProperty",
+                    "Name": "K2Node_MakeStruct_DCGameplayEffectSetByCallerData",
+                    "Flags": "RF_Public",
+                    "ElementSize": 16,
+                    "Struct": {
+                      "ObjectName": "ScriptStruct'DCGameplayEffectSetByCallerData'",
+                      "ObjectPath": "/Script/DungeonCrawler"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalVirtualFunction",
+        "StatementIndex": 686,
+        "Function": "GetAccountIdString",
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StrProperty",
+                "Name": "CallFunc_GetAccountIdString_AccountIdString",
+                "Flags": "RF_Public",
+                "ElementSize": 16
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 709,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetComponentToWorld_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 96,
+              "Struct": {
+                "ObjectName": "ScriptStruct'Transform'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_Context",
+            "ObjectExpression": {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "K2Node_DynamicCast_AsBP_Altar_Of_Sacrifice",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "BlueprintGeneratedClass'BP_AltarOfSacrifice_C'",
+                    "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Props/Common/Statue/BP_AltarOfSacrifice.3"
+                  }
+                }
+              }
+            },
+            "Offset": 9,
+            "RValuePointer": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'BP_AltarOfSacrifice_C'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Props/Common/Statue/BP_AltarOfSacrifice.3"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "PlayerCharacterSpawnLocation",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                  "ObjectName": "Class'ArrowComponent'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            },
+            "ContextExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AltarOfSacrifice_C'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Props/Common/Statue/BP_AltarOfSacrifice.3"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "PlayerCharacterSpawnLocation",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                  "PropertyClass": {
+                    "ObjectName": "Class'ArrowComponent'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetComponentToWorld_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 96,
+              "Struct": {
+                "ObjectName": "ScriptStruct'Transform'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'SceneComponent:K2_GetComponentToWorld'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 781,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "StrProperty",
+              "Name": "CallFunc_GetAccountId_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 16
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsBP_Player_Character_Dungeon",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_PlayerCharacterDungeon_C'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Player/BP_PlayerCharacterDungeon.2"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "StrProperty",
+              "Name": "CallFunc_GetAccountId_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 16
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'DCCharacterBase:GetAccountId'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_SetArray",
+        "StatementIndex": 831,
+        "AssigningProperty": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "ArrayProperty",
+              "Name": "K2Node_MakeArray_Array_1",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "PropertyFlags": "ReferenceParm",
+              "Inner": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeArray_Array_1",
+                "Flags": "RF_Public",
+                "ElementSize": 112,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'DCGameplayEffectData'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Elements": [
+          {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'GA_SoulHeartConsume_C'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.0"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "RespawnHealthEffectData_Requiem",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 112,
+                "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'DCGameplayEffectData'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 851,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "AccountId"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest_1",
+                "Flags": "RF_Public",
+                "ElementSize": 192,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "StrProperty",
+              "Name": "CallFunc_GetAccountIdString_AccountIdString",
+              "Flags": "RF_Public",
+              "ElementSize": 16
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 887,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "InstigatorAccountId"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest_1",
+                "Flags": "RF_Public",
+                "ElementSize": 192,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "StrProperty",
+              "Name": "CallFunc_GetAccountId_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 16
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 923,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "Transform"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest_1",
+                "Flags": "RF_Public",
+                "ElementSize": 192,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetComponentToWorld_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 96,
+              "Struct": {
+                "ObjectName": "ScriptStruct'Transform'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 959,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "SpawnDelay"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest_1",
+                "Flags": "RF_Public",
+                "ElementSize": 192,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FloatConst",
+          "Value": 2.2
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 991,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "bIsRemoveAllItem"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest_1",
+                "Flags": "RF_Public",
+                "ElementSize": 192,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_True"
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 1011,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "DCCharacterBase"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest_1",
+                "Flags": "RF_Public",
+                "ElementSize": 192,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_ObjectConst",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PlayerCharacterDungeon_C'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Player/BP_PlayerCharacterDungeon.2"
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1039,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "InitGameplayEffectDataArray"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest_1",
+                "Flags": "RF_Public",
+                "ElementSize": 192,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "ArrayProperty",
+              "Name": "K2Node_MakeArray_Array_1",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "PropertyFlags": "ReferenceParm",
+              "Inner": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeArray_Array_1",
+                "Flags": "RF_Public",
+                "ElementSize": 112,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'DCGameplayEffectData'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1075,
+        "ObjectExpression": {
+          "Inst": "EX_InterfaceContext",
+          "InterfaceValue": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "InterfaceProperty",
+                "Name": "K2Node_DynamicCast_AsBase_Interface",
+                "Flags": "RF_Public",
+                "ElementSize": 16,
+                "InterfaceClass": {
+                  "ObjectName": "Class'BaseInterface'",
+                  "ObjectPath": "/Script/DungeonCrawlerMessageRuntime"
+                }
+              }
+            }
+          }
+        },
+        "Offset": 23,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "BroadcastMsgBlueprint",
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 192,
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                    "ObjectPath": "/Script/DungeonCrawler"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_VirtualFunction",
+        "StatementIndex": 1121,
+        "Function": "K2_EndAbility",
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1135,
+        "CodeOffset": 1771,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.ExecuteUbergraph_GA_SoulHeartConsume[1771]"
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1140,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "ArrayProperty",
+              "Name": "CallFunc_ApplyEffectContainer_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "PropertyFlags": "ReferenceParm",
+              "Inner": {
+                "Type": "StructProperty",
+                "Name": "CallFunc_ApplyEffectContainer_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'ActiveGameplayEffectHandle'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "ApplyEffectContainer",
+          "Parameters": [
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "Event.Attack.Hit.01"
+                }
+              ]
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "Temp_struct_Variable",
+                  "Flags": "RF_Public",
+                  "ElementSize": 184,
+                  "PropertyFlags": "ConstParm",
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'GameplayEventData'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": -1
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 1
+            },
+            {
+              "Inst": "EX_False"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LocalVirtualFunction",
+        "StatementIndex": 1219,
+        "Function": "GetAccountIdString",
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StrProperty",
+                "Name": "CallFunc_GetAccountIdString_AccountIdString",
+                "Flags": "RF_Public",
+                "ElementSize": 16
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1242,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetComponentToWorld_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 96,
+              "Struct": {
+                "ObjectName": "ScriptStruct'Transform'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_Context",
+            "ObjectExpression": {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "K2Node_DynamicCast_AsBP_Altar_Of_Sacrifice",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "BlueprintGeneratedClass'BP_AltarOfSacrifice_C'",
+                    "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Props/Common/Statue/BP_AltarOfSacrifice.3"
+                  }
+                }
+              }
+            },
+            "Offset": 9,
+            "RValuePointer": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'BP_AltarOfSacrifice_C'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Props/Common/Statue/BP_AltarOfSacrifice.3"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "PlayerCharacterSpawnLocation",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                  "ObjectName": "Class'ArrowComponent'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            },
+            "ContextExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AltarOfSacrifice_C'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Props/Common/Statue/BP_AltarOfSacrifice.3"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "PlayerCharacterSpawnLocation",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                  "PropertyClass": {
+                    "ObjectName": "Class'ArrowComponent'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetComponentToWorld_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 96,
+              "Struct": {
+                "ObjectName": "ScriptStruct'Transform'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'SceneComponent:K2_GetComponentToWorld'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1314,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "StrProperty",
+              "Name": "CallFunc_GetAccountId_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 16
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsBP_Player_Character_Dungeon",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_PlayerCharacterDungeon_C'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Player/BP_PlayerCharacterDungeon.2"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "StrProperty",
+              "Name": "CallFunc_GetAccountId_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 16
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'DCCharacterBase:GetAccountId'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_SetArray",
+        "StatementIndex": 1364,
+        "AssigningProperty": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "ArrayProperty",
+              "Name": "K2Node_MakeArray_Array",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "PropertyFlags": "ReferenceParm",
+              "Inner": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeArray_Array",
+                "Flags": "RF_Public",
+                "ElementSize": 112,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'DCGameplayEffectData'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Elements": [
+          {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'GA_SoulHeartConsume_C'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.0"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "RespawnHealthEffectData",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 112,
+                "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'DCGameplayEffectData'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1384,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "AccountId"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest",
+                "Flags": "RF_Public",
+                "ElementSize": 192,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "StrProperty",
+              "Name": "CallFunc_GetAccountIdString_AccountIdString",
+              "Flags": "RF_Public",
+              "ElementSize": 16
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1420,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "InstigatorAccountId"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest",
+                "Flags": "RF_Public",
+                "ElementSize": 192,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "StrProperty",
+              "Name": "CallFunc_GetAccountId_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 16
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1456,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "Transform"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest",
+                "Flags": "RF_Public",
+                "ElementSize": 192,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetComponentToWorld_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 96,
+              "Struct": {
+                "ObjectName": "ScriptStruct'Transform'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1492,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "SpawnDelay"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest",
+                "Flags": "RF_Public",
+                "ElementSize": 192,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FloatConst",
+          "Value": 2.2
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 1524,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "bIsRemoveAllItem"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest",
+                "Flags": "RF_Public",
+                "ElementSize": 192,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_True"
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 1544,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "DCCharacterBase"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest",
+                "Flags": "RF_Public",
+                "ElementSize": 192,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_ObjectConst",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PlayerCharacterDungeon_C'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Player/BP_PlayerCharacterDungeon.2"
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1572,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "InitGameplayEffectDataArray"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest",
+                "Flags": "RF_Public",
+                "ElementSize": 192,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "ArrayProperty",
+              "Name": "K2Node_MakeArray_Array",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "PropertyFlags": "ReferenceParm",
+              "Inner": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeArray_Array",
+                "Flags": "RF_Public",
+                "ElementSize": 112,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'DCGameplayEffectData'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1608,
+        "ObjectExpression": {
+          "Inst": "EX_InterfaceContext",
+          "InterfaceValue": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "InterfaceProperty",
+                "Name": "K2Node_DynamicCast_AsBase_Interface",
+                "Flags": "RF_Public",
+                "ElementSize": 16,
+                "InterfaceClass": {
+                  "ObjectName": "Class'BaseInterface'",
+                  "ObjectPath": "/Script/DungeonCrawlerMessageRuntime"
+                }
+              }
+            }
+          }
+        },
+        "Offset": 23,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "BroadcastMsgBlueprint",
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "K2Node_MakeStruct_MsgCharacterResurrectionRequest",
+                  "Flags": "RF_Public",
+                  "ElementSize": 192,
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'MsgCharacterResurrectionRequest'",
+                    "ObjectPath": "/Script/DungeonCrawler"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1654,
+        "CodeOffset": 25,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.ExecuteUbergraph_GA_SoulHeartConsume[25]"
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 1659,
+        "Function": {
+          "ObjectName": "Function'GA_ItemConsumeBase:AbilityActivated'",
+          "ObjectPath": "/Script/DungeonCrawler"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_Event_TriggerEventData",
+                "Flags": "RF_Public",
+                "ElementSize": 184,
+                "PropertyFlags": "ConstParm",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayEventData'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1678,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsBP_Altar_Of_Sacrifice",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_AltarOfSacrifice_C'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Props/Common/Statue/BP_AltarOfSacrifice.3"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AltarOfSacrifice_C'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Props/Common/Statue/BP_AltarOfSacrifice.3"
+          },
+          "Target": {
+            "Inst": "EX_StructMemberContext",
+            "Property": {
+              "Path": [
+                "Instigator"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            },
+            "StructExpression": {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "K2Node_Event_TriggerEventData",
+                  "Flags": "RF_Public",
+                  "ElementSize": 184,
+                  "PropertyFlags": "ConstParm",
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'GameplayEventData'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1723,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsBP_Altar_Of_Sacrifice",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_AltarOfSacrifice_C'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Props/Common/Statue/BP_AltarOfSacrifice.3"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 1752,
+        "CodeOffset": 10,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.ExecuteUbergraph_GA_SoulHeartConsume[10]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:ExecuteUbergraph_GA_SoulHeartConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1766,
+        "CodeOffset": 59,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.ExecuteUbergraph_GA_SoulHeartConsume[59]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 1771,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 1773
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetAccountIdString",
+    "Outer": "GA_SoulHeartConsume_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "AccountIdString",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Parm | OutParm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetItemInfo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 280,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'DCItemInfo'",
+          "ObjectPath": "/Script/DungeonCrawler"
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_AccountIdToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 0,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:GetAccountIdString'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.3"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Path": [
+                  "SourceItemActor"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'DCItemActorAbilityBase'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 29,
+        "CodeOffset": 180,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.GetAccountIdString[180]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:GetAccountIdString'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.3"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 43,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:GetAccountIdString'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.3"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetItemInfo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 280,
+              "PropertyFlags": "ConstParm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'DCItemInfo'",
+                "ObjectPath": "/Script/DungeonCrawler"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "SourceItemActor"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'DCItemActorAbilityBase'",
+                "ObjectPath": "/Script/DungeonCrawler"
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:GetAccountIdString'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.3"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetItemInfo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 280,
+              "PropertyFlags": "ConstParm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'DCItemInfo'",
+                "ObjectPath": "/Script/DungeonCrawler"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'DCItemActorBase:GetItemInfo'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 93,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:GetAccountIdString'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.3"
+            },
+            "Property": {
+              "Type": "StrProperty",
+              "Name": "CallFunc_AccountIdToString_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 16
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'DCDataBlueprintLibrary:AccountIdToString'",
+            "ObjectPath": "/Script/DungeonCrawler"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_StructMemberContext",
+              "Property": {
+                "Path": [
+                  "AccountId"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "ScriptStruct'DCItemSoulHeartInfo'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              },
+              "StructExpression": {
+                "Inst": "EX_StructMemberContext",
+                "Property": {
+                  "Path": [
+                    "SoulHeartInfo"
+                  ],
+                  "ResolvedOwner": {
+                    "ObjectName": "ScriptStruct'DCItemInfo'",
+                    "ObjectPath": "/Script/DungeonCrawler"
+                  }
+                },
+                "StructExpression": {
+                  "Inst": "EX_LocalVariable",
+                  "Variable": {
+                    "Owner": {
+                      "ObjectName": "Function'GA_SoulHeartConsume_C:GetAccountIdString'",
+                      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.3"
+                    },
+                    "Property": {
+                      "Type": "StructProperty",
+                      "Name": "CallFunc_GetItemInfo_ReturnValue",
+                      "Flags": "RF_Public",
+                      "ElementSize": 280,
+                      "PropertyFlags": "ConstParm",
+                      "Struct": {
+                        "ObjectName": "ScriptStruct'DCItemInfo'",
+                        "ObjectPath": "/Script/DungeonCrawler"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 148,
+        "Variable": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:GetAccountIdString'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.3"
+            },
+            "Property": {
+              "Type": "StrProperty",
+              "Name": "AccountIdString",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "PropertyFlags": "Parm | OutParm"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:GetAccountIdString'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.3"
+            },
+            "Property": {
+              "Type": "StrProperty",
+              "Name": "CallFunc_AccountIdToString_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 16
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 175,
+        "CodeOffset": 200,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.GetAccountIdString[200]"
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 180,
+        "Variable": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SoulHeartConsume_C:GetAccountIdString'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.3"
+            },
+            "Property": {
+              "Type": "StrProperty",
+              "Name": "AccountIdString",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "PropertyFlags": "Parm | OutParm"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_StringConst",
+          "Value": ""
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 200,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 202
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "GA_SoulHeartConsume_C",
+    "Name": "Default__GA_SoulHeartConsume_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/GameplayAbility/GA_SoulHeartConsume.GA_SoulHeartConsume_C'",
+    "Template": {
+      "ObjectName": "GA_ItemConsume_C'Default__GA_ItemConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemConsume.1"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "InitAttributeArray": [
+        {
+          "SetByCallerTag": {
+            "TagName": "Data.SetByCaller.Exec.AddHealthByMaxHealthRatio"
+          },
+          "SetByCallerValue": -0.9
+        }
+      ],
+      "InitAttributeArray_Requiem": [
+        {
+          "SetByCallerTag": {
+            "TagName": "Data.SetByCaller.Exec.AddHealthByMaxHealthRatio"
+          },
+          "SetByCallerValue": 0.0
+        }
+      ],
+      "RespawnHealthEffectData": {
+        "EffectId": {
+          "PrimaryAssetType": {
+            "Name": "None"
+          },
+          "PrimaryAssetName": "None"
+        },
+        "GameplayEffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_Inst_Calculation_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Attribute/Instant/GE_Inst_Calculation.0"
+        },
+        "SetByCallerArray": [
+          {
+            "SetByCallerTag": {
+              "TagName": "Data.SetByCaller.Exec.AddHealthByMaxHealthRatio"
+            },
+            "SetByCallerValue": -0.9
+          }
+        ],
+        "DynamicGrantedTagContainer": [],
+        "DynamicAssetTagContainer": []
+      },
+      "RespawnHealthEffectData_Requiem": {
+        "EffectId": {
+          "PrimaryAssetType": {
+            "Name": "None"
+          },
+          "PrimaryAssetName": "None"
+        },
+        "GameplayEffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_Inst_Calculation_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Attribute/Instant/GE_Inst_Calculation.0"
+        },
+        "SetByCallerArray": [],
+        "DynamicGrantedTagContainer": [],
+        "DynamicAssetTagContainer": []
+      },
+      "PreConsumeMontage": null,
+      "AbilityTags": [],
+      "NetExecutionPolicy": "EGameplayAbilityNetExecutionPolicy::ServerOnly",
+      "NetSecurityPolicy": "EGameplayAbilityNetSecurityPolicy::ServerOnly"
+    }
+  }
+]

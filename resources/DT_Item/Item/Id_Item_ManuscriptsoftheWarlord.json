@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_ManuscriptsoftheWarlord",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.ManuscriptsoftheWarlord"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_ManuscriptsoftheWarlord"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_ManuscriptsoftheWarlord",
+          "SourceString": "Text_DesignData_Item_Item_ManuscriptsoftheWarlord",
+          "LocalizedString": "Manuscripts of the Warlord"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_ManuscriptsoftheWarlord",
+          "SourceString": "Text_DesignData_Item_Flavor_ManuscriptsoftheWarlord",
+          "LocalizedString": "Manuscripts of the Warlord: The legacy of the Skeleton Warlord, once a stalwart defender who watched his king succumb to darkness. Now bound as a spectral guardian, he eternally protects and commands the secrets and lingering spirits within the castle’s forsaken walls—a testament to loyalty and the corrosive power of sinister magic."
+        },
+        "ItemType": "EItemType::Misc",
+        "MiscType": {
+          "TagName": "Type.Item.Misc.HuntingLoot"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Epic"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "ManuscriptsoftheWarlord"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "ManuscriptsoftheWarlord_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 1,
+        "InventoryHeight": 2,
+        "AdvPoint": 3,
+        "ExpPoint": 1
+      }
+    }
+  }
+]

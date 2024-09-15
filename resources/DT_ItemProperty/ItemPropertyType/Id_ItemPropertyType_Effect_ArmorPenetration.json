@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_ArmorPenetration",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 52,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.ArmorPenetration"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyArmorPenetration_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyArmorPenetration.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.ArmorPenetration"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

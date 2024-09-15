@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "ShoesofDarkness_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_ShoesofDarkness'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/ShoesofDarkness/Icon/Item_Icon_ShoesofDarkness.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_OldShoes'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/OldShoes/SK_OldShoes.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_OldShoes",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_ShoesofDarkness'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/ShoesofDarkness/Materials/MI_ShoesofDarkness.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_OldShoes_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/OldShoes/SM_OldShoes_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_OldShoes_Holder",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_ShoesofDarkness_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/ShoesofDarkness/Materials/MI_ShoesofDarkness_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

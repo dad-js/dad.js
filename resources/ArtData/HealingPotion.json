@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataUtility",
+    "Name": "HealingPotion",
+    "Class": "UScriptClass'ArtDataUtility'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_Potion_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AM_Potion_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_Potion_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AM_Potion_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_Potion_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AS_Potion_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_Potion_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AS_Potion_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_Potion_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/BS_Potion_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "potion_pelvis_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_HealPotion01'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Icon/Item_Icon_HealPotion01.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_HealingPotion'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/HealingPotion/SK_HealingPotion.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'HealingPotion_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/HealingPotion/HealingPotion_Holder.2"
+      }
+    }
+  }
+]

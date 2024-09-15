@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "DarkCuirass_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 0.9
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_DarkCuirass'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/DarkCuirass/Icon/Item_Icon_DarkCuirass.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_DarkCuirass'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/DarkCuirass/SK_DarkCuirass.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_DarkCuirass_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/DarkCuirass/SM_DarkCuirass_Holder.2"
+      }
+    }
+  }
+]

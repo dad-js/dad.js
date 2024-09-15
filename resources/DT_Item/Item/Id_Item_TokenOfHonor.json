@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_TokenOfHonor",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.TokenOfHonor"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_TokenOfHonor"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_TokenOfHonor",
+          "SourceString": "Text_DesignData_Item_Item_TokenOfHonor",
+          "LocalizedString": "Token of Honor"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_TokenOfHonor",
+          "SourceString": "Text_DesignData_Item_Flavor_TokenOfHonor",
+          "LocalizedString": "A medal awarded to the courageous warriors who have demonstrated exceptional bravery in battle."
+        },
+        "ItemType": "EItemType::Misc",
+        "MiscType": {
+          "TagName": "Type.Item.Misc.HuntingLoot"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Epic"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "TokenOfHonor"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "TokenOfHonor_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 1,
+        "InventoryHeight": 1,
+        "AdvPoint": 2,
+        "ExpPoint": 1
+      }
+    }
+  }
+]

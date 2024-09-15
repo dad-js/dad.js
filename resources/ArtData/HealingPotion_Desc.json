@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "DescData",
+    "Name": "HealingPotion_Desc",
+    "Class": "UScriptClass'DescData'",
+    "Properties": {
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_HealingPotion_Desc_HealingPotionDesc",
+        "SourceString": "Text_DataAsset_HealingPotion_Desc_HealingPotionDesc",
+        "LocalizedString": "Potion used to recover a bit of health."
+      }
+    }
+  }
+]

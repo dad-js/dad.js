@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_Luck",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 51,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.Luck"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyLuck_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyLuck.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.Luck"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

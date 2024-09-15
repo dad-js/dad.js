@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "RoundShieldUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "ConstantDataAssetArray": [
+        {
+          "ObjectName": "DCConstantDataAsset'Id_Constant_Item_RoundShieldUniqueReflectDamageRatio'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Constant/Constant/Id_Constant_Item_RoundShieldUniqueReflectDamageRatio.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_RoundShieldUniqueEffect_Desc_RoundShieldUniqueEffectDesc",
+        "SourceString": "Text_Blocking a melee attack deals <Constant Type=\"Float\" Format=\"AbsFromZero\">[0]%</> of the damage blocked to the opponent.",
+        "LocalizedString": "Blocking a melee attack deals <Constant Type=\"Float\" Format=\"AbsFromZero\">[0]%</> of the damage blocked to the opponent."
+      }
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "BandageConsume6001_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ItemEffect_BandageConsumeHealInstant_6001'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemEffect/Id_ItemEffect_BandageConsumeHealInstant_6001.0"
+        }
+      ],
+      "ItemConsumeDataAssetArray": [
+        {
+          "ObjectName": "DCItemConsumeDataAsset'Id_ItemConsume_Bandage_6001'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemConsume/Id_ItemConsume_Bandage_6001.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_BandageConsume6001_Desc_BandageConsume6001Desc",
+        "SourceString": "Text_Heals <Exec.RecoveryHealBase>[0] #</>. Takes <ItemConsume Type=\"Duration\">[0] seconds</> to apply the bandage.",
+        "LocalizedString": "Heals <Exec.RecoveryHealBase>[0] _</>. Takes <ItemConsume Type=\"Duration\">[0] seconds</> to apply the bandage."
+      }
+    }
+  }
+]

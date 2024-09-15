@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "AnimSequence",
+    "Name": "AS_WP_LanternShield_Stand_Idle",
+    "Class": "UScriptClass'AnimSequence'",
+    "Properties": {
+      "BoneCompressionSettings": {
+        "ObjectName": "AnimBoneCompressionSettings'DefaultAnimBoneCompressionSettings'",
+        "ObjectPath": "Engine/Content/Animation/DefaultAnimBoneCompressionSettings.0"
+      },
+      "CurveCompressionSettings": {
+        "ObjectName": "AnimCurveCompressionSettings'DefaultAnimCurveCompressionSettings'",
+        "ObjectPath": "Engine/Content/Animation/DefaultAnimCurveCompressionSettings.1"
+      },
+      "VariableFrameStrippingSettings": {
+        "ObjectName": "VariableFrameStrippingSettings'DefaultVariableFrameStrippingSettings'",
+        "ObjectPath": "Engine/Content/Animation/DefaultVariableFrameStrippingSettings.0"
+      },
+      "TargetFrameRate": {
+        "Numerator": 30
+      },
+      "SequenceLength": 0.33333334,
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_LanternShield'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/SKEL_LanternShield.78"
+      }
+    },
+    "SkeletonGuid": "6D4AEE27-4B813F0A-BE5F70B6-A0384687",
+    "CompressedTrackToSkeletonMapTable": [
+      1
+    ],
+    "CompressedCurveData": {
+      "FloatCurves": []
+    },
+    "CompressedDataStructure": {
+      "CompressedNumberOfFrames": 11,
+      "KeyEncodingFormat": "AKF_PerTrackCompression",
+      "TranslationCompressionFormat": "ACF_Identity",
+      "RotationCompressionFormat": "ACF_Identity",
+      "ScaleCompressionFormat": "ACF_Identity"
+    },
+    "BoneCompressionCodec": {
+      "ObjectName": "AnimCompress_PerTrackCompression'DefaultAnimBoneCompressionSettings:AnimCompress_PerTrackCompression_0'",
+      "ObjectPath": "Engine/Content/Animation/DefaultAnimBoneCompressionSettings"
+    },
+    "CurveCompressionCodec": {
+      "ObjectName": "AnimCurveCompressionCodec_CompressedRichCurve'DefaultAnimCurveCompressionSettings:CurveCompressionCodec'",
+      "ObjectPath": "Engine/Content/Animation/DefaultAnimCurveCompressionSettings"
+    },
+    "CompressedRawDataSize": 104
+  }
+]

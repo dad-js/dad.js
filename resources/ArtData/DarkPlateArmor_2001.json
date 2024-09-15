@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "DarkPlateArmor_2001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 0.8
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_DarkPlateArmor'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/DarkPlateArmor/Icon/Item_Icon_DarkPlateArmor.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_DarkPlateArmor'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/DarkPlateArmor/SK_DarkPlateArmor.2"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_DarkPlateArmor_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/DarkPlateArmor/SM_DarkPlateArmor_Holder.2"
+      }
+    }
+  }
+]

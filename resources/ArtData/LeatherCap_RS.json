@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "LeatherCap_RS",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_LeatherCap_RS'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/LeatherCap_RS/Icon/Item_Icon_LeatherCap_RS.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_LeatherCap_RS'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/LeatherCap_RS/SK_LeatherCap_RS.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_LeatherCap_RS_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/LeatherCap_RS/SM_LeatherCap_RS_Holder.2"
+      }
+    }
+  }
+]

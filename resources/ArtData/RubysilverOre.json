@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "RubysilverOre",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_RubysilverOre'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ores/Icon/Item_Icon_RubysilverOre.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_RubysilverOre_01_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ores/SM_RubysilverOre_01_Holder.2"
+      }
+    }
+  }
+]

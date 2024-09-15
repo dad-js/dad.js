@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_FalchionAttack03_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerCharMeleeAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharMeleeAttack.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerCharMeleeAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharMeleeAttack.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_FalchionAttack03_C'Default__GA_FalchionAttack03_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Falchion/GameplayAbility/GA_FalchionAttack03.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_FalchionAttack03_C",
+    "Name": "Default__GA_FalchionAttack03_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Falchion/GameplayAbility/GA_FalchionAttack03.GA_FalchionAttack03_C'",
+    "Template": {
+      "ObjectName": "GA_PlayerCharMeleeAttack_C'Default__GA_PlayerCharMeleeAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharMeleeAttack.1"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_Falchion_Stand_Attack_03'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Falchion/Animations/AM_Falchion_Stand_Attack_03.0"
+      },
+      "MeleeAttackData": {
+        "ObjectName": "DesignDataAssetMeleeAttack'Id_MeleeAttack_GA_FalchionAttack03'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/DT_MeleeAttack/MeleeAttack/Id_MeleeAttack_GA_FalchionAttack03.0"
+      },
+      "ChangeCrossHairWhenEventTag": {
+        "TagName": "Ability.Player.Act.Attack.PrimaryAttack.Press.Attack03"
+      },
+      "ChangeCrossHairAngle": -70.0,
+      "RotateTime": 1.0,
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Ability.Player.Act.Attack.PrimaryAttack.Press.Attack03"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

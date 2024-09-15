@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "RoundShield_7001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_RoundShield_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RoundShield/Animations/AM_RoundShield_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_RoundShield_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RoundShield/Animations/AM_RoundShield_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_RoundShield_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RoundShield/Animations/AS_RoundShield_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_RoundShield_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RoundShield/Animations/AS_RoundShield_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_RoundShield_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RoundShield/Animations/BS_RoundShield_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_back_center_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_RoundShield_7001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RoundShield/Icon/Item_Icon_RoundShield_7001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_RoundShield'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RoundShield/SK_RoundShield.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_RoundShield",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_RoundShield_7001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RoundShield/Materials/MI_RoundShield_7001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_RoundShield_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RoundShield/SM_RoundShield_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_RoundShield",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_RoundShield_7001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RoundShield/Materials/MI_RoundShield_7001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

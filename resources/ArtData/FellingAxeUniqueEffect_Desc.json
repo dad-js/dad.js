@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "FellingAxeUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_FellingAxeUnique_SoulAbsorption'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_FellingAxeUnique_SoulAbsorption.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_FellingAxeUniqueEffect_Desc_FellingAxeUniqueEffectDesc",
+        "SourceString": "Text_Each time you deal damage, absorb the targets soul and gain <StrengthBase>[0] #</> for <Duration>[0] seconds</>. This effect stacks up to 3 times.",
+        "LocalizedString": "Each time you deal damage, absorb the targets soul and gain <StrengthBase>[0] _</> for <Duration>[0] seconds</>. This effect stacks up to 3 times."
+      }
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "GingerbreadCookie",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_GingerbreadCookie'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Currency/GingerbreadCookie/Icon/Item_Icon_GingerbreadCookie.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_GingerbreadCookie_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Currency/GingerbreadCookie/SM_GingerbreadCookie_Holder.2"
+      }
+    }
+  }
+]

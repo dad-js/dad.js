@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "DesignDataAssetItemProperty",
+    "Name": "Id_ItemProperty_Primary_FranciscaAxe_1001",
+    "Class": "UScriptClass'DesignDataAssetItemProperty'",
+    "Properties": {
+      "Item": {
+        "ItemPropertyItemArray": [
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalWeaponDamage"
+            },
+            "MinValue": 14,
+            "MaxValue": 14,
+            "PropertyRate": 0
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MoveSpeed"
+            },
+            "MinValue": -10,
+            "MaxValue": -10,
+            "PropertyRate": 0
+          }
+        ]
+      }
+    }
+  }
+]

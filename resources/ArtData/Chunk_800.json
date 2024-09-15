@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "PrimaryAssetLabel",
+    "Name": "Chunk_800",
+    "Class": "UScriptClass'PrimaryAssetLabel'",
+    "Properties": {
+      "Rules": {
+        "Priority": 10,
+        "ChunkId": 800,
+        "bApplyRecursively": true,
+        "CookRule": "EPrimaryAssetCookRule::DevelopmentAlwaysCook"
+      },
+      "bLabelAssetsInMyDirectory": true,
+      "bIsRuntimeLabel": true
+    }
+  }
+]

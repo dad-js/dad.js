@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "WizardShoes_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_WizardShoes'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/WizardShoes/Icon/Item_Icon_WizardShoes.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_WizardShoes'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/WizardShoes/SK_WizardShoes.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_WizardShoes_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/WizardShoes/SM_WizardShoes_Holder.2"
+      }
+    }
+  }
+]

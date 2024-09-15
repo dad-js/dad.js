@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "DesignDataAssetItemProperty",
+    "Name": "Id_ItemProperty_Primary_WarMaul_7001",
+    "Class": "UScriptClass'DesignDataAssetItemProperty'",
+    "Properties": {
+      "Item": {
+        "ItemPropertyItemArray": [
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalWeaponDamage"
+            },
+            "MinValue": 66,
+            "MaxValue": 68,
+            "PropertyRate": 0
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_ArmorPenetration"
+            },
+            "MinValue": 200,
+            "MaxValue": 200,
+            "PropertyRate": 0
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MoveSpeed"
+            },
+            "MinValue": -50,
+            "MaxValue": -50,
+            "PropertyRate": 0
+          }
+        ]
+      }
+    }
+  }
+]

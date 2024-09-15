@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "SilverIngots",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_SilverIngots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ingots/Silver/Icon/Item_Icon_SilverIngots.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_SilverIngots_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ingots/Silver/SM_SilverIngots_Holder.2"
+      }
+    }
+  }
+]

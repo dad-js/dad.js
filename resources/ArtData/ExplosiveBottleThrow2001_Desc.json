@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "ExplosiveBottleThrow2001_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_ExplosiveBottle_AoeDamage_2001'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_ExplosiveBottle_AoeDamage_2001.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_ExplosiveBottleThrow_Desc_ExplosiveBottleThrowDesc",
+        "SourceString": "Text_Creates a fire floor at the impact location. While standing on the fire floor, you continuously receive <Exec.MagicalDamageBase>[0] #</> distributed over <Duration>[0] second</> intervals.",
+        "LocalizedString": "Upon explosion, deal <Exec.MagicalDamageBase>[0] _</> per second to all targets within the flame area of effect. The flame area lasts for 10 seconds."
+      }
+    }
+  }
+]

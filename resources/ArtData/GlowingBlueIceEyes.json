@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "GlowingBlueIceEyes",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_GlowingBludeIceEyes'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/GlowingBlueIceEyes/Icon/Item_Icon_GlowingBludeIceEyes.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_GlowingBlueIceEyes_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/GlowingBlueIceEyes/SM_GlowingBlueIceEyes_Holder.2"
+      }
+    }
+  }
+]

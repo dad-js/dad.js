@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "DesignDataAssetItemProperty",
+    "Name": "Id_ItemProperty_Primary_GoldenCloak_5001",
+    "Class": "UScriptClass'DesignDataAssetItemProperty'",
+    "Properties": {
+      "Item": {
+        "ItemPropertyItemArray": [
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_ArmorRating"
+            },
+            "MinValue": 15,
+            "MaxValue": 15,
+            "PropertyRate": 0
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Dexterity"
+            },
+            "MinValue": 1,
+            "MaxValue": 1,
+            "PropertyRate": 0
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Vigor"
+            },
+            "MinValue": 1,
+            "MaxValue": 1,
+            "PropertyRate": 0
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Will"
+            },
+            "MinValue": 1,
+            "MaxValue": 1,
+            "PropertyRate": 0
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Resourcefulness"
+            },
+            "MinValue": 1,
+            "MaxValue": 1,
+            "PropertyRate": 0
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Luck"
+            },
+            "MinValue": 40,
+            "MaxValue": 40,
+            "PropertyRate": 0
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MagicalDamageReduction"
+            },
+            "MinValue": 25,
+            "MaxValue": 25,
+            "PropertyRate": 0
+          }
+        ]
+      }
+    }
+  }
+]

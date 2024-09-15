@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "M_Famine_InvertedSceneColour_Inst",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Famine_InvertedSceneColour'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/HorsemansAxe/Famine/M_Famine_InvertedSceneColour.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Alpha Multiplier",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "A78B9B48-4AD50E45-163C7097-4F95C91E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "B",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "D085407D-4F1E423A-A04B519A-CA4E0B00"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Desatiratopm Switch",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "38B1FF11-42C2CCA6-443EFC90-0A013942"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "D35ECCA0-41342E03-5770A296-960B4B72"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Distortion Texture",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Cloud_Noise2'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Shared_Resource/Texture/Noise/T_Cloud_Noise2.0"
+          },
+          "ExpressionGUID": "0340F999-488B86B0-BDADD885-514C5640"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Translucent",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

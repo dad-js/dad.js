@@ -1,0 +1,266 @@
+[
+  {
+    "Type": "DesignDataAssetItemProperty",
+    "Name": "Id_ItemProperty_Secondary_Twohand_PhysicalWeapon",
+    "Class": "UScriptClass'DesignDataAssetItemProperty'",
+    "Properties": {
+      "Item": {
+        "ItemPropertyItemArray": [
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MaxHealthAdd"
+            },
+            "MinValue": 3,
+            "MaxValue": 6,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_RegularInteractionSpeed"
+            },
+            "MinValue": 100,
+            "MaxValue": 150,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Agility"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Dexterity"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Strength"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Vigor"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Will"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Knowledge"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Resourcefulness"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_ArmorPenetration"
+            },
+            "MinValue": 40,
+            "MaxValue": 70,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalDamageTrue"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalWeaponDamageAdd"
+            },
+            "MinValue": 1,
+            "MaxValue": 2,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_ActionSpeed"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_BuffDurationBonus"
+            },
+            "MinValue": 50,
+            "MaxValue": 100,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_DebuffDurationBonus"
+            },
+            "MinValue": 20,
+            "MaxValue": 50,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MagicalInteractionSpeed"
+            },
+            "MinValue": 100,
+            "MaxValue": 150,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MaxHealthBonus"
+            },
+            "MinValue": 10,
+            "MaxValue": 20,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MoveSpeedAdd"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MoveSpeedBonus"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalDamageAdd"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalDamageBonus"
+            },
+            "MinValue": 25,
+            "MaxValue": 50,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalPower"
+            },
+            "MinValue": 1,
+            "MaxValue": 3,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Primitive"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          }
+        ]
+      }
+    }
+  }
+]

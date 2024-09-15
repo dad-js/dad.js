@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "LowBoots_3001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_LowBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/LowBoots/Icon/Item_Icon_LowBoots.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_LowBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/LowBoots/SK_LowBoots.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_LowBoots_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/LowBoots/SM_LowBoots_Holder.2"
+      }
+    }
+  }
+]

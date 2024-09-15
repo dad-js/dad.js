@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FrostlightRivetedGloves_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::GlovesEquipped",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::ShortGlovesEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_icon_FrostlightRivetedGloves'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/FrostlightRivetedGloves/Icon/Item_icon_FrostlightRivetedGloves.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_RivetedGloves'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/RivetedGloves/SK_RivetedGloves.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_glove_01_a",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightRivetedGloves'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/FrostlightRivetedGloves/Materials/MI_FrostlightRivetedGloves.0"
+          }
+        },
+        {
+          "MaterialSlotName": "M_hair",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightRivetedGloves_Fur'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/FrostlightRivetedGloves/Materials/MI_FrostlightRivetedGloves_Fur.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_RivetedGloves_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/RivetedGloves/SM_RivetedGloves_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Fbx Default Material 1",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightRivetedGloves'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/FrostlightRivetedGloves/Materials/MI_FrostlightRivetedGloves.0"
+          }
+        },
+        {
+          "MaterialSlotName": "Fbx Default Material 0",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightRivetedGloves_Fur'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/FrostlightRivetedGloves/Materials/MI_FrostlightRivetedGloves_Fur.0"
+          }
+        }
+      ],
+      "ItemsBoneModifyData": [
+        {
+          "Key": "fk_weapon_l",
+          "Value": {
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 1.5,
+              "Z": 0.0
+            }
+          }
+        }
+      ]
+    }
+  }
+]

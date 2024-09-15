@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FrostlightCloak_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostlightCloak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/FrostlightCloak/Icon/Item_Icon_FrostlightCloak.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_AdventurerCloak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/AdventurerCloak/SK_AdventurerCloak.4"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_cloak_01",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightCloak'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/FrostlightCloak/Materials/MI_FrostlightCloak.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_AdventurerCloak_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/AdventurerCloak/SM_AdventurerCloak_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_RadiantCloak",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightCloak'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/FrostlightCloak/Materials/MI_FrostlightCloak.0"
+          }
+        },
+        {
+          "MaterialSlotName": "Fbx Default Material 1",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightCloak'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/FrostlightCloak/Materials/MI_FrostlightCloak.0"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "DesignDataAssetItemProperty",
+    "Name": "Id_ItemProperty_Primary_RingOfResolve_3001",
+    "Class": "UScriptClass'DesignDataAssetItemProperty'",
+    "Properties": {
+      "Item": {
+        "ItemPropertyItemArray": [
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Will"
+            },
+            "MinValue": 1,
+            "MaxValue": 1,
+            "PropertyRate": 0
+          }
+        ]
+      }
+    }
+  }
+]

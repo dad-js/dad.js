@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ArtDataUtility",
+    "Name": "CampfireKit",
+    "Class": "UScriptClass'ArtDataUtility'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_CampfireKit_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/CampfireKit/Animations/AM_CampfireKit_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_CampfireKit_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/CampfireKit/Animations/AM_CampfireKit_Stand_Unequip.0"
+        },
+        "EquipMontageItem": {
+          "ObjectName": "AnimMontage'AM_WP_CampfireKit_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/CampfireKit/Animations/AM_WP_CampfireKit_Equip.0"
+        },
+        "UnEquipMontageItem": {
+          "ObjectName": "AnimMontage'AM_WP_CampfireKit_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/CampfireKit/Animations/AM_WP_CampfireKit_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_CampfireKit_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/CampfireKit/Animations/AS_CampfireKit_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_CampfireKit_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/CampfireKit/Animations/AS_CampfireKit_Stand_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_CampfireKit_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/CampfireKit/Animations/BS_Campfirekit_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "campfirekit_pelvis",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CampfireKit'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/CampfireKit/Icon/Item_Icon_CampfireKit.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_CampfireKit'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/CampfireKit/SK_CampfireKit.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CampfireKit'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/CampfireKit/SM_CampfireKit.2"
+      }
+    }
+  }
+]

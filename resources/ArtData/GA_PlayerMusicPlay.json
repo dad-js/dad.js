@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_PlayerMusicPlay_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'GA_PlayerMusicPlayBase'",
+      "ObjectPath": "/Script/DungeonCrawler"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_PlayerMusicPlay_C'Default__GA_PlayerMusicPlay_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/MusicalInstrument/GA_PlayerMusicPlay.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_PlayerMusicPlay_C",
+    "Name": "Default__GA_PlayerMusicPlay_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Utility/MusicalInstrument/GA_PlayerMusicPlay.GA_PlayerMusicPlay_C'",
+    "Properties": {
+      "AbilityTags": [
+        "Type.Ability.Act.PlayMusic"
+      ],
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Ability.Player.Act.Attack.SecondaryAttack.Press"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

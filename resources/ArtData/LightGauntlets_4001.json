@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "LightGauntlets_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::GlovesEquipped",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::ShortGlovesEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_LightGauntlets'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/LightGauntlets/Icon/Item_Icon_LightGauntlets.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_LightGauntlets'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/LightGauntlets/SK_LightGauntlets.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_LightGauntlets_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/LightGauntlets/SM_LightGauntlets_Holder.2"
+      },
+      "ItemsBoneModifyData": [
+        {
+          "Key": "fk_weapon_l",
+          "Value": {
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 2.5,
+              "Z": 0.0
+            }
+          }
+        }
+      ]
+    }
+  }
+]

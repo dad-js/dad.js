@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "DescData",
+    "Name": "ProtectionPotion_Desc",
+    "Class": "UScriptClass'DescData'",
+    "Properties": {
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_ProtectionPotion_Desc_ProtectionPotionDesc",
+        "SourceString": "Text_DataAsset_ProtectionPotion_Desc_ProtectionPotionDesc",
+        "LocalizedString": "Potion that gives a temporary defensive shield around the user."
+      }
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataUtility",
+    "Name": "Bandage",
+    "Class": "UScriptClass'ArtDataUtility'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_Bandage_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Bandage/Animations/AM_Bandage_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_Bandage_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Bandage/Animations/AM_Bandage_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_Bandage_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Bandage/Animations/AS_Bandage_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_Bandage_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Bandage/Animations/AS_Bandage_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_Bandage_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Bandage/Animations/BS_Bandage_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_pelvis_bandage",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Bandage'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Bandage/Icon/Item_Icon_Bandage.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Bandage'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Bandage/SK_Bandage.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Bandage_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Bandage/SM_Bandage_Holder.2"
+      }
+    }
+  }
+]

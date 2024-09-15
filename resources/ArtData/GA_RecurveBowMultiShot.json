@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_RecurveBowMultiShot_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_BowMultiShot_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowMultiShot.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_BowMultiShot_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowMultiShot.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_RecurveBowMultiShot_C'Default__GA_RecurveBowMultiShot_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/GameplayAbility/GA_RecurveBowMultiShot.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_RecurveBowMultiShot_C",
+    "Name": "Default__GA_RecurveBowMultiShot_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/GameplayAbility/GA_RecurveBowMultiShot.GA_RecurveBowMultiShot_C'",
+    "Template": {
+      "ObjectName": "GA_BowMultiShot_C'Default__GA_BowMultiShot_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowMultiShot.5"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_RecurveBow_MultiShot'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_RecurveBow_MultiShot.0"
+      },
+      "MontageToPlayOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_RecurveBow_MultiShot'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_MultiShot.10"
+      },
+      "ProjectileActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_ArrowProjectile_C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Projectile/Arrow/BP_ArrowProjectile.1"
+      },
+      "FireSocketName": "weapon_l",
+      "DamageCurve": {
+        "ObjectName": "CurveFloat'CV_RecurveBow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/GameplayAbility/CurveFloat/CV_RecurveBow.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "GoldenChausses_5001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanAnkle",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_GoldenChausses'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/GoldenChausses/Icon/Item_Icon_GoldenChausses.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_GoldenChausses'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/GoldenChausses/SK_GoldenChausses.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_GoldenChausses_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/GoldenChausses/SM_GoldenChausses_Holder.2"
+      }
+    }
+  }
+]

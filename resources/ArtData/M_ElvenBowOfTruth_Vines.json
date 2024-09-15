@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_ElvenBowOfTruth_Vines",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "BlendMode": "EBlendMode::BLEND_Additive",
+      "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "TwoSided": true,
+      "bUsedWithNiagaraMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "FDF4CB06-A6C8C459-F435FC8E-37DF1AE6",
+      "bIncludedInBaseGame": true
+    },
+    "ReferencedTextures": [
+      {
+        "ObjectName": "Texture2D'Noise01'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Shared_Resource/Texture/Noise/Noise01.0"
+      },
+      {
+        "ObjectName": "Texture2D'Noise07'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Shared_Resource/Texture/Noise/Noise07.0"
+      }
+    ]
+  }
+]

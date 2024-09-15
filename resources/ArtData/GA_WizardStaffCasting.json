@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_WizardStaffCasting_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerSpellCast_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerSpellCast.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerSpellCast_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerSpellCast.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_WizardStaffCasting_C'Default__GA_WizardStaffCasting_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/GameplayAbility/GA_WizardStaffCasting.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_WizardStaffCasting_C",
+    "Name": "Default__GA_WizardStaffCasting_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/GameplayAbility/GA_WizardStaffCasting.GA_WizardStaffCasting_C'",
+    "Template": {
+      "ObjectName": "GA_PlayerSpellCast_C'Default__GA_PlayerSpellCast_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerSpellCast.1"
+    },
+    "Properties": {
+      "MontageToPlayOnCasting": {
+        "ObjectName": "AnimMontage'AM_WizardStaff_Stand_Casting'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/Animations/AM_WizardStaff_Stand_Casting.0"
+      },
+      "MontageToPlayOnChanneling": {
+        "ObjectName": "AnimMontage'AM_WizardStaff_Stand_Channeling'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/Animations/AM_WizardStaff_Stand_Channeling.0"
+      },
+      "MontageToPlayOnInstant": {
+        "ObjectName": "AnimMontage'AM_WizardStaff_Stand_Casting'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/Animations/AM_WizardStaff_Stand_Casting.0"
+      }
+    }
+  }
+]

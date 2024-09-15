@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "GoldenScarf_5001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::Ponytail",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 0.5
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icom_GoldenScarf'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/GoldenScarf/Icon/Item_Icom_GoldenScarf.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_GoldenScarf'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/GoldenScarf/SK_GoldenScarf.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_GoldenScarf_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/GoldenScarf/SM_GoldenScarf_Holder.2"
+      }
+    }
+  }
+]

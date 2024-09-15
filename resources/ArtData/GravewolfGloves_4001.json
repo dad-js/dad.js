@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "GravewolfGloves_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::GlovesEquipped",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::ShortGlovesEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_GravewolfGloves'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/GravewolfGloves/Icon/Item_Icon_GravewolfGloves.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_LeatherGloves'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/LeatherGloves/SK_LeatherGloves.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_glove_01_a",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_GravewolfGloves'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/GravewolfGloves/Materials/MI_GravewolfGloves.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_LeatherGloves_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/LeatherGloves/SM_LeatherGloves_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "02 - Default",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_GravewolfGloves_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/GravewolfGloves/Materials/MI_GravewolfGloves_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

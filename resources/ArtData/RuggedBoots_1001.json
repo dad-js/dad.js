@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "RuggedBoots_1001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::BootsEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_RuggedBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/RuggedBoots/Icon/Item_Icon_RuggedBoots.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_RuggedBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/RuggedBoots/SK_RuggedBoots.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_RuggedBoots_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/RuggedBoots/SM_RuggedBoots_Holder.2"
+      }
+    }
+  }
+]

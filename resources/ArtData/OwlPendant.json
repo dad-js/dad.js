@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataAccessory",
+    "Name": "OwlPendant",
+    "Class": "UScriptClass'ArtDataAccessory'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_OwlPendant'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Necklace/Icon/Item_Icon_OwlPendant.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_OwlPendant_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Necklace/SM_OwlPendant_Holder.2"
+      }
+    }
+  }
+]

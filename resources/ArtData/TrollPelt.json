@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "TrollPelt",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_TrollPelt'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/TrollPelt/Icon/Item_Icon_TrollPelt.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_TrollPelt_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/TrollPelt/SM_TrollPelt_Holder.2"
+      }
+    }
+  }
+]

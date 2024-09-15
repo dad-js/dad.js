@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "SilverPowder",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_SilverPowder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Powders/Silver/Icon/Item_Icon_SilverPowder.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_SilverPowder_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Powders/Silver/SM_SilverPowder_Holder.2"
+      }
+    }
+  }
+]

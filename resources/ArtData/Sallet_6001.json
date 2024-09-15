@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "Sallet_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Beard",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Sallet'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Sallet/Icon/Item_Icon_Sallet.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Sallet'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Sallet/SK_Sallet.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Sallet_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Sallet/SM_Sallet_Holder.2"
+      }
+    }
+  }
+]

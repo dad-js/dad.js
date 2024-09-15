@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "SoundData",
+    "Name": "DarkCuirass_Sound",
+    "Class": "UScriptClass'SoundData'",
+    "Properties": {
+      "AkEventByGameplayTag": [
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Drag"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drag_PlateArmour'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drag_PlateArmour.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Drop"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drop_PlateArmour'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drop_PlateArmour.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Equip"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drop_PlateArmour'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drop_PlateArmour.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Item.Drop"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'Foleys_PlateChest_Drop'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Foleys/Foleys_PlateChest_Drop.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Item.PickUp"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'Foleys_PlateChest_Pickup'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Foleys/Foleys_PlateChest_Pickup.0"
+          }
+        }
+      ]
+    }
+  }
+]

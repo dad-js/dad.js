@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_LifeAfterDeath_Glow_Tip",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Glow_Crack'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/HorsemansAxe/Famine/M_Glow_Crack.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Noise II Panning Y",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "468AC16E-4C66A1FB-077C8DAD-010C1787"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param_5",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "FBF6906B-4AF97BF0-A2136EB7-735448DE"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "UV X I",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.3,
+          "ExpressionGUID": "AF9711F6-4D90C571-598BBCB2-37399917"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "bOverride_TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Translucent",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Fresnel Mask",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "10142EDE-49509E12-D64B1A87-0080C2D2"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Symmetrical Mask",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "4A8FC08E-47A1C640-51A37BB4-56967F66"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true
+    },
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

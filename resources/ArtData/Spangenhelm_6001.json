@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "Spangenhelm_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 0.5
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 0.7
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Beard",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Spangenhelm'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Spangenhelm/Icon/Item_Icon_Spangenhelm.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Spangenhelm'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Spangenhelm/SK_Spangenhelm.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Spangenhelm_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Spangenhelm/SM_Spangenhelm_Holder.2"
+      }
+    }
+  }
+]

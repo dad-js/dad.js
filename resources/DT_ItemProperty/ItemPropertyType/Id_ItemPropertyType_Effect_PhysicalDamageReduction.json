@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_PhysicalDamageReduction",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 24,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.PhysicalDamageReduction"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyPhysicalDamageReduction_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyPhysicalDamageReduction.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.PhysicalReduction"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

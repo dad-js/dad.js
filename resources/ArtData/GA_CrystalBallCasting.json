@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_CrystalBallCasting_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerSpellCast_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerSpellCast.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerSpellCast_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerSpellCast.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_CrystalBallCasting_C'Default__GA_CrystalBallCasting_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBallCasting.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_CrystalBallCasting_C",
+    "Name": "Default__GA_CrystalBallCasting_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBallCasting.GA_CrystalBallCasting_C'",
+    "Template": {
+      "ObjectName": "GA_PlayerSpellCast_C'Default__GA_PlayerSpellCast_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerSpellCast.1"
+    },
+    "Properties": {
+      "MontageToPlayOnCasting": {
+        "ObjectName": "AnimMontage'AM_CrystaBall_Casting'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/Animations/AM_CrystaBall_Casting.0"
+      },
+      "MontageToPlayOnChanneling": {
+        "ObjectName": "AnimMontage'AM_CrystalBall_Channeling'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/Animations/AM_CrystalBall_Channeling.0"
+      },
+      "MontageToPlayOnInstant": {
+        "ObjectName": "AnimMontage'AM_CrystaBall_Casting'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/Animations/AM_CrystaBall_Casting.0"
+      }
+    }
+  }
+]

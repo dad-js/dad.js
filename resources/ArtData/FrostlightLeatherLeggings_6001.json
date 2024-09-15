@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FrostlightLeatherLeggings_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanAnkle",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostlightLeatherLeggings'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/FrostlightLeatherLeggings/Icon/Item_Icon_FrostlightLeatherLeggings.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_DarkLeatherLeggings'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/DarkLeatherLeggings/SK_DarkLeatherLeggings.1"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_ClothPants",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightLeatherLeggings'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/FrostlightLeatherLeggings/Materials/MI_FrostlightLeatherLeggings.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_DarkLeatherLeggings_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/DarkLeatherLeggings/SM_DarkLeatherLeggings_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_ClothPants",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightLeatherLeggings'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/FrostlightLeatherLeggings/Materials/MI_FrostlightLeatherLeggings.0"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "HeavyLeatherLeggings_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_HeavyLeatherLeggings'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/HeavyLeatherLeggings/Icon/Item_Icon_HeavyLeatherLeggings.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_HeavyLeatherLeggings'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/HeavyLeatherLeggings/SK_HeavyLeatherLeggings.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_HeavyLeatherLeggings_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/HeavyLeatherLeggings/SM_HeavyLeatherLeggings_Holder.2"
+      }
+    }
+  }
+]

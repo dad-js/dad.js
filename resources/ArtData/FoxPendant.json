@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataAccessory",
+    "Name": "FoxPendant",
+    "Class": "UScriptClass'ArtDataAccessory'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FoxPendant'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Necklace/Icon/Item_Icon_FoxPendant.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_FoxPendant_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Necklace/SM_FoxPendant_Holder.2"
+      }
+    }
+  }
+]

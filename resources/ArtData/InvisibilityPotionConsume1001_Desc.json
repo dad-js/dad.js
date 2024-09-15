@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "InvisibilityPotionConsume1001_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_InvisibilityPotionConsumeInvis_1001'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_InvisibilityPotionConsumeInvis_1001.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_InvisibilityPotionConsume1001_Desc_InvisibilityPotionConsume1001Desc",
+        "SourceString": "Gain invisibility for <Duration>[0] seconds</>. When you move, perform an action or take damage, the effect is removed.",
+        "LocalizedString": "Gain invisibility for <Duration>[0] seconds</>. When you move, perform an action or take damage, the effect is removed."
+      }
+    }
+  }
+]

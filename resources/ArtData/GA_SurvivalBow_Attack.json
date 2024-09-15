@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_SurvivalBow_Attack_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_BowAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowAttack.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_BowAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowAttack.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_SurvivalBow_Attack_C'Default__GA_SurvivalBow_Attack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/GameplayAbility/GA_SurvivalBow_Attack.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_SurvivalBow_Attack_C",
+    "Name": "Default__GA_SurvivalBow_Attack_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/GameplayAbility/GA_SurvivalBow_Attack.GA_SurvivalBow_Attack_C'",
+    "Template": {
+      "ObjectName": "GA_BowAttack_C'Default__GA_BowAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowAttack.3"
+    },
+    "Properties": {
+      "NimbleHandMontageToPlay": {
+        "ObjectName": "AnimMontage'AM_SurvivalBow_NimbleHand_Attack'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_SurvivalBow_NimbleHand_Attack.0"
+      },
+      "NimbleHandMontageToPlayOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_SurvivalBow_NimbleHand_Attack'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.5"
+      },
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_SurvivalBow_Stand_Attack'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_SurvivalBow_Stand_Attack.0"
+      },
+      "MontageToPlayOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_SurvivalBow_Stand_Attack'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_Stand_Attack.5"
+      },
+      "ProjectileActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_SurvivalBowArrowProjectile_C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Projectile/SurvivalBowArrow/BP_SurvivalBowArrowProjectile.1"
+      },
+      "FireSocketName": "weapon_l",
+      "DamageCurve": {
+        "ObjectName": "CurveFloat'CV_SurvivalBow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/GameplayAbility/CurveFloat/CV_SurvivalBow.0"
+      }
+    }
+  }
+]

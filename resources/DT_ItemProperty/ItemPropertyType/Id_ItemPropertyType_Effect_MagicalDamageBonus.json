@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_MagicalDamageBonus",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 27,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.MagicalDamageBonus"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyMagicalDamageBonus_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyMagicalDamageBonus.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.MagicalDamageMod"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

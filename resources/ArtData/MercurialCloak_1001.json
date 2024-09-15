@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "MercurialCloak_1001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_MercurialCloak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/MercurialCloak/Icon/Item_Icon_MercurialCloak.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_MercurialCloak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/MercurialCloak/SK_MercurialCloak.4"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_MercurialCloak_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/MercurialCloak/SM_MercurialCloak_Holder.2"
+      }
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "BareHands",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_BareHands_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BareHands/Animations/AM_BareHands_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_BareHands_Stand_Unequip_Montage'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BareHands/Animations/AM_BareHands_Stand_Unequip_Montage.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_BareHands_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BareHands/Animations/AS_BareHands_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_BareHands_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BareHands/Animations/AS_BareHands_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_BareHands_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BareHands/Animations/BS_BareHands_Stand_Run_UpperBody.0"
+          }
+        }
+      }
+    }
+  }
+]

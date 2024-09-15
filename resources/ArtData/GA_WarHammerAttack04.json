@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_WarHammerAttack04_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerCharMeleeAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharMeleeAttack.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerCharMeleeAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharMeleeAttack.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_WarHammerAttack04_C'Default__GA_WarHammerAttack04_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WarHammer/GameplayAbility/GA_WarHammerAttack04.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_WarHammerAttack04_C",
+    "Name": "Default__GA_WarHammerAttack04_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WarHammer/GameplayAbility/GA_WarHammerAttack04.GA_WarHammerAttack04_C'",
+    "Template": {
+      "ObjectName": "GA_PlayerCharMeleeAttack_C'Default__GA_PlayerCharMeleeAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharMeleeAttack.1"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_WarHammer_Stand_Attack_04'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WarHammer/Animations/AM_WarHammer_Stand_Attack_04.0"
+      },
+      "MeleeAttackData": {
+        "ObjectName": "DesignDataAssetMeleeAttack'Id_MeleeAttack_GA_WarHammerAttack04'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/DT_MeleeAttack/MeleeAttack/Id_MeleeAttack_GA_WarHammerAttack04.0"
+      },
+      "ChangeCrossHairAngle": -85.0,
+      "RotateTime": 1.0,
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Ability.Player.Act.Attack.PrimaryAttack.Press.Attack04"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataAccessory",
+    "Name": "RingOfFinesse",
+    "Class": "UScriptClass'ArtDataAccessory'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_RingofFinesse'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Ring/Icon/Item_Icon_RingofFinesse.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_RingofFinesse_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Ring/SM_RingofFinesse_Holder.2"
+      }
+    }
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "Longbow_4001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_Longbow_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_Longbow_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_Longbow_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_Longbow_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_Longbow_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_Longbow_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_Longbow_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_Longbow_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_Longbow_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/BS_Longbow_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "ConditionalAnimationSet": [
+        {
+          "Key": {
+            "TagName": "State.ActorStatus.Buff.NimbleHands"
+          },
+          "Value": {
+            "EquipMontage": {
+              "ObjectName": "AnimMontage'AM_Longbow_NimbleHand_Equip'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_Longbow_NimbleHand_Equip.0"
+            },
+            "UnEquipMontage": {
+              "ObjectName": "AnimMontage'AM_Longbow_NimbleHand_Unequip'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_Longbow_NimbleHand_Unequip.0"
+            },
+            "EquipMontageItem": null,
+            "UnEquipMontageItem": null,
+            "LocomotionAnimSet": {
+              "StandIdle": {
+                "ObjectName": "AnimSequence'AS_LongBow_NimbleHand_Idle'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_NimbleHand_Idle.0"
+              },
+              "CrouchIdle": {
+                "ObjectName": "AnimSequence'AS_LongBow_NimbleHand_Idle'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_NimbleHand_Idle.0"
+              },
+              "RunUpperBody": {
+                "ObjectName": "BlendSpace'BS_Longbow_NimbleHand_Run_UpperBody'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/BS_Longbow_NimbleHand_Run_UpperBody.0"
+              }
+            }
+          }
+        }
+      ],
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_back_center_02",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Longbow_4001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Icon/Item_Icon_Longbow_4001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Longbow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/SK_Longbow.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "M_Archery",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Longbow_4001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Materials/MI_Longbow_4001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Longbow_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/SM_Longbow_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "M_Archery",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Longbow_4001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Materials/MI_Longbow_4001_Holder.0"
+          }
+        }
+      ],
+      "ItemAnimInstanceClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_Longbow_C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/ABP_Longbow.1"
+      }
+    }
+  }
+]

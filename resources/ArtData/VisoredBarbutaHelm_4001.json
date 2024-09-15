@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "VisoredBarbutaHelm_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::UnderHair",
+          "Value": 3.01496
+        },
+        {
+          "Key": "EDCMorphTarget::Beard",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_VisoredBarbutaHelm'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/VisoredBarbutaHelm/Icon/Item_Icon_VisoredBarbutaHelm.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_VisoredBarbutaHelm'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/VisoredBarbutaHelm/SK_VisoredBarbutaHelm.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_VisoredBarbutaHelm_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/VisoredBarbutaHelm/SM_VisoredBarbutaHelm_Holder.2"
+      }
+    }
+  }
+]

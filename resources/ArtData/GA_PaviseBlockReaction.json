@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_PaviseBlockReaction_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerCharBlockReactionBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharBlockReactionBase.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerCharBlockReactionBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharBlockReactionBase.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_PaviseBlockReaction_C'Default__GA_PaviseBlockReaction_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Pavise/GameplayAbility/GA_PaviseBlockReaction.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_PaviseBlockReaction_C",
+    "Name": "Default__GA_PaviseBlockReaction_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Pavise/GameplayAbility/GA_PaviseBlockReaction.GA_PaviseBlockReaction_C'",
+    "Template": {
+      "ObjectName": "GA_PlayerCharBlockReactionBase_C'Default__GA_PlayerCharBlockReactionBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharBlockReactionBase.14"
+    },
+    "Properties": {
+      "MontageToPlayOnWeakStrike": {
+        "ObjectName": "AnimMontage'AM_Pavise_Block_Weak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Pavise/Animations/AM_Pavise_Block_Weak.0"
+      },
+      "MontageToPlayOnMidStrike": {
+        "ObjectName": "AnimMontage'AM_Pavise_Block_Medium'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Pavise/Animations/AM_Pavise_Block_Medium.0"
+      },
+      "MontageToPlayOnHeavyStrike": {
+        "ObjectName": "AnimMontage'AM_Pavise_Block_Heavy'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Pavise/Animations/AM_Pavise_Block_Heavy.0"
+      }
+    }
+  }
+]

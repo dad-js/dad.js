@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_RoundShieldActivate_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemActivate_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemActivate.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemActivate_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemActivate.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_RoundShieldActivate_C'Default__GA_RoundShieldActivate_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RoundShield/GameplayAbility/GA_RoundShieldActivate.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_RoundShieldActivate_C",
+    "Name": "Default__GA_RoundShieldActivate_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RoundShield/GameplayAbility/GA_RoundShieldActivate.GA_RoundShieldActivate_C'",
+    "Template": {
+      "ObjectName": "GA_ItemActivate_C'Default__GA_ItemActivate_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemActivate.1"
+    }
+  }
+]

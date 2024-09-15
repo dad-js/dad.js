@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_ArmorRating",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 10,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.ArmorRating"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyArmorRating_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyArmorRating.0"
+        },
+        "PrimaryTooltipPriority": 6
+      }
+    }
+  }
+]

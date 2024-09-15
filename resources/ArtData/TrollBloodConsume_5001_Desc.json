@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "TrollBloodConsume_5001_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_TrollBloodConsumeHeal_5001'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_TrollBloodConsumeHeal_5001.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_TrollBloodConsume_5001_Desc_TrollBloodConsume_5001",
+        "SourceString": "Recover <Exec.MagicalHealBase>[0] #</> over <Duration>[0] seconds</>.",
+        "LocalizedString": "Recover <Exec.MagicalHealBase>[0] _</> over <Duration>[0] seconds</>."
+      }
+    }
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_ExplosiveBottleThrow_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemThrow.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemThrow.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_ExplosiveBottleThrow_C'Default__GA_ExplosiveBottleThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/ExplosiveBottle/GameplayAbility/GA_ExplosiveBottleThrow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_ExplosiveBottleThrow_C",
+    "Name": "Default__GA_ExplosiveBottleThrow_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Utility/ExplosiveBottle/GameplayAbility/GA_ExplosiveBottleThrow.GA_ExplosiveBottleThrow_C'",
+    "Template": {
+      "ObjectName": "GA_ItemThrow_C'Default__GA_ItemThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemThrow.3"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_ExplosiveBottle_Throwing'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/ExplosiveBottle/Animations/AM_ExplosiveBottle_Throwing.0"
+      },
+      "ProjectileActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_ExplosiveBottleProjectile_C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Projectile/ExplosiveBottle/BP_ExplosiveBottleProjectile.1"
+      },
+      "FireSocketName": "weapon_r",
+      "ProjectileSpeedMultiplier": 1.9,
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Ability.Player.Act.Attack.SecondaryAttack.Press"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

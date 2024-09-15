@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "DiaryoftheToz",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Icon_Dummy'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/UI/Resources/_Temp/Icon_Dummy.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_BookSingle_A03'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Props/Common/Bookshelf/Meshes/SM_BookSingle_A03.2"
+      }
+    }
+  }
+]

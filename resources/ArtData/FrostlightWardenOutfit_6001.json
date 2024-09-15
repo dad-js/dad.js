@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FrostlightWardenOutfit_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 1.1
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostlightWardenOutfit'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/FrostlightWardenOutfit/Icon/Item_Icon_FrostlightWardenOutfit.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_WardenOutfit'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/WardenOutfit/SK_WardenOutfit.4"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_WardenOutfit",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightWardenOutfit'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/FrostlightWardenOutfit/Materials/MI_FrostlightWardenOutfit.0"
+          }
+        },
+        {
+          "MaterialSlotName": "Fbx Default Material 1",
+          "MaterialInterface": null
+        },
+        {
+          "MaterialSlotName": "Fbx Default Material 2",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightWardenOutfit'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/FrostlightWardenOutfit/Materials/MI_FrostlightWardenOutfit.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_WardenOutfit_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/WardenOutfit/SM_WardenOutfit_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_chest_merc_02_a",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightWardenOutfit'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/FrostlightWardenOutfit/Materials/MI_FrostlightWardenOutfit.0"
+          }
+        },
+        {
+          "MaterialSlotName": "Fbx Default Material 1",
+          "MaterialInterface": null
+        },
+        {
+          "MaterialSlotName": "Fbx Default Material 2",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightWardenOutfit'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/FrostlightWardenOutfit/Materials/MI_FrostlightWardenOutfit.0"
+          }
+        }
+      ]
+    }
+  }
+]

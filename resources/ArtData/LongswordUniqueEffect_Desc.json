@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "LongswordUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ItemEffect_LongswordUnique_LightningStrike'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemEffect/Id_ItemEffect_LongswordUnique_LightningStrike.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_LongswordUniqueEffect_Desc_LongswordUniqueEffectDesc",
+        "SourceString": "When you hit an enemy, cause a thunderbolt dealing <Exec.MagicalDamageBase>[0] #</>.",
+        "LocalizedString": "When you hit an enemy, cause a thunderbolt dealing <Exec.MagicalDamageBase>[0] _</>."
+      }
+    }
+  }
+]

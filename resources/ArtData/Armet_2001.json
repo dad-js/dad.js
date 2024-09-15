@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "Armet_2001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Beard",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::UnderHair",
+          "Value": 1.5
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Ponytail",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Armet'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Armet/Icon/Item_Icon_Armet.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Armet'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Armet/SK_Armet.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Armet_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Armet/SM_Armet_Holder.2"
+      }
+    }
+  }
+]

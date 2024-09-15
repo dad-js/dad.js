@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "SoundData",
+    "Name": "CrystalBall_Sound",
+    "Class": "UScriptClass'SoundData'",
+    "Properties": {
+      "AkEventByGameplayTag": [
+        {
+          "Key": {
+            "TagName": "Sound.Item.PickUp"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'Foleys_CrystalBall_Pickup'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Foleys/Foleys_CrystalBall_Pickup.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Drag"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drag_CrystalBall'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drag_CrystalBall.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Drop"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drop_CrystalBall'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drop_CrystalBall.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Equip"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drop_CrystalBall'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drop_CrystalBall.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Item.Drop"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'Foleys_CrystalBall_Drop'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Foleys/Foleys_CrystalBall_Drop.0"
+          }
+        }
+      ],
+      "AkSwitchesByGameplayTag": [
+        {
+          "Key": {
+            "TagName": "Sound.Hit.Object"
+          },
+          "Value": {
+            "AkSwitchBySurfaceType": [
+              {
+                "Key": "SurfaceType12",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_BareHands_Wood'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_BareHands_Wood.0"
+                }
+              },
+              {
+                "Key": "SurfaceType2",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_BareHands_Default'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_BareHands_Default.0"
+                }
+              },
+              {
+                "Key": "SurfaceType4",
+                "Value": null
+              },
+              {
+                "Key": "SurfaceType5",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_BareHands_Wood'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_BareHands_Wood.0"
+                }
+              },
+              {
+                "Key": "SurfaceType6",
+                "Value": null
+              },
+              {
+                "Key": "SurfaceType7",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Shield_Buckler'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Shield_Buckler.0"
+                }
+              },
+              {
+                "Key": "SurfaceType8",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Shield_LongSword'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Shield_LongSword.0"
+                }
+              },
+              {
+                "Key": "SurfaceType11",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Shield_Wood'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Shield_Wood.0"
+                }
+              },
+              {
+                "Key": "SurfaceType_Default",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_BareHands_Default'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_BareHands_Default.0"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

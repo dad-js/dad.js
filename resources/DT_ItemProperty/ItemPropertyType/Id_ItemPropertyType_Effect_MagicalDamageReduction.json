@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_MagicalDamageReduction",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 31,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.MagicalDamageReduction"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyMagicalDamageReduction_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyMagicalDamageReduction.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.MagicalReduction"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

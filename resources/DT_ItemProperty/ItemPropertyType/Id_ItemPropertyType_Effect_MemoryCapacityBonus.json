@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_MemoryCapacityBonus",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 36,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.MemoryCapacityBonus"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyMemoryCapacityBonus_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyMemoryCapacityBonus.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.MemoryCapacityMod"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

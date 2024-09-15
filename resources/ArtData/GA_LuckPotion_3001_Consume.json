@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_LuckPotion_3001_Consume_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PotionConsumeBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_PotionConsumeBase.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PotionConsumeBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_PotionConsumeBase.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "DrinkPotionActor_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DrinkPotionActor_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/BP_DrinkPotionActor.1"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_LuckPotion_3001_Consume_C'Default__GA_LuckPotion_3001_Consume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_LuckPotion_3001_Consume.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_LuckPotion_3001_Consume_C",
+    "Name": "Default__GA_LuckPotion_3001_Consume_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_LuckPotion_3001_Consume.GA_LuckPotion_3001_Consume_C'",
+    "Template": {
+      "ObjectName": "GA_PotionConsumeBase_C'Default__GA_PotionConsumeBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_PotionConsumeBase.7"
+    },
+    "Properties": {
+      "RandomEffectDataArray": [
+        {
+          "EffectDataAsset": {
+            "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_Luck02'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_Luck02.0"
+          },
+          "RandomRate": 4500
+        },
+        {
+          "EffectDataAsset": {
+            "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_Luck05'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_Luck05.0"
+          },
+          "RandomRate": 3500
+        },
+        {
+          "EffectDataAsset": {
+            "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_Luck08'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_Luck08.0"
+          },
+          "RandomRate": 2000
+        }
+      ]
+    }
+  }
+]

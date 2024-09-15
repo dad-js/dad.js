@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_Famine_InvertedSceneColour",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "BlendMode": "EBlendMode::BLEND_Translucent",
+      "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "bUsedWithNiagaraSprites": true,
+      "bUsedWithNiagaraMeshParticles": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "D622972A-A0FD55B4-714BA09C-9A6688CC",
+      "bIncludedInBaseGame": true
+    },
+    "ReferencedTextures": [
+      {
+        "ObjectName": "Texture2D'Noise01'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Shared_Resource/Texture/Noise/Noise01.0"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataAccessory",
+    "Name": "MonkeyPendant",
+    "Class": "UScriptClass'ArtDataAccessory'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_MonkeyPendant'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Necklace/Icon/Item_Icon_MonkeyPendant.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_MonkeyPendant_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Necklace/SM_MonkeyPendant_Holder.2"
+      }
+    }
+  }
+]

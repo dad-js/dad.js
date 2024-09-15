@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "HazeBladeMinorArtifactEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_HazeBladeHitDrunken'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_HazeBladeHitDrunken.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_HazeBladeMinorArtifactEffect_Desc_HazeBladeMinorArtifactEffectDesc",
+        "SourceString": "Text_A dagger that gives people the drunk effect for <Duration>[0] seconds</> if you hit them",
+        "LocalizedString": "Hitting a target inflicts a <Duration>[0] seconds</> drunken state."
+      }
+    }
+  }
+]

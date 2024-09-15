@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "LuckPotionConsume3001_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_Luck02'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_Luck02.0"
+        },
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_Luck08'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_Luck08.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_LuckPotionConsume_Desc_LuckPotionConsumeDesc",
+        "SourceString": "Text_Receive a luck value between <Luck>[0] #</> and <Luck>[1] #</>.",
+        "LocalizedString": "Gain between <Luck>[0] to [1] _</>."
+      }
+    }
+  }
+]

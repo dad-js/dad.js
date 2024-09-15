@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "WizardStaff_5001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_WizardStaff_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/Animations/AM_WizardStaff_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_WizardStaff_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/Animations/AM_WizardStaff_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_WizardStaff_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/Animations/AS_WizardStaff_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_WizardStaff_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/Animations/AS_WizardStaff_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_WizardStaff_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/Animations/BS_WizardStaff_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_back_left_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_WizardStaff_5001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/Icon/Item_Icon_WizardStaff_5001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_WizardStaff'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/SK_WizardStaff.1"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "ML_WizardStaff",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_WizardStaff_5001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/Materials/MI_WizardStaff_5001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_WizardStaff_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/SM_WizardStaff_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Mango",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_WizardStaff_5001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/Materials/MI_WizardStaff_5001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

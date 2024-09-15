@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "DescData",
+    "Name": "SoulHeart_Desc",
+    "Class": "UScriptClass'DescData'",
+    "Properties": {
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_SoulHeart_Desc_SoulHeartDesc",
+        "SourceString": "Text_DataAsset_SoulHeart_Desc_SoulHeartDesc",
+        "LocalizedString": "Resurrect an ally by returning their Soul Heart to a Sacrificial Altar."
+      }
+    }
+  }
+]

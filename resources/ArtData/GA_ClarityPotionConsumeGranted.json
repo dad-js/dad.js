@@ -1,0 +1,1476 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_ClarityPotionConsumeGranted_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ActivateOnGranted_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ActivateOnGranted.0"
+    },
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ActivateOnGranted_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ActivateOnGranted.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:OnFinished_58D70B5D48ED8FE1457C9690A8734640'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.3"
+      },
+      {
+        "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:OnPerformAction_58D70B5D48ED8FE1457C9690A8734640'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.4"
+      },
+      {
+        "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:K2_ActivateAbility'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.2"
+      },
+      {
+        "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SpellRechargeConst",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 24,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PrimaryAssetId'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "RechargeIntervalConst",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 24,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PrimaryAssetId'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "EffectActivationTags",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 32,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_ClarityPotionConsumeGranted": {
+        "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+      },
+      "K2_ActivateAbility": {
+        "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:K2_ActivateAbility'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.2"
+      },
+      "OnPerformAction_58D70B5D48ED8FE1457C9690A8734640": {
+        "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:OnPerformAction_58D70B5D48ED8FE1457C9690A8734640'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.4"
+      },
+      "OnFinished_58D70B5D48ED8FE1457C9690A8734640": {
+        "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:OnFinished_58D70B5D48ED8FE1457C9690A8734640'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.3"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_ClarityPotionConsumeGranted_C'Default__GA_ClarityPotionConsumeGranted_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.5"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_ClarityPotionConsumeGranted",
+    "Outer": "GA_ClarityPotionConsumeGranted_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_CustomEvent_ActionNumber_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'RepeatedActionDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_CustomEvent_ActionNumber",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'RepeatedActionDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsBase_Interface",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'BaseInterface'",
+          "ObjectPath": "/Script/DungeonCrawlerMessageRuntime"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetConstantInt32_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_MsgSpellRecharge",
+        "Flags": "RF_Public",
+        "ElementSize": 40,
+        "Struct": {
+          "ObjectName": "ScriptStruct'MsgSpellRecharge'",
+          "ObjectPath": "/Script/DungeonCrawler"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetConstantFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_RepeatAction_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AbilityTask_Repeat'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAbilitySystemComponentFromActorInfo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AbilitySystemComponent'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 10,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Variable",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "K2Node_CustomEvent_ActionNumber_1",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 37,
+        "CodeOffset": 657,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.ExecuteUbergraph_GA_ClarityPotionConsumeGranted[657]"
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 42,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Variable",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "K2Node_CustomEvent_ActionNumber",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 69,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAbilitySystemComponentFromActorInfo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'AbilitySystemComponent'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetAbilitySystemComponentFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 89,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InterfaceContext",
+            "InterfaceValue": {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetAbilitySystemComponentFromActorInfo_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyFlags": "InstancedReference",
+                  "PropertyClass": {
+                    "ObjectName": "Class'AbilitySystemComponent'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          },
+          "Offset": 23,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "HasAnyMatchingGameplayTags",
+            "Parameters": [
+              {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "BlueprintGeneratedClass'GA_ClarityPotionConsumeGranted_C'",
+                    "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.0"
+                  },
+                  "Property": {
+                    "Type": "StructProperty",
+                    "Name": "EffectActivationTags",
+                    "Flags": "RF_Public | RF_LoadCompleted",
+                    "ElementSize": 32,
+                    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                    "Struct": {
+                      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                      "ObjectPath": "/Script/GameplayTags"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 145,
+        "CodeOffset": 657,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.ExecuteUbergraph_GA_ClarityPotionConsumeGranted[657]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 159,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetAvatarActorFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 179,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "InterfaceProperty",
+              "Name": "K2Node_DynamicCast_AsBase_Interface",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "InterfaceClass": {
+                "ObjectName": "Class'BaseInterface'",
+                "ObjectPath": "/Script/DungeonCrawlerMessageRuntime"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_ObjToInterfaceCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'BaseInterface'",
+            "ObjectPath": "/Script/DungeonCrawlerMessageRuntime"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 215,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_InterfaceToBool",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+              },
+              "Property": {
+                "Type": "InterfaceProperty",
+                "Name": "K2Node_DynamicCast_AsBase_Interface",
+                "Flags": "RF_Public",
+                "ElementSize": 16,
+                "InterfaceClass": {
+                  "ObjectName": "Class'BaseInterface'",
+                  "ObjectPath": "/Script/DungeonCrawlerMessageRuntime"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 244,
+        "CodeOffset": 657,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.ExecuteUbergraph_GA_ClarityPotionConsumeGranted[657]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 258,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_GetConstantInt32_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'DCDataBlueprintLibrary:GetConstantInt32'",
+            "ObjectPath": "/Script/DungeonCrawler"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GA_ClarityPotionConsumeGranted_C'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.0"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "SpellRechargeConst",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 24,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'PrimaryAssetId'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 295,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "RechargeAmount"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "ScriptStruct'MsgSpellRecharge'",
+              "ObjectPath": "/Script/DungeonCrawler"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_MsgSpellRecharge",
+                "Flags": "RF_Public",
+                "ElementSize": 40,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'MsgSpellRecharge'",
+                  "ObjectPath": "/Script/DungeonCrawler"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_GetConstantInt32_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 331,
+        "ObjectExpression": {
+          "Inst": "EX_InterfaceContext",
+          "InterfaceValue": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+              },
+              "Property": {
+                "Type": "InterfaceProperty",
+                "Name": "K2Node_DynamicCast_AsBase_Interface",
+                "Flags": "RF_Public",
+                "ElementSize": 16,
+                "InterfaceClass": {
+                  "ObjectName": "Class'BaseInterface'",
+                  "ObjectPath": "/Script/DungeonCrawlerMessageRuntime"
+                }
+              }
+            }
+          }
+        },
+        "Offset": 23,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "BroadcastMsgBlueprint",
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "K2Node_MakeStruct_MsgSpellRecharge",
+                  "Flags": "RF_Public",
+                  "ElementSize": 40,
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'MsgSpellRecharge'",
+                    "ObjectPath": "/Script/DungeonCrawler"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 377,
+        "CodeOffset": 657,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.ExecuteUbergraph_GA_ClarityPotionConsumeGranted[657]"
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 382,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_GetConstantFloat_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'DCDataBlueprintLibrary:GetConstantFloat'",
+            "ObjectPath": "/Script/DungeonCrawler"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GA_ClarityPotionConsumeGranted_C'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.0"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "RechargeIntervalConst",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 24,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'PrimaryAssetId'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 419,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_RepeatAction_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_Repeat'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'AbilityTask_Repeat:RepeatAction'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+                },
+                "Property": {
+                  "Type": "FloatProperty",
+                  "Name": "CallFunc_GetConstantFloat_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 9999
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 454,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_RepeatAction_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'AbilityTask_Repeat'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 483,
+        "CodeOffset": 657,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.ExecuteUbergraph_GA_ClarityPotionConsumeGranted[657]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_BindDelegate",
+        "StatementIndex": 497,
+        "FunctionName": "OnPerformAction_58D70B5D48ED8FE1457C9690A8734640",
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "DelegateFunction'RepeatedActionDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "ObjectTerm": {
+          "Inst": "EX_Self"
+        }
+      },
+      {
+        "Inst": "EX_AddMulticastDelegate",
+        "StatementIndex": 520,
+        "MulticastDelegate": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_RepeatAction_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'AbilityTask_Repeat'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "Path": [
+              "OnPerformAction"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'AbilityTask_Repeat'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "OnPerformAction"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'AbilityTask_Repeat'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "DelegateFunction'RepeatedActionDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_BindDelegate",
+        "StatementIndex": 561,
+        "FunctionName": "OnFinished_58D70B5D48ED8FE1457C9690A8734640",
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "DelegateFunction'RepeatedActionDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "ObjectTerm": {
+          "Inst": "EX_Self"
+        }
+      },
+      {
+        "Inst": "EX_AddMulticastDelegate",
+        "StatementIndex": 584,
+        "MulticastDelegate": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_RepeatAction_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'AbilityTask_Repeat'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "Path": [
+              "OnFinished"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'AbilityTask_Repeat'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "OnFinished"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'AbilityTask_Repeat'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "DelegateFunction'RepeatedActionDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 625,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_RepeatAction_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_Repeat'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Offset": 10,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayTask:ReadyForActivation'",
+            "ObjectPath": "/Script/GameplayTasks"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 657,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 659
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ActivateAbility",
+    "Outer": "GA_ClarityPotionConsumeGranted_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'GameplayAbility:K2_ActivateAbility'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 382
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.ExecuteUbergraph_GA_ClarityPotionConsumeGranted[382]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFinished_58D70B5D48ED8FE1457C9690A8734640",
+    "Outer": "GA_ClarityPotionConsumeGranted_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "ActionNumber",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+          },
+          "Property": {
+            "Type": "IntProperty",
+            "Name": "K2Node_CustomEvent_ActionNumber_1",
+            "Flags": "RF_Public",
+            "ElementSize": 4
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:OnFinished_58D70B5D48ED8FE1457C9690A8734640'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.3"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "ActionNumber",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 10
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.ExecuteUbergraph_GA_ClarityPotionConsumeGranted[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnPerformAction_58D70B5D48ED8FE1457C9690A8734640",
+    "Outer": "GA_ClarityPotionConsumeGranted_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "ActionNumber",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+          },
+          "Property": {
+            "Type": "IntProperty",
+            "Name": "K2Node_CustomEvent_ActionNumber",
+            "Flags": "RF_Public",
+            "ElementSize": 4
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:OnPerformAction_58D70B5D48ED8FE1457C9690A8734640'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.4"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "ActionNumber",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'GA_ClarityPotionConsumeGranted_C:ExecuteUbergraph_GA_ClarityPotionConsumeGranted'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 42
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.ExecuteUbergraph_GA_ClarityPotionConsumeGranted[42]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GA_ClarityPotionConsumeGranted_C",
+    "Name": "Default__GA_ClarityPotionConsumeGranted_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_ClarityPotionConsumeGranted.GA_ClarityPotionConsumeGranted_C'",
+    "Template": {
+      "ObjectName": "GA_ActivateOnGranted_C'Default__GA_ActivateOnGranted_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ActivateOnGranted.1"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "SpellRechargeConst": {
+        "PrimaryAssetType": {
+          "Name": "ConstantData"
+        },
+        "PrimaryAssetName": "Id_Constant_SpellRechargeClarityPotionAmount"
+      },
+      "RechargeIntervalConst": {
+        "PrimaryAssetType": {
+          "Name": "ConstantData"
+        },
+        "PrimaryAssetName": "Id_Constant_ClarityPotionSpellRechargeInterval"
+      },
+      "EffectActivationTags": [
+        "State.Character.Act.Rest",
+        "State.ActorStatus.Buff.Meditation"
+      ]
+    }
+  }
+]

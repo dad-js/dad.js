@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "TanglethreadTrousersMinorArtifactEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_TanglethreadTrousers_Debuff'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_TanglethreadTrousers_Debuff.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_TanglethreadTrousersMinorArtifactEffect_Desc_TanglethreadTrousersMinorArtifactEffectDesc",
+        "SourceString": "Text_When the target attacks you, reducing their <MoveSpeedMod># by [0]%</> for <Duration>[0] seconds</>.",
+        "LocalizedString": "Reduces an enemy's <MoveSpeedMod>_ by [0]%</> for <Duration>[0] seconds</> when attacked."
+      }
+    }
+  }
+]

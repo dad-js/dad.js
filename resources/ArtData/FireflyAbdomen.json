@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "FireflyAbdomen",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FireflysAbdomen'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/FireflyAbdomen/Icon/Item_Icon_FireflysAbdomen.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_FireflysAbdomen_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/FireflyAbdomen/SM_FireflysAbdomen_Holder.2"
+      }
+    }
+  }
+]

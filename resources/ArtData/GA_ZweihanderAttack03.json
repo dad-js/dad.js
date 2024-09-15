@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_ZweihanderAttack03_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerCharMeleeAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharMeleeAttack.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerCharMeleeAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharMeleeAttack.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_ZweihanderAttack03_C'Default__GA_ZweihanderAttack03_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Zweihander/GameplayAbility/GA_ZweihanderAttack03.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_ZweihanderAttack03_C",
+    "Name": "Default__GA_ZweihanderAttack03_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Zweihander/GameplayAbility/GA_ZweihanderAttack03.GA_ZweihanderAttack03_C'",
+    "Template": {
+      "ObjectName": "GA_PlayerCharMeleeAttack_C'Default__GA_PlayerCharMeleeAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharMeleeAttack.1"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_Zweihander_Stand_Attack_03'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Zweihander/Animations/AM_Zweihander_Stand_Attack_03.0"
+      },
+      "MeleeAttackData": {
+        "ObjectName": "DesignDataAssetMeleeAttack'Id_MeleeAttack_GA_ZweihanderAttack03'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/DT_MeleeAttack/MeleeAttack/Id_MeleeAttack_GA_ZweihanderAttack03.0"
+      },
+      "OnPinPoint": true,
+      "RotateTime": 2.0,
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Ability.Player.Act.Attack.PrimaryAttack.Press.Attack03"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

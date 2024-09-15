@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "SoundData",
+    "Name": "TailOfCentaur_Sound",
+    "Class": "UScriptClass'SoundData'",
+    "Properties": {
+      "AkEventByGameplayTag": [
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Drag"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drag_Bandage'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drag_Bandage.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Drop"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drop_Bandage'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drop_Bandage.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Equip"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drop_Bandage'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drop_Bandage.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Item.PickUp"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'Foleys_Bandage_Pickup'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Foleys/Foleys_Bandage_Pickup.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Item.Drop"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'Foleys_Bandage_Drop'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Foleys/Foleys_Bandage_Drop.0"
+          }
+        }
+      ]
+    }
+  }
+]

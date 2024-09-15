@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_LongswordAttack01_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerCharMeleeAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharMeleeAttack.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerCharMeleeAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharMeleeAttack.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_LongswordAttack01_C'Default__GA_LongswordAttack01_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longsword/GameplayAbility/GA_LongswordAttack01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_LongswordAttack01_C",
+    "Name": "Default__GA_LongswordAttack01_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longsword/GameplayAbility/GA_LongswordAttack01.GA_LongswordAttack01_C'",
+    "Template": {
+      "ObjectName": "GA_PlayerCharMeleeAttack_C'Default__GA_PlayerCharMeleeAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerCharMeleeAttack.1"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_Longsword_Stand_Attack_01'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longsword/Animations/AM_Longsword_Stand_Attack_01.0"
+      },
+      "MeleeAttackData": {
+        "ObjectName": "DesignDataAssetMeleeAttack'Id_MeleeAttack_GA_LongSwordAttack01'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/DT_MeleeAttack/MeleeAttack/Id_MeleeAttack_GA_LongSwordAttack01.0"
+      },
+      "ChangeCrossHairWhenEventTag": {
+        "TagName": "Ability.Player.Act.Attack.PrimaryAttack.Press.Attack02"
+      },
+      "OnPinPoint": true,
+      "RotateTime": 1.0,
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Ability.Player.Act.Attack.PrimaryAttack.Press.Attack01"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

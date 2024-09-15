@@ -1,0 +1,209 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_IntenseFocus_Trail",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Fighter_AdrenalineRush_Mesh_Swirl'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Skill/ActiveSkill/Taunt/MI_Fighter_AdrenalineRush_Mesh_Swirl.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "SphereMask Contrast",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 3.0,
+          "ExpressionGUID": "DCCD1A25-43370264-C148C9B0-F636C005"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "T1 Tile X_1",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "5F84B7A6-4AE5B0D1-B0CE638C-BB08974A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "T1 Tile Y_1",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "3530454F-45234A66-F303D690-5C203D05"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "T1 Panning Speed X",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.2,
+          "ExpressionGUID": "85D4A245-4D05624A-96DBD8B9-195C7663"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "T1 Panning Speed Y",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.2,
+          "ExpressionGUID": "03615CE5-4554F064-1A1A4888-A1EFDCC2"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "T2 Tile X_1",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "17BF7AC3-47DAC281-81203E9A-3F0CACAC"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "T2 Tile Y",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 5.0,
+          "ExpressionGUID": "DD48E161-46A5941D-1384F49A-B6CB9AA8"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "T2 Tile Y_1",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "8D5FFBD5-4C667EBC-AA48C6AA-9038D979"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Primary Color",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.247396,
+            "G": 0.244792,
+            "B": 0.25,
+            "A": 1.016064,
+            "Hex": "888889"
+          },
+          "ExpressionGUID": "D9ACF704-4FACE748-35347FA8-700566A5"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Secondary Color",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.088976,
+            "G": 0.094379,
+            "B": 0.104167,
+            "A": 1.0,
+            "Hex": "54565B"
+          },
+          "ExpressionGUID": "6ECC919A-4EAC6C86-2AD975A9-2517A6F8"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "T1 Texture",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'Noise02'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Shared_Resource/Texture/Noise/Noise02.0"
+          },
+          "ExpressionGUID": "98D8E745-47ECB40B-EB13CD9C-567038F9"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "T2 Texture",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'Noise01'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Shared_Resource/Texture/Noise/Noise01.0"
+          },
+          "ExpressionGUID": "2FDDA752-43E03BD6-51C78F8E-05FB3EB5"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Additive",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Sine X Cut",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "5C15A931-48BED79A-1E086EB5-FF7E97FA"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Sine Y Cut",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "A885CC69-4CFBC4A8-6979B586-914A5BFA"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "SphereMask Enable",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "58CA96A3-4491862F-FAAC63BD-15432D2B"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "T2 Panning",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "B1E2D80E-4EC5CA27-7B3BFB94-CE1AE59B"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true
+    },
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

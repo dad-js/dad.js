@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "WizardStaffUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_WizardStaffUnique_Illusory'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_WizardStaffUnique_Illusory.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_WizardStaffUniqueEffect_Desc_WizardStaffUniqueEffectDesc",
+        "SourceString": "Text_A successful spell cast makes the user invisible for <Duration>[0] seconds</> and leaves the user's illusion temporarily.",
+        "LocalizedString": "A successful spell cast makes the user invisible for <Duration>[0] seconds</> and leaves the user's illusion temporarily."
+      }
+    }
+  }
+]

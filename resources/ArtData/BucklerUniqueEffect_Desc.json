@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "BucklerUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ItemEffect_BucklerUnique_PassiveEffect'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemEffect/Id_ItemEffect_BucklerUnique_PassiveEffect.0"
+        },
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_BucklerUnique_Delirium'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_BucklerUnique_Delirium.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_BucklerUniqueEffect_Desc_BucklerUniqueEffectDesc",
+        "SourceString": "Text_When held in hand, maximum health is reduced by <MaxHealthMod>[0]%</>, but regenerates <Exec.MagicalHealBase>[1]</> health per second.",
+        "LocalizedString": "When held in hand, maximum health is reduced by <MaxHealthMod>[0]%</>, but regenerates <Exec.MagicalHealBase>[1]</> health per second."
+      }
+    }
+  }
+]

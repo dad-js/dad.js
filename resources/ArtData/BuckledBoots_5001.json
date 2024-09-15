@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "BuckledBoots_5001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_BuckledBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/BuckledBoots/Icon/Item_Icon_BuckledBoots.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_BuckledBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/BuckledBoots/SK_BuckledBoots.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_BuckledBoots_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/BuckledBoots/SM_BuckledBoots_Holder.2"
+      }
+    }
+  }
+]

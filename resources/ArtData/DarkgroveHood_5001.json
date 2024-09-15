@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "DarkgroveHood_5001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 0.7
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_DarkgroveHood'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/DarkgroveHood/Icon/Item_Icon_DarkgroveHood.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_DarkgroveHood'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/DarkgroveHood/SK_DarkgroveHood.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_DarkgroveHood_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/DarkgroveHood/SM_DarkgroveHood_Holder.2"
+      }
+    }
+  }
+]

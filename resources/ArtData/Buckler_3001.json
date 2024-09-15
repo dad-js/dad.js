@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "Buckler_3001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_Buckler_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Buckler/Animations/AM_Buckler_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_Buckler_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Buckler/Animations/AM_Buckler_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_Buckler_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Buckler/Animations/AS_Buckler_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_Buckler_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Buckler/Animations/AS_Buckler_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_Buckler_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Buckler/Animations/BS_Buckler_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_back_center_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Buckler_2001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Buckler/Icon/Item_Icon_Buckler_2001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Buckler'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Buckler/SK_Buckler.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_Buckler",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Buckler_2001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Buckler/Materials/MI_Buckler_2001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Buckler_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Buckler/SM_Buckler_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_Buckler",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Buckler_2001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Buckler/Materials/MI_Buckler_2001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,1115 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_FluteRiposte_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerGuardBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerGuardBase.0"
+    },
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerGuardBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerGuardBase.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_FluteRiposte_C:AbilityActivated'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.1"
+      },
+      {
+        "ObjectName": "Function'GA_FluteRiposte_C:K2_OnEndAbility'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.3"
+      },
+      {
+        "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_FluteRiposte": {
+        "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+      },
+      "K2_OnEndAbility": {
+        "ObjectName": "Function'GA_FluteRiposte_C:K2_OnEndAbility'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.3"
+      },
+      "AbilityActivated": {
+        "ObjectName": "Function'GA_FluteRiposte_C:AbilityActivated'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.1"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_FluteRiposte_C'Default__GA_FluteRiposte_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AbilityActivated",
+    "Outer": "GA_FluteRiposte_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'GA_PlayerGuardBase_C:AbilityActivated'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerGuardBase.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'GA_PlayerGuardBase_C:AbilityActivated'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerGuardBase.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TriggerEventData",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+          },
+          "Property": {
+            "Type": "StructProperty",
+            "Name": "K2Node_Event_TriggerEventData",
+            "Flags": "RF_Public",
+            "ElementSize": 184,
+            "PropertyFlags": "ConstParm",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayEventData'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_FluteRiposte_C:AbilityActivated'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.1"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "TriggerEventData",
+              "Flags": "RF_Public",
+              "ElementSize": 184,
+              "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 294
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.ExecuteUbergraph_GA_FluteRiposte[294]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_FluteRiposte",
+    "Outer": "GA_FluteRiposte_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentSourceObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_As__",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_TriggerEventData",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bWasCancelled",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentSourceObject_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_As___1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 10,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetCurrentSourceObject_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Object'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetCurrentSourceObject'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 30,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_As__",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetCurrentSourceObject_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Object'",
+                  "ObjectPath": "/Script/CoreUObject"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 66,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_As__",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 95,
+        "CodeOffset": 621,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.ExecuteUbergraph_GA_FluteRiposte[621]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 109,
+        "Function": {
+          "ObjectName": "Function'AbilitySystemBlueprintLibrary:SendGameplayEventToActor'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_As__",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayTag'",
+              "ObjectPath": "/Script/GameplayTags"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_NameConst",
+                "Value": "Ability.Item.AdditionalDeactivate"
+              }
+            ]
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayEventData'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTag'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_NameConst",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayEffectContextHandle'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                },
+                "Properties": []
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_ArrayConst",
+                    "InnerProperty": {
+                      "Path": [
+                        "GameplayTags",
+                        "GameplayTags"
+                      ],
+                      "ResolvedOwner": {
+                        "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                        "ObjectPath": "/Script/GameplayTags"
+                      }
+                    },
+                    "Values": []
+                  }
+                ]
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_ArrayConst",
+                    "InnerProperty": {
+                      "Path": [
+                        "GameplayTags",
+                        "GameplayTags"
+                      ],
+                      "ResolvedOwner": {
+                        "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                        "ObjectPath": "/Script/GameplayTags"
+                      }
+                    },
+                    "Values": []
+                  }
+                ]
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.0
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayAbilityTargetDataHandle'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                },
+                "Properties": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 289,
+        "CodeOffset": 621,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.ExecuteUbergraph_GA_FluteRiposte[621]"
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 294,
+        "Function": {
+          "ObjectName": "Function'GA_PlayerGuardBase_C:AbilityActivated'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerGuardBase.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_Event_TriggerEventData",
+                "Flags": "RF_Public",
+                "ElementSize": 184,
+                "PropertyFlags": "ConstParm",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayEventData'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 313,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetCurrentSourceObject_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Object'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetCurrentSourceObject'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 333,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_As___1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetCurrentSourceObject_ReturnValue_1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Object'",
+                  "ObjectPath": "/Script/CoreUObject"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 369,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_As___1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 398,
+        "CodeOffset": 621,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.ExecuteUbergraph_GA_FluteRiposte[621]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 412,
+        "Function": {
+          "ObjectName": "Function'AbilitySystemBlueprintLibrary:SendGameplayEventToActor'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_As___1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayTag'",
+              "ObjectPath": "/Script/GameplayTags"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_NameConst",
+                "Value": "Ability.Item.AdditionalActivate"
+              }
+            ]
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayEventData'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTag'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_NameConst",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayEffectContextHandle'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                },
+                "Properties": []
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_ArrayConst",
+                    "InnerProperty": {
+                      "Path": [
+                        "GameplayTags",
+                        "GameplayTags"
+                      ],
+                      "ResolvedOwner": {
+                        "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                        "ObjectPath": "/Script/GameplayTags"
+                      }
+                    },
+                    "Values": []
+                  }
+                ]
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_ArrayConst",
+                    "InnerProperty": {
+                      "Path": [
+                        "GameplayTags",
+                        "GameplayTags"
+                      ],
+                      "ResolvedOwner": {
+                        "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                        "ObjectPath": "/Script/GameplayTags"
+                      }
+                    },
+                    "Values": []
+                  }
+                ]
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.0
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayAbilityTargetDataHandle'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                },
+                "Properties": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 592,
+        "CodeOffset": 621,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.ExecuteUbergraph_GA_FluteRiposte[621]"
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 597,
+        "Function": {
+          "ObjectName": "Function'GameplayAbility:K2_OnEndAbility'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+              },
+              "Property": {
+                "Type": "BoolProperty",
+                "Name": "K2Node_Event_bWasCancelled",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 616,
+        "CodeOffset": 10,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.ExecuteUbergraph_GA_FluteRiposte[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 621,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 623
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_OnEndAbility",
+    "Outer": "GA_FluteRiposte_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'GameplayAbility:K2_OnEndAbility'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bWasCancelled",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+          },
+          "Property": {
+            "Type": "BoolProperty",
+            "Name": "K2Node_Event_bWasCancelled",
+            "Flags": "RF_Public",
+            "ElementSize": 1,
+            "FieldSize": 1,
+            "ByteOffset": 0,
+            "ByteMask": 1,
+            "FieldMask": 255,
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_FluteRiposte_C:K2_OnEndAbility'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.3"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "bWasCancelled",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'GA_FluteRiposte_C:ExecuteUbergraph_GA_FluteRiposte'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 597
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.ExecuteUbergraph_GA_FluteRiposte[597]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GA_FluteRiposte_C",
+    "Name": "Default__GA_FluteRiposte_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteRiposte.GA_FluteRiposte_C'",
+    "Template": {
+      "ObjectName": "GA_PlayerGuardBase_C'Default__GA_PlayerGuardBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerGuardBase.6"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "GuardInputAction": {
+        "ObjectName": "InputAction'IA_PrimaryAttack'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Input/Action/Character/IA_PrimaryAttack.0"
+      },
+      "GuardLocalStateTag": {
+        "TagName": "LocalState.Character.Input.PrimaryAttack"
+      },
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_Flute_Guard'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/Animations/AM_Flute_Guard.0"
+      },
+      "AbilityTags": [
+        "Type.Ability.Act",
+        "Ability.Player.Act.Attack.PrimaryAttack.Press.Attack01"
+      ],
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Ability.Player.Act.Attack.PrimaryAttack.Press.Attack01"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

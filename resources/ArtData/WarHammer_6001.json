@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "WarHammer_6001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_WarHammer_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WarHammer/Animations/AM_WarHammer_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_WarHammer_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WarHammer/Animations/AM_WarHammer_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_WarHammer_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WarHammer/Animations/AS_WarHammer_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_WarHammer_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WarHammer/Animations/AS_WarHammer_Stand_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_WarHammer_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WarHammer/Animations/BS_WarHammer_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_thigh_l_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_WarHammer_6001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WarHammer/Icon/Item_Icon_WarHammer_6001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_WarHammer'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WarHammer/SK_WarHammer.1"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "WarHammer",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Warhammer_6001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WarHammer/Materials/MI_Warhammer_6001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_WarHammer_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WarHammer/SM_WarHammer_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "WarHammer",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Warhammer_6001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WarHammer/Materials/MI_Warhammer_6001.0"
+          }
+        }
+      ]
+    }
+  }
+]

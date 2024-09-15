@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_Spangenhelm_3001",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.Spangenhelm"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_Spangenhelm_1001"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesingData_Item_Item_Spangenhelm_3001",
+          "SourceString": "Text_DesingData_Item_Item_Spangenhelm_3001",
+          "LocalizedString": "Spangenhelm"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_Spangenhelm_0001",
+          "SourceString": "Text_DesignData_Item_Flavor_Spangenhelm_0001",
+          "LocalizedString": "Features a distinctive construction of overlapping metal plates for enhanced protection."
+        },
+        "ItemType": "EItemType::Armor",
+        "SlotType": {
+          "TagName": "Type.Item.Slot.Head"
+        },
+        "ArmorType": {
+          "TagName": "Type.Item.Armor.Plate"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Uncommon"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "Spangenhelm_3001"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "Spangenhelm_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 2,
+        "InventoryHeight": 2,
+        "WearingDelayTime": 1.5,
+        "PrimaryProperty": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemProperty"
+          },
+          "PrimaryAssetName": "Id_ItemProperty_Primary_Spangenhelm_3001"
+        },
+        "SecondaryProperties": [
+          {
+            "PrimaryAssetType": {
+              "Name": "DesignDataItemProperty"
+            },
+            "PrimaryAssetName": "Id_ItemProperty_Secondary_Head"
+          }
+        ],
+        "Requirement": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemRequirement"
+          },
+          "PrimaryAssetName": "Id_ItemRequirement_Spangenhelm_3001"
+        },
+        "AdvPoint": 2,
+        "ExpPoint": 3,
+        "GearScore": 12
+      }
+    }
+  }
+]

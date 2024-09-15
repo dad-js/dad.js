@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "CopperIngots",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CopperIngots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ingots/Copper/Icon/Item_Icon_CopperIngots.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CopperIngots_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ingots/Copper/SM_CopperIngots_Holder.2"
+      }
+    }
+  }
+]

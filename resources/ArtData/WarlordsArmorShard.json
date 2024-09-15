@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "WarlordsArmorShard",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_WarlordsArmorShard'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/WarlordsArmorShard/Icon/Item_Icon_WarlordsArmorShard.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_WarlordsArmorShard_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/WarlordsArmorShard/SM_WarlordsArmorShard_Holder.2"
+      }
+    }
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_OldRustyKey",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.OldRustyKey"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_OldRustyKey"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_OldRustyKey",
+          "SourceString": "Text_DesignData_Item_Item_OldRustyKey",
+          "LocalizedString": "Old Rusty Key"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_OldRustyKey",
+          "SourceString": "Text_DesignData_Item_Flavor_OldRustyKey",
+          "LocalizedString": "A rusty old key that doubts whether it will open the door."
+        },
+        "ItemType": "EItemType::Utility",
+        "SlotType": {
+          "TagName": "Type.Item.Slot.Utility"
+        },
+        "HandType": {
+          "TagName": "Type.Item.Hand.TwoHanded"
+        },
+        "UtilityType": {
+          "TagName": "Type.Item.Utility.Consumable"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Unique"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "OldRustyKey"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "Lockpick_Sound"
+        },
+        "ActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_OldRustyKey_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/OldRustyKey/BP_OldRustyKey.1"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 1,
+        "InventoryHeight": 2,
+        "AdvPoint": 10,
+        "ExpPoint": 15,
+        "GearScore": 20
+      }
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "Halberd_7001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_Halberd_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/Animations/AM_Halberd_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_Halberd_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/Animations/AM_Halberd_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_Halberd_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/Animations/AS_Halberd_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_Halberd_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/Animations/AS_Halberd_Stand_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_Halberd_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/Animations/BS_Halberd_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_back_left_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Halberd_7001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/Icon/Item_Icon_Halberd_7001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Halberd_7001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/SK_Halberd_7001.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Halberd_7001_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/SM_Halberd_7001_Holder.2"
+      }
+    }
+  }
+]

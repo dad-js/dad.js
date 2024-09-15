@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "DreadHood_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::UnderHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::HelmetEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_DreadHood'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/DreadHood/Icon/Item_Icon_DreadHood.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_RangerHood'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/RangerHood/SK_RangerHood.1"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_RangerHood",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_DreadHood'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/DreadHood/Materials/MI_DreadHood.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_RangerHood_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/RangerHood/SM_RangerHood_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_RangerHood",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_DreadHood_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/DreadHood/Materials/MI_DreadHood_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

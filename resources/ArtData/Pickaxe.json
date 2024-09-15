@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataUtility",
+    "Name": "Pickaxe",
+    "Class": "UScriptClass'ArtDataUtility'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_PickAxe_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Pickaxe/Animations/AM_PickAxe_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_PickAxe_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Pickaxe/Animations/AM_PickAxe_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_PickAxe_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Pickaxe/Animations/AS_PickAxe_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_PickAxe_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Pickaxe/Animations/AS_PickAxe_Stand_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_PickAxe_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Pickaxe/Animations/BS_PickAxe_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_back_center_06",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Pickaxe_0001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Pickaxe/Icon/Item_Icon_Pickaxe_0001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_PickAxe'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Pickaxe/SK_PickAxe.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Pickaxe_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Pickaxe/SM_Pickaxe_Holder.2"
+      }
+    }
+  }
+]

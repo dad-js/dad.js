@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "LeatherLeggings_RS",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanAnkle",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_LeatherLeggings_RS'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/LeatherLeggings_RS/Icon/Item_Icon_LeatherLeggings_RS.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_LeatherLeggings_RS'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/LeatherLeggings_RS/SK_LeatherLeggings_RS.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_LeatherLeggings_RS_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/LeatherLeggings_RS/SM_LeatherLeggings_RS_Holder.2"
+      }
+    }
+  }
+]

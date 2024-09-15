@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_Agility",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 14,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.Agility"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyAgility_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyAgility.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.AgilityBase"
+        },
+        "SecondaryTooltipPriority": 1
+      }
+    }
+  }
+]

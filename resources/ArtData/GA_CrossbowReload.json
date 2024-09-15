@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_CrossbowReload_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_CrossbowReloadAmmoBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_CrossbowReloadAmmoBase.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_CrossbowReloadAmmoBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_CrossbowReloadAmmoBase.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_CrossbowReload_C'Default__GA_CrossbowReload_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Crossbow/GameplayAbility/GA_CrossbowReload.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_CrossbowReload_C",
+    "Name": "Default__GA_CrossbowReload_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Crossbow/GameplayAbility/GA_CrossbowReload.GA_CrossbowReload_C'",
+    "Template": {
+      "ObjectName": "GA_CrossbowReloadAmmoBase_C'Default__GA_CrossbowReloadAmmoBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_CrossbowReloadAmmoBase.1"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_Crossbow_Stand_Reload'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Crossbow/Animations/AM_Crossbow_Stand_Reload.0"
+      },
+      "MontageToPlayOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_Crossbow_Stand_Reload'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Crossbow/Animations/AM_WP_Crossbow_Stand_Reload.3"
+      }
+    }
+  }
+]

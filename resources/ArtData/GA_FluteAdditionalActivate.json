@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_FluteAdditionalActivate_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemAdditionalActivate_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemAdditionalActivate.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemAdditionalActivate_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemAdditionalActivate.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_FluteAdditionalActivate_C'Default__GA_FluteAdditionalActivate_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteAdditionalActivate.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_FluteAdditionalActivate_C",
+    "Name": "Default__GA_FluteAdditionalActivate_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Flute/GameplayAbility/GA_FluteAdditionalActivate.GA_FluteAdditionalActivate_C'",
+    "Template": {
+      "ObjectName": "GA_ItemAdditionalActivate_C'Default__GA_ItemAdditionalActivate_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemAdditionalActivate.3"
+    }
+  }
+]

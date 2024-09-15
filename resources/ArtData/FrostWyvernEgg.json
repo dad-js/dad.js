@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "FrostWyvernEgg",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostWyvernEgg'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/FrostWyvernEgg/Icon/Item_Icon_FrostWyvernEgg.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_FrostWyvernEgg_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/FrostWyvernEgg/SM_FrostWyvernEgg_Holder.2"
+      }
+    }
+  }
+]

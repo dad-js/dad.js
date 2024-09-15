@@ -1,0 +1,145 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Cinder_Amber",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Gradient_Radial'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Shared_Resource/Texture/Gradient/M_Gradient_Radial.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Camera Fade Distance",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1000.0,
+          "ExpressionGUID": "2DCF603C-4BFFD74C-F783549B-6E7F6C45"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Camera Fade Offset",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "1C0C40CC-4CED2137-AADCEFA1-442EC55C"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Exponent",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 5.0,
+          "ExpressionGUID": "946D2CEF-42A1A037-B0201E8A-D2F9247E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "FadeDistance",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 50.0,
+          "ExpressionGUID": "30FB9EA2-4EFCA7C2-40A397B4-92AA90A0"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Max Depth UV Scale",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "84E24262-4C5B95B8-E85D47A9-61C1572B"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Min Depth UV Scale",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "253F7945-49A5209E-D3F99C89-2705C0AE"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "bOverride_TwoSided": true,
+        "TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Additive",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "DynamicParamInput",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "6A8DFCC7-45A49353-51B32EA5-00614721"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use RadialExponential / SphereMask",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "3E11349B-4F60BAE6-A3E92E9E-6FF24CB4"
+          },
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "UseCameraDepthFade",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "C643A87E-49BCD9B9-FCACEE97-34A8E56F"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseCameraDepthSizeReduction",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "E2DAE494-453E0C74-032BC4A4-E39B1D7A"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseDepthFade",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "488C8D6D-40A4222E-343FFEB3-22B8C452"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true
+    },
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

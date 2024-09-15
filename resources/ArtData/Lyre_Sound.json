@@ -1,0 +1,181 @@
+[
+  {
+    "Type": "SoundData",
+    "Name": "Lyre_Sound",
+    "Class": "UScriptClass'SoundData'",
+    "Properties": {
+      "AkEventByGameplayTag": [
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Drag"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drag_Lyre'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drag_Lyre.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Drop"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drop_Lyre'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drop_Lyre.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Equip"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drop_Lyre'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drop_Lyre.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Item.Drop"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'Foleys_Lyre_Drop'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Foleys/Foleys_Lyre_Drop.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Item.PickUp"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'Foleys_Lute_Pickup'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Foleys/Foleys_Lute_Pickup.0"
+          }
+        }
+      ],
+      "AkSwitchesByGameplayTag": [
+        {
+          "Key": {
+            "TagName": "Sound.Hit.Character"
+          },
+          "Value": {
+            "AkSwitchBySurfaceType": [
+              {
+                "Key": "SurfaceType_Default",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Lute_Player'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Lute_Player.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Hit.Object"
+          },
+          "Value": {
+            "AkSwitchBySurfaceType": [
+              {
+                "Key": "SurfaceType5",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Lute_Default'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Lute_Default.0"
+                }
+              },
+              {
+                "Key": "SurfaceType2",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Lute_Default'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Lute_Default.0"
+                }
+              },
+              {
+                "Key": "SurfaceType8",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Shield_LongSword'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Shield_LongSword.0"
+                }
+              },
+              {
+                "Key": "SurfaceType7",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Shield_Buckler'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Shield_Buckler.0"
+                }
+              },
+              {
+                "Key": "SurfaceType11",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Shield_Wood'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Shield_Wood.0"
+                }
+              },
+              {
+                "Key": "SurfaceType13",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Shield_Pavise'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Shield_Pavise.0"
+                }
+              },
+              {
+                "Key": "SurfaceType12",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Lute_Default'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Lute_Default.0"
+                }
+              },
+              {
+                "Key": "SurfaceType15",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Hammer_Jail'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Hammer_Jail.0"
+                }
+              },
+              {
+                "Key": "SurfaceType9",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Lute_Default'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Lute_Default.0"
+                }
+              },
+              {
+                "Key": "SurfaceType16",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Shield_Metal'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Shield_Metal.0"
+                }
+              },
+              {
+                "Key": "SurfaceType17",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Shield_Spear'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Shield_Spear.0"
+                }
+              },
+              {
+                "Key": "SurfaceType14",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Lute_Default'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Lute_Default.0"
+                }
+              },
+              {
+                "Key": "SurfaceType18",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Lute_Default'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Lute_Default.0"
+                }
+              },
+              {
+                "Key": "SurfaceType_Default",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'Hit-Fx_Lute_Default'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/Hit/Hit-Fx_Lute_Default.0"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

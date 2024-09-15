@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "ProtectionPotionConsume1001_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_ProtectionPotionConsumeShield_1001'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_ProtectionPotionConsumeShield_1001.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_ProtectionPotionConsume1001_Desc_ProtectionPotionConsume1001Desc",
+        "SourceString": "Gain a shield that blocks <MaxPhysicalShield>[0]</> physical damage for <Duration>[0] seconds</>.",
+        "LocalizedString": "Gain a shield that blocks <MaxPhysicalShield>[0]</> physical damage for <Duration>[0] seconds</>."
+      }
+    }
+  }
+]

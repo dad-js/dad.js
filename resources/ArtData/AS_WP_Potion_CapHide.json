@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "AnimSequence",
+    "Name": "AS_WP_Potion_CapHide",
+    "Class": "UScriptClass'AnimSequence'",
+    "Properties": {
+      "BoneCompressionSettings": {
+        "ObjectName": "AnimBoneCompressionSettings'ACLAnimBoneCompressionSettings'",
+        "ObjectPath": "Engine/Plugins/Animation/ACLPlugin/Content/ACLAnimBoneCompressionSettings.1"
+      },
+      "CurveCompressionSettings": {
+        "ObjectName": "AnimCurveCompressionSettings'DefaultAnimCurveCompressionSettings'",
+        "ObjectPath": "Engine/Content/Animation/DefaultAnimCurveCompressionSettings.1"
+      },
+      "VariableFrameStrippingSettings": {
+        "ObjectName": "VariableFrameStrippingSettings'DefaultVariableFrameStrippingSettings'",
+        "ObjectPath": "Engine/Content/Animation/DefaultVariableFrameStrippingSettings.0"
+      },
+      "SequenceLength": 0.033333335,
+      "Skeleton": {
+        "ObjectName": "Skeleton'Basic_Potion_Skeleton'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/Meshes/Basic_Potion_Skeleton.1"
+      }
+    },
+    "SkeletonGuid": "EF7039C4-4D05869F-EE26098A-29052B0F",
+    "CompressedTrackToSkeletonMapTable": [
+      0,
+      1
+    ],
+    "CompressedCurveData": {
+      "FloatCurves": []
+    },
+    "CompressedDataStructure": {
+      "CompressedNumberOfFrames": 2
+    },
+    "BoneCompressionCodec": {
+      "ObjectName": "AnimBoneCompressionCodec_ACL'ACLAnimBoneCompressionSettings:AnimBoneCompressionCodec_ACL_0'",
+      "ObjectPath": "Engine/Plugins/Animation/ACLPlugin/Content/ACLAnimBoneCompressionSettings"
+    },
+    "CurveCompressionCodec": {
+      "ObjectName": "AnimCurveCompressionCodec_CompressedRichCurve'DefaultAnimCurveCompressionSettings:CurveCompressionCodec'",
+      "ObjectPath": "Engine/Content/Animation/DefaultAnimCurveCompressionSettings"
+    },
+    "CompressedRawDataSize": 256
+  }
+]

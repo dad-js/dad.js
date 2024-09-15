@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataUtility",
+    "Name": "MysticalGem",
+    "Class": "UScriptClass'ArtDataUtility'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_MysticalGem_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/MysticalGem/Animations/AM_MysticalGem_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_MysticalGem_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/MysticalGem/Animations/AM_MysticalGem_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_MysticalGem_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/MysticalGem/Animations/AS_MysticalGem_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_MysticalGem_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/MysticalGem/Animations/AS_MysticalGem_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_MysticalGem_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/MysticalGem/Animations/BS_MysticalGem_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_back_pelvis_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_MysticalGem'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/MysticalGem/Icon/Item_Icon_MysticalGem.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_MysticalGem'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/MysticalGem/SK_MysticalGem.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_MysticalGem_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/MysticalGem/SM_MysticalGem_Holder.2"
+      }
+    }
+  }
+]

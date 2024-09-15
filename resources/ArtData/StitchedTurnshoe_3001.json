@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "StitchedTurnshoe_3001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_StitchedTurnshoe'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/StitchedTurnshoe/Icon/Item_Icon_StitchedTurnshoe.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_StitchedTurnshoe'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/StitchedTurnshoe/SK_StitchedTurnshoe.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_StitchedTurnshoe_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/StitchedTurnshoe/SM_StitchedTurnshoe_Holder.2"
+      }
+    }
+  }
+]

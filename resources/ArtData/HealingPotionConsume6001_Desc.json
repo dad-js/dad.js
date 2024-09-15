@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "HealingPotionConsume6001_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_HealingPotionConsumeHeal_6001'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_HealingPotionConsumeHeal_6001.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_HealingPotionConsume6001_Desc_HealingPotionConsume6001Desc",
+        "SourceString": "Recover <Exec.MagicalHealBase>[0] #</> over <Duration>[0] seconds</>.",
+        "LocalizedString": "Recover <Exec.MagicalHealBase>[0] _</> over <Duration>[0] seconds</>."
+      }
+    }
+  }
+]

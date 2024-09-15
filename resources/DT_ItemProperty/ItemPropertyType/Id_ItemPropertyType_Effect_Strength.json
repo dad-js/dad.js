@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_Strength",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 13,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.Strength"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyStrength_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyStrength.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.StrengthBase"
+        },
+        "SecondaryTooltipPriority": 1
+      }
+    }
+  }
+]

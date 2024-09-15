@@ -1,0 +1,782 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_1",
+    "Outer": "ValentineCandies_Holder",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 5.15625,
+                "Y": 1.96875,
+                "Z": -0.121472836
+              },
+              {
+                "X": 5.1875,
+                "Y": -0.8125,
+                "Z": -0.125
+              },
+              {
+                "X": 5.1875,
+                "Y": -0.77832794,
+                "Z": 1.6875
+              },
+              {
+                "X": 5.15625,
+                "Y": 1.96875,
+                "Z": 1.682787
+              },
+              {
+                "X": -4.7650046,
+                "Y": -1.8599954,
+                "Z": 0.9290762
+              },
+              {
+                "X": -4.7650046,
+                "Y": 3.2078176,
+                "Z": 0.89000505
+              },
+              {
+                "X": -4.7650046,
+                "Y": 3.2078176,
+                "Z": 1.8599948
+              },
+              {
+                "X": -4.7650046,
+                "Y": -1.8129869,
+                "Z": 1.8599949
+              },
+              {
+                "X": -3.6603222,
+                "Y": 4.3125,
+                "Z": 0.9375
+              },
+              {
+                "X": 2.7840996,
+                "Y": 4.3409004,
+                "Z": 1.0155925
+              },
+              {
+                "X": 2.7840996,
+                "Y": 4.3409004,
+                "Z": 3.1841033
+              },
+              {
+                "X": -3.4209368,
+                "Y": 4.3209405,
+                "Z": 3.204063
+              },
+              {
+                "X": -3.6533415,
+                "Y": 4.319481,
+                "Z": 2.9716582
+              },
+              {
+                "X": 0.501287,
+                "Y": -5.498713,
+                "Z": 0.37444925
+              },
+              {
+                "X": -1.126287,
+                "Y": -5.498713,
+                "Z": 0.37444928
+              },
+              {
+                "X": -1.126287,
+                "Y": -5.498713,
+                "Z": 3.1090696
+              },
+              {
+                "X": 0.501287,
+                "Y": -5.498713,
+                "Z": 3.1090693
+              },
+              {
+                "X": -1.0960816,
+                "Y": 1.9960852,
+                "Z": 5.5289183
+              },
+              {
+                "X": 1.3460819,
+                "Y": 1.9960854,
+                "Z": 5.5289183
+              },
+              {
+                "X": 1.3460821,
+                "Y": -3.0788639,
+                "Z": 5.5289183
+              },
+              {
+                "X": -1.0960814,
+                "Y": -3.078864,
+                "Z": 5.5289183
+              },
+              {
+                "X": -3.714456,
+                "Y": -2.8635354,
+                "Z": -0.12147263
+              },
+              {
+                "X": -1.6252525,
+                "Y": -4.9997473,
+                "Z": -0.12451633
+              },
+              {
+                "X": 0.99758255,
+                "Y": -5.0024176,
+                "Z": -0.12184638
+              },
+              {
+                "X": 5.191569,
+                "Y": 1.8732567,
+                "Z": -0.12411472
+              },
+              {
+                "X": 3.8609886,
+                "Y": 3.2038355,
+                "Z": -0.12147263
+              },
+              {
+                "X": -3.7144556,
+                "Y": 3.2535276,
+                "Z": -0.12147238
+              },
+              {
+                "X": 3.2195168,
+                "Y": 3.9054832,
+                "Z": 3.6195202
+              },
+              {
+                "X": -4.216875,
+                "Y": 3.7559469,
+                "Z": 0.3809468
+              },
+              {
+                "X": -2.2976043,
+                "Y": -4.280387,
+                "Z": 4.3273954
+              },
+              {
+                "X": 2.1165228,
+                "Y": -3.8493047,
+                "Z": 4.7584777
+              },
+              {
+                "X": 5.191569,
+                "Y": 1.8732555,
+                "Z": 1.6474679
+              },
+              {
+                "X": 4.878528,
+                "Y": 2.186297,
+                "Z": -0.12147241
+              },
+              {
+                "X": 4.878528,
+                "Y": -1.0872989,
+                "Z": -0.12147249
+              },
+              {
+                "X": 5.15625,
+                "Y": -0.809577,
+                "Z": 0.15625003
+              },
+              {
+                "X": 5.15625,
+                "Y": 1.9085748,
+                "Z": 0.15624994
+              },
+              {
+                "X": -3.4920046,
+                "Y": 4.367006,
+                "Z": 3.1329937
+              }
+            ],
+            "IndexData": [
+              5,
+              4,
+              6,
+              11,
+              6,
+              17,
+              23,
+              14,
+              22,
+              14,
+              4,
+              22,
+              4,
+              21,
+              22,
+              30,
+              29,
+              16,
+              29,
+              4,
+              15,
+              4,
+              14,
+              15,
+              14,
+              16,
+              15,
+              16,
+              29,
+              15,
+              14,
+              13,
+              16,
+              13,
+              23,
+              16,
+              14,
+              23,
+              13,
+              27,
+              17,
+              18,
+              17,
+              19,
+              18,
+              19,
+              30,
+              18,
+              17,
+              20,
+              19,
+              20,
+              30,
+              19,
+              17,
+              29,
+              20,
+              29,
+              30,
+              20,
+              17,
+              6,
+              29,
+              6,
+              4,
+              7,
+              4,
+              29,
+              7,
+              29,
+              6,
+              7,
+              27,
+              11,
+              17,
+              24,
+              25,
+              0,
+              27,
+              3,
+              0,
+              3,
+              24,
+              0,
+              31,
+              24,
+              3,
+              25,
+              24,
+              26,
+              22,
+              21,
+              26,
+              21,
+              5,
+              26,
+              5,
+              28,
+              26,
+              5,
+              6,
+              28,
+              6,
+              11,
+              12,
+              27,
+              9,
+              10,
+              9,
+              36,
+              10,
+              36,
+              11,
+              10,
+              11,
+              27,
+              10,
+              9,
+              25,
+              8,
+              25,
+              26,
+              8,
+              26,
+              28,
+              8,
+              28,
+              12,
+              8,
+              12,
+              36,
+              8,
+              36,
+              9,
+              8,
+              12,
+              11,
+              36,
+              28,
+              6,
+              12,
+              27,
+              0,
+              9,
+              0,
+              25,
+              9,
+              21,
+              4,
+              5,
+              24,
+              31,
+              1,
+              31,
+              3,
+              2,
+              3,
+              27,
+              2,
+              27,
+              18,
+              2,
+              18,
+              30,
+              2,
+              30,
+              1,
+              2,
+              1,
+              31,
+              2,
+              30,
+              16,
+              1,
+              16,
+              23,
+              1,
+              23,
+              22,
+              1,
+              22,
+              26,
+              1,
+              26,
+              24,
+              1
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -4.7650046,
+                "Y": -5.498713,
+                "Z": -0.125
+              },
+              "Max": {
+                "X": 5.191569,
+                "Y": 4.367006,
+                "Z": 5.5289183
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "DC_TraceChannel_Hit",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "DC_TraceChannel_Stuck",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "DC_TraceChannel_Player",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "DC_TraceChannel_WorldStaticOnly",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "9E7ADA534DE9858C4F59078F4F5C3E1A",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 159992,
+        "SizeOnDisk": 159992,
+        "OffsetInFile": "0x750"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Outer": "ValentineCandies_Holder",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_Chaos": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1657,
+        "SizeOnDisk": 1657,
+        "OffsetInFile": "0x32"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "ValentineCandies_Holder",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_ValentineCandies_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Currency/ValentineCandies/Materials/MI_ValentineCandies_Holder.0"
+          },
+          "MaterialSlotName": "ValentineCandy01",
+          "ImportedMaterialSlotName": "ValentineCandy01",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 8.730969,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 8.730969,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.20577979,
+          "Y": -0.5789063,
+          "Z": 2.703723
+        },
+        "BoxExtent": {
+          "X": 4.885789,
+          "Y": 4.819807,
+          "Z": 2.7251954
+        },
+        "SphereRadius": 6.147993309173973
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'ValentineCandies_Holder:BodySetup_1'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Currency/ValentineCandies/ValentineCandies_Holder.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'ValentineCandies_Holder:NavCollision_2'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Currency/ValentineCandies/ValentineCandies_Holder.1"
+    },
+    "LightingGuid": "26EE086D-43E24A5B-CDBC8282-EC7F69AE",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 3200,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 2095,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 2096
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 2096,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 2096
+          },
+          "CardRepresentationData": {
+            "Bounds": {
+              "Min": {
+                "X": -5.680009,
+                "Y": -6.398713,
+                "Z": -1.0214725
+              },
+              "Max": {
+                "X": 6.091569,
+                "Y": 5.240901,
+                "Z": 6.4289184
+              },
+              "IsValid": 1
+            },
+            "MaxLodLevel": 0,
+            "bMostlyTwoSided": false,
+            "CardBuildData": [
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": -1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 0.20578003,
+                    "Y": -0.57890606,
+                    "Z": 2.703723
+                  },
+                  "Extent": {
+                    "X": 5.0,
+                    "Y": 3.7251952,
+                    "Z": 10.0
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 0
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 0.20578003,
+                    "Y": -0.57890606,
+                    "Z": 2.703723
+                  },
+                  "Extent": {
+                    "X": 5.0,
+                    "Y": 3.7251952,
+                    "Z": 10.0
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 1
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": -1.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": 0.20578003,
+                    "Y": -0.57890606,
+                    "Z": 2.703723
+                  },
+                  "Extent": {
+                    "X": 5.0,
+                    "Y": 3.7251952,
+                    "Z": 10.0
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 2
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": -1.0
+                  },
+                  "Origin": {
+                    "X": 0.20578003,
+                    "Y": -0.57890606,
+                    "Z": 2.703723
+                  },
+                  "Extent": {
+                    "X": 5.0,
+                    "Y": 5.0,
+                    "Z": 10.0
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 4
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisZ": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "Origin": {
+                    "X": 0.20578003,
+                    "Y": -0.57890606,
+                    "Z": 2.703723
+                  },
+                  "Extent": {
+                    "X": 5.0,
+                    "Y": 5.0,
+                    "Z": 10.0
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 5
+              }
+            ]
+          }
+        }
+      ],
+      "NaniteResources": {
+        "RootData": null,
+        "StreamablePages": {
+          "BulkDataFlags": "BULKDATA_None",
+          "ElementCount": 0,
+          "SizeOnDisk": 0,
+          "OffsetInFile": "0x212C1"
+        },
+        "ImposterAtlas": [],
+        "HierarchyNodes": [],
+        "HierarchyRootOffsets": [],
+        "PageStreamingStates": [],
+        "PageDependencies": [],
+        "NumRootPages": 0,
+        "PositionPrecision": 0,
+        "NormalPrecision": 0,
+        "TangentPrecision": 0,
+        "NumInputTriangles": 0,
+        "NumInputVertices": 0,
+        "NumInputMeshes": 0,
+        "NumInputTexCoords": 0,
+        "NumClusters": 0,
+        "ResourceFlags": 0
+      },
+      "Bounds": {
+        "Origin": {
+          "X": 0.20577979,
+          "Y": -0.5789063,
+          "Z": 2.703723
+        },
+        "BoxExtent": {
+          "X": 4.885789,
+          "Y": 4.819807,
+          "Z": 2.7251954
+        },
+        "SphereRadius": 7.384319
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

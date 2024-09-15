@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataUtility",
+    "Name": "Torch_5001",
+    "Class": "UScriptClass'ArtDataUtility'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_Torch_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Torch/Animations/AM_Torch_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_Torch_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Torch/Animations/AM_Torch_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_Torch_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Torch/Animations/AS_Torch_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_Torch_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Torch/Animations/AS_Torch_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_Torch_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Torch/Animations/BS_Torch_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_back_pelvis_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Torch'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Torch/Icon/Item_Icon_Torch.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Torch'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Torch/SK_Torch.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Torch_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Torch/SM_Torch_Holder.2"
+      }
+    }
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "ClothPants_1001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanAnkle",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_ClothPants_0001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/ClothPants/Icon/Item_Icon_ClothPants_0001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_ClothPants'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/ClothPants/SK_ClothPants.1"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_legs_01_a",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_ClothPants_0001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/ClothPants/Materials/MI_ClothPants_0001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SK_ClothPants_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/ClothPants/SK_ClothPants_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_legs_01_a",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_ClothPants_0001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/ClothPants/Materials/MI_ClothPants_0001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

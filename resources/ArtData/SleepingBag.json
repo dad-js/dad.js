@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataUtility",
+    "Name": "SleepingBag",
+    "Class": "UScriptClass'ArtDataUtility'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_SleepingBag_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SleepingBag/Animations/AM_SleepingBag_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_SleepingBag_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SleepingBag/Animations/AM_SleepingBag_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_SleepingBag_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SleepingBag/Animations/AS_SleepingBag_Crouch_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_SleepingBag_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SleepingBag/Animations/AS_SleepingBag_Stand_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_SleepingBag_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SleepingBag/Animations/BS_SleepingBag_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_back_center_06",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Skin_Rest_SleepingBag'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/UI/Resources/Skin/Skin_Rest_SleepingBag.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_SleepingBag'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SleepingBag/SK_SleepingBag.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_SleepingBag_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SleepingBag/SM_SleepingBag_Holder.2"
+      }
+    }
+  }
+]

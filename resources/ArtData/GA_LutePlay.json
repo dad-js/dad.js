@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_LutePlay_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerMusicPlay_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/MusicalInstrument/GA_PlayerMusicPlay.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerMusicPlay_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/MusicalInstrument/GA_PlayerMusicPlay.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_LutePlay_C'Default__GA_LutePlay_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/GameplayAbility/GA_LutePlay.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_LutePlay_C",
+    "Name": "Default__GA_LutePlay_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/GameplayAbility/GA_LutePlay.GA_LutePlay_C'",
+    "Template": {
+      "ObjectName": "GA_PlayerMusicPlay_C'Default__GA_PlayerMusicPlay_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/MusicalInstrument/GA_PlayerMusicPlay.1"
+    },
+    "Properties": {
+      "MontageToPlayOnPlaying": {
+        "ObjectName": "AnimMontage'AM_Lute_Play'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/Animations/AM_Lute_Play.0"
+      },
+      "MontageToPlayOnPlayingSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_LutePlay'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/Animations/AM_WP_LutePlay.0"
+      },
+      "MontageToPlayOnRandomPlay": {
+        "ObjectName": "AnimMontage'AM_Lute_PlayRandom'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/Animations/AM_Lute_PlayRandom.0"
+      },
+      "MontageToPlayOnRandomPlaySourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_LutePlay'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/Animations/AM_WP_LutePlay.0"
+      }
+    }
+  }
+]

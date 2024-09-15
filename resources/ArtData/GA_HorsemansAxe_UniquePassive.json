@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_HorsemansAxe_UniquePassive_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_UniqueWeaponPassive_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/GA_UniqueWeaponPassive.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_UniqueWeaponPassive_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/GA_UniqueWeaponPassive.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_HorsemansAxe_UniquePassive_C'Default__GA_HorsemansAxe_UniquePassive_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/HorsemansAxe/GameplayAbility/GA_HorsemansAxe_UniquePassive.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_HorsemansAxe_UniquePassive_C",
+    "Name": "Default__GA_HorsemansAxe_UniquePassive_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/HorsemansAxe/GameplayAbility/GA_HorsemansAxe_UniquePassive.GA_HorsemansAxe_UniquePassive_C'",
+    "Template": {
+      "ObjectName": "GA_UniqueWeaponPassive_C'Default__GA_UniqueWeaponPassive_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/GA_UniqueWeaponPassive.5"
+    }
+  }
+]

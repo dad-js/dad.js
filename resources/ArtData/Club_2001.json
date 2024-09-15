@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "Club_2001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_Club_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Club/Animations/AM_Club_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_Club_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Club/Animations/AM_Club_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_FlangedMace_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/FlangedMace/Animations/AS_FlangedMace_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_FlangedMace_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/FlangedMace/Animations/AS_FlangedMace_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_FlangedMace_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/FlangedMace/Animations/BS_flangedmace_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_thigh_l_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Club'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Club/Icon/Item_Icon_Club.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Club'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Club/SK_Club.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_FlangedMace",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FlangedMace_0001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/FlangedMace/Materials/MI_FlangedMace_0001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Club_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Club/SM_Club_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_FlangedMace_Holder",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FlangedMace_0001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/FlangedMace/Materials/MI_FlangedMace_0001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

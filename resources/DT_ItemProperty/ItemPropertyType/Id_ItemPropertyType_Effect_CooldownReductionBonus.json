@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_CooldownReductionBonus",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 61,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.CooldownReductionBonus"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyCooldownReductionMod_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyCooldownReductionMod.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.CooldownReductionMod"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

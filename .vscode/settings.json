@@ -1,0 +1,13 @@
+{
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"npm.packageManager": "pnpm",
+	"typescript.experimental.updateImportsOnPaste": true,
+	"typescript.preferences.preferTypeOnlyAutoImports": true,
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#0C3422",
+		"titleBar.activeBackground": "#114930",
+		"titleBar.activeForeground": "#F4FDF9"
+	},
+	"typescript.tsdk": "node_modules\\typescript\\lib"
+}

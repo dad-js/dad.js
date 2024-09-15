@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FineCuirass_RS",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 0.9
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FineCuirass_RS'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/FineCuirass_RS/Icon/Item_Icon_FineCuirass_RS.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_FineCuirass_RS'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/FineCuirass_RS/SK_FineCuirass_RS.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_FineCuirass_RS_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/FineCuirass_RS/SM_FineCuirass_RS_Holder.2"
+      }
+    }
+  }
+]

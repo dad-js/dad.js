@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_HeadshotReductionMod",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 54,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.HeadshotReductionMod"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyHeadshotReductionMod_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyHeadshotReductionMod.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.HeadshotReductionMod"
+        },
+        "ValueRatio": 0.001,
+        "PrimaryTooltipPriority": 3
+      }
+    }
+  }
+]

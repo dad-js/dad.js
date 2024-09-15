@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Spell_All",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 6,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Spell.All"
+        }
+      }
+    }
+  }
+]

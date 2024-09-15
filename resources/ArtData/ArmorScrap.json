@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "ArmorScrap",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_ArmorScrap'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/ArmorScrap/Icon/Item_Icon_ArmorScrap.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_ArmorScrap_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/ArmorScrap/SM_ArmorScrap_Holder.2"
+      }
+    }
+  }
+]

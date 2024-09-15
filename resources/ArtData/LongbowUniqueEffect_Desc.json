@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "DescData",
+    "Name": "LongbowUniqueEffect_Desc",
+    "Class": "UScriptClass'DescData'",
+    "Properties": {
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_LongbowUniqueEffect_Desc_LongbowUniqueEffectDesc",
+        "SourceString": "Text_DataAsset_LongbowUniqueEffect_Desc_LongbowUniqueEffectDesc",
+        "LocalizedString": "Pushes the hit target back."
+      }
+    }
+  }
+]

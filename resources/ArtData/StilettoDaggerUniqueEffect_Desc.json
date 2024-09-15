@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "StilettoDaggerUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ItemEffect_StilettoDaggerUnique_DeathbloomBurst'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemEffect/Id_ItemEffect_StilettoDaggerUnique_DeathbloomBurst.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_StilettoDaggerUniqueEffect_Desc_StilettoDaggerUniqueEffectDesc",
+        "SourceString": "Text_When you deal damage to a target, cause a death flower to bloom. After 3 have bloomed, the death blossoms explode, dealing <Exec.MagicalDamageBase>[0] #</>.",
+        "LocalizedString": "When you deal damage to a target, cause a death flower to bloom. After 3 have bloomed, the death blossoms explode, dealing <Exec.MagicalDamageBase>[0] _</>."
+      }
+    }
+  }
+]

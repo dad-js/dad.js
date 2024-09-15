@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_PhysicalDamageBonus",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 20,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.PhysicalDamageBonus"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyPhysicalDamageBonus_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyPhysicalDamageBonus.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.PhysicalDamageMod"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

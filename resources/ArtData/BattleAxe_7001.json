@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "BattleAxe_7001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_BattleAxe_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BattleAxe/Animations/AM_BattleAxe_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_BattleAxe_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BattleAxe/Animations/AM_BattleAxe_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_BattleAxe_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BattleAxe/Animations/AS_BattleAxe_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_BattleAxe_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BattleAxe/Animations/AS_BattleAxe_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_BattleAxe_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BattleAxe/Animations/BS_BattleAxe_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_back_right_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_BattleAxe_7001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BattleAxe/Icon/Item_Icon_BattleAxe_7001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_BattleAxe_7001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BattleAxe/SK_BattleAxe_7001.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_BattleAxe",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_BattleAxe_6001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BattleAxe/Materials/MI_BattleAxe_6001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_BattleAxe_7001_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BattleAxe/SM_BattleAxe_7001_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_BattleAxe",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_BattleAxe_6001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BattleAxe/Materials/MI_BattleAxe_6001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

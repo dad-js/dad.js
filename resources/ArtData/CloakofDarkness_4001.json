@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "CloakofDarkness_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CloakofDarkness'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/CloakofDarkness/Icon/Item_Icon_CloakofDarkness.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_SplendidCloak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/SplendidCloak/SK_SplendidCloak.4"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_cloak_01_a",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_CloakofDarkness'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/CloakofDarkness/Materials/MI_CloakofDarkness.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_SplendidCloak_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/SplendidCloak/SM_SplendidCloak_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_cloak_01_a",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_CloakofDarkness_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/CloakofDarkness/Materials/MI_CloakofDarkness_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

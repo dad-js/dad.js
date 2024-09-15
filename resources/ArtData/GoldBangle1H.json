@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "GoldBangle1H",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_SM_Bangle_01h'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Treasures/Icon/Item_Icon_SM_Bangle_01h.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Bangle_01e'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Treasures/SM_Bangle_01e.2"
+      }
+    }
+  }
+]

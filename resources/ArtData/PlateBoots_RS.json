@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "PlateBoots_RS",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::BootsEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_PlateBoots_RS'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/PlateBoots_RS/Icon/Item_Icon_PlateBoots_RS.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_PlateBoots_RS'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/PlateBoots_RS/SK_PlateBoots_RS.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_PlateBoots_RS_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/PlateBoots_RS/SM_PlateBoots_RS_Holder.2"
+      }
+    }
+  }
+]

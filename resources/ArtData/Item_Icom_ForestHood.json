@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "Item_Icom_ForestHood",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 180,
+        "Y": 180
+      },
+      "LightingGuid": "E9DF9385-4915B90E-77C8BDB8-EBAA1800",
+      "CompressionSettings": "TextureCompressionSettings::TC_EditorIcon",
+      "LODGroup": "TextureGroup::TEXTUREGROUP_UI",
+      "NeverStream": true
+    },
+    "SizeX": 180,
+    "SizeY": 180,
+    "PackedData": 1,
+    "PixelFormat": "PF_B8G8R8A8",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 129600,
+          "SizeOnDisk": 129600,
+          "OffsetInFile": "0x7B"
+        },
+        "SizeX": 180,
+        "SizeY": 180,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

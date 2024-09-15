@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FrostlightCrusaderHelm_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Beard",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::UnderHair",
+          "Value": 0.7
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostlightCrusaderHelm'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/FrostlightCrusaderHelm/Icon/Item_Icon_FrostlightCrusaderHelm.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_CrusaderHelm'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CrusaderHelm/SK_CrusaderHelm.1"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_CrusaderHelm",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightCrusaderHelm'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/FrostlightCrusaderHelm/Materials/MI_FrostlightCrusaderHelm.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CrusaderHelm_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CrusaderHelm/SM_CrusaderHelm_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_CrusaderHelm",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightCrusaderHelm'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/FrostlightCrusaderHelm/Materials/MI_FrostlightCrusaderHelm.0"
+          }
+        }
+      ]
+    }
+  }
+]

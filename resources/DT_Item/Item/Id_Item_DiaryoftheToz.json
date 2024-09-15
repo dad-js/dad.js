@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_DiaryoftheToz",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.DiaryoftheToz"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_DiaryoftheToz"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_DiaryoftheToz",
+          "SourceString": "Text_DesignData_Item_Item_DiaryoftheToz",
+          "LocalizedString": "Diary of the Toz"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_DiaryoftheToz",
+          "SourceString": "Text_DesignData_Item_Flavor_DiaryoftheToz",
+          "LocalizedString": "The king's former court wizard, composed this haunting diary detailing his descent into the darkest arcane arts to satisfy the king’s sinister ambitions. His quest for forbidden knowledge turned him into a Lich, eternally chained to the castle he cursed with his master, a chilling reflection on the price of unwavering loyalty to dark magic."
+        },
+        "ItemType": "EItemType::Misc",
+        "MiscType": {
+          "TagName": "Type.Item.Misc.HuntingLoot"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Epic"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "DiaryoftheToz"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "DiaryoftheToz_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 1,
+        "InventoryHeight": 2,
+        "AdvPoint": 3,
+        "ExpPoint": 1
+      }
+    }
+  }
+]

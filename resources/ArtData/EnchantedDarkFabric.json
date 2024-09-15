@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "EnchantedDarkFabric",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_EnchantedDarkFabric'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/EnchantedDarkFabric/Icon/Item_Icon_EnchantedDarkFabric.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_EnchantedDarkFabric_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/EnchantedDarkFabric/SM_EnchantedDarkFabric_Holder.2"
+      }
+    }
+  }
+]

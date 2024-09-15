@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_MagicalDamageTrue",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 21,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.MagicalDamageTrue"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyMagicalDamageTrue_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyMagicalDamageTrue.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.MagicalDamageTrue"
+        }
+      }
+    }
+  }
+]

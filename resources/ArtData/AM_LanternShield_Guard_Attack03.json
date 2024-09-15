@@ -1,0 +1,539 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_LanternShield_Guard_Attack03",
+    "Class": "UScriptClass'AnimMontage'",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.1
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AS_LanternShield_Guard_Attack03.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "UpperBody",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_LanternShield_Guard_Attack03'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AS_LanternShield_Guard_Attack03.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.9666667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "BranchingPointMarkers": [
+        {
+          "NotifyIndex": 0,
+          "TriggerTime": 0.0001,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 2,
+          "TriggerTime": 0.30563313,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 5,
+          "TriggerTime": 0.41388664,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 5,
+          "TriggerTime": 0.82537365,
+          "NotifyEventType": "EAnimNotifyEventType::End"
+        },
+        {
+          "NotifyIndex": 6,
+          "TriggerTime": 1.0285466,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        }
+      ],
+      "BranchingPointStateNotifyIndices": [
+        5
+      ],
+      "CommonTargetFrameRate": {
+        "Numerator": 30
+      },
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DCSendGameplayEventTagToSelf",
+          "Notify": {
+            "ObjectName": "DCAnimNotify_SendGameplayEventTagToSelf'AM_LanternShield_Guard_Attack03:DCAnimNotify_SendGameplayEventTagToSelf_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AS_LanternShield_Guard_Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent_C",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'AM_LanternShield_Guard_Attack03:AnimNotify_AkEvent_C_1'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.013518,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.022574816,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AS_LanternShield_Guard_Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DCSendGameplayEventTagToSelf",
+          "Notify": {
+            "ObjectName": "DCAnimNotify_SendGameplayEventTagToSelf'AM_LanternShield_Guard_Attack03:DCAnimNotify_SendGameplayEventTagToSelf_1'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.30563313,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.30563313,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AS_LanternShield_Guard_Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent_C",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'AM_LanternShield_Guard_Attack03:AnimNotify_AkEvent_C_3'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.447581,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.3492314,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AS_LanternShield_Guard_Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DCSoundEvent",
+          "Notify": {
+            "ObjectName": "DCAnimNotify_SoundEvent'AM_LanternShield_Guard_Attack03:DCAnimNotify_SoundEvent_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.38452977,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.38452977,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AS_LanternShield_Guard_Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DCSendGameplayEventTagsToSelf",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "DCAnimNotify_SendGameplayEventTagsToSelf'AM_LanternShield_Guard_Attack03:DCAnimNotify_SendGameplayEventTagsToSelf_1'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.3"
+          },
+          "Duration": 0.411487,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_LanternShield_Guard_Attack03'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.9666667,
+            "LinkValue": 0.82537365,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AS_LanternShield_Guard_Attack03'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AS_LanternShield_Guard_Attack03.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.41388664,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AS_LanternShield_Guard_Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DCSendGameplayEventTagToSelf",
+          "Notify": {
+            "ObjectName": "DCAnimNotify_SendGameplayEventTagToSelf'AM_LanternShield_Guard_Attack03:DCAnimNotify_SendGameplayEventTagToSelf_2'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.0285466,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Guard_Attack03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 1.0285466,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LanternShield_Guard_Attack03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AS_LanternShield_Guard_Attack03.0"
+          }
+        }
+      ],
+      "SequenceLength": 1.9666667,
+      "RawCurveData": {
+        "FloatCurves": [
+          {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 0.0,
+                  "Value": 1.0,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.0,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.0
+                }
+              ],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "CurveName": "SecondaryWeapon",
+            "CurveTypeFlags": 4
+          }
+        ]
+      },
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_PC_Man'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Player/Meshes/SKEL_PC_Man.84"
+      }
+    },
+    "SkeletonGuid": "86C18DA5-4F726D68-AB1C48A9-134BF080"
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_1",
+    "Outer": "AM_LanternShield_Guard_Attack03",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'Wp_Common_Cloth_Leather_Attack'",
+        "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Weapons/Wp_Common_Cloth_Leather_Attack.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_3",
+    "Outer": "AM_LanternShield_Guard_Attack03",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'Wp_LanternShield_Whoosh_2'",
+        "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Weapons/Wp_LanternShield_Whoosh_2.0"
+      }
+    }
+  },
+  {
+    "Type": "DCAnimNotify_SendGameplayEventTagsToSelf",
+    "Name": "DCAnimNotify_SendGameplayEventTagsToSelf_1",
+    "Outer": "AM_LanternShield_Guard_Attack03",
+    "Class": "UScriptClass'DCAnimNotify_SendGameplayEventTagsToSelf'",
+    "Properties": {
+      "BeginEventTag": {
+        "TagName": "Event.Attack.Collision.On.01"
+      },
+      "EndEventTag": {
+        "TagName": "Event.Attack.Collision.Off"
+      }
+    }
+  },
+  {
+    "Type": "DCAnimNotify_SendGameplayEventTagToSelf",
+    "Name": "DCAnimNotify_SendGameplayEventTagToSelf_0",
+    "Outer": "AM_LanternShield_Guard_Attack03",
+    "Class": "UScriptClass'DCAnimNotify_SendGameplayEventTagToSelf'",
+    "Properties": {
+      "EventTag": {
+        "TagName": "Event.Attack.SetNextAttack.Reset"
+      }
+    }
+  },
+  {
+    "Type": "DCAnimNotify_SendGameplayEventTagToSelf",
+    "Name": "DCAnimNotify_SendGameplayEventTagToSelf_1",
+    "Outer": "AM_LanternShield_Guard_Attack03",
+    "Class": "UScriptClass'DCAnimNotify_SendGameplayEventTagToSelf'",
+    "Properties": {
+      "EventTag": {
+        "TagName": "Event.Attack.Collision.On.Stuck.Secondary"
+      }
+    }
+  },
+  {
+    "Type": "DCAnimNotify_SendGameplayEventTagToSelf",
+    "Name": "DCAnimNotify_SendGameplayEventTagToSelf_2",
+    "Outer": "AM_LanternShield_Guard_Attack03",
+    "Class": "UScriptClass'DCAnimNotify_SendGameplayEventTagToSelf'",
+    "Properties": {
+      "EventTag": {
+        "TagName": "Event.Input.PrimaryAttack.Enable"
+      }
+    }
+  },
+  {
+    "Type": "DCAnimNotify_SoundEvent",
+    "Name": "DCAnimNotify_SoundEvent_0",
+    "Outer": "AM_LanternShield_Guard_Attack03",
+    "Class": "UScriptClass'DCAnimNotify_SoundEvent'",
+    "Properties": {
+      "EventTag": {
+        "TagName": "Sound.Attack.Ignite"
+      }
+    }
+  }
+]

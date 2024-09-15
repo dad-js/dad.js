@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FrostlightRunestoneGloves_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::GlovesEquipped",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::ShortGlovesEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostlightRunestoneGloves'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/FrostlightRunestoneGloves/Icon/Item_Icon_FrostlightRunestoneGloves.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_RunestoneGloves'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/RunestoneGloves/SK_RunestoneGloves.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_GaiastoneGloves1",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightRunestoneGloves'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/FrostlightRunestoneGloves/Materials/MI_FrostlightRunestoneGloves.0"
+          }
+        },
+        {
+          "MaterialSlotName": "MI_GaiastoneGloves2",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightRunestoneGloves01'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/FrostlightRunestoneGloves/Materials/MI_FrostlightRunestoneGloves01.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_RunestoneGloves_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/RunestoneGloves/SM_RunestoneGloves_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_GaiastoneGloves1",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightRunestoneGloves'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/FrostlightRunestoneGloves/Materials/MI_FrostlightRunestoneGloves.0"
+          }
+        },
+        {
+          "MaterialSlotName": "MI_GaiastoneGloves2",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightRunestoneGloves01'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/FrostlightRunestoneGloves/Materials/MI_FrostlightRunestoneGloves01.0"
+          }
+        }
+      ],
+      "ItemsBoneModifyData": [
+        {
+          "Key": "fk_weapon_l",
+          "Value": {
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 1.0,
+              "Z": 0.0
+            }
+          }
+        }
+      ]
+    }
+  }
+]

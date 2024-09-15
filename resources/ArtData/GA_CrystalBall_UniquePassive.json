@@ -1,0 +1,2072 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_CrystalBall_UniquePassive_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ActivateOnAbilityHandleData_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ActivateOnAbilityHandleData.0"
+    },
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ActivateOnAbilityHandleData_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ActivateOnAbilityHandleData.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:EventReceived_A4953EC74A02523DE1A6E3BF494BDD5C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.1"
+      },
+      {
+        "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:K2_ActivateAbility'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.3"
+      },
+      {
+        "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_CrystalBall_UniquePassive": {
+        "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+      },
+      "K2_ActivateAbility": {
+        "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:K2_ActivateAbility'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.3"
+      },
+      "EventReceived_A4953EC74A02523DE1A6E3BF494BDD5C": {
+        "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:EventReceived_A4953EC74A02523DE1A6E3BF494BDD5C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.1"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_CrystalBall_UniquePassive_C'Default__GA_CrystalBall_UniquePassive_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "EventReceived_A4953EC74A02523DE1A6E3BF494BDD5C",
+    "Outer": "GA_CrystalBall_UniquePassive_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Payload",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+          },
+          "Property": {
+            "Type": "StructProperty",
+            "Name": "K2Node_CustomEvent_Payload",
+            "Flags": "RF_Public",
+            "ElementSize": 184,
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayEventData'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:EventReceived_A4953EC74A02523DE1A6E3BF494BDD5C'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.1"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "Payload",
+              "Flags": "RF_Public",
+              "ElementSize": 184,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 10
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.ExecuteUbergraph_GA_CrystalBall_UniquePassive[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_CrystalBall_UniquePassive",
+    "Outer": "GA_CrystalBall_UniquePassive_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentSourceObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_Payload",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_WaitGameplayEvent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_ApplyEffectContainer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_ApplyEffectContainer_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "Struct": {
+            "ObjectName": "ScriptStruct'ActiveGameplayEffectHandle'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_ApplyEffectContainer_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_ApplyEffectContainer_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "Struct": {
+            "ObjectName": "ScriptStruct'ActiveGameplayEffectHandle'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAbilitySystemComponentFromActorInfo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AbilitySystemComponent'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_ObjectObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDistanceTo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'WaitGameplayEventDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeGameplayCueParameters_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 224,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayCueParameters'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 10,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "Temp_struct_Variable",
+              "Flags": "RF_Public",
+              "ElementSize": 184,
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "K2Node_CustomEvent_Payload",
+              "Flags": "RF_Public",
+              "ElementSize": 184,
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 37,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_StructMemberContext",
+              "Property": {
+                "Path": [
+                  "Target"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "ScriptStruct'GameplayEventData'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              },
+              "StructExpression": {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                    "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                  },
+                  "Property": {
+                    "Type": "StructProperty",
+                    "Name": "Temp_struct_Variable",
+                    "Flags": "RF_Public",
+                    "ElementSize": 184,
+                    "Struct": {
+                      "ObjectName": "ScriptStruct'GameplayEventData'",
+                      "ObjectPath": "/Script/GameplayAbilities"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 75,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetAvatarActorFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 95,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_NotEqual_ObjectObject_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetMathLibrary:NotEqual_ObjectObject'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_StructMemberContext",
+              "Property": {
+                "Path": [
+                  "Target"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "ScriptStruct'GameplayEventData'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              },
+              "StructExpression": {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                    "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                  },
+                  "Property": {
+                    "Type": "StructProperty",
+                    "Name": "Temp_struct_Variable",
+                    "Flags": "RF_Public",
+                    "ElementSize": 184,
+                    "Struct": {
+                      "ObjectName": "ScriptStruct'GameplayEventData'",
+                      "ObjectPath": "/Script/GameplayAbilities"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'Actor'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 142,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_BooleanAND_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetMathLibrary:BooleanAND'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_IsValid_ReturnValue_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_NotEqual_ObjectObject_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 180,
+        "CodeOffset": 1171,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.ExecuteUbergraph_GA_CrystalBall_UniquePassive[1171]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_BooleanAND_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 194,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAbilitySystemComponentFromActorInfo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'AbilitySystemComponent'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetAbilitySystemComponentFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 214,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InterfaceContext",
+            "InterfaceValue": {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetAbilitySystemComponentFromActorInfo_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyFlags": "InstancedReference",
+                  "PropertyClass": {
+                    "ObjectName": "Class'AbilitySystemComponent'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          },
+          "Offset": 41,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "HasMatchingGameplayTag",
+            "Parameters": [
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTag'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_NameConst",
+                    "Value": "State.ActorStatus.Debuff.Cooldown.Item.DeathsGaze"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 288,
+        "CodeOffset": 307,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.ExecuteUbergraph_GA_CrystalBall_UniquePassive[307]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 302,
+        "CodeOffset": 1171,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.ExecuteUbergraph_GA_CrystalBall_UniquePassive[1171]"
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 307,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ArrayProperty",
+              "Name": "CallFunc_ApplyEffectContainer_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "PropertyFlags": "ReferenceParm",
+              "Inner": {
+                "Type": "StructProperty",
+                "Name": "CallFunc_ApplyEffectContainer_ReturnValue_1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'ActiveGameplayEffectHandle'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "ApplyEffectContainer",
+          "Parameters": [
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "Event.Item.Passive.Used"
+                }
+              ]
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "Temp_struct_Variable_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 184,
+                  "PropertyFlags": "ConstParm",
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'GameplayEventData'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": -1
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 1
+            },
+            {
+              "Inst": "EX_False"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 386,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ArrayProperty",
+              "Name": "CallFunc_ApplyEffectContainer_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "PropertyFlags": "ReferenceParm",
+              "Inner": {
+                "Type": "StructProperty",
+                "Name": "CallFunc_ApplyEffectContainer_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "Struct": {
+                  "ObjectName": "ScriptStruct'ActiveGameplayEffectHandle'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "ApplyEffectContainer",
+          "Parameters": [
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "Event.Attack.Hit"
+                }
+              ]
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "Temp_struct_Variable",
+                  "Flags": "RF_Public",
+                  "ElementSize": 184,
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'GameplayEventData'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": -1
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 1
+            },
+            {
+              "Inst": "EX_False"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 465,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetCurrentSourceObject_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Object'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetCurrentSourceObject'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 485,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'SceneComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_StructMemberContext",
+            "Property": {
+              "Path": [
+                "Target"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            },
+            "StructExpression": {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "Temp_struct_Variable",
+                  "Flags": "RF_Public",
+                  "ElementSize": 184,
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'GameplayEventData'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'SceneComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'Actor:K2_GetRootComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 536,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_StructMemberContext",
+            "Property": {
+              "Path": [
+                "Target"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            },
+            "StructExpression": {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "Temp_struct_Variable",
+                  "Flags": "RF_Public",
+                  "ElementSize": 184,
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'GameplayEventData'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'Actor:K2_GetActorLocation'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 595,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetAvatarActorFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 615,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_GetDistanceTo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue_1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Offset": 28,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_GetDistanceTo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'Actor:GetDistanceTo'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_StructMemberContext",
+                "Property": {
+                  "Path": [
+                    "Target"
+                  ],
+                  "ResolvedOwner": {
+                    "ObjectName": "ScriptStruct'GameplayEventData'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                },
+                "StructExpression": {
+                  "Inst": "EX_LocalVariable",
+                  "Variable": {
+                    "Owner": {
+                      "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                    },
+                    "Property": {
+                      "Type": "StructProperty",
+                      "Name": "Temp_struct_Variable",
+                      "Flags": "RF_Public",
+                      "ElementSize": 184,
+                      "Struct": {
+                        "ObjectName": "ScriptStruct'GameplayEventData'",
+                        "ObjectPath": "/Script/GameplayAbilities"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 683,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_MakeGameplayCueParameters_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 224,
+              "PropertyFlags": "ContainsInstancedReference",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayCueParameters'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'AbilitySystemBlueprintLibrary:MakeGameplayCueParameters'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "FloatProperty",
+                  "Name": "CallFunc_GetDistanceTo_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            },
+            {
+              "Inst": "EX_StructMemberContext",
+              "Property": {
+                "Path": [
+                  "ContextHandle"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "ScriptStruct'GameplayEventData'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              },
+              "StructExpression": {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                    "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                  },
+                  "Property": {
+                    "Type": "StructProperty",
+                    "Name": "Temp_struct_Variable",
+                    "Flags": "RF_Public",
+                    "ElementSize": 184,
+                    "Struct": {
+                      "ObjectName": "ScriptStruct'GameplayEventData'",
+                      "ObjectPath": "/Script/GameplayAbilities"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "None"
+                }
+              ]
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "None"
+                }
+              ]
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_ArrayConst",
+                  "InnerProperty": {
+                    "Path": [
+                      "GameplayTags",
+                      "GameplayTags"
+                    ],
+                    "ResolvedOwner": {
+                      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                      "ObjectPath": "/Script/GameplayTags"
+                    }
+                  },
+                  "Values": []
+                }
+              ]
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_ArrayConst",
+                  "InnerProperty": {
+                    "Path": [
+                      "GameplayTags",
+                      "GameplayTags"
+                    ],
+                    "ResolvedOwner": {
+                      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                      "ObjectPath": "/Script/GameplayTags"
+                    }
+                  },
+                  "Values": []
+                }
+              ]
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 24,
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 24,
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'Actor'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetCurrentSourceObject_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'Object'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 1
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 1
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyFlags": "InstancedReference",
+                  "PropertyClass": {
+                    "ObjectName": "Class'SceneComponent'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_False"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 911,
+        "Function": {
+          "ObjectName": "Function'DCAbilitySystemBlueprintLibrary:ExecuteGameplayCue'",
+          "ObjectPath": "/Script/DungeonCrawler"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue_1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayTag'",
+              "ObjectPath": "/Script/GameplayTags"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_NameConst",
+                "Value": "GameplayCue.Item.Unique.DeathsGaze"
+              }
+            ]
+          },
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "CallFunc_MakeGameplayCueParameters_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 224,
+                "PropertyFlags": "ContainsInstancedReference",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayCueParameters'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 966,
+        "CodeOffset": 1171,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.ExecuteUbergraph_GA_CrystalBall_UniquePassive[1171]"
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 971,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_WaitGameplayEvent_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'AbilityTask_WaitGameplayEvent:WaitGameplayEvent'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "Event.AbilitySystem.ExecCalcEffectApplied.MagicalDamage"
+                }
+              ]
+            },
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_False"
+            },
+            {
+              "Inst": "EX_True"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 1022,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_WaitGameplayEvent_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 1051,
+        "CodeOffset": 1171,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.ExecuteUbergraph_GA_CrystalBall_UniquePassive[1171]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_BindDelegate",
+        "StatementIndex": 1065,
+        "FunctionName": "EventReceived_A4953EC74A02523DE1A6E3BF494BDD5C",
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "DelegateFunction'WaitGameplayEventDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "ObjectTerm": {
+          "Inst": "EX_Self"
+        }
+      },
+      {
+        "Inst": "EX_AddMulticastDelegate",
+        "StatementIndex": 1088,
+        "MulticastDelegate": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_WaitGameplayEvent_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "Path": [
+              "EventReceived"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "EventReceived"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "DelegateFunction'WaitGameplayEventDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1129,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_WaitGameplayEvent_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Offset": 10,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayTask:ReadyForActivation'",
+            "ObjectPath": "/Script/GameplayTasks"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1161,
+        "CodeOffset": 1171,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.ExecuteUbergraph_GA_CrystalBall_UniquePassive[1171]"
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1166,
+        "CodeOffset": 971,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.ExecuteUbergraph_GA_CrystalBall_UniquePassive[971]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 1171,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 1173
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ActivateAbility",
+    "Outer": "GA_CrystalBall_UniquePassive_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'GameplayAbility:K2_ActivateAbility'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_CrystalBall_UniquePassive_C:ExecuteUbergraph_GA_CrystalBall_UniquePassive'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 1166
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.ExecuteUbergraph_GA_CrystalBall_UniquePassive[1166]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GA_CrystalBall_UniquePassive_C",
+    "Name": "Default__GA_CrystalBall_UniquePassive_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/GameplayAbility/GA_CrystalBall_UniquePassive.GA_CrystalBall_UniquePassive_C'",
+    "Template": {
+      "ObjectName": "GA_ActivateOnAbilityHandleData_C'Default__GA_ActivateOnAbilityHandleData_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ActivateOnAbilityHandleData.1"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "NetExecutionPolicy": "EGameplayAbilityNetExecutionPolicy::ServerOnly",
+      "NetSecurityPolicy": "EGameplayAbilityNetSecurityPolicy::ServerOnly"
+    }
+  }
+]

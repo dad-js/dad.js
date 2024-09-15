@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_PhysicalPower",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 19,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.PhysicalPower"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyPhysicalPower_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyPhysicalPower.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.PhysicalPower"
+        }
+      }
+    }
+  }
+]

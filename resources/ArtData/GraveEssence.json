@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "GraveEssence",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_GraveEssence'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/GraveEssence/Icon/Item_Icon_GraveEssence.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_GraveEssence_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/GraveEssence/SM_GraveEssence_Holder.2"
+      }
+    }
+  }
+]

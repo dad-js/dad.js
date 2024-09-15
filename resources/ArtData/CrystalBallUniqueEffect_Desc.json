@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "CrystalBallUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ItemEffect_CrystalBallUnique_DeathsGaze'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemEffect/Id_ItemEffect_CrystalBallUnique_DeathsGaze.0"
+        },
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_CrystalBallUnique_DeathsGaze_Cooldown'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_CrystalBallUnique_DeathsGaze_Cooldown.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_CrystalballUniqueEffect_Desc_CrystalBallUniqueEffectDesc",
+        "SourceString": "Text_If the spell hits the target, Death's Gaze deals an additional <Exec.MagicalDamageTrue>[0] #</> to the enemy.",
+        "LocalizedString": "If the spell hits the target, Death's Gaze deals an additional <Exec.MagicalDamageTrue>[0] _</> to the enemy."
+      }
+    }
+  }
+]

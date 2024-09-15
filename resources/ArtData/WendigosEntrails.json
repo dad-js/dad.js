@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "WendigosEntrails",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_WendigosEntrails'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/WendigosEntrails/Icon/Item_Icon_WendigosEntrails.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_WendigosEntrails_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/WendigosEntrails/SM_WendigosEntrails_Holder.2"
+      }
+    }
+  }
+]

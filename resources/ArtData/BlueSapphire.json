@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "BlueSapphire",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_BlueSapphire'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Gems/Icon/Item_Icon_BlueSapphire.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Gems_01c_HolderOnly'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Gems/SM_Gems_01c_HolderOnly.2"
+      }
+    }
+  }
+]

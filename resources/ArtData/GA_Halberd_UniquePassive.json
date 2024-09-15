@@ -1,0 +1,1317 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_Halberd_UniquePassive_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_UniqueWeaponPassive_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/GA_UniqueWeaponPassive.0"
+    },
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_UniqueWeaponPassive_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/GA_UniqueWeaponPassive.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_Halberd_UniquePassive_C:EventReceived_3EF2DF974793AF751C3C3EBE5273AB0C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.1"
+      },
+      {
+        "ObjectName": "Function'GA_Halberd_UniquePassive_C:K2_ActivateAbilityFromEvent'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.3"
+      },
+      {
+        "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_Halberd_UniquePassive": {
+        "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+      },
+      "K2_ActivateAbilityFromEvent": {
+        "ObjectName": "Function'GA_Halberd_UniquePassive_C:K2_ActivateAbilityFromEvent'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.3"
+      },
+      "EventReceived_3EF2DF974793AF751C3C3EBE5273AB0C": {
+        "ObjectName": "Function'GA_Halberd_UniquePassive_C:EventReceived_3EF2DF974793AF751C3C3EBE5273AB0C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.1"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Halberd_UniquePassive_C'Default__GA_Halberd_UniquePassive_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "EventReceived_3EF2DF974793AF751C3C3EBE5273AB0C",
+    "Outer": "GA_Halberd_UniquePassive_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Payload",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+          },
+          "Property": {
+            "Type": "StructProperty",
+            "Name": "K2Node_CustomEvent_Payload",
+            "Flags": "RF_Public",
+            "ElementSize": 184,
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayEventData'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:EventReceived_3EF2DF974793AF751C3C3EBE5273AB0C'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.1"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "Payload",
+              "Flags": "RF_Public",
+              "ElementSize": 184,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 10
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.ExecuteUbergraph_GA_Halberd_UniquePassive[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_Halberd_UniquePassive",
+    "Outer": "GA_Halberd_UniquePassive_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_Payload",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'WaitGameplayEventDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_WaitGameplayEvent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_EventData",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentSourceObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeGameplayCueParameters_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 224,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayCueParameters'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 10,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "Temp_struct_Variable",
+              "Flags": "RF_Public",
+              "ElementSize": 184,
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "K2Node_CustomEvent_Payload",
+              "Flags": "RF_Public",
+              "ElementSize": 184,
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 37,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_StructMemberContext",
+              "Property": {
+                "Path": [
+                  "Target"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "ScriptStruct'GameplayEventData'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              },
+              "StructExpression": {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+                    "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+                  },
+                  "Property": {
+                    "Type": "StructProperty",
+                    "Name": "Temp_struct_Variable",
+                    "Flags": "RF_Public",
+                    "ElementSize": 184,
+                    "Struct": {
+                      "ObjectName": "ScriptStruct'GameplayEventData'",
+                      "ObjectPath": "/Script/GameplayAbilities"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 75,
+        "CodeOffset": 720,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.ExecuteUbergraph_GA_Halberd_UniquePassive[720]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 89,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetAvatarActorFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 109,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'SceneComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_StructMemberContext",
+            "Property": {
+              "Path": [
+                "Target"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            },
+            "StructExpression": {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "Temp_struct_Variable",
+                  "Flags": "RF_Public",
+                  "ElementSize": 184,
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'GameplayEventData'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'SceneComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'Actor:K2_GetRootComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 160,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetCurrentSourceObject_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Object'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetCurrentSourceObject'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 180,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_MakeGameplayCueParameters_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 224,
+              "PropertyFlags": "ContainsInstancedReference",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayCueParameters'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'AbilitySystemBlueprintLibrary:MakeGameplayCueParameters'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayEffectContextHandle'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              },
+              "Properties": []
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "None"
+                }
+              ]
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "None"
+                }
+              ]
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_ArrayConst",
+                  "InnerProperty": {
+                    "Path": [
+                      "GameplayTags",
+                      "GameplayTags"
+                    ],
+                    "ResolvedOwner": {
+                      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                      "ObjectPath": "/Script/GameplayTags"
+                    }
+                  },
+                  "Values": []
+                }
+              ]
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_ArrayConst",
+                  "InnerProperty": {
+                    "Path": [
+                      "GameplayTags",
+                      "GameplayTags"
+                    ],
+                    "ResolvedOwner": {
+                      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                      "ObjectPath": "/Script/GameplayTags"
+                    }
+                  },
+                  "Values": []
+                }
+              ]
+            },
+            {
+              "Inst": "EX_VectorConst",
+              "Value": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              }
+            },
+            {
+              "Inst": "EX_VectorConst",
+              "Value": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'Actor'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetCurrentSourceObject_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'Object'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 1
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 1
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyFlags": "InstancedReference",
+                  "PropertyClass": {
+                    "ObjectName": "Class'SceneComponent'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_False"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 432,
+        "Function": {
+          "ObjectName": "Function'DCAbilitySystemBlueprintLibrary:ExecuteGameplayCue'",
+          "ObjectPath": "/Script/DungeonCrawler"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_StructMemberContext",
+            "Property": {
+              "Path": [
+                "Target"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            },
+            "StructExpression": {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "Temp_struct_Variable",
+                  "Flags": "RF_Public",
+                  "ElementSize": 184,
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'GameplayEventData'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayTag'",
+              "ObjectPath": "/Script/GameplayTags"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_NameConst",
+                "Value": "GameplayCue.Item.Unique.Kill"
+              }
+            ]
+          },
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "CallFunc_MakeGameplayCueParameters_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 224,
+                "PropertyFlags": "ContainsInstancedReference",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayCueParameters'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 496,
+        "CodeOffset": 720,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.ExecuteUbergraph_GA_Halberd_UniquePassive[720]"
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 501,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_WaitGameplayEvent_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'AbilityTask_WaitGameplayEvent:WaitGameplayEvent'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "Event.Kill"
+                }
+              ]
+            },
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_False"
+            },
+            {
+              "Inst": "EX_True"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 552,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_WaitGameplayEvent_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 581,
+        "CodeOffset": 720,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.ExecuteUbergraph_GA_Halberd_UniquePassive[720]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_BindDelegate",
+        "StatementIndex": 595,
+        "FunctionName": "EventReceived_3EF2DF974793AF751C3C3EBE5273AB0C",
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "DelegateFunction'WaitGameplayEventDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "ObjectTerm": {
+          "Inst": "EX_Self"
+        }
+      },
+      {
+        "Inst": "EX_AddMulticastDelegate",
+        "StatementIndex": 618,
+        "MulticastDelegate": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_WaitGameplayEvent_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "Path": [
+              "EventReceived"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "EventReceived"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "DelegateFunction'WaitGameplayEventDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 659,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_WaitGameplayEvent_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Offset": 10,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayTask:ReadyForActivation'",
+            "ObjectPath": "/Script/GameplayTasks"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 691,
+        "CodeOffset": 720,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.ExecuteUbergraph_GA_Halberd_UniquePassive[720]"
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 696,
+        "Function": {
+          "ObjectName": "Function'GA_UniqueWeaponPassive_C:K2_ActivateAbilityFromEvent'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/GA_UniqueWeaponPassive.3"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "K2Node_Event_EventData",
+                "Flags": "RF_Public",
+                "ElementSize": 184,
+                "PropertyFlags": "ConstParm",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayEventData'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 715,
+        "CodeOffset": 501,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.ExecuteUbergraph_GA_Halberd_UniquePassive[501]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 720,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 722
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ActivateAbilityFromEvent",
+    "Outer": "GA_Halberd_UniquePassive_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'GA_UniqueWeaponPassive_C:K2_ActivateAbilityFromEvent'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/GA_UniqueWeaponPassive.3"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'GA_UniqueWeaponPassive_C:K2_ActivateAbilityFromEvent'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/GA_UniqueWeaponPassive.3"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "EventData",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+          },
+          "Property": {
+            "Type": "StructProperty",
+            "Name": "K2Node_Event_EventData",
+            "Flags": "RF_Public",
+            "ElementSize": 184,
+            "PropertyFlags": "ConstParm",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayEventData'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Halberd_UniquePassive_C:K2_ActivateAbilityFromEvent'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.3"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "EventData",
+              "Flags": "RF_Public",
+              "ElementSize": 184,
+              "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'GA_Halberd_UniquePassive_C:ExecuteUbergraph_GA_Halberd_UniquePassive'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 696
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.ExecuteUbergraph_GA_Halberd_UniquePassive[696]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GA_Halberd_UniquePassive_C",
+    "Name": "Default__GA_Halberd_UniquePassive_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Halberd/GameplayAbility/GA_Halberd_UniquePassive.GA_Halberd_UniquePassive_C'",
+    "Template": {
+      "ObjectName": "GA_UniqueWeaponPassive_C'Default__GA_UniqueWeaponPassive_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/GA_UniqueWeaponPassive.5"
+    },
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "DescData",
+    "Name": "ValentineCandies_Desc",
+    "Class": "UScriptClass'DescData'",
+    "Properties": {
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_ValentineCandies_Desc_Desc",
+        "SourceString": "Text_Say “I love you!” with every bite of these delicious sweet treats. Hard candy hearts with messages of endearment.",
+        "LocalizedString": "Say “I love you!” with every bite of these delicious sweet treats. Hard candy hearts with messages of endearment."
+      }
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "BeetleWings",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_BeetleWings'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/BeetleWings/Icon/Item_Icon_BeetleWings.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_BeetleWings_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/BeetleWings/SM_BeetleWings_Holder.2"
+      }
+    }
+  }
+]

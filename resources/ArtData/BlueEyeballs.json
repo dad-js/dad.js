@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "BlueEyeballs",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_BlueEyeballs'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/BlueEyeballs/Icon/Item_Icon_BlueEyeballs.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_BlueEyeballs_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/BlueEyeballs/SM_BlueEyeballs_Holder.2"
+      }
+    }
+  }
+]

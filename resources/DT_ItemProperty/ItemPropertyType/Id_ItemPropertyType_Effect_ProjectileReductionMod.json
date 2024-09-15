@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_ProjectileReductionMod",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 55,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.ProjectileReductionMod"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyProjectileReductionMod_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyProjectileReductionMod.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.ProjectileReductionMod"
+        },
+        "ValueRatio": 0.001,
+        "PrimaryTooltipPriority": 3
+      }
+    }
+  }
+]

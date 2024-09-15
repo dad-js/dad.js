@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "DescData",
+    "Name": "TrapDisarmingKit_Desc",
+    "Class": "UScriptClass'DescData'",
+    "Properties": {
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_TrapDisarmingKit_Desc_TrapDisarmingKitDesc",
+        "SourceString": "Text_DataAsset_TrapDisarmingKit_Desc_TrapDisarmingKitDesc",
+        "LocalizedString": "Disarm the trap."
+      }
+    }
+  }
+]

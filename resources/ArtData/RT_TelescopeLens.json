@@ -1,0 +1,19 @@
+[
+  {
+    "Type": "TextureRenderTarget2D",
+    "Name": "RT_TelescopeLens",
+    "Class": "UScriptClass'TextureRenderTarget2D'",
+    "Properties": {
+      "SizeX": 1024,
+      "SizeY": 1024,
+      "bForceLinearGamma": false,
+      "RenderTargetFormat": "ETextureRenderTargetFormat::RTF_RGBA8_SRGB",
+      "LightingGuid": "34FBD2C9-4424CCC4-2D93FBB7-0DB52C45"
+    },
+    "SizeX": 0,
+    "SizeY": 0,
+    "PackedData": 0,
+    "PixelFormat": "PF_Unknown",
+    "FirstMipToSerialize": -1
+  }
+]

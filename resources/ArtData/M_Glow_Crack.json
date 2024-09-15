@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_Glow_Crack",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "BlendMode": "EBlendMode::BLEND_Additive",
+      "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "TwoSided": true,
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithNiagaraRibbons": true,
+      "bUsedWithNiagaraMeshParticles": true,
+      "bUsedWithStaticLighting": true,
+      "bUsesDistortion": true,
+      "bRootNodeOverridesDefaultDistortion": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "RefractionMethod": "ERefractionMode::RM_IndexOfRefraction",
+      "StateId": "D94F6913-4FADD98D-E04F7CA1-0E9C1740",
+      "bIncludedInBaseGame": true
+    },
+    "ReferencedTextures": [
+      {
+        "ObjectName": "Texture2D'Noise00'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Shared_Resource/Texture/Noise/Noise00.0"
+      },
+      {
+        "ObjectName": "Texture2D'Noise04'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Shared_Resource/Texture/Noise/Noise04.0"
+      },
+      {
+        "ObjectName": "Texture2D'T_FireNoise'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Shared_Resource/Texture/Noise/T_FireNoise.0"
+      }
+    ]
+  }
+]

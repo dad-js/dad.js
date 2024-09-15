@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FrostlightPlatePants_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanAnkle",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostlightPlatePants'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/FrostlightPlatePants/Icon/Item_Icon_FrostlightPlatePants.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_PlatePants'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/PlatePants/SK_PlatePants.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Material__0",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightPlatePants'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/FrostlightPlatePants/Materials/MI_FrostlightPlatePants.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_PlatePants_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/PlatePants/SM_PlatePants_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Material #0",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightPlatePants'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/FrostlightPlatePants/Materials/MI_FrostlightPlatePants.0"
+          }
+        }
+      ]
+    }
+  }
+]

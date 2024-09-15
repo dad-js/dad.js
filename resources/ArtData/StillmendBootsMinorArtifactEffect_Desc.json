@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "StillmendBootsMinorArtifactEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ItemEffect_StillmendBootsHealing'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemEffect/Id_ItemEffect_StillmendBootsHealing.0"
+        }
+      ],
+      "ConstantDataAssetArray": [
+        {
+          "ObjectName": "DCConstantDataAsset'Id_Constant_Item_StillmendBootsHeallingDelayTime'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Constant/Constant/Id_Constant_Item_StillmendBootsHeallingDelayTime.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_StillmendBootsMinorArtifactEffect_Desc_StillmendBootsMinorArtifactEffectDesc",
+        "SourceString": "Text_Upon standing still, regain <Exec.PhysicalHealBase>[0] #</> every <Constant Type=\"Float\" Format=\"Normal\">[0]</> second.",
+        "LocalizedString": "When standing still, recover <Exec.PhysicalHealBase>[0] _</> every <Constant Type=\"Float\" Format=\"Normal\">[0]</> second."
+      }
+    }
+  }
+]

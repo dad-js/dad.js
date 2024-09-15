@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "GoldenCloak_5001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icom_GoldenCloak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/GoldenCloak/Icon/Item_Icom_GoldenCloak.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_RadiantCloak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/RadiantCloak/SK_RadiantCloak.4"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_cloak_01",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_GoldenCloak'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/GoldenCloak/Materials/MI_GoldenCloak.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_RadiantCloak_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/RadiantCloak/SM_RadiantCloak_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_RadiantCloak",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_GoldenCloak_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/GoldenCloak/Materials/MI_GoldenCloak_Holder.0"
+          }
+        },
+        {
+          "MaterialSlotName": "Fbx Default Material 1",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_GoldenCloak_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/GoldenCloak/Materials/MI_GoldenCloak_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

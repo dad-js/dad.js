@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_BandageConsume_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemConsume.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemConsume.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_BandageConsume_C'Default__GA_BandageConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Bandage/GameplayAbility/GA_BandageConsume.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_BandageConsume_C",
+    "Name": "Default__GA_BandageConsume_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Utility/Bandage/GameplayAbility/GA_BandageConsume.GA_BandageConsume_C'",
+    "Template": {
+      "ObjectName": "GA_ItemConsume_C'Default__GA_ItemConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemConsume.1"
+    },
+    "Properties": {
+      "PreConsumeMontage": {
+        "ObjectName": "AnimMontage'AM_Bandage_Bandage'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Bandage/Animations/AM_Bandage_Bandage.0"
+      }
+    }
+  }
+]

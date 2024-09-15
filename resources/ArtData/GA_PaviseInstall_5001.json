@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_PaviseInstall_5001_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PaviseInstall_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Pavise/GameplayAbility/GA_PaviseInstall.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PaviseInstall_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Pavise/GameplayAbility/GA_PaviseInstall.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_PaviseInstall_5001_C'Default__GA_PaviseInstall_5001_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Pavise/GameplayAbility/GA_PaviseInstall_5001.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_PaviseInstall_5001_C",
+    "Name": "Default__GA_PaviseInstall_5001_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Pavise/GameplayAbility/GA_PaviseInstall_5001.GA_PaviseInstall_5001_C'",
+    "Template": {
+      "ObjectName": "GA_PaviseInstall_C'Default__GA_PaviseInstall_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Pavise/GameplayAbility/GA_PaviseInstall.1"
+    },
+    "Properties": {
+      "InstalledActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PaviseProp_5001_C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Props/Common/Installable/Pavise/BP_PaviseProp_5001.1"
+      }
+    }
+  }
+]

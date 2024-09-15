@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Famine_Aura",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Em_MagicalEnergyBase'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Spell/Haste/Resourece/M_Em_MagicalEnergyBase.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "DepthFadeDist",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "0A58B767-4E657AC4-742E0FAF-CD6EC4E7"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Speed",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "44016DFA-491142F9-7599AEB1-272E7340"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Base Texture",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Crumple_01'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Shared_Resource/Texture/Caustics/T_Crumple_01.0"
+          },
+          "ExpressionGUID": "8AAB4888-44DE3221-4E1F8793-9A6A86AD"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Noise",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_protection_caustics'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Barrier/Resources/Textures/T_protection_caustics.0"
+          },
+          "ExpressionGUID": "0D647B7C-4AB16F9D-575620B5-CF817B76"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Modulate",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "Use Refraction",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "43AF24D7-4B5CD5AC-37468CB9-18687460"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use With Modulation",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "F0447C6A-4B73E7E7-CDBD4EAA-1FEB72C0"
+          },
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "Use WPO",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "A8C723E9-4FD27E54-C0BC4BAF-0D087240"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true
+    },
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

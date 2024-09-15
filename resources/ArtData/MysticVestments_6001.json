@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "MysticVestments_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_MysticVestments'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/MysticVestments/Icon/Item_Icon_MysticVestments.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_MysticVestments'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/MysticVestments/SK_MysticVestments.6"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_MysticVestments_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/MysticVestments/SM_MysticVestments_Holder.2"
+      }
+    }
+  }
+]

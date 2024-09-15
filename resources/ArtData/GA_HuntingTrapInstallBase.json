@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_HuntingTrapInstallBase_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'GA_ItemInstallBase'",
+      "ObjectPath": "/Script/DungeonCrawler"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_HuntingTrapInstallBase_C'Default__GA_HuntingTrapInstallBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/HuntingTrap/GameplayAbility/GA_HuntingTrapInstallBase.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_HuntingTrapInstallBase_C",
+    "Name": "Default__GA_HuntingTrapInstallBase_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Utility/HuntingTrap/GameplayAbility/GA_HuntingTrapInstallBase.GA_HuntingTrapInstallBase_C'",
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_Stand_UseItemLoop'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Player/Common/Animations/Action/AM_Stand_UseItemLoop.0"
+      },
+      "AbilityTags": [
+        "Type.Ability.Act",
+        "Type.Ability.Item.Install"
+      ],
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Ability.Player.Act.Item.Install.Start"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "WendigosAntlerFragment",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_WendigosAntlerFragment'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/WendigosAntlerFragment/Icon/Item_Icon_WendigosAntlerFragment.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_WendigosAntlerFragment_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/WendigosAntlerFragment/SM_WendigosAntlerFragment_Holder.2"
+      }
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "FalchionUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ItemEffect_FalchionUnique_AddEffect'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemEffect/Id_ItemEffect_FalchionUnique_AddEffect.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_FalchionUniqueEffect_Desc_FalchionUniqueEffectDesc",
+        "SourceString": "Text_Gain <Exec.MagicalDamageBase>+[0] #</>.",
+        "LocalizedString": "Gain <Exec.MagicalDamageBase>+[0] _</>."
+      }
+    }
+  }
+]

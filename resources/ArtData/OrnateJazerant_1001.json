@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "OrnateJazerant_1001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_OrnateJazerant'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/OrnateJazerant/Icon/Item_Icon_OrnateJazerant.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_OrnateJazerant'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/OrnateJazerant/SK_OrnateJazerant.3"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_OrnateJazerant_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/OrnateJazerant/SM_OrnateJazerant_Holder.2"
+      }
+    }
+  }
+]

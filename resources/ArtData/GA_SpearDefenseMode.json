@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_SpearDefenseMode_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerGuardBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerGuardBase.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerGuardBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerGuardBase.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_SpearDefenseMode_C'Default__GA_SpearDefenseMode_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spear/GameplayAbility/GA_SpearDefenseMode.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_SpearDefenseMode_C",
+    "Name": "Default__GA_SpearDefenseMode_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spear/GameplayAbility/GA_SpearDefenseMode.GA_SpearDefenseMode_C'",
+    "Template": {
+      "ObjectName": "GA_PlayerGuardBase_C'Default__GA_PlayerGuardBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerGuardBase.6"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_Spear_Guard'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spear/Animations/AM_Spear_Guard.0"
+      }
+    }
+  }
+]

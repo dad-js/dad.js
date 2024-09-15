@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Skill_All",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 4,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Skill.All"
+        }
+      }
+    }
+  }
+]

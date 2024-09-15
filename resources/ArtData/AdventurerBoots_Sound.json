@@ -1,0 +1,370 @@
+[
+  {
+    "Type": "SoundData",
+    "Name": "AdventurerBoots_Sound",
+    "Class": "UScriptClass'SoundData'",
+    "Properties": {
+      "AkEventByGameplayTag": [
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Drag"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drag_LeatherShoes'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drag_LeatherShoes.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Drop"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drop_LeatherShoes'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drop_LeatherShoes.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Equip"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drop_LeatherShoes'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drop_LeatherShoes.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Item.Drop"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'Foleys_LeatherShoes_Drop'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Foleys/Foleys_LeatherShoes_Drop.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Item.PickUp"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'Foleys_LeatherShoes_Pickup'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Foleys/Foleys_LeatherShoes_Pickup.0"
+          }
+        }
+      ],
+      "AkSwitchesByGameplayTag": [
+        {
+          "Key": {
+            "TagName": "Sound.Footstep"
+          },
+          "Value": {
+            "AkSwitchBySurfaceType": [
+              {
+                "Key": "SurfaceType1",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Stone'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Stone.0"
+                }
+              },
+              {
+                "Key": "SurfaceType2",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Stone'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Stone.0"
+                }
+              },
+              {
+                "Key": "SurfaceType3",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Bare_WaterMedium'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Bare_WaterMedium.0"
+                }
+              },
+              {
+                "Key": "SurfaceType4",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Stone'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Stone.0"
+                }
+              },
+              {
+                "Key": "SurfaceType5",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Wood'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Wood.0"
+                }
+              },
+              {
+                "Key": "SurfaceType6",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Rubble'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Rubble.0"
+                }
+              },
+              {
+                "Key": "SurfaceType14",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Skeleton'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Skeleton.0"
+                }
+              },
+              {
+                "Key": "SurfaceType7",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Stone'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Stone.0"
+                }
+              },
+              {
+                "Key": "SurfaceType8",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Stone'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Stone.0"
+                }
+              },
+              {
+                "Key": "SurfaceType9",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_WoodStair'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_WoodStair.0"
+                }
+              },
+              {
+                "Key": "SurfaceType10",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Wood'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Wood.0"
+                }
+              },
+              {
+                "Key": "SurfaceType11",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Wood'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Wood.0"
+                }
+              },
+              {
+                "Key": "SurfaceType13",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Wood'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Wood.0"
+                }
+              },
+              {
+                "Key": "SurfaceType18",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Grass'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Grass.0"
+                }
+              },
+              {
+                "Key": "SurfaceType19",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Rustle_Leaves'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Rustle_Leaves.0"
+                }
+              },
+              {
+                "Key": "SurfaceType20",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Bare_Tar'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Bare_Tar.0"
+                }
+              },
+              {
+                "Key": "SurfaceType25",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Ice'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Ice.0"
+                }
+              },
+              {
+                "Key": "SurfaceType26",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Snow'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Snow.0"
+                }
+              },
+              {
+                "Key": "SurfaceType27",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Stone'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Stone.0"
+                }
+              },
+              {
+                "Key": "SurfaceType23",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Bare_WaterLow'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Bare_WaterLow.0"
+                }
+              },
+              {
+                "Key": "SurfaceType_Default",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Stone'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Stone.0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.JumpEnd"
+          },
+          "Value": {
+            "AkSwitchBySurfaceType": [
+              {
+                "Key": "SurfaceType1",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Stone'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Stone.0"
+                }
+              },
+              {
+                "Key": "SurfaceType2",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Stone'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Stone.0"
+                }
+              },
+              {
+                "Key": "SurfaceType3",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Bare_WaterMedium'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Bare_WaterMedium.0"
+                }
+              },
+              {
+                "Key": "SurfaceType4",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Stone'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Stone.0"
+                }
+              },
+              {
+                "Key": "SurfaceType5",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Wood'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Wood.0"
+                }
+              },
+              {
+                "Key": "SurfaceType6",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Rubble'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Rubble.0"
+                }
+              },
+              {
+                "Key": "SurfaceType14",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Skeleton'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Skeleton.0"
+                }
+              },
+              {
+                "Key": "SurfaceType7",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Stone'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Stone.0"
+                }
+              },
+              {
+                "Key": "SurfaceType8",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Stone'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Stone.0"
+                }
+              },
+              {
+                "Key": "SurfaceType9",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_WoodStair'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_WoodStair.0"
+                }
+              },
+              {
+                "Key": "SurfaceType10",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Wood'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Wood.0"
+                }
+              },
+              {
+                "Key": "SurfaceType11",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Wood'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Wood.0"
+                }
+              },
+              {
+                "Key": "SurfaceType13",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Wood'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Wood.0"
+                }
+              },
+              {
+                "Key": "SurfaceType18",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Grass'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Grass.0"
+                }
+              },
+              {
+                "Key": "SurfaceType19",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Rustle_Leaves'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Rustle_Leaves.0"
+                }
+              },
+              {
+                "Key": "SurfaceType20",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Bare_Tar'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Bare_Tar.0"
+                }
+              },
+              {
+                "Key": "SurfaceType25",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Ice'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Ice.0"
+                }
+              },
+              {
+                "Key": "SurfaceType26",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Snow'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Snow.0"
+                }
+              },
+              {
+                "Key": "SurfaceType27",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Stone'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Stone.0"
+                }
+              },
+              {
+                "Key": "SurfaceType23",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Bare_WaterLow'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Bare_WaterLow.0"
+                }
+              },
+              {
+                "Key": "SurfaceType_Default",
+                "Value": {
+                  "ObjectName": "AkSwitchValue'FootstepsShoesType-Boots_Stone'",
+                  "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Switches/Default_Work_Unit/FootstepsShoesType/FootstepsShoesType-Boots_Stone.0"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

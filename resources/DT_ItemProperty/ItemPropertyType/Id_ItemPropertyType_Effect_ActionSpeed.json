@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_ActionSpeed",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 40,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.ActionSpeed"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyActionSpeed_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyActionSpeed.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.ActionSpeed"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

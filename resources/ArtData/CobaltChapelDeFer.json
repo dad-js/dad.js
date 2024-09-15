@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "CobaltChapelDeFer",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 0.5
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CobaltChapelDeFer'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CobaltChapelDeFer/Icon/Item_Icon_CobaltChapelDeFer.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_CobaltChapelDeFer'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CobaltChapelDeFer/SK_CobaltChapelDeFer.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CobaltChapelDeFer_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CobaltChapelDeFer/SM_CobaltChapelDeFer_Holder.2"
+      }
+    }
+  }
+]

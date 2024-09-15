@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_SurvivalBowReload_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_BowReloadAmmoBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowReloadAmmoBase.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_BowReloadAmmoBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowReloadAmmoBase.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_SurvivalBowReload_C'Default__GA_SurvivalBowReload_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/GameplayAbility/GA_SurvivalBowReload.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_SurvivalBowReload_C",
+    "Name": "Default__GA_SurvivalBowReload_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/GameplayAbility/GA_SurvivalBowReload.GA_SurvivalBowReload_C'",
+    "Template": {
+      "ObjectName": "GA_BowReloadAmmoBase_C'Default__GA_BowReloadAmmoBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowReloadAmmoBase.1"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_SurvivalBow_Reload'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_SurvivalBow_Reload.0"
+      },
+      "MontageToPlayOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_SurvivalBow_Reload'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_Reload.10"
+      }
+    }
+  }
+]

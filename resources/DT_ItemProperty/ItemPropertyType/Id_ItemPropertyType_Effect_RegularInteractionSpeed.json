@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_RegularInteractionSpeed",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 43,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.RegularInteractionSpeed"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyRegularInteractionSpeed_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyRegularInteractionSpeed.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.RegularInteractionSpeed"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

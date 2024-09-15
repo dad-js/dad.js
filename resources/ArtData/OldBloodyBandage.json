@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "OldBloodyBandage",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_OldBloodyBandage'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/OldBloodyBandage/Icon/Item_Icon_OldBloodyBandage.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_OldBloodyBandage_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/OldBloodyBandage/SM_OldBloodyBandage_Holder.2"
+      }
+    }
+  }
+]

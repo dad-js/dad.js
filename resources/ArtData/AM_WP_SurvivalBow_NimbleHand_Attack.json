@@ -1,0 +1,502 @@
+[
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_0",
+    "Outer": "AM_WP_SurvivalBow_NimbleHand_Attack",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root"
+    }
+  },
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_1",
+    "Outer": "AM_WP_SurvivalBow_NimbleHand_Attack",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root2"
+    }
+  },
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_2",
+    "Outer": "AM_WP_SurvivalBow_NimbleHand_Attack",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root3"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_3",
+    "Outer": "AM_WP_SurvivalBow_NimbleHand_Attack",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root1"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_4",
+    "Outer": "AM_WP_SurvivalBow_NimbleHand_Attack",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root"
+    }
+  },
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_WP_SurvivalBow_NimbleHand_Attack",
+    "Class": "UScriptClass'AnimMontage'",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.05
+      },
+      "BlendOut": {
+        "BlendTime": 0.15
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "Loop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_SurvivalBow_NimbleHand_Attack'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_SurvivalBow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_SurvivalBow_NimbleHand_Attack_Start.0"
+          }
+        },
+        {
+          "SectionName": "Loop",
+          "NextSectionName": "Loop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_SurvivalBow_NimbleHand_Attack'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 1.0,
+          "SegmentLength": 1.6,
+          "LinkValue": 1.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_SurvivalBow_NimbleHand_Attack_Loop'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_SurvivalBow_NimbleHand_Attack_Loop.0"
+          }
+        },
+        {
+          "SectionName": "End",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_SurvivalBow_NimbleHand_Attack'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 2.6,
+          "SegmentLength": 0.6,
+          "LinkValue": 2.6,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_SurvivalBow_NimbleHand_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_SurvivalBow_NimbleHand_Attack_End.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_SurvivalBow_NimbleHand_Attack_Start'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_SurvivalBow_NimbleHand_Attack_Start.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.0,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_SurvivalBow_NimbleHand_Attack_Loop'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_SurvivalBow_NimbleHand_Attack_Loop.0"
+                },
+                "StartPos": 1.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.6,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_SurvivalBow_NimbleHand_Attack_End'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_SurvivalBow_NimbleHand_Attack_End.0"
+                },
+                "StartPos": 2.6,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.6,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "BranchingPointMarkers": [
+        {
+          "NotifyIndex": 0,
+          "TriggerTime": 0.036913726,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 1,
+          "TriggerTime": 0.036956873,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 4,
+          "TriggerTime": 0.05515053,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 5,
+          "TriggerTime": 2.6223924,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        }
+      ],
+      "CommonTargetFrameRate": {
+        "Numerator": 30
+      },
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_SurvivalBow_NimbleHand_Attack:AN_UnHideBone_C_4'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.036913726,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_SurvivalBow_NimbleHand_Attack'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.0,
+          "LinkValue": 0.036913726,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_SurvivalBow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_SurvivalBow_NimbleHand_Attack_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_SurvivalBow_NimbleHand_Attack:AN_UnHideBone_C_3'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.036956873,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_SurvivalBow_NimbleHand_Attack'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.0,
+          "LinkValue": 0.036956873,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_SurvivalBow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_SurvivalBow_NimbleHand_Attack_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_SurvivalBow_NimbleHand_Attack:AN_HideBone_C_1'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.037044533,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_SurvivalBow_NimbleHand_Attack'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.0,
+          "LinkValue": 0.037044533,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_SurvivalBow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_SurvivalBow_NimbleHand_Attack_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_SurvivalBow_NimbleHand_Attack:AN_HideBone_C_2'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.037083566,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_SurvivalBow_NimbleHand_Attack'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.0,
+          "LinkValue": 0.037083566,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_SurvivalBow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_SurvivalBow_NimbleHand_Attack_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DCPreReduceAmmoCountOnSourceObject",
+          "Notify": {
+            "ObjectName": "DCAnimNotify_PreReduceAmmoCountOnSourceObject'AM_WP_SurvivalBow_NimbleHand_Attack:DCAnimNotify_PreReduceAmmoCountOnSourceObject_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.318421,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_SurvivalBow_NimbleHand_Attack'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.0,
+          "LinkValue": 0.05515053,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_SurvivalBow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_SurvivalBow_NimbleHand_Attack_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_SurvivalBow_NimbleHand_Attack:AN_HideBone_C_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.0"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.7168279,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_SurvivalBow_NimbleHand_Attack'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_SurvivalBow_NimbleHand_Attack.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 2.6,
+          "SegmentLength": 0.6,
+          "LinkValue": 2.6223924,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_SurvivalBow_NimbleHand_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_SurvivalBow_NimbleHand_Attack_End.0"
+          }
+        }
+      ],
+      "SequenceLength": 3.2,
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_SurvivalBow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/SKEL_SurvivalBow.4"
+      }
+    },
+    "SkeletonGuid": "AEA6CEB6-41E6611C-19084693-EB404AB9"
+  },
+  {
+    "Type": "DCAnimNotify_PreReduceAmmoCountOnSourceObject",
+    "Name": "DCAnimNotify_PreReduceAmmoCountOnSourceObject_0",
+    "Outer": "AM_WP_SurvivalBow_NimbleHand_Attack",
+    "Class": "UScriptClass'DCAnimNotify_PreReduceAmmoCountOnSourceObject'",
+    "Properties": {
+      "ReduceCount": 1
+    }
+  }
+]

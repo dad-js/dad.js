@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "CampfireKitConsume4001_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_PropsEffect_CampfireTurnOnState_4001'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Props/PropsEffect/Id_PropsEffect_CampfireTurnOnState_4001.0"
+        },
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_RestInCampfireArea'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_RestInCampfireArea.0"
+        }
+      ],
+      "ItemConsumeDataAssetArray": [
+        {
+          "ObjectName": "DCItemConsumeDataAsset'Id_ItemConsume_CampfireKit_4001'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemConsume/Id_ItemConsume_CampfireKit_4001.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_CampfireKitConsume_Desc_CampfireKitConsumeDesc",
+        "SourceString": "Text_Install the campfire over <ItemConsume Type=\"Duration\">[0] seconds</>. The campfire lasts for <Duration>[0] seconds</>, restoring <Exec.PhysicalHealBase>[1] #</> per second.",
+        "LocalizedString": "Set a campfire over <ItemConsume Type=\"Duration\">[0] seconds</>. All players resting within its area of effect gain <Exec.PhysicalHealBase>[1] _</> per second for <Duration>[0] seconds</>."
+      }
+    }
+  }
+]

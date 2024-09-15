@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "SurvivalBowUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_SurvivalBowUnique_ActionSpeed'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_SurvivalBowUnique_ActionSpeed.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_SurvivalBowUniqueEffect_Desc_SurvivalBowUniqueEffectDesc",
+        "SourceString": "Gain <ActionSpeed>[0]% #</> and fire arrows that fly in a straight line.",
+        "LocalizedString": "Gain <ActionSpeed>[0]% _</> and fire arrows that fly in a straight line."
+      }
+    }
+  }
+]

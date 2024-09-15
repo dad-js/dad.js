@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_MaxHealthAdd",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 35,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.MaxHealthAdd"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyMaxHealthAdd_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyMaxHealthAdd.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.MaxHealthAdd"
+        }
+      }
+    }
+  }
+]

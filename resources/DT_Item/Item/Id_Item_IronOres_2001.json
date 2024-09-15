@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_IronOres_2001",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.IronOres"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_IronOres_2001"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_IronOres_2001",
+          "SourceString": "Text_DesignData_Item_Item_IronOres_2001",
+          "LocalizedString": "Iron Ore"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_IronOres_2001",
+          "SourceString": "Text_DesignData_Item_Flavor_IronOres_2001",
+          "LocalizedString": "A dirty chunk of rock containing traces of iron."
+        },
+        "ItemType": "EItemType::Misc",
+        "MiscType": {
+          "TagName": "Type.Item.Misc.Ore"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Common"
+        },
+        "MaxCount": 5,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "IronOre"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "IronOre_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 2,
+        "InventoryHeight": 2,
+        "BundleInfo": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemBundleInfo"
+          },
+          "PrimaryAssetName": "Id_ItemBundleInfo_IronOre"
+        }
+      }
+    }
+  }
+]

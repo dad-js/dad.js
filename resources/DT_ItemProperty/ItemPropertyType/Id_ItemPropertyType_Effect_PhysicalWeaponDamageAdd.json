@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_PhysicalWeaponDamageAdd",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 18,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.PhysicalWeaponDamageAdd"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyPhysicalWeaponDamageAdd_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyPhysicalWeaponDamageAdd.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.PhysicalDamageBase"
+        }
+      }
+    }
+  }
+]

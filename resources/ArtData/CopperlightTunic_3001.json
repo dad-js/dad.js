@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "CopperlightTunic_3001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CopperlightTunic'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/CopperlightTunic/Icon/Item_Icon_CopperlightTunic.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_CopperlightTunic'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/CopperlightTunic/SK_CopperlightTunic.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CopperlightTunic_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/CopperlightTunic/SM_CopperlightTunic_Holder.2"
+      }
+    }
+  }
+]

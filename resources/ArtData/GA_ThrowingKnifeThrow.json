@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_ThrowingKnifeThrow_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemThrow.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemThrow.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_ThrowingKnifeThrow_C'Default__GA_ThrowingKnifeThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/ThrowingKnife/GameplayAbility/GA_ThrowingKnifeThrow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_ThrowingKnifeThrow_C",
+    "Name": "Default__GA_ThrowingKnifeThrow_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Utility/ThrowingKnife/GameplayAbility/GA_ThrowingKnifeThrow.GA_ThrowingKnifeThrow_C'",
+    "Template": {
+      "ObjectName": "GA_ItemThrow_C'Default__GA_ItemThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemThrow.3"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_ThrowingKnife_Throwing'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/ThrowingKnife/Animations/AM_ThrowingKnife_Throwing.0"
+      },
+      "ProjectileActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_ThrowingKnifeProjectileBase_C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Projectile/ThrowingKnife/BP_ThrowingKnifeProjectileBase.1"
+      },
+      "FireSocketName": "weapon_r",
+      "DamageCurve": {
+        "ObjectName": "CurveFloat'CV_ThrowingKnife'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/GameplayAbility/CurveFloat/CV_ThrowingKnife.0"
+      }
+    }
+  }
+]

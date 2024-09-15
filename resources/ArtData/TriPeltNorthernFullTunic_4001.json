@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "TriPeltNorthernFullTunic_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_TriPeltNorthernFullTunic'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/TriPeltNorthernFullTunic/Icon/Item_Icon_TriPeltNorthernFullTunic.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_NorthernFullTunic'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/NorthernFullTunic/SK_NorthernFullTunic.6"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "ML_NorthernFullTunic",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_TriPeltNorthernFullTunic'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/TriPeltNorthernFullTunic/Materials/MI_TriPeltNorthernFullTunic.0"
+          }
+        },
+        {
+          "MaterialSlotName": "Fbx Default Material 1",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_TriPeltNorthernFullTunic'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/TriPeltNorthernFullTunic/Materials/MI_TriPeltNorthernFullTunic.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_NorthernFullTunic_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/NorthernFullTunic/SM_NorthernFullTunic_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "ML_Scalearmor",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_TriPeltNorthernFullTunic_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/TriPeltNorthernFullTunic/Materials/MI_TriPeltNorthernFullTunic_Holder.0"
+          }
+        },
+        {
+          "MaterialSlotName": "Fbx Default Material 1",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_TriPeltNorthernFullTunic_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/TriPeltNorthernFullTunic/Materials/MI_TriPeltNorthernFullTunic_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

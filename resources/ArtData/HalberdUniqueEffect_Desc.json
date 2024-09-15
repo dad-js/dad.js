@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "HalberdUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ItemEffect_HalberdAdditionalDamage'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemEffect/Id_ItemEffect_HalberdAdditionalDamage.0"
+        },
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_Halberd_Burn'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_Halberd_Burn.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_HalberdUniqueEffect_Desc_HalberdUniqueEffectDesc",
+        "SourceString": "Text_When you hit an enemy, deal an additional <Exec.MagicalDamageBase>[0] #</> and burn the target for <Duration>[1] seconds</>.",
+        "LocalizedString": "When you hit an enemy, deal an additional <Exec.MagicalDamageBase>[0] _</> and burn the target for <Duration>[1] seconds</>."
+      }
+    }
+  }
+]

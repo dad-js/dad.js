@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_TorchThrow_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemThrow.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemThrow.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_TorchThrow_C'Default__GA_TorchThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Torch/GameplayAbility/GA_TorchThrow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_TorchThrow_C",
+    "Name": "Default__GA_TorchThrow_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Torch/GameplayAbility/GA_TorchThrow.GA_TorchThrow_C'",
+    "Template": {
+      "ObjectName": "GA_ItemThrow_C'Default__GA_ItemThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemThrow.3"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_Torch_Throwing'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Torch/Animations/AM_Torch_Throwing.0"
+      },
+      "ProjectileActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_TorchProjectileBase_C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Projectile/Torch/BP_TorchProjectileBase.1"
+      },
+      "FireSocketName": "weapon_l",
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Ability.Player.Act.Attack.SecondaryAttack.Press"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

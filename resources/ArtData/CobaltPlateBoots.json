@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "CobaltPlateBoots",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::BootsEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CobaltPlateBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/CobaltPlateBoots/Icon/Item_Icon_CobaltPlateBoots.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_CobaltPlateBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/CobaltPlateBoots/SK_CobaltPlateBoots.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CobaltPlateBoots_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/CobaltPlateBoots/SM_CobaltPlateBoots_Holder.2"
+      }
+    }
+  }
+]

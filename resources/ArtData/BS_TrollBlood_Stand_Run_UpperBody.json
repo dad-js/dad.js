@@ -1,0 +1,2605 @@
+[
+  {
+    "Type": "BlendSpace",
+    "Name": "BS_TrollBlood_Stand_Run_UpperBody",
+    "Class": "UScriptClass'BlendSpace'",
+    "Properties": {
+      "InterpolationParam": {
+        "InterpolationTime": 0.1,
+        "InterpolationType": "EFilterInterpolationType::BSIT_Average"
+      },
+      "InterpolationParam": {
+        "InterpolationTime": 0.1,
+        "InterpolationType": "EFilterInterpolationType::BSIT_Average"
+      },
+      "bTargetWeightInterpolationEaseInOut": false,
+      "AnimLength": 0.8,
+      "bInterpolateUsingGrid": true,
+      "SampleData": [
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": 250.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 0.1
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": 125.0,
+            "Z": 0.0
+          },
+          "RateScale": 0.5
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": -250.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": -250.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": 250.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": -500.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 2.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": 500.0,
+            "Z": 0.0
+          },
+          "RateScale": 2.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": 500.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": -500.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": -360.0,
+            "Y": -360.0,
+            "Z": 0.0
+          },
+          "RateScale": 2.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": 360.0,
+            "Y": -360.0,
+            "Z": 0.0
+          },
+          "RateScale": 2.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": -360.0,
+            "Y": 360.0,
+            "Z": 0.0
+          },
+          "RateScale": 2.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": 360.0,
+            "Y": 360.0,
+            "Z": 0.0
+          },
+          "RateScale": 2.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": -180.0,
+            "Y": 180.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": 180.0,
+            "Y": 180.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": -180.0,
+            "Y": -180.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": 180.0,
+            "Y": -180.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": -125.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 0.5
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": -125.0,
+            "Z": 0.0
+          },
+          "RateScale": 0.5
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AS_TrollBlood_Stand_RunF'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/TrollBlood/Animations/AS_TrollBlood_Stand_RunF.0"
+          },
+          "SampleValue": {
+            "X": 125.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 0.5
+        }
+      ],
+      "GridSamples": [
+        {
+          "Indices": 16,
+          "Indices": 10,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 16,
+          "Indices": 10,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 10,
+          "Indices": 9,
+          "Indices": -1,
+          "Weights": 0.90482575,
+          "Weights": 0.09517426,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 10,
+          "Indices": 9,
+          "Indices": -1,
+          "Weights": 0.75402147,
+          "Weights": 0.24597855,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 10,
+          "Indices": 9,
+          "Indices": -1,
+          "Weights": 0.6032172,
+          "Weights": 0.39678285,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 10,
+          "Indices": 9,
+          "Indices": -1,
+          "Weights": 0.45241287,
+          "Weights": 0.54758716,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 10,
+          "Indices": 9,
+          "Indices": -1,
+          "Weights": 0.3016086,
+          "Weights": 0.69839144,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 10,
+          "Indices": 9,
+          "Indices": -1,
+          "Weights": 0.1508043,
+          "Weights": 0.8491957,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 17,
+          "Indices": 4,
+          "Weights": 1.0,
+          "Weights": 0.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": -1,
+          "Weights": 0.8491957,
+          "Weights": 0.1508043,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": -1,
+          "Weights": 0.69839144,
+          "Weights": 0.3016086,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": -1,
+          "Weights": 0.54758716,
+          "Weights": 0.45241287,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": -1,
+          "Weights": 0.39678285,
+          "Weights": 0.6032172,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": -1,
+          "Weights": 0.24597855,
+          "Weights": 0.75402147,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": -1,
+          "Weights": 0.09517426,
+          "Weights": 0.90482575,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 16,
+          "Indices": 10,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 16,
+          "Indices": 10,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 10,
+          "Indices": 9,
+          "Indices": -1,
+          "Weights": 0.96347183,
+          "Weights": 0.03652815,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 10,
+          "Indices": 9,
+          "Indices": -1,
+          "Weights": 0.81266755,
+          "Weights": 0.18733244,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 10,
+          "Indices": 9,
+          "Indices": -1,
+          "Weights": 0.66186327,
+          "Weights": 0.33813673,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 10,
+          "Indices": 9,
+          "Indices": -1,
+          "Weights": 0.511059,
+          "Weights": 0.488941,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 16,
+          "Indices": 10,
+          "Weights": 0.625,
+          "Weights": 0.055555556,
+          "Weights": 0.31944445
+        },
+        {
+          "Indices": 9,
+          "Indices": 16,
+          "Indices": 10,
+          "Weights": 0.75,
+          "Weights": 0.15277778,
+          "Weights": 0.097222224
+        },
+        {
+          "Indices": 9,
+          "Indices": 4,
+          "Indices": 16,
+          "Weights": 0.75,
+          "Weights": 0.25,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": 17,
+          "Weights": 0.75,
+          "Weights": 0.097222224,
+          "Weights": 0.15277778
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": 17,
+          "Weights": 0.625,
+          "Weights": 0.31944445,
+          "Weights": 0.055555556
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": -1,
+          "Weights": 0.488941,
+          "Weights": 0.511059,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": -1,
+          "Weights": 0.33813673,
+          "Weights": 0.66186327,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": -1,
+          "Weights": 0.18733244,
+          "Weights": 0.81266755,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": -1,
+          "Weights": 0.03652815,
+          "Weights": 0.96347183,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 6,
+          "Indices": 10,
+          "Indices": -1,
+          "Weights": 0.09517426,
+          "Weights": 0.90482575,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 6,
+          "Indices": 10,
+          "Indices": -1,
+          "Weights": 0.03652815,
+          "Weights": 0.96347183,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 16,
+          "Indices": 10,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 16,
+          "Indices": 10,
+          "Weights": 0.125,
+          "Weights": 0.013888889,
+          "Weights": 0.8611111
+        },
+        {
+          "Indices": 9,
+          "Indices": 16,
+          "Indices": 10,
+          "Weights": 0.25,
+          "Weights": 0.11111111,
+          "Weights": 0.6388889
+        },
+        {
+          "Indices": 9,
+          "Indices": 16,
+          "Indices": 10,
+          "Weights": 0.375,
+          "Weights": 0.20833333,
+          "Weights": 0.41666666
+        },
+        {
+          "Indices": 9,
+          "Indices": 16,
+          "Indices": 10,
+          "Weights": 0.5,
+          "Weights": 0.30555555,
+          "Weights": 0.19444445
+        },
+        {
+          "Indices": 9,
+          "Indices": 4,
+          "Indices": 16,
+          "Weights": 0.5972222,
+          "Weights": 0.055555556,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 9,
+          "Indices": 4,
+          "Indices": 16,
+          "Weights": 0.5,
+          "Weights": 0.5,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 17,
+          "Indices": 4,
+          "Weights": 0.5972222,
+          "Weights": 0.3472222,
+          "Weights": 0.055555556
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": 17,
+          "Weights": 0.5,
+          "Weights": 0.19444445,
+          "Weights": 0.30555555
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": 17,
+          "Weights": 0.37500006,
+          "Weights": 0.41666672,
+          "Weights": 0.20833336
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": 17,
+          "Weights": 0.25,
+          "Weights": 0.6388889,
+          "Weights": 0.11111111
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": 17,
+          "Weights": 0.125,
+          "Weights": 0.8611111,
+          "Weights": 0.013888889
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": -1,
+          "Weights": 0.96347183,
+          "Weights": 0.03652815,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": -1,
+          "Weights": 0.90482575,
+          "Weights": 0.09517426,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 6,
+          "Indices": 10,
+          "Indices": -1,
+          "Weights": 0.24597855,
+          "Weights": 0.75402147,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 6,
+          "Indices": 10,
+          "Indices": -1,
+          "Weights": 0.18733244,
+          "Weights": 0.81266755,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 16,
+          "Indices": 6,
+          "Indices": 10,
+          "Weights": 0.013888889,
+          "Weights": 0.125,
+          "Weights": 0.8611111
+        },
+        {
+          "Indices": 16,
+          "Indices": 6,
+          "Indices": 10,
+          "Weights": 0.2638889,
+          "Weights": 0.0,
+          "Weights": 0.7361111
+        },
+        {
+          "Indices": 9,
+          "Indices": 16,
+          "Indices": 10,
+          "Weights": 0.125,
+          "Weights": 0.3611111,
+          "Weights": 0.5138889
+        },
+        {
+          "Indices": 9,
+          "Indices": 16,
+          "Indices": 10,
+          "Weights": 0.25,
+          "Weights": 0.45833334,
+          "Weights": 0.29166666
+        },
+        {
+          "Indices": 9,
+          "Indices": 16,
+          "Indices": 10,
+          "Weights": 0.375,
+          "Weights": 0.5555556,
+          "Weights": 0.06944445
+        },
+        {
+          "Indices": 9,
+          "Indices": 4,
+          "Indices": 16,
+          "Weights": 0.3472222,
+          "Weights": 0.30555555,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 9,
+          "Indices": 4,
+          "Indices": 16,
+          "Weights": 0.25,
+          "Weights": 0.75,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 17,
+          "Indices": 4,
+          "Weights": 0.3472222,
+          "Weights": 0.3472222,
+          "Weights": 0.30555555
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": 17,
+          "Weights": 0.375,
+          "Weights": 0.06944445,
+          "Weights": 0.5555556
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": 17,
+          "Weights": 0.25,
+          "Weights": 0.29166666,
+          "Weights": 0.45833334
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": 17,
+          "Weights": 0.125,
+          "Weights": 0.5138889,
+          "Weights": 0.3611111
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": 17,
+          "Weights": 0.7361111,
+          "Weights": 0.0,
+          "Weights": 0.2638889
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": 17,
+          "Weights": 0.8611111,
+          "Weights": 0.125,
+          "Weights": 0.013888889
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": -1,
+          "Weights": 0.81266755,
+          "Weights": 0.18733244,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": -1,
+          "Weights": 0.75402147,
+          "Weights": 0.24597855,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 6,
+          "Indices": 10,
+          "Indices": -1,
+          "Weights": 0.39678285,
+          "Weights": 0.6032172,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 6,
+          "Indices": 10,
+          "Indices": -1,
+          "Weights": 0.33813673,
+          "Weights": 0.66186327,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 16,
+          "Indices": 6,
+          "Indices": 10,
+          "Weights": 0.11111111,
+          "Weights": 0.25,
+          "Weights": 0.6388889
+        },
+        {
+          "Indices": 16,
+          "Indices": 6,
+          "Indices": 10,
+          "Weights": 0.3611111,
+          "Weights": 0.125,
+          "Weights": 0.5138889
+        },
+        {
+          "Indices": 16,
+          "Indices": 6,
+          "Indices": 10,
+          "Weights": 0.6111111,
+          "Weights": 0.0,
+          "Weights": 0.3888889
+        },
+        {
+          "Indices": 9,
+          "Indices": 16,
+          "Indices": 10,
+          "Weights": 0.125,
+          "Weights": 0.7083333,
+          "Weights": 0.16666667
+        },
+        {
+          "Indices": 9,
+          "Indices": 4,
+          "Indices": 16,
+          "Weights": 0.19444445,
+          "Weights": 0.11111111,
+          "Weights": 0.6944444
+        },
+        {
+          "Indices": 9,
+          "Indices": 4,
+          "Indices": 16,
+          "Weights": 0.097222224,
+          "Weights": 0.5555556,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 9,
+          "Indices": 4,
+          "Indices": 16,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 9,
+          "Indices": 17,
+          "Indices": 4,
+          "Weights": 0.097222224,
+          "Weights": 0.3472222,
+          "Weights": 0.5555556
+        },
+        {
+          "Indices": 9,
+          "Indices": 17,
+          "Indices": 4,
+          "Weights": 0.19444448,
+          "Weights": 0.6944445,
+          "Weights": 0.11111113
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": 17,
+          "Weights": 0.125,
+          "Weights": 0.16666667,
+          "Weights": 0.7083333
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": 17,
+          "Weights": 0.3888889,
+          "Weights": 0.0,
+          "Weights": 0.6111111
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": 17,
+          "Weights": 0.5138889,
+          "Weights": 0.125,
+          "Weights": 0.3611111
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": 17,
+          "Weights": 0.6388889,
+          "Weights": 0.25,
+          "Weights": 0.11111111
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": -1,
+          "Weights": 0.66186327,
+          "Weights": 0.33813673,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": -1,
+          "Weights": 0.6032172,
+          "Weights": 0.39678285,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 6,
+          "Indices": 10,
+          "Indices": -1,
+          "Weights": 0.54758716,
+          "Weights": 0.45241287,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 6,
+          "Indices": 10,
+          "Indices": -1,
+          "Weights": 0.488941,
+          "Weights": 0.511059,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 16,
+          "Indices": 6,
+          "Indices": 10,
+          "Weights": 0.20833333,
+          "Weights": 0.375,
+          "Weights": 0.41666666
+        },
+        {
+          "Indices": 16,
+          "Indices": 6,
+          "Indices": 10,
+          "Weights": 0.45833334,
+          "Weights": 0.25,
+          "Weights": 0.29166666
+        },
+        {
+          "Indices": 16,
+          "Indices": 6,
+          "Indices": 10,
+          "Weights": 0.7083333,
+          "Weights": 0.125,
+          "Weights": 0.16666667
+        },
+        {
+          "Indices": 16,
+          "Indices": 6,
+          "Indices": 10,
+          "Weights": 0.9583333,
+          "Weights": 0.0,
+          "Weights": 0.041666668
+        },
+        {
+          "Indices": 16,
+          "Indices": 4,
+          "Indices": 19,
+          "Weights": 0.6944445,
+          "Weights": 0.19444448,
+          "Weights": 0.11111113
+        },
+        {
+          "Indices": 16,
+          "Indices": 4,
+          "Indices": 19,
+          "Weights": 0.3472222,
+          "Weights": 0.3472222,
+          "Weights": 0.30555555
+        },
+        {
+          "Indices": 4,
+          "Indices": 17,
+          "Indices": 19,
+          "Weights": 0.5,
+          "Weights": 0.0,
+          "Weights": 0.5
+        },
+        {
+          "Indices": 4,
+          "Indices": 17,
+          "Indices": 19,
+          "Weights": 0.3472222,
+          "Weights": 0.3472222,
+          "Weights": 0.30555555
+        },
+        {
+          "Indices": 4,
+          "Indices": 17,
+          "Indices": 19,
+          "Weights": 0.19444448,
+          "Weights": 0.6944445,
+          "Weights": 0.11111113
+        },
+        {
+          "Indices": 9,
+          "Indices": 11,
+          "Indices": 17,
+          "Weights": 0.0,
+          "Weights": 0.041666668,
+          "Weights": 0.9583333
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": 17,
+          "Weights": 0.16666667,
+          "Weights": 0.125,
+          "Weights": 0.7083333
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": 17,
+          "Weights": 0.29166666,
+          "Weights": 0.25,
+          "Weights": 0.45833334
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": 17,
+          "Weights": 0.41666672,
+          "Weights": 0.37500006,
+          "Weights": 0.20833336
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": -1,
+          "Weights": 0.511059,
+          "Weights": 0.488941,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": -1,
+          "Weights": 0.45241287,
+          "Weights": 0.54758716,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 6,
+          "Indices": 10,
+          "Indices": -1,
+          "Weights": 0.69839144,
+          "Weights": 0.3016086,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 16,
+          "Indices": 6,
+          "Indices": 10,
+          "Weights": 0.055555556,
+          "Weights": 0.625,
+          "Weights": 0.31944445
+        },
+        {
+          "Indices": 16,
+          "Indices": 6,
+          "Indices": 10,
+          "Weights": 0.30555555,
+          "Weights": 0.5,
+          "Weights": 0.19444445
+        },
+        {
+          "Indices": 16,
+          "Indices": 6,
+          "Indices": 10,
+          "Weights": 0.5555556,
+          "Weights": 0.375,
+          "Weights": 0.06944445
+        },
+        {
+          "Indices": 16,
+          "Indices": 3,
+          "Indices": 6,
+          "Weights": 0.6944444,
+          "Weights": 0.11111111,
+          "Weights": 0.19444445
+        },
+        {
+          "Indices": 16,
+          "Indices": 18,
+          "Indices": 3,
+          "Weights": 0.6944444,
+          "Weights": 0.11111111,
+          "Weights": 0.19444445
+        },
+        {
+          "Indices": 16,
+          "Indices": 19,
+          "Indices": 18,
+          "Weights": 0.5319149,
+          "Weights": 0.23404256,
+          "Weights": 0.23404256
+        },
+        {
+          "Indices": 16,
+          "Indices": 19,
+          "Indices": 18,
+          "Weights": 0.26595747,
+          "Weights": 0.6170213,
+          "Weights": 0.11702129
+        },
+        {
+          "Indices": 16,
+          "Indices": 4,
+          "Indices": 19,
+          "Weights": 0.0,
+          "Weights": 0.0,
+          "Weights": 1.0
+        },
+        {
+          "Indices": 17,
+          "Indices": 20,
+          "Indices": 19,
+          "Weights": 0.26595744,
+          "Weights": 0.11702128,
+          "Weights": 0.61702126
+        },
+        {
+          "Indices": 17,
+          "Indices": 20,
+          "Indices": 19,
+          "Weights": 0.5319149,
+          "Weights": 0.23404256,
+          "Weights": 0.23404256
+        },
+        {
+          "Indices": 20,
+          "Indices": 17,
+          "Indices": 5,
+          "Weights": 0.11111111,
+          "Weights": 0.6944444,
+          "Weights": 0.19444445
+        },
+        {
+          "Indices": 5,
+          "Indices": 17,
+          "Indices": 8,
+          "Weights": 0.11111111,
+          "Weights": 0.6944444,
+          "Weights": 0.19444445
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": 17,
+          "Weights": 0.06944445,
+          "Weights": 0.375,
+          "Weights": 0.5555556
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": 17,
+          "Weights": 0.19444445,
+          "Weights": 0.5,
+          "Weights": 0.30555555
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": 17,
+          "Weights": 0.31944445,
+          "Weights": 0.625,
+          "Weights": 0.055555556
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": -1,
+          "Weights": 0.3016086,
+          "Weights": 0.69839144,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 6,
+          "Indices": 10,
+          "Indices": -1,
+          "Weights": 0.8491957,
+          "Weights": 0.1508043,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 16,
+          "Indices": 6,
+          "Indices": 10,
+          "Weights": 0.15277778,
+          "Weights": 0.75,
+          "Weights": 0.097222224
+        },
+        {
+          "Indices": 16,
+          "Indices": 3,
+          "Indices": 6,
+          "Weights": 0.3472222,
+          "Weights": 0.055555556,
+          "Weights": 0.5972222
+        },
+        {
+          "Indices": 16,
+          "Indices": 3,
+          "Indices": 6,
+          "Weights": 0.3472222,
+          "Weights": 0.30555555,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 16,
+          "Indices": 3,
+          "Indices": 6,
+          "Weights": 0.3472222,
+          "Weights": 0.5555556,
+          "Weights": 0.097222224
+        },
+        {
+          "Indices": 16,
+          "Indices": 18,
+          "Indices": 3,
+          "Weights": 0.3472222,
+          "Weights": 0.30555555,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 16,
+          "Indices": 19,
+          "Indices": 18,
+          "Weights": 0.26595744,
+          "Weights": 0.11702128,
+          "Weights": 0.61702126
+        },
+        {
+          "Indices": 18,
+          "Indices": 19,
+          "Indices": 1,
+          "Weights": 0.5,
+          "Weights": 0.5,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 1,
+          "Indices": 19,
+          "Indices": 20,
+          "Weights": 0.5,
+          "Weights": 0.5,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 1,
+          "Indices": 19,
+          "Indices": 20,
+          "Weights": 0.0,
+          "Weights": 0.5,
+          "Weights": 0.5
+        },
+        {
+          "Indices": 17,
+          "Indices": 20,
+          "Indices": 19,
+          "Weights": 0.26595747,
+          "Weights": 0.6170213,
+          "Weights": 0.11702129
+        },
+        {
+          "Indices": 20,
+          "Indices": 17,
+          "Indices": 5,
+          "Weights": 0.30555555,
+          "Weights": 0.3472222,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 5,
+          "Indices": 17,
+          "Indices": 8,
+          "Weights": 0.5555556,
+          "Weights": 0.3472222,
+          "Weights": 0.097222224
+        },
+        {
+          "Indices": 5,
+          "Indices": 17,
+          "Indices": 8,
+          "Weights": 0.30555555,
+          "Weights": 0.3472222,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 5,
+          "Indices": 17,
+          "Indices": 8,
+          "Weights": 0.055555556,
+          "Weights": 0.3472222,
+          "Weights": 0.5972222
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": 17,
+          "Weights": 0.097222224,
+          "Weights": 0.75,
+          "Weights": 0.15277778
+        },
+        {
+          "Indices": 11,
+          "Indices": 8,
+          "Indices": -1,
+          "Weights": 0.1508043,
+          "Weights": 0.8491957,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 3,
+          "Indices": 14,
+          "Indices": 6,
+          "Weights": 0.0,
+          "Weights": 0.0,
+          "Weights": 1.0
+        },
+        {
+          "Indices": 3,
+          "Indices": 14,
+          "Indices": 6,
+          "Weights": 0.25,
+          "Weights": 0.0,
+          "Weights": 0.75
+        },
+        {
+          "Indices": 3,
+          "Indices": 14,
+          "Indices": 6,
+          "Weights": 0.5,
+          "Weights": 0.0,
+          "Weights": 0.5
+        },
+        {
+          "Indices": 3,
+          "Indices": 14,
+          "Indices": 6,
+          "Weights": 0.75,
+          "Weights": 0.0,
+          "Weights": 0.25
+        },
+        {
+          "Indices": 16,
+          "Indices": 3,
+          "Indices": 6,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 18,
+          "Indices": 14,
+          "Indices": 3,
+          "Weights": 0.5,
+          "Weights": 0.0,
+          "Weights": 0.5
+        },
+        {
+          "Indices": 18,
+          "Indices": 14,
+          "Indices": 3,
+          "Weights": 1.0,
+          "Weights": 0.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 18,
+          "Indices": 1,
+          "Indices": 2,
+          "Weights": 0.5,
+          "Weights": 0.5,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 18,
+          "Indices": 1,
+          "Indices": 2,
+          "Weights": -0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 1,
+          "Indices": 20,
+          "Indices": 2,
+          "Weights": 0.5,
+          "Weights": 0.5,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 20,
+          "Indices": 17,
+          "Indices": 5,
+          "Weights": 1.0,
+          "Weights": -0.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 20,
+          "Indices": 17,
+          "Indices": 5,
+          "Weights": 0.5,
+          "Weights": -0.0,
+          "Weights": 0.5
+        },
+        {
+          "Indices": 5,
+          "Indices": 8,
+          "Indices": 15,
+          "Weights": 1.0,
+          "Weights": 0.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 5,
+          "Indices": 8,
+          "Indices": 15,
+          "Weights": 0.75,
+          "Weights": 0.25,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 5,
+          "Indices": 8,
+          "Indices": 15,
+          "Weights": 0.5,
+          "Weights": 0.5,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 5,
+          "Indices": 8,
+          "Indices": 15,
+          "Weights": 0.25,
+          "Weights": 0.75,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 5,
+          "Indices": 8,
+          "Indices": 15,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 12,
+          "Indices": 6,
+          "Indices": -1,
+          "Weights": 0.1508043,
+          "Weights": 0.8491957,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": 6,
+          "Weights": 0.15277778,
+          "Weights": 0.097222224,
+          "Weights": 0.75
+        },
+        {
+          "Indices": 3,
+          "Indices": 14,
+          "Indices": 6,
+          "Weights": 0.055555556,
+          "Weights": 0.3472222,
+          "Weights": 0.5972222
+        },
+        {
+          "Indices": 3,
+          "Indices": 14,
+          "Indices": 6,
+          "Weights": 0.30555555,
+          "Weights": 0.3472222,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 3,
+          "Indices": 14,
+          "Indices": 6,
+          "Weights": 0.5555556,
+          "Weights": 0.3472222,
+          "Weights": 0.097222224
+        },
+        {
+          "Indices": 18,
+          "Indices": 14,
+          "Indices": 3,
+          "Weights": 0.30555555,
+          "Weights": 0.3472222,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 18,
+          "Indices": 2,
+          "Indices": 14,
+          "Weights": 0.61702126,
+          "Weights": 0.11702128,
+          "Weights": 0.26595744
+        },
+        {
+          "Indices": 18,
+          "Indices": 1,
+          "Indices": 2,
+          "Weights": 0.5,
+          "Weights": 0.0,
+          "Weights": 0.5
+        },
+        {
+          "Indices": 18,
+          "Indices": 1,
+          "Indices": 2,
+          "Weights": -0.0,
+          "Weights": 0.5,
+          "Weights": 0.5
+        },
+        {
+          "Indices": 1,
+          "Indices": 20,
+          "Indices": 2,
+          "Weights": 0.0,
+          "Weights": 0.5,
+          "Weights": 0.5
+        },
+        {
+          "Indices": 20,
+          "Indices": 15,
+          "Indices": 2,
+          "Weights": 0.6170213,
+          "Weights": 0.26595747,
+          "Weights": 0.11702129
+        },
+        {
+          "Indices": 20,
+          "Indices": 5,
+          "Indices": 15,
+          "Weights": 0.30555555,
+          "Weights": 0.3472222,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 5,
+          "Indices": 8,
+          "Indices": 15,
+          "Weights": 0.5555556,
+          "Weights": 0.097222224,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 5,
+          "Indices": 8,
+          "Indices": 15,
+          "Weights": 0.30555555,
+          "Weights": 0.3472222,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 5,
+          "Indices": 8,
+          "Indices": 15,
+          "Weights": 0.055555556,
+          "Weights": 0.5972222,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": 15,
+          "Weights": 0.75,
+          "Weights": 0.097222224,
+          "Weights": 0.15277778
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": -1,
+          "Weights": 0.8491957,
+          "Weights": 0.1508043,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 12,
+          "Indices": 6,
+          "Indices": -1,
+          "Weights": 0.3016086,
+          "Weights": 0.69839144,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": 6,
+          "Weights": 0.055555556,
+          "Weights": 0.31944445,
+          "Weights": 0.625
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": 6,
+          "Weights": 0.30555555,
+          "Weights": 0.19444445,
+          "Weights": 0.5
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": 6,
+          "Weights": 0.5555556,
+          "Weights": 0.06944445,
+          "Weights": 0.375
+        },
+        {
+          "Indices": 3,
+          "Indices": 14,
+          "Indices": 6,
+          "Weights": 0.11111111,
+          "Weights": 0.6944444,
+          "Weights": 0.19444445
+        },
+        {
+          "Indices": 18,
+          "Indices": 14,
+          "Indices": 3,
+          "Weights": 0.11111111,
+          "Weights": 0.6944444,
+          "Weights": 0.19444445
+        },
+        {
+          "Indices": 18,
+          "Indices": 2,
+          "Indices": 14,
+          "Weights": 0.23404256,
+          "Weights": 0.23404256,
+          "Weights": 0.5319149
+        },
+        {
+          "Indices": 18,
+          "Indices": 2,
+          "Indices": 14,
+          "Weights": 0.11702128,
+          "Weights": 0.61702126,
+          "Weights": 0.26595744
+        },
+        {
+          "Indices": 2,
+          "Indices": 15,
+          "Indices": 0,
+          "Weights": 1.0,
+          "Weights": 0.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 20,
+          "Indices": 15,
+          "Indices": 2,
+          "Weights": 0.11702128,
+          "Weights": 0.26595744,
+          "Weights": 0.61702126
+        },
+        {
+          "Indices": 20,
+          "Indices": 15,
+          "Indices": 2,
+          "Weights": 0.23404256,
+          "Weights": 0.5319149,
+          "Weights": 0.23404256
+        },
+        {
+          "Indices": 20,
+          "Indices": 5,
+          "Indices": 15,
+          "Weights": 0.11111111,
+          "Weights": 0.19444445,
+          "Weights": 0.6944444
+        },
+        {
+          "Indices": 5,
+          "Indices": 8,
+          "Indices": 15,
+          "Weights": 0.11111111,
+          "Weights": 0.19444445,
+          "Weights": 0.6944444
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": 15,
+          "Weights": 0.375,
+          "Weights": 0.06944445,
+          "Weights": 0.5555556
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": 15,
+          "Weights": 0.5,
+          "Weights": 0.19444445,
+          "Weights": 0.30555555
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": 15,
+          "Weights": 0.625,
+          "Weights": 0.31944445,
+          "Weights": 0.055555556
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": -1,
+          "Weights": 0.69839144,
+          "Weights": 0.3016086,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 12,
+          "Indices": 6,
+          "Indices": -1,
+          "Weights": 0.45241287,
+          "Weights": 0.54758716,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 12,
+          "Indices": 6,
+          "Indices": -1,
+          "Weights": 0.511059,
+          "Weights": 0.488941,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": 6,
+          "Weights": 0.20833333,
+          "Weights": 0.41666666,
+          "Weights": 0.375
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": 6,
+          "Weights": 0.45833334,
+          "Weights": 0.29166666,
+          "Weights": 0.25
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": 6,
+          "Weights": 0.7083333,
+          "Weights": 0.16666667,
+          "Weights": 0.125
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": 6,
+          "Weights": 0.9583333,
+          "Weights": 0.041666668,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 14,
+          "Indices": 2,
+          "Indices": 0,
+          "Weights": 0.6944444,
+          "Weights": 0.11111111,
+          "Weights": 0.19444445
+        },
+        {
+          "Indices": 14,
+          "Indices": 2,
+          "Indices": 0,
+          "Weights": 0.3472222,
+          "Weights": 0.30555555,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 14,
+          "Indices": 2,
+          "Indices": 0,
+          "Weights": -0.0,
+          "Weights": 0.5,
+          "Weights": 0.5
+        },
+        {
+          "Indices": 2,
+          "Indices": 15,
+          "Indices": 0,
+          "Weights": 0.30555555,
+          "Weights": 0.3472222,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 2,
+          "Indices": 15,
+          "Indices": 0,
+          "Weights": 0.11111111,
+          "Weights": 0.6944444,
+          "Weights": 0.19444445
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": 15,
+          "Weights": 0.0,
+          "Weights": 0.041666668,
+          "Weights": 0.9583333
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": 15,
+          "Weights": 0.125,
+          "Weights": 0.16666667,
+          "Weights": 0.7083333
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": 15,
+          "Weights": 0.25,
+          "Weights": 0.29166666,
+          "Weights": 0.45833334
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": 15,
+          "Weights": 0.37500006,
+          "Weights": 0.41666672,
+          "Weights": 0.20833336
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": -1,
+          "Weights": 0.488941,
+          "Weights": 0.511059,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": -1,
+          "Weights": 0.54758716,
+          "Weights": 0.45241287,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 12,
+          "Indices": 6,
+          "Indices": -1,
+          "Weights": 0.6032172,
+          "Weights": 0.39678285,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 12,
+          "Indices": 6,
+          "Indices": -1,
+          "Weights": 0.66186327,
+          "Weights": 0.33813673,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": 6,
+          "Weights": 0.11111111,
+          "Weights": 0.6388889,
+          "Weights": 0.25
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": 6,
+          "Weights": 0.3611111,
+          "Weights": 0.5138889,
+          "Weights": 0.125
+        },
+        {
+          "Indices": 14,
+          "Indices": 7,
+          "Indices": 12,
+          "Weights": 0.6111111,
+          "Weights": 0.0,
+          "Weights": 0.3888889
+        },
+        {
+          "Indices": 14,
+          "Indices": 7,
+          "Indices": 12,
+          "Weights": 0.7083333,
+          "Weights": 0.125,
+          "Weights": 0.16666667
+        },
+        {
+          "Indices": 14,
+          "Indices": 0,
+          "Indices": 7,
+          "Weights": 0.6944444,
+          "Weights": 0.11111111,
+          "Weights": 0.19444445
+        },
+        {
+          "Indices": 14,
+          "Indices": 0,
+          "Indices": 7,
+          "Weights": 0.3472222,
+          "Weights": 0.5555556,
+          "Weights": 0.097222224
+        },
+        {
+          "Indices": 15,
+          "Indices": 7,
+          "Indices": 0,
+          "Weights": 0.0,
+          "Weights": 0.0,
+          "Weights": 1.0
+        },
+        {
+          "Indices": 15,
+          "Indices": 7,
+          "Indices": 0,
+          "Weights": 0.3472222,
+          "Weights": 0.097222224,
+          "Weights": 0.5555556
+        },
+        {
+          "Indices": 15,
+          "Indices": 7,
+          "Indices": 0,
+          "Weights": 0.6944445,
+          "Weights": 0.19444448,
+          "Weights": 0.11111113
+        },
+        {
+          "Indices": 15,
+          "Indices": 13,
+          "Indices": 7,
+          "Weights": 0.7083333,
+          "Weights": 0.16666667,
+          "Weights": 0.125
+        },
+        {
+          "Indices": 15,
+          "Indices": 13,
+          "Indices": 7,
+          "Weights": 0.6111111,
+          "Weights": 0.3888889,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": 15,
+          "Weights": 0.125,
+          "Weights": 0.5138889,
+          "Weights": 0.3611111
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": 15,
+          "Weights": 0.25,
+          "Weights": 0.6388889,
+          "Weights": 0.11111111
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": -1,
+          "Weights": 0.33813673,
+          "Weights": 0.66186327,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": -1,
+          "Weights": 0.39678285,
+          "Weights": 0.6032172,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 12,
+          "Indices": 6,
+          "Indices": -1,
+          "Weights": 0.75402147,
+          "Weights": 0.24597855,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 12,
+          "Indices": 6,
+          "Indices": -1,
+          "Weights": 0.81266755,
+          "Weights": 0.18733244,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": 6,
+          "Weights": 0.013888889,
+          "Weights": 0.8611111,
+          "Weights": 0.125
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": 6,
+          "Weights": 0.2638889,
+          "Weights": 0.7361111,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 14,
+          "Indices": 7,
+          "Indices": 12,
+          "Weights": 0.3611111,
+          "Weights": 0.125,
+          "Weights": 0.5138889
+        },
+        {
+          "Indices": 14,
+          "Indices": 7,
+          "Indices": 12,
+          "Weights": 0.45833334,
+          "Weights": 0.25,
+          "Weights": 0.29166666
+        },
+        {
+          "Indices": 14,
+          "Indices": 7,
+          "Indices": 12,
+          "Weights": 0.5555556,
+          "Weights": 0.375,
+          "Weights": 0.06944445
+        },
+        {
+          "Indices": 14,
+          "Indices": 0,
+          "Indices": 7,
+          "Weights": 0.3472222,
+          "Weights": 0.30555555,
+          "Weights": 0.3472222
+        },
+        {
+          "Indices": 15,
+          "Indices": 7,
+          "Indices": 0,
+          "Weights": 0.0,
+          "Weights": 0.25,
+          "Weights": 0.75
+        },
+        {
+          "Indices": 15,
+          "Indices": 7,
+          "Indices": 0,
+          "Weights": 0.3472222,
+          "Weights": 0.3472222,
+          "Weights": 0.30555555
+        },
+        {
+          "Indices": 15,
+          "Indices": 13,
+          "Indices": 7,
+          "Weights": 0.5555556,
+          "Weights": 0.06944445,
+          "Weights": 0.375
+        },
+        {
+          "Indices": 15,
+          "Indices": 13,
+          "Indices": 7,
+          "Weights": 0.45833334,
+          "Weights": 0.29166666,
+          "Weights": 0.25
+        },
+        {
+          "Indices": 15,
+          "Indices": 13,
+          "Indices": 7,
+          "Weights": 0.3611111,
+          "Weights": 0.5138889,
+          "Weights": 0.125
+        },
+        {
+          "Indices": 15,
+          "Indices": 13,
+          "Indices": 7,
+          "Weights": 0.2638889,
+          "Weights": 0.7361111,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": 15,
+          "Weights": 0.125,
+          "Weights": 0.8611111,
+          "Weights": 0.013888889
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": -1,
+          "Weights": 0.18733244,
+          "Weights": 0.81266755,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": -1,
+          "Weights": 0.24597855,
+          "Weights": 0.75402147,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 12,
+          "Indices": 6,
+          "Indices": -1,
+          "Weights": 0.90482575,
+          "Weights": 0.09517426,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 12,
+          "Indices": 6,
+          "Indices": -1,
+          "Weights": 0.96347183,
+          "Weights": 0.03652815,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 14,
+          "Indices": 7,
+          "Indices": 12,
+          "Weights": 0.013888889,
+          "Weights": 0.125,
+          "Weights": 0.8611111
+        },
+        {
+          "Indices": 14,
+          "Indices": 7,
+          "Indices": 12,
+          "Weights": 0.11111111,
+          "Weights": 0.25,
+          "Weights": 0.6388889
+        },
+        {
+          "Indices": 14,
+          "Indices": 7,
+          "Indices": 12,
+          "Weights": 0.20833333,
+          "Weights": 0.375,
+          "Weights": 0.41666666
+        },
+        {
+          "Indices": 14,
+          "Indices": 7,
+          "Indices": 12,
+          "Weights": 0.30555555,
+          "Weights": 0.5,
+          "Weights": 0.19444445
+        },
+        {
+          "Indices": 14,
+          "Indices": 0,
+          "Indices": 7,
+          "Weights": 0.3472222,
+          "Weights": 0.055555556,
+          "Weights": 0.5972222
+        },
+        {
+          "Indices": 15,
+          "Indices": 7,
+          "Indices": 0,
+          "Weights": 0.0,
+          "Weights": 0.5,
+          "Weights": 0.5
+        },
+        {
+          "Indices": 15,
+          "Indices": 7,
+          "Indices": 0,
+          "Weights": 0.3472222,
+          "Weights": 0.5972222,
+          "Weights": 0.055555556
+        },
+        {
+          "Indices": 15,
+          "Indices": 13,
+          "Indices": 7,
+          "Weights": 0.30555555,
+          "Weights": 0.19444445,
+          "Weights": 0.5
+        },
+        {
+          "Indices": 15,
+          "Indices": 13,
+          "Indices": 7,
+          "Weights": 0.20833333,
+          "Weights": 0.41666666,
+          "Weights": 0.375
+        },
+        {
+          "Indices": 15,
+          "Indices": 13,
+          "Indices": 7,
+          "Weights": 0.11111111,
+          "Weights": 0.6388889,
+          "Weights": 0.25
+        },
+        {
+          "Indices": 15,
+          "Indices": 13,
+          "Indices": 7,
+          "Weights": 0.013888889,
+          "Weights": 0.8611111,
+          "Weights": 0.125
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": -1,
+          "Weights": 0.03652815,
+          "Weights": 0.96347183,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": -1,
+          "Weights": 0.09517426,
+          "Weights": 0.90482575,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 7,
+          "Indices": 12,
+          "Indices": -1,
+          "Weights": 0.03652815,
+          "Weights": 0.96347183,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 7,
+          "Indices": 12,
+          "Indices": -1,
+          "Weights": 0.18733244,
+          "Weights": 0.81266755,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 7,
+          "Indices": 12,
+          "Indices": -1,
+          "Weights": 0.33813673,
+          "Weights": 0.66186327,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 7,
+          "Indices": 12,
+          "Indices": -1,
+          "Weights": 0.488941,
+          "Weights": 0.511059,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 14,
+          "Indices": 7,
+          "Indices": 12,
+          "Weights": 0.055555556,
+          "Weights": 0.625,
+          "Weights": 0.31944445
+        },
+        {
+          "Indices": 14,
+          "Indices": 7,
+          "Indices": 12,
+          "Weights": 0.15277778,
+          "Weights": 0.75,
+          "Weights": 0.097222224
+        },
+        {
+          "Indices": 15,
+          "Indices": 7,
+          "Indices": 0,
+          "Weights": 0.0,
+          "Weights": 0.75,
+          "Weights": 0.25
+        },
+        {
+          "Indices": 15,
+          "Indices": 13,
+          "Indices": 7,
+          "Weights": 0.15277778,
+          "Weights": 0.097222224,
+          "Weights": 0.75
+        },
+        {
+          "Indices": 15,
+          "Indices": 13,
+          "Indices": 7,
+          "Weights": 0.055555556,
+          "Weights": 0.31944445,
+          "Weights": 0.625
+        },
+        {
+          "Indices": 13,
+          "Indices": 7,
+          "Indices": -1,
+          "Weights": 0.511059,
+          "Weights": 0.488941,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 13,
+          "Indices": 7,
+          "Indices": -1,
+          "Weights": 0.66186327,
+          "Weights": 0.33813673,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 13,
+          "Indices": 7,
+          "Indices": -1,
+          "Weights": 0.81266755,
+          "Weights": 0.18733244,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 13,
+          "Indices": 7,
+          "Indices": -1,
+          "Weights": 0.96347183,
+          "Weights": 0.03652815,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 14,
+          "Indices": 12,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 7,
+          "Indices": 12,
+          "Indices": -1,
+          "Weights": 0.09517426,
+          "Weights": 0.90482575,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 7,
+          "Indices": 12,
+          "Indices": -1,
+          "Weights": 0.24597855,
+          "Weights": 0.75402147,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 7,
+          "Indices": 12,
+          "Indices": -1,
+          "Weights": 0.39678285,
+          "Weights": 0.6032172,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 7,
+          "Indices": 12,
+          "Indices": -1,
+          "Weights": 0.54758716,
+          "Weights": 0.45241287,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 7,
+          "Indices": 12,
+          "Indices": -1,
+          "Weights": 0.69839144,
+          "Weights": 0.3016086,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 7,
+          "Indices": 12,
+          "Indices": -1,
+          "Weights": 0.8491957,
+          "Weights": 0.1508043,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 15,
+          "Indices": 7,
+          "Indices": 0,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 13,
+          "Indices": 7,
+          "Indices": -1,
+          "Weights": 0.1508043,
+          "Weights": 0.8491957,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 13,
+          "Indices": 7,
+          "Indices": -1,
+          "Weights": 0.3016086,
+          "Weights": 0.69839144,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 13,
+          "Indices": 7,
+          "Indices": -1,
+          "Weights": 0.45241287,
+          "Weights": 0.54758716,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 13,
+          "Indices": 7,
+          "Indices": -1,
+          "Weights": 0.6032172,
+          "Weights": 0.39678285,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 13,
+          "Indices": 7,
+          "Indices": -1,
+          "Weights": 0.75402147,
+          "Weights": 0.24597855,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 13,
+          "Indices": 7,
+          "Indices": -1,
+          "Weights": 0.90482575,
+          "Weights": 0.09517426,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        },
+        {
+          "Indices": 8,
+          "Indices": 13,
+          "Indices": -1,
+          "Weights": 0.0,
+          "Weights": 1.0,
+          "Weights": 0.0
+        }
+      ],
+      "BlendParameters": {
+        "DisplayName": "NativeVelocityY",
+        "Min": -500.0,
+        "Max": 500.0,
+        "GridNum": 16
+      },
+      "BlendParameters": {
+        "DisplayName": "NativeVelocityX",
+        "Min": -500.0,
+        "Max": 500.0,
+        "GridNum": 16
+      },
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_PC_Man'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Player/Meshes/SKEL_PC_Man.84"
+      }
+    },
+    "SkeletonGuid": "86C18DA5-4F726D68-AB1C48A9-134BF080"
+  }
+]

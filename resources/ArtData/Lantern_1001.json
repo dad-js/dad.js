@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataUtility",
+    "Name": "Lantern_1001",
+    "Class": "UScriptClass'ArtDataUtility'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_Lantern_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Lantern/Animation/AM_Lantern_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_Lantern_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Lantern/Animation/AM_Lantern_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_Lantern_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Lantern/Animation/AS_Lantern_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_Lantern_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Lantern/Animation/AS_Lantern_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_Lantern_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Lantern/Animation/BS_Lantern_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_back_pelvis_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Lantern_2001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Lantern/Icon/Item_Icon_Lantern_2001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Lantern'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Lantern/SK_Lantern.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Lantern_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Lantern/SM_Lantern_Holder.2"
+      }
+    }
+  }
+]

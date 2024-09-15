@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "GrandBrigandine_2001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_GrandBrigandine'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/GrandBrigandine/Icon/Item_Icon_GrandBrigandine.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_GrandBrigandine'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/GrandBrigandine/SK_GrandBrigandine.4"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_GrandBrigandine_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/GrandBrigandine/SM_GrandBrigandine_Holder.2"
+      }
+    }
+  }
+]

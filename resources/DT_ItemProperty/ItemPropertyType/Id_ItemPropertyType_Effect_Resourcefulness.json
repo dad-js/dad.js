@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_Resourcefulness",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 17,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.Resourcefulness"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyResourcefulness_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyResourcefulness.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.ResourcefulnessBase"
+        },
+        "SecondaryTooltipPriority": 1
+      }
+    }
+  }
+]

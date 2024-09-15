@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "WolfFang",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_WolfFang'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/WolfFang/Icon/Item_Icon_WolfFang.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_WolfFang_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/WolfFang/SM_WolfFang_Holder.2"
+      }
+    }
+  }
+]

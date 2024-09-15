@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "LanternShield_6001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_LanternShield_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_LanternShield_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_LanternShield_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AS_LanternShield_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_LanternShield_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AS_LanternShield_Stand_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_LanternShield_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/BS_LanternShield_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_back_center_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_LanternShield'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Icon/Item_Icon_LanternShield.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_LanternShield'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/SK_LanternShield.1"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "ML_WizardStaff",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_WizardStaff_0001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/Materials/MI_WizardStaff_0001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_LanternShield_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/SM_LanternShield_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "shield",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_LanternShield_2001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Materials/MI_LanternShield_2001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

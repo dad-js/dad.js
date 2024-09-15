@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "Gjermundbu_7001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::UnderHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Gjermundbu_6001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Gjermundbu/Icon/Item_Icon_Gjermundbu_6001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Gjermundbu'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Gjermundbu/SK_Gjermundbu.4"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_NorthHelm",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Gjermundbu_6001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Gjermundbu/Materials/MI_Gjermundbu_6001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Gjermundbu_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Gjermundbu/SM_Gjermundbu_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_NorthHelm",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Gjermundbu_6001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Gjermundbu/Materials/MI_Gjermundbu_6001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

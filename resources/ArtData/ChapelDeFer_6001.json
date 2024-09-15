@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "ChapelDeFer_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 0.5
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_ChapelDeFer'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/ChapelDeFer/Icon/Item_Icon_ChapelDeFer.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_ChapelDeFer'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/ChapelDeFer/SK_ChapelDeFer.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_ChapelDeFer_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/ChapelDeFer/SM_ChapelDeFer_Holder.2"
+      }
+    }
+  }
+]

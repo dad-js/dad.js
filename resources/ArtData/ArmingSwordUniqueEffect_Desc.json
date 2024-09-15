@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "ArmingSwordUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ItemEffect_ArmingSwordUnique_AddEffect'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemEffect/Id_ItemEffect_ArmingSwordUnique_AddEffect.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_ArmingSwordUniqueEffect_Desc_ArmingSwordUniqueEffectDesc",
+        "SourceString": "Text_Gain <Exec.MagicalDamageBase>+[0] #</>.",
+        "LocalizedString": "Gain <Exec.MagicalDamageBase>+[0] _</>."
+      }
+    }
+  }
+]

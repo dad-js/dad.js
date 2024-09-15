@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_PhysicalWeaponDamage",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 8,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.PhysicalWeaponDamage"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyPhysicalWeaponDamage_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyPhysicalWeaponDamage.0"
+        },
+        "PrimaryTooltipPriority": 6
+      }
+    }
+  }
+]

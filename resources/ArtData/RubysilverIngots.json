@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "RubysilverIngots",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_RubysilverIngots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ingots/Icon/Item_Icon_RubysilverIngots.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_RubysilverIngot_02_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ingots/SM_RubysilverIngot_02_Holder.2"
+      }
+    }
+  }
+]

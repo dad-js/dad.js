@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "MagicWand_2001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_MagicWand_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/MagicWand/Animations/AM_MagicWand_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_MagicWand_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/MagicWand/Animations/AM_MagicWand_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_MagicWand_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/MagicWand/Animations/AS_MagicWand_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_MagicWand_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/MagicWand/Animations/AS_MagicWand_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_MagicWand_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/MagicWand/Animations/BS_MagicWand_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_thigh_r_02",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_MagicWand'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/MagicWand/Icon/Item_Icon_MagicWand.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_MagicWand'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/MagicWand/SK_MagicWand.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_MagicWand_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/MagicWand/SM_MagicWand_Holder.2"
+      }
+    }
+  }
+]

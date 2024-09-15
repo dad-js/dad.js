@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_UniqueRecurveBowAttack_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_BowAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowAttack.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_BowAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowAttack.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_UniqueRecurveBowAttack_C'Default__GA_UniqueRecurveBowAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/GameplayAbility/GA_UniqueRecurveBowAttack.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_UniqueRecurveBowAttack_C",
+    "Name": "Default__GA_UniqueRecurveBowAttack_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/GameplayAbility/GA_UniqueRecurveBowAttack.GA_UniqueRecurveBowAttack_C'",
+    "Template": {
+      "ObjectName": "GA_BowAttack_C'Default__GA_BowAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowAttack.3"
+    },
+    "Properties": {
+      "NimbleHandMontageToPlay": {
+        "ObjectName": "AnimMontage'AM_RecurveBow_NimbleHand_Attack'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_RecurveBow_NimbleHand_Attack.0"
+      },
+      "NimbleHandMontageToPlayOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_RecurveBow_NimbleHand_Attack'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_NimbleHand_Attack.2"
+      },
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_RecurveBow_Stand_Attack'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_RecurveBow_Stand_Attack.0"
+      },
+      "MontageToPlayOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_RecurveBow_Stand_Attack_Start'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_Stand_Attack_Start.2"
+      },
+      "ProjectileActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UniqueRecurveBowArrowProjectile_C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Projectile/Arrow/BP_UniqueRecurveBowArrowProjectile.1"
+      },
+      "FireSocketName": "weapon_l",
+      "DamageCurve": {
+        "ObjectName": "CurveFloat'CV_RecurveBow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/GameplayAbility/CurveFloat/CV_RecurveBow.0"
+      }
+    }
+  }
+]

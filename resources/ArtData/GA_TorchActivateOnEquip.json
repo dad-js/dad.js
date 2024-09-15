@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_TorchActivateOnEquip_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'GA_ItemActivateBase'",
+      "ObjectPath": "/Script/DungeonCrawler"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_TorchActivateOnEquip_C'Default__GA_TorchActivateOnEquip_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Torch/GameplayAbility/GA_TorchActivateOnEquip.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_TorchActivateOnEquip_C",
+    "Name": "Default__GA_TorchActivateOnEquip_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Torch/GameplayAbility/GA_TorchActivateOnEquip.GA_TorchActivateOnEquip_C'",
+    "Properties": {
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Ability.Item.ActivateOnEquip"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_LongbowAttack_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_BowAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowAttack.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_BowAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowAttack.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_LongbowAttack_C'Default__GA_LongbowAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/GameplayAbility/GA_LongbowAttack.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_LongbowAttack_C",
+    "Name": "Default__GA_LongbowAttack_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/GameplayAbility/GA_LongbowAttack.GA_LongbowAttack_C'",
+    "Template": {
+      "ObjectName": "GA_BowAttack_C'Default__GA_BowAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowAttack.3"
+    },
+    "Properties": {
+      "NimbleHandMontageToPlay": {
+        "ObjectName": "AnimMontage'AM_Longbow_NimbleHand_Attack'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_Longbow_NimbleHand_Attack.0"
+      },
+      "NimbleHandMontageToPlayOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_Longbow_NimbleHand_Attack_Start'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.5"
+      },
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_Longbow_Stand_Attack'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_Longbow_Stand_Attack.4"
+      },
+      "MontageToPlayOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_Longbow_Stand_Attack_Start'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Stand_Attack_Start.5"
+      },
+      "ProjectileActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_LongbowArrowProjectile_C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Projectile/LongbowArrow/BP_LongbowArrowProjectile.1"
+      },
+      "FireSocketName": "weapon_l",
+      "DamageCurve": {
+        "ObjectName": "CurveFloat'CV_Longbow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/GameplayAbility/CurveFloat/CV_Longbow.0"
+      }
+    }
+  }
+]

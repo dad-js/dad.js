@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "WindlassCrossbow_5001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_WindlassCrossbow_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Animations/AM_WindlassCrossbow_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_WindlassCrossbow_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Animations/AM_WindlassCrossbow_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_WindlassCrossbow_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Animations/AS_WindlassCrossbow_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_WindlassCrossbow_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Animations/AS_WindlassCrossbow_Stand_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_WindlassCrossbow_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Animations/BS_WindlassCrossbow_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_back_center_03",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_WindlassCrossbow_5001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Icon/Item_Icon_WindlassCrossbow_5001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_WindlassCrossbow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/SK_WindlassCrossbow.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "WindlassCrossbow",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_WindlassCrossbow_5001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Materials/MI_WindlassCrossbow_5001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_WindlassCrossbow_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/SM_WindlassCrossbow_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "bow",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_WindlassCrossbow_5001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Materials/MI_WindlassCrossbow_5001_Holder.0"
+          }
+        }
+      ],
+      "ItemAnimInstanceClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_WindlassCrossbow_C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/ABP_WindlassCrossbow.1"
+      }
+    }
+  }
+]

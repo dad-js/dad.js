@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_SpellbookCasting_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerSpellCast_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerSpellCast.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerSpellCast_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerSpellCast.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_SpellbookCasting_C'Default__GA_SpellbookCasting_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spellbook/GameplayAbility/GA_SpellbookCasting.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_SpellbookCasting_C",
+    "Name": "Default__GA_SpellbookCasting_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spellbook/GameplayAbility/GA_SpellbookCasting.GA_SpellbookCasting_C'",
+    "Template": {
+      "ObjectName": "GA_PlayerSpellCast_C'Default__GA_PlayerSpellCast_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerSpellCast.1"
+    },
+    "Properties": {
+      "MontageToPlayOnCasting": {
+        "ObjectName": "AnimMontage'AM_Spellbook_Stand_Casting'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spellbook/Animations/AM_Spellbook_Stand_Casting.0"
+      },
+      "MontageToPlayOnChanneling": {
+        "ObjectName": "AnimMontage'AM_Spellbook_Stand_Channeling'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spellbook/Animations/AM_Spellbook_Stand_Channeling.0"
+      },
+      "MontageToPlayOnInstant": {
+        "ObjectName": "AnimMontage'AM_Spellbook_Stand_Casting'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spellbook/Animations/AM_Spellbook_Stand_Casting.0"
+      },
+      "MontageToPlayOnCastingSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_Spellbook_Stand_Casting'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spellbook/Animations/AM_WP_Spellbook_Stand_Casting.0"
+      },
+      "MontageToPlayOnChannelingSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_Spellbook_Stand_Channeling'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spellbook/Animations/AM_WP_Spellbook_Stand_Channeling.0"
+      }
+    }
+  }
+]

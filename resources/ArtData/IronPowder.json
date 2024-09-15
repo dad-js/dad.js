@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "IronPowder",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_IronPowder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Powders/Iron/Icon/Item_Icon_IronPowder.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_IronPowder_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Powders/Iron/SM_IronPowder_Holder.2"
+      }
+    }
+  }
+]

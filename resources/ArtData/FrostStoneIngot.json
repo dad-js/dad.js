@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "FrostStoneIngot",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostIngot'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ingots/FrostStone/Icon/Item_Icon_FrostIngot.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_FrostStoneIngot_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ingots/FrostStone/SM_FrostStoneIngot_Holder.2"
+      }
+    }
+  }
+]

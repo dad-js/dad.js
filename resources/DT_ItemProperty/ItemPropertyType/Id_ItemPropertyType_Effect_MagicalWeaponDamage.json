@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_MagicalWeaponDamage",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 9,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.MagicalWeaponDamage"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyMagicalWeaponDamage_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyMagicalWeaponDamage.0"
+        },
+        "PrimaryTooltipPriority": 5
+      }
+    }
+  }
+]

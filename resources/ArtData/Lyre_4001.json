@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataUtility",
+    "Name": "Lyre_4001",
+    "Class": "UScriptClass'ArtDataUtility'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_Lyre_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lyre/Animations/AM_Lyre_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_Lyre_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lyre/Animations/AM_Lyre_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_Lyre_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lyre/Animations/AS_Lyre_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_Lyre_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lyre/Animations/AS_Lyre_Stand_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_Lyre_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lyre/Animations/BS_Lyre_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_back_left_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Lyre_4001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lyre/Icon/Item_Icon_Lyre_4001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Lyre'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lyre/SK_Lyre.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Lyre",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Lyre_4001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lyre/Materials/MI_Lyre_4001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Lyre_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lyre/SM_Lyre_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Lyre",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Lyre_4001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lyre/Materials/MI_Lyre_4001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

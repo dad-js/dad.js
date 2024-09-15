@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "DoubleAxe_6001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_DoubleAxe_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/DoubleAxe/Animations/AM_DoubleAxe_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_DoubleAxe_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/DoubleAxe/Animations/AM_DoubleAxe_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_DoubleAxe_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/DoubleAxe/Animations/AS_DoubleAxe_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_DoubleAxe_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/DoubleAxe/Animations/AS_DoubleAxe_Stand_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_DoubleAxe_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/DoubleAxe/Animations/BS_DoubleAxe_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_back_right_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_DoubleAxe_6001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/DoubleAxe/Icon/Item_Icon_DoubleAxe_6001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_DoubleAxe'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/DoubleAxe/SK_DoubleAxe.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "DoubleAxe",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_DoubleAxe_6001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/DoubleAxe/Materials/MI_DoubleAxe_6001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_DoubleAxe_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/DoubleAxe/SM_DoubleAxe_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "DoubleAxe",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_DoubleAxe_6001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/DoubleAxe/Materials/MI_DoubleAxe_6001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

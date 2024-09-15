@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "RadiantCloak_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icom_RadiantCloak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/RadiantCloak/Icon/Item_Icom_RadiantCloak.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_RadiantCloak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/RadiantCloak/SK_RadiantCloak.4"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_RadiantCloak_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/RadiantCloak/SM_RadiantCloak_Holder.2"
+      }
+    }
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "CowlofDarkness_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::UnderHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Beard",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::HelmetEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CowlofDarkness'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CowlofDarkness/Icon/Item_Icon_CowlofDarkness.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_RogueCowl'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/RogueCowl/SK_RogueCowl.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "ML_RogueCowl",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_CowlofDarkness'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CowlofDarkness/Materials/MI_CowlofDarkness.0"
+          }
+        },
+        {
+          "MaterialSlotName": "Fbx Default Material 1",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_CowlofDarkness'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CowlofDarkness/Materials/MI_CowlofDarkness.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_RogueCowl_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/RogueCowl/SM_RogueCowl_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "ML_ClothHood022",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_CowlofDarkness_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CowlofDarkness/Materials/MI_CowlofDarkness_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataAccessory",
+    "Name": "FangsofDeathNecklace",
+    "Class": "UScriptClass'ArtDataAccessory'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FangsofDeathNecklace'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Necklace/Icon/Item_Icon_FangsofDeathNecklace.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_FangsofDeathNecklace_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Necklace/SM_FangsofDeathNecklace_Holder.2"
+      }
+    }
+  }
+]

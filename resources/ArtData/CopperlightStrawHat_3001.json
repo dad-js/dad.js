@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "CopperlightStrawHat_3001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 0.5
+        },
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 0.5
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 0.5
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 0.5
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CopperlightStrawHat'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CopperlightStrawHat/Icon/Item_Icon_CopperlightStrawHat.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_CopperlightStrawHat'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CopperlightStrawHat/SK_CopperlightStrawHat.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CopperlightStrawHat_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CopperlightStrawHat/SM_CopperlightStrawHat_Holder.2"
+      }
+    }
+  }
+]

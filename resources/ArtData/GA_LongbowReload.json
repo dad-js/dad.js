@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_LongbowReload_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_BowReloadAmmoBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowReloadAmmoBase.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_BowReloadAmmoBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowReloadAmmoBase.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_LongbowReload_C'Default__GA_LongbowReload_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/GameplayAbility/GA_LongbowReload.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_LongbowReload_C",
+    "Name": "Default__GA_LongbowReload_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/GameplayAbility/GA_LongbowReload.GA_LongbowReload_C'",
+    "Template": {
+      "ObjectName": "GA_BowReloadAmmoBase_C'Default__GA_BowReloadAmmoBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowReloadAmmoBase.1"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_Longbow_Reload'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_Longbow_Reload.0"
+      },
+      "MontageToPlayOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_Longbow_Reload'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_Reload.10"
+      }
+    }
+  }
+]

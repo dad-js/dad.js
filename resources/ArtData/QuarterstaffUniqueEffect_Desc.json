@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "QuarterstaffUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_Quarterstaff_PoisonCloud_Damage'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_Quarterstaff_PoisonCloud_Damage.0"
+        }
+      ],
+      "ConstantDataAssetArray": [
+        {
+          "ObjectName": "DCConstantDataAsset'Id_Constant_Item_QuarterstaffUniquePoisonCloudSpawnRate'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Constant/Constant/Id_Constant_Item_QuarterstaffUniquePoisonCloudSpawnRate.0"
+        },
+        {
+          "ObjectName": "DCConstantDataAsset'Id_Constant_Item_QuarterstaffUniquePoisonCloudLifeTime'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Constant/Constant/Id_Constant_Item_QuarterstaffUniquePoisonCloudLifeTime.0"
+        },
+        {
+          "ObjectName": "DCConstantDataAsset'Id_Constant_Item_QuarterstaffUniqueMaxAoeSpawnCount'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Constant/Constant/Id_Constant_Item_QuarterstaffUniqueMaxAoeSpawnCount.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_QuarterstaffUniqueEffect_Desc_QuarterstaffUniqueEffectDesc",
+        "SourceString": "Text_When you deal damage to a target, gain <Constant Type=\"Float\" Format=\"FromZero\">[0]%</> chance to emit a poison cloud for <Constant Type=\"Integer\">[1] seconds</>, dealing <Exec.MagicalDamageBase>[0] _</> every 2 seconds to enemies within its area. Up to <Constant Type=\"Integer\">[2]</> poison clouds can exist at a time and the wielder is immune to damage from poison clouds.",
+        "LocalizedString": "When you deal damage to a target, gain <Constant Type=\"Float\" Format=\"FromZero\">[0]%</> chance to emit a poison cloud for <Constant Type=\"Integer\">[1] seconds</>, dealing <Exec.MagicalDamageBase>[0] _</> every second to enemies within its area. Up to <Constant Type=\"Integer\">[2]</> poison clouds can exist at a time and the wielder is immune to damage from poison clouds."
+      }
+    }
+  }
+]

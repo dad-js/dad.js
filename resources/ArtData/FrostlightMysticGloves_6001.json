@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FrostlightMysticGloves_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::GlovesEquipped",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::ShortGlovesEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_icon_FrostlightMysticGloves'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/FrostlightMysticGloves/Icon/Item_icon_FrostlightMysticGloves.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_MysticGloves'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/MysticGloves/SK_MysticGloves.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_MysticGloves",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightMysticGloves'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/FrostlightMysticGloves/Materials/MI_FrostlightMysticGloves.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_MysticGloves_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/MysticGloves/SM_MysticGloves_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_MysticGloves",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightMysticGloves'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/FrostlightMysticGloves/Materials/MI_FrostlightMysticGloves.0"
+          }
+        }
+      ]
+    }
+  }
+]

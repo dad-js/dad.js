@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "SoundData",
+    "Name": "Wardweed_Sound",
+    "Class": "UScriptClass'SoundData'",
+    "Properties": {
+      "AkEventByGameplayTag": [
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Drag"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drag_Herb'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drag_Herb.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Drop"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drop_Herb'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drop_Herb.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Inventory.Equip"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Inventory_Drop_Herb'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Inventory_Drop_Herb.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Destruction"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Item.Drop"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'Foleys_Herb_Drop'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Foleys/Foleys_Herb_Drop.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Item.PickUp"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'Foleys_Herb_Pickup'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Foleys/Foleys_Herb_Pickup.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Interact.Succeed"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'UIs_Interaction_End_Herb'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/UIs/UIs_Interaction_End_Herb.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Sound.Interact.Start"
+          },
+          "Value": {
+            "ObjectName": "AkAudioEvent'Objects_Herb_Interaction_Loop'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Objects/Objects_Herb_Interaction_Loop.0"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_OilLanternThrow_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemThrow.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemThrow.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_OilLanternThrow_C'Default__GA_OilLanternThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/OilLantern/GameplayAbility/GA_OilLanternThrow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_OilLanternThrow_C",
+    "Name": "Default__GA_OilLanternThrow_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Utility/OilLantern/GameplayAbility/GA_OilLanternThrow.GA_OilLanternThrow_C'",
+    "Template": {
+      "ObjectName": "GA_ItemThrow_C'Default__GA_ItemThrow_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemThrow.3"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_OilLantern_Throwing'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/OilLantern/Animations/AM_OilLantern_Throwing.0"
+      },
+      "MontageToPlayOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_OilLantern_Stand_Throwing'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/OilLantern/Animations/AM_WP_OilLantern_Stand_Throwing.0"
+      },
+      "ProjectileActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_OilLantern_Projectile_C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Projectile/OilLantern/BP_OilLantern_Projectile.1"
+      },
+      "FireSocketName": "weapon_r",
+      "ProjectileSpeedMultiplier": 0.6,
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Ability.Player.Act.Attack.SecondaryAttack.Press"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

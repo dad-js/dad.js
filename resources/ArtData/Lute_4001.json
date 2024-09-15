@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataUtility",
+    "Name": "Lute_4001",
+    "Class": "UScriptClass'ArtDataUtility'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_Lute_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/Animations/AM_Lute_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_Lute_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/Animations/AM_Lute_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_Lute_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/Animations/AS_Lute_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_Lute_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/Animations/AS_Lute_Stand_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_Lute_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/Animations/BS_Lute_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_back_center_02",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Lute_4001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/Icon/Item_Icon_Lute_4001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Lute'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/SK_Lute.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Lute",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Lute_4001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/Materials/MI_Lute_4001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Lute_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/SM_Lute_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Lute",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Lute_4001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Lute/Materials/MI_Lute_4001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

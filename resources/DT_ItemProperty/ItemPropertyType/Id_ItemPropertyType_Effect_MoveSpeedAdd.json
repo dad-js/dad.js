@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_MoveSpeedAdd",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 39,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.MoveSpeedAdd"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyMoveSpeedAdd_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyMoveSpeedAdd.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.MoveSpeedAdd"
+        }
+      }
+    }
+  }
+]

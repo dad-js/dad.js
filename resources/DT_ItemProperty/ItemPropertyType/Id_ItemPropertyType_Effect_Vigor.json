@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_Vigor",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 58,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.Vigor"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyVigor_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyVigor.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.VigorBase"
+        },
+        "SecondaryTooltipPriority": 1
+      }
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "HorsemansAxeUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_HorsemansAxeUnique_AttackHitUnhealable'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_HorsemansAxeUnique_AttackHitUnhealable.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_HorsemansAxeUniqueEffect_Desc_HorsemansAxeUniqueEffectDesc",
+        "SourceString": "When you deal damage to a target, render them unable to receive incoming healing for <Duration>[0] seconds</>.",
+        "LocalizedString": "When you deal damage to a target, render them unable to receive incoming healing for <Duration>[0] seconds</>."
+      }
+    }
+  }
+]

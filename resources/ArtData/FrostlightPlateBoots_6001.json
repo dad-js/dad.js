@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FrostlightPlateBoots_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::BootsEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostlightPlateBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/FrostlightPlateBoots/Icon/Item_Icon_FrostlightPlateBoots.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_PlateBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/PlateBoots/SK_PlateBoots.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_legs_knight_01_a",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightPlateBoots'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/FrostlightPlateBoots/Materials/MI_FrostlightPlateBoots.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_PlateBoots_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/PlateBoots/SM_PlateBoots_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_legs_knight_01_a",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightPlateBoots'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/FrostlightPlateBoots/Materials/MI_FrostlightPlateBoots.0"
+          }
+        }
+      ]
+    }
+  }
+]

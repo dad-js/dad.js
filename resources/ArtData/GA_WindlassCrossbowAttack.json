@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_WindlassCrossbowAttack_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_CrossbowAttackBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_CrossbowAttackBase.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_CrossbowAttackBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_CrossbowAttackBase.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_WindlassCrossbowAttack_C'Default__GA_WindlassCrossbowAttack_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/GameplayAbility/GA_WindlassCrossbowAttack.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_WindlassCrossbowAttack_C",
+    "Name": "Default__GA_WindlassCrossbowAttack_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/GameplayAbility/GA_WindlassCrossbowAttack.GA_WindlassCrossbowAttack_C'",
+    "Template": {
+      "ObjectName": "GA_CrossbowAttackBase_C'Default__GA_CrossbowAttackBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_CrossbowAttackBase.1"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_WindlassCrossbow_Stand_Attack'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Animations/AM_WindlassCrossbow_Stand_Attack.0"
+      },
+      "MontageToPlayOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_WindlassCrossbow_Stand_Attack'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WindlassCrossbow/Animations/AM_WP_WindlassCrossbow_Stand_Attack.1"
+      },
+      "ProjectileActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_WindlassCrossbowBoltProjectile_C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Projectile/WindlassCrossbowBolt/BP_WindlassCrossbowBoltProjectile.1"
+      },
+      "DamageCurve": {
+        "ObjectName": "CurveFloat'CV_WindlassCrossbow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/GameplayAbility/CurveFloat/CV_WindlassCrossbow.0"
+      }
+    }
+  }
+]

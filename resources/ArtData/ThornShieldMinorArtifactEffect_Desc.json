@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "ThornShieldMinorArtifactEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ItemEffect_ThornShieldReflectDamage'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemEffect/Id_ItemEffect_ThornShieldReflectDamage.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_ThornShieldMinorArtifactEffect_Desc_ThornShieldMinorArtifactEffectDesc",
+        "SourceString": "Text_When melee attacked, return <Exec.PhysicalDamageTrue>[0] #</> to the attacker.",
+        "LocalizedString": "Returns <Exec.PhysicalDamageTrue>[0] _</> to the attacker on blocking an attack."
+      }
+    }
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "Quarterstaff_3001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_Quaterstaff_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Quarterstaff/Animations/AM_Quaterstaff_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_Quaterstaff_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Quarterstaff/Animations/AM_Quaterstaff_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_Quaterstaff_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Quarterstaff/Animations/AS_Quaterstaff_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_Quaterstaff_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Quarterstaff/Animations/AS_Quaterstaff_Stand_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_Quaterstaff_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Quarterstaff/Animations/BS_Quaterstaff_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_back_left_03",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Quarterstaff_2001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Quarterstaff/Icon/Item_Icon_Quarterstaff_2001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Quaterstaff'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Quarterstaff/SK_Quaterstaff.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_Quarterstaff_Holder",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Quarterstaff_2001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Quarterstaff/Materials/MI_Quarterstaff_2001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Quarterstaff_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Quarterstaff/SM_Quarterstaff_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Quarterstaff",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Quarterstaff_2001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Quarterstaff/Materials/MI_Quarterstaff_2001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

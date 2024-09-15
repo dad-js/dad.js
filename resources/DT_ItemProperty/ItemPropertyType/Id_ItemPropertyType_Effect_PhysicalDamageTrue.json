@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_PhysicalDamageTrue",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 21,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.PhysicalDamageTrue"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyPhysicalDamageTrue_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyPhysicalDamageTrue.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.PhysicalDamageTrue"
+        }
+      }
+    }
+  }
+]

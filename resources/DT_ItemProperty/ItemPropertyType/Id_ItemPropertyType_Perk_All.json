@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Perk_All",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 2,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Perk.All"
+        }
+      }
+    }
+  }
+]

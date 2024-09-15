@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "WatchmanCloak_2001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_WatchmanCloak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/WatchmanCloak/Icon/Item_Icon_WatchmanCloak.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_WatchmanCloak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/WatchmanCloak/SK_WatchmanCloak.4"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_WatchmanCloak_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/WatchmanCloak/SM_WatchmanCloak_Holder.2"
+      }
+    }
+  }
+]

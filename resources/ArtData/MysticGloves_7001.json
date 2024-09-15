@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "MysticGloves_7001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::GlovesEquipped",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::ShortGlovesEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'T_Item_Icon_MysticGloves'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/MysticGloves/Icon/T_Item_Icon_MysticGloves.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_MysticGloves'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/MysticGloves/SK_MysticGloves.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_MysticGloves_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/MysticGloves/SM_MysticGloves_Holder.2"
+      }
+    }
+  }
+]

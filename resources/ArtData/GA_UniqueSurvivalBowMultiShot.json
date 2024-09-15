@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_UniqueSurvivalBowMultiShot_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_BowMultiShot_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowMultiShot.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_BowMultiShot_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowMultiShot.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_UniqueSurvivalBowMultiShot_C'Default__GA_UniqueSurvivalBowMultiShot_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/GameplayAbility/GA_UniqueSurvivalBowMultiShot.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_UniqueSurvivalBowMultiShot_C",
+    "Name": "Default__GA_UniqueSurvivalBowMultiShot_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/GameplayAbility/GA_UniqueSurvivalBowMultiShot.GA_UniqueSurvivalBowMultiShot_C'",
+    "Template": {
+      "ObjectName": "GA_BowMultiShot_C'Default__GA_BowMultiShot_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_BowMultiShot.5"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_SurvivalBow_MultiShot'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_SurvivalBow_MultiShot.0"
+      },
+      "MontageToPlayOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+      },
+      "ProjectileActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UniqueSurvivalBowArrowProjectile_C'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Projectile/SurvivalBowArrow/BP_UniqueSurvivalBowArrowProjectile.1"
+      },
+      "FireSocketName": "weapon_l",
+      "DamageCurve": {
+        "ObjectName": "CurveFloat'CV_SurvivalBow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/GameplayAbility/CurveFloat/CV_SurvivalBow.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "DescData",
+    "Name": "MagicProtectionPotion_Desc",
+    "Class": "UScriptClass'DescData'",
+    "Properties": {
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_MagicProtectionPotion_Desc_MagicProtectionPotionDesc",
+        "SourceString": "An effective potion to help aid against magical threats.",
+        "LocalizedString": "An effective potion to help aid against magical threats."
+      }
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataUtility",
+    "Name": "DA_FranciscaAxe",
+    "Class": "UScriptClass'ArtDataUtility'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_FranciscaAxe_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/FranciscaAxe/Animations/AM_FranciscaAxe_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_FranciscaAxe_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/FranciscaAxe/Animations/AM_FranciscaAxe_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_FranciscaAxe_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/FranciscaAxe/Animations/AS_FranciscaAxe_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_FranciscaAxe_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/FranciscaAxe/Animations/AS_FranciscaAxe_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_FranciscaAxe_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/FranciscaAxe/Animations/BS_FranciscaAxe_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_back_pelvis_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FranciscaAxe'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/FranciscaAxe/Icon/Item_Icon_FranciscaAxe.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_FranciscaAxe'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/FranciscaAxe/SK_FranciscaAxe.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_FranciscaAxe_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/FranciscaAxe/SM_FranciscaAxe_Holder.2"
+      }
+    }
+  }
+]

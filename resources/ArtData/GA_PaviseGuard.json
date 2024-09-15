@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_PaviseGuard_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerGuardBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerGuardBase.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PlayerGuardBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerGuardBase.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_PaviseGuard_C'Default__GA_PaviseGuard_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Pavise/GameplayAbility/GA_PaviseGuard.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_PaviseGuard_C",
+    "Name": "Default__GA_PaviseGuard_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Pavise/GameplayAbility/GA_PaviseGuard.GA_PaviseGuard_C'",
+    "Template": {
+      "ObjectName": "GA_PlayerGuardBase_C'Default__GA_PlayerGuardBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_PlayerGuardBase.6"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_Pavise_Guard'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Pavise/Animations/AM_Pavise_Guard.0"
+      }
+    }
+  }
+]

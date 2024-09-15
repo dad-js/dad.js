@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "RondelDagger_5001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_RondelDagger_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RondelDagger/Animations/AM_RondelDagger_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_RondelDagger_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RondelDagger/Animations/AM_RondelDagger_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_RondelDagger_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RondelDagger/Animations/AS_RondelDagger_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_RondelDagger_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RondelDagger/Animations/AS_RondelDagger_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_RondelDagger_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RondelDagger/Animations/BS_RondelDagger_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_thigh_l_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_RondelDagger_5001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RondelDagger/Icon/Item_Icon_RondelDagger_5001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_RondelDagger'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RondelDagger/SK_RondelDagger.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_dagger_1",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_RondelDagger_5001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RondelDagger/Materials/MI_RondelDagger_5001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_RondelDagger_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RondelDagger/SM_RondelDagger_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_dagger_1",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_RondelDagger_5001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RondelDagger/Materials/MI_RondelDagger_5001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

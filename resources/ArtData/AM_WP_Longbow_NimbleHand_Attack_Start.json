@@ -1,0 +1,494 @@
+[
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_0",
+    "Outer": "AM_WP_Longbow_NimbleHand_Attack_Start",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root"
+    }
+  },
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_1",
+    "Outer": "AM_WP_Longbow_NimbleHand_Attack_Start",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root2"
+    }
+  },
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_2",
+    "Outer": "AM_WP_Longbow_NimbleHand_Attack_Start",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root3"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_3",
+    "Outer": "AM_WP_Longbow_NimbleHand_Attack_Start",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root1"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_4",
+    "Outer": "AM_WP_Longbow_NimbleHand_Attack_Start",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root"
+    }
+  },
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_WP_Longbow_NimbleHand_Attack_Start",
+    "Class": "UScriptClass'AnimMontage'",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.05
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "loop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.7,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_LongBow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_LongBow_NimbleHand_Attack_Start.0"
+          }
+        },
+        {
+          "SectionName": "loop",
+          "NextSectionName": "loop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 1.7,
+          "SegmentLength": 1.46,
+          "LinkValue": 1.7,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_LongBow_NimbleHand_Attack_Loop'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_LongBow_NimbleHand_Attack_Loop.0"
+          }
+        },
+        {
+          "SectionName": "End",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 3.16,
+          "SegmentLength": 0.9,
+          "LinkValue": 3.16,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_LongBow_NimbleHand_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_LongBow_NimbleHand_Attack_End.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_LongBow_NimbleHand_Attack_Start'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_LongBow_NimbleHand_Attack_Start.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.7,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_LongBow_NimbleHand_Attack_Loop'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_LongBow_NimbleHand_Attack_Loop.0"
+                },
+                "StartPos": 1.7,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.46,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_LongBow_NimbleHand_Attack_End'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_LongBow_NimbleHand_Attack_End.0"
+                },
+                "StartPos": 3.16,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.9,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "BranchingPointMarkers": [
+        {
+          "NotifyIndex": 0,
+          "TriggerTime": 0.16362329,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 1,
+          "TriggerTime": 0.1908361,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 2,
+          "TriggerTime": 0.1908991,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        }
+      ],
+      "CommonTargetFrameRate": {
+        "Numerator": 30
+      },
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DCPreReduceAmmoCountOnSourceObject",
+          "Notify": {
+            "ObjectName": "DCAnimNotify_PreReduceAmmoCountOnSourceObject'AM_WP_Longbow_NimbleHand_Attack_Start:DCAnimNotify_PreReduceAmmoCountOnSourceObject_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.16362329,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.7,
+          "LinkValue": 0.16362329,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_LongBow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_LongBow_NimbleHand_Attack_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_Longbow_NimbleHand_Attack_Start:AN_UnHideBone_C_4'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.1908361,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.7,
+          "LinkValue": 0.1908361,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_LongBow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_LongBow_NimbleHand_Attack_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_Longbow_NimbleHand_Attack_Start:AN_UnHideBone_C_3'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.1908991,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.7,
+          "LinkValue": 0.1908991,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_LongBow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_LongBow_NimbleHand_Attack_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_Longbow_NimbleHand_Attack_Start:AN_HideBone_C_1'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.1910271,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.7,
+          "LinkValue": 0.1910271,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_LongBow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_LongBow_NimbleHand_Attack_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_Longbow_NimbleHand_Attack_Start:AN_HideBone_C_2'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.1910841,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.7,
+          "LinkValue": 0.1910841,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_LongBow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_LongBow_NimbleHand_Attack_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_Longbow_NimbleHand_Attack_Start:AN_HideBone_C_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.0"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 3.2,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Longbow_NimbleHand_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_WP_Longbow_NimbleHand_Attack_Start.5"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 3.16,
+          "SegmentLength": 0.9,
+          "LinkValue": 3.2,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_LongBow_NimbleHand_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_WP_LongBow_NimbleHand_Attack_End.0"
+          }
+        }
+      ],
+      "SequenceLength": 4.06,
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_Longbow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/SKEL_Longbow.4"
+      }
+    },
+    "SkeletonGuid": "B8728378-4C3BB9EE-F4EC8B89-9999A2ED"
+  },
+  {
+    "Type": "DCAnimNotify_PreReduceAmmoCountOnSourceObject",
+    "Name": "DCAnimNotify_PreReduceAmmoCountOnSourceObject_0",
+    "Outer": "AM_WP_Longbow_NimbleHand_Attack_Start",
+    "Class": "UScriptClass'DCAnimNotify_PreReduceAmmoCountOnSourceObject'",
+    "Properties": {
+      "ReduceCount": 1
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FrostlightFeatheredHat_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 0.5
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 0.65
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostlightFeatheredHat'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/FrostlightFeatheredHat/Icon/Item_Icon_FrostlightFeatheredHat.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_FeatheredHat'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/FeatheredHat/SK_FeatheredHat.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "M_ma_hat_01",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightFeatheredHat'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/FrostlightFeatheredHat/Materials/MI_FrostlightFeatheredHat.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_FeatheredHat_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/FeatheredHat/SM_FeatheredHat_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "M_ma_hat_01",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightFeatheredHat'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/FrostlightFeatheredHat/Materials/MI_FrostlightFeatheredHat.0"
+          }
+        }
+      ]
+    }
+  }
+]

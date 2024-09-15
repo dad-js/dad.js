@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FrostlightOracleRobe_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostlightOracleRobe'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/FrostlightOracleRobe/Icon/Item_Icon_FrostlightOracleRobe.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_OracleRobe'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/OracleRobe/SK_OracleRobe.6"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_OracleRobe01",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightOracleRobe'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/FrostlightOracleRobe/Materials/MI_FrostlightOracleRobe.0"
+          }
+        },
+        {
+          "MaterialSlotName": "MI_OracleRobe02",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightOracleRobe'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/FrostlightOracleRobe/Materials/MI_FrostlightOracleRobe.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_OracleRobe_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/OracleRobe/SM_OracleRobe_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "M_ma_chest_spiritual_01_b",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightOracleRobe'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/FrostlightOracleRobe/Materials/MI_FrostlightOracleRobe.0"
+          }
+        },
+        {
+          "MaterialSlotName": "Fbx Default Material 1",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightOracleRobe'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/FrostlightOracleRobe/Materials/MI_FrostlightOracleRobe.0"
+          }
+        }
+      ]
+    }
+  }
+]

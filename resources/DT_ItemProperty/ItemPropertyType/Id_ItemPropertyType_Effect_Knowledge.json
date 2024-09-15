@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_Knowledge",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 16,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.Knowledge"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyKnowledge_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyKnowledge.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.KnowledgeBase"
+        },
+        "SecondaryTooltipPriority": 1
+      }
+    }
+  }
+]

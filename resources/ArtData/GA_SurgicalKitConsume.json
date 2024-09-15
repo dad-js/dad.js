@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_SurgicalKitConsume_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemConsume.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemConsume.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_SurgicalKitConsume_C'Default__GA_SurgicalKitConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SurgicalKit/GameplayAbility/GA_SurgicalKitConsume.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_SurgicalKitConsume_C",
+    "Name": "Default__GA_SurgicalKitConsume_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Utility/SurgicalKit/GameplayAbility/GA_SurgicalKitConsume.GA_SurgicalKitConsume_C'",
+    "Template": {
+      "ObjectName": "GA_ItemConsume_C'Default__GA_ItemConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemConsume.1"
+    },
+    "Properties": {
+      "PreConsumeMontage": {
+        "ObjectName": "AnimMontage'AM_SurgicalKit_Stand_Injection'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SurgicalKit/Animations/AM_SurgicalKit_Stand_Injection.0"
+      },
+      "ConsumeMontage": {
+        "ObjectName": "AnimMontage'AM_SurgicalKit_Stand_Injection_Finish'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SurgicalKit/Animations/AM_SurgicalKit_Stand_Injection_Finish.0"
+      },
+      "PreConsumeMontageOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_SurgicalKit_Stand_Injection'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SurgicalKit/Animations/AM_WP_SurgicalKit_Stand_Injection.0"
+      },
+      "ConsumeMontageOnSourceObject": {
+        "ObjectName": "AnimMontage'AM_WP_SurgicalKit_Stand_Injection_Finish'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SurgicalKit/Animations/AM_WP_SurgicalKit_Stand_Injection_Finish.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_MoveSpeed",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 12,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.MoveSpeed"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyMoveSpeed_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyMoveSpeed.0"
+        },
+        "PrimaryTooltipPriority": 1
+      }
+    }
+  }
+]

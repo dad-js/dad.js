@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "CopperlightLeggings_3001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanAnkle",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CopperlightLeggings'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/CopperlightLeggings/Icon/Item_Icon_CopperlightLeggings.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_CopperlightLeggings'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/CopperlightLeggings/SK_CopperlightLeggings.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CopperlightLeggings_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/CopperlightLeggings/SM_CopperlightLeggings_Holder.2"
+      }
+    }
+  }
+]

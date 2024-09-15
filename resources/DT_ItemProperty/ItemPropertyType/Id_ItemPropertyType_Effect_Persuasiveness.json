@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_Persuasiveness",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 57,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.Persuasiveness"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyPersuasiveness_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyPersuasiveness.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.Persuasiveness"
+        }
+      }
+    }
+  }
+]

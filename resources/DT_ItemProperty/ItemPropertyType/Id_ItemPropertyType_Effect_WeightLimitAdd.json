@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_WeightLimitAdd",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 50,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.WeightLimitAdd"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyWeightLimitAdd_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyWeightLimitAdd.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.WeightLimitAdd"
+        }
+      }
+    }
+  }
+]

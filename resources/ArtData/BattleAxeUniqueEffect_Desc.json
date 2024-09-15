@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "BattleAxeUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ItemEffect_BattleAxeUnique_AddEffect'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemEffect/Id_ItemEffect_BattleAxeUnique_AddEffect.0"
+        },
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_BattleAxeUnique_EchoofScreams_Deafness'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_BattleAxeUnique_EchoofScreams_Deafness.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_BattleAxeUniqueEffect_Desc_BattleAxeUniqueEffectDesc",
+        "SourceString": "Deal <Exec.MagicalDamageTrue>[0] #</> to the target and cause the target to only hear their own screams for <Duration>[1] seconds</>.",
+        "LocalizedString": "Deal <Exec.MagicalDamageTrue>[0] _</> to the target and cause the target to only hear their own screams for <Duration>[1] seconds</>."
+      }
+    }
+  }
+]

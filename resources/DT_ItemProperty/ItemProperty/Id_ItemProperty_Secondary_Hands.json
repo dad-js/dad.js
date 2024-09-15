@@ -1,0 +1,442 @@
+[
+  {
+    "Type": "DesignDataAssetItemProperty",
+    "Name": "Id_ItemProperty_Secondary_Hands",
+    "Class": "UScriptClass'DesignDataAssetItemProperty'",
+    "Properties": {
+      "Item": {
+        "ItemPropertyItemArray": [
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MaxHealthAdd"
+            },
+            "MinValue": 1,
+            "MaxValue": 3,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_ProjectileReductionMod"
+            },
+            "MinValue": 5,
+            "MaxValue": 10,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MagicRegistance"
+            },
+            "MinValue": 3,
+            "MaxValue": 5,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_RegularInteractionSpeed"
+            },
+            "MinValue": 50,
+            "MaxValue": 75,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Agility"
+            },
+            "MinValue": 1,
+            "MaxValue": 2,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Dexterity"
+            },
+            "MinValue": 1,
+            "MaxValue": 2,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Strength"
+            },
+            "MinValue": 1,
+            "MaxValue": 2,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Vigor"
+            },
+            "MinValue": 1,
+            "MaxValue": 2,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Will"
+            },
+            "MinValue": 1,
+            "MaxValue": 2,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Knowledge"
+            },
+            "MinValue": 1,
+            "MaxValue": 2,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Resourcefulness"
+            },
+            "MinValue": 1,
+            "MaxValue": 2,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_ArmorPenetration"
+            },
+            "MinValue": 20,
+            "MaxValue": 30,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_ArmorRatingAdd"
+            },
+            "MinValue": 3,
+            "MaxValue": 5,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalDamageTrue"
+            },
+            "MinValue": 1,
+            "MaxValue": 1,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalWeaponDamageAdd"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MagicalDamageTrue"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MagicalHealing"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MagicalPower"
+            },
+            "MinValue": 1,
+            "MaxValue": 2,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Luck"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_ActionSpeed"
+            },
+            "MinValue": 5,
+            "MaxValue": 10,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_BuffDurationBonus"
+            },
+            "MinValue": 30,
+            "MaxValue": 50,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_DebuffDurationBonus"
+            },
+            "MinValue": 10,
+            "MaxValue": 30,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MagicalDamageAdd"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MagicalDamageBonus"
+            },
+            "MinValue": 10,
+            "MaxValue": 20,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MagicalDamageReduction"
+            },
+            "MinValue": 5,
+            "MaxValue": 10,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MagicalInteractionSpeed"
+            },
+            "MinValue": 50,
+            "MaxValue": 75,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MagicPenetration"
+            },
+            "MinValue": 20,
+            "MaxValue": 30,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MaxHealthBonus"
+            },
+            "MinValue": 5,
+            "MaxValue": 10,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MemoryCapacityAdd"
+            },
+            "MinValue": 1,
+            "MaxValue": 2,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MemoryCapacityBonus"
+            },
+            "MinValue": 20,
+            "MaxValue": 50,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MoveSpeedAdd"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_MoveSpeedBonus"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalDamageAdd"
+            },
+            "MinValue": 1,
+            "MaxValue": 1,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalDamageBonus"
+            },
+            "MinValue": 10,
+            "MaxValue": 15,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalDamageReduction"
+            },
+            "MinValue": 5,
+            "MaxValue": 10,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalHealing"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_PhysicalPower"
+            },
+            "MinValue": 1,
+            "MaxValue": 2,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_Primitive"
+            },
+            "MinValue": 0,
+            "MaxValue": 0,
+            "PropertyRate": 1000
+          },
+          {
+            "PropertyTypeId": {
+              "PrimaryAssetType": {
+                "Name": "DesignDataItemPropertyType"
+              },
+              "PrimaryAssetName": "Id_ItemPropertyType_Effect_SpellCastingSpeed"
+            },
+            "MinValue": 5,
+            "MaxValue": 10,
+            "PropertyRate": 1000
+          }
+        ]
+      }
+    }
+  }
+]

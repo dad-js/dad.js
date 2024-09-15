@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "OldShoes_3001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_OldShoes'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/OldShoes/Icon/Item_Icon_OldShoes.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_OldShoes'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/OldShoes/SK_OldShoes.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_OldShoes_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/OldShoes/SM_OldShoes_Holder.2"
+      }
+    }
+  }
+]

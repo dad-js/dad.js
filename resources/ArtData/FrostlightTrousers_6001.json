@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FrostlightTrousers_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanAnkle",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostlightTrousers'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/FrostlightTrousers/Icon/Item_Icon_FrostlightTrousers.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_LooseTrousers'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/LooseTrousers/SK_LooseTrousers.2"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_LooseTrousers",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightTrousers'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/FrostlightTrousers/Materials/MI_FrostlightTrousers.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_LooseTrousers_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/LooseTrousers/SM_LooseTrousers_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_LooseTrousers",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightTrousers'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/FrostlightTrousers/Materials/MI_FrostlightTrousers.0"
+          }
+        }
+      ]
+    }
+  }
+]

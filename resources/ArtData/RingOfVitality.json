@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataAccessory",
+    "Name": "RingOfVitality",
+    "Class": "UScriptClass'ArtDataAccessory'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_RingofVitality'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Ring/Icon/Item_Icon_RingofVitality.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_RingofVitality_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Ring/SM_RingofVitality_Holder.2"
+      }
+    }
+  }
+]

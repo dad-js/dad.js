@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FrostlightLightfootBoots_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::BootsEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostlightLightfootBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/FrostlightLightfootBoots/Icon/Item_Icon_FrostlightLightfootBoots.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_LightfootBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/LightfootBoots/SK_LightfootBoots.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_boots_03",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightLightfootBoots'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/FrostlightLightfootBoots/Materials/MI_FrostlightLightfootBoots.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_LightfootBoots_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/LightfootBoots/SM_LightfootBoots_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Fbx Default Material 0",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightLightfootBoots'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/FrostlightLightfootBoots/Materials/MI_FrostlightLightfootBoots.0"
+          }
+        }
+      ]
+    }
+  }
+]

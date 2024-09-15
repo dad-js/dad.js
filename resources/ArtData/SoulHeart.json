@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataUtility",
+    "Name": "SoulHeart",
+    "Class": "UScriptClass'ArtDataUtility'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'SoulHeart_stand_equip_Montage'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/Animations/SoulHeart_stand_equip_Montage.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'SoulHeart_stand_unequip_Montage'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/Animations/SoulHeart_stand_unequip_Montage.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'SoulHeart_stand_idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/Animations/SoulHeart_stand_idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'SoulHeart_crouch_idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/Animations/SoulHeart_crouch_idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_SoulHeart_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/Animations/BS_SoulHeart_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_back_pelvis_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_SoulHeart'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/Icon/Item_Icon_SoulHeart.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_SoulHeart'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/SK_SoulHeart.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_SoulHeart_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/SoulHeart/SM_SoulHeart_Holder.2"
+      }
+    }
+  }
+]

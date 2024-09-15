@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "WendigoHoof",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_WendigosHoof'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/WendigosHoof/Icon/Item_Icon_WendigosHoof.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_WendigosHoof_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/WendigosHoof/SM_WendigosHoof_Holder.2"
+      }
+    }
+  }
+]

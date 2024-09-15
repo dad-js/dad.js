@@ -1,0 +1,398 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_CrystalSwordActivate_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemActivate_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemActivate.0"
+    },
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_CrystalSwordActivate_C:ExecuteUbergraph_GA_CrystalSwordActivate'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemActivate_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemActivate.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_CrystalSwordActivate_C:Activated'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.1"
+      },
+      {
+        "ObjectName": "Function'GA_CrystalSwordActivate_C:Deactivated'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.2"
+      },
+      {
+        "ObjectName": "Function'GA_CrystalSwordActivate_C:ReceivedEvent'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.4"
+      },
+      {
+        "ObjectName": "Function'GA_CrystalSwordActivate_C:ExecuteUbergraph_GA_CrystalSwordActivate'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.3"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_CrystalSwordActivate": {
+        "ObjectName": "Function'GA_CrystalSwordActivate_C:ExecuteUbergraph_GA_CrystalSwordActivate'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.3"
+      },
+      "ReceivedEvent": {
+        "ObjectName": "Function'GA_CrystalSwordActivate_C:ReceivedEvent'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.4"
+      },
+      "Deactivated": {
+        "ObjectName": "Function'GA_CrystalSwordActivate_C:Deactivated'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.2"
+      },
+      "Activated": {
+        "ObjectName": "Function'GA_CrystalSwordActivate_C:Activated'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.1"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_CrystalSwordActivate_C'Default__GA_CrystalSwordActivate_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.5"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Activated",
+    "Outer": "GA_CrystalSwordActivate_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'GA_ItemActivateBase:Activated'",
+      "ObjectPath": "/Script/DungeonCrawler"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_CrystalSwordActivate_C:ExecuteUbergraph_GA_CrystalSwordActivate'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.3"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 15
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.ExecuteUbergraph_GA_CrystalSwordActivate[15]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Deactivated",
+    "Outer": "GA_CrystalSwordActivate_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'GA_ItemActivateBase:Deactivated'",
+      "ObjectPath": "/Script/DungeonCrawler"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_CrystalSwordActivate_C:ExecuteUbergraph_GA_CrystalSwordActivate'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.3"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 20
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.ExecuteUbergraph_GA_CrystalSwordActivate[20]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_CrystalSwordActivate",
+    "Outer": "GA_CrystalSwordActivate_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_EventTag",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_EventData",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalSwordActivate_C:ExecuteUbergraph_GA_CrystalSwordActivate'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.3"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 10,
+        "CodeOffset": 20,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.ExecuteUbergraph_GA_CrystalSwordActivate[20]"
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 15,
+        "CodeOffset": 20,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.ExecuteUbergraph_GA_CrystalSwordActivate[20]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 20,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 22
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceivedEvent",
+    "Outer": "GA_CrystalSwordActivate_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'GA_ItemActivateBase:ReceivedEvent'",
+      "ObjectPath": "/Script/DungeonCrawler"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "EventTag",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "EventData",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'GA_CrystalSwordActivate_C:ExecuteUbergraph_GA_CrystalSwordActivate'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.3"
+          },
+          "Property": {
+            "Type": "StructProperty",
+            "Name": "K2Node_Event_EventTag",
+            "Flags": "RF_Public",
+            "ElementSize": 12,
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayTag'",
+              "ObjectPath": "/Script/GameplayTags"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalSwordActivate_C:ReceivedEvent'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.4"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "EventTag",
+              "Flags": "RF_Public",
+              "ElementSize": 12,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 18,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'GA_CrystalSwordActivate_C:ExecuteUbergraph_GA_CrystalSwordActivate'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.3"
+          },
+          "Property": {
+            "Type": "StructProperty",
+            "Name": "K2Node_Event_EventData",
+            "Flags": "RF_Public",
+            "ElementSize": 184,
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayEventData'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CrystalSwordActivate_C:ReceivedEvent'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.4"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "EventData",
+              "Flags": "RF_Public",
+              "ElementSize": 184,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 36,
+        "Function": {
+          "ObjectName": "Function'GA_CrystalSwordActivate_C:ExecuteUbergraph_GA_CrystalSwordActivate'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.3"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 10
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.ExecuteUbergraph_GA_CrystalSwordActivate[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 51,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 53
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GA_CrystalSwordActivate_C",
+    "Name": "Default__GA_CrystalSwordActivate_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/GameplayAbility/GA_CrystalSwordActivate.GA_CrystalSwordActivate_C'",
+    "Template": {
+      "ObjectName": "GA_ItemActivate_C'Default__GA_ItemActivate_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemActivate.1"
+    },
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  }
+]

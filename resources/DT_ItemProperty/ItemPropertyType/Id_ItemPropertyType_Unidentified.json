@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Unidentified",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 1,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Unidentified"
+        }
+      }
+    }
+  }
+]

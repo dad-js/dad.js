@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_Will",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 15,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.Will"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyWill_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyWill.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.WillBase"
+        },
+        "SecondaryTooltipPriority": 1
+      }
+    }
+  }
+]

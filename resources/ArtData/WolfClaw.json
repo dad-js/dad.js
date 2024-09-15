@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "WolfClaw",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_WolfClaw'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/WolfClaw/Icon/Item_Icon_WolfClaw.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_WolfClaw_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/WolfClaw/SM_WolfClaw_Holder.2"
+      }
+    }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "Chaperon_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Chaperon'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Chaperon/Icon/Item_Icon_Chaperon.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Chaperon'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Chaperon/SK_Chaperon.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Chaperon_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Chaperon/SM_Chaperon_Holder.2"
+      }
+    }
+  }
+]

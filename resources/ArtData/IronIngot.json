@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "IronIngot",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_IronIngot'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ingots/Iron/Icon/Item_Icon_IronIngot.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_IronIngot_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ingots/Iron/SM_IronIngot_Holder.2"
+      }
+    }
+  }
+]

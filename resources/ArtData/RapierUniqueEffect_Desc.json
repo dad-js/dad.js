@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "RapierUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_RapierUnique_Frostbite'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_RapierUnique_Frostbite.0"
+        },
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ItemEffect_RapierUnique_AddEffect'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemEffect/Id_ItemEffect_RapierUnique_AddEffect.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_RapierUniqueEffect_Desc_RapierUniqueEffectDesc",
+        "SourceString": "Text_When you hit an enemy, deal an additional <Exec.MagicalDamageBase>[1] #</> that freezes the target causing frostbite: reducing <MoveSpeedMod># by [0]%</> and <ActionSpeed># by [0]%</> for <Duration>[0] seconds</>.",
+        "LocalizedString": "When you hit an enemy, deal an additional <Exec.MagicalDamageBase>[1] _</> that freezes the target causing frostbite: reducing <MoveSpeedMod>_ by [0]%</> and <ActionSpeed>_ by [0]%</> for <Duration>[0] seconds</>."
+      }
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_DebuffDurationBonus",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 46,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.DebuffDurationBonus"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyDebuffDurationBonus_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyDebuffDurationBonus.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.DebuffDurationMod"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

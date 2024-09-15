@@ -1,0 +1,852 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_DrinkPotionActivateBase_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'GA_ItemActivateBase'",
+      "ObjectPath": "/Script/DungeonCrawler"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_DrinkPotionActivateBase_C:OnFinish_17D93366455B3BE35432FCBE8DFC6E4D'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.3"
+      },
+      {
+        "ObjectName": "Function'GA_DrinkPotionActivateBase_C:Removed_B01C8A3D4B24EB4F232029A52296F212'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.4"
+      },
+      {
+        "ObjectName": "Function'GA_DrinkPotionActivateBase_C:Activated'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.1"
+      },
+      {
+        "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_DrinkPotionActivateBase": {
+        "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+      },
+      "Activated": {
+        "ObjectName": "Function'GA_DrinkPotionActivateBase_C:Activated'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.1"
+      },
+      "Removed_B01C8A3D4B24EB4F232029A52296F212": {
+        "ObjectName": "Function'GA_DrinkPotionActivateBase_C:Removed_B01C8A3D4B24EB4F232029A52296F212'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.4"
+      },
+      "OnFinish_17D93366455B3BE35432FCBE8DFC6E4D": {
+        "ObjectName": "Function'GA_DrinkPotionActivateBase_C:OnFinish_17D93366455B3BE35432FCBE8DFC6E4D'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.3"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_DrinkPotionActivateBase_C'Default__GA_DrinkPotionActivateBase_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.5"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Activated",
+    "Outer": "GA_DrinkPotionActivateBase_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'GA_ItemActivateBase:Activated'",
+      "ObjectPath": "/Script/DungeonCrawler"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 10
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.ExecuteUbergraph_GA_DrinkPotionActivateBase[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_DrinkPotionActivateBase",
+    "Outer": "GA_DrinkPotionActivateBase_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'WaitDelayDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_WaitDelay_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AbilityTask_WaitDelay'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'WaitGameplayTagDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_WaitGameplayTagRemove_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AbilityTask_WaitGameplayTagRemoved'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 10,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_WaitGameplayTagRemove_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_WaitGameplayTagRemoved'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'AbilityTask_WaitGameplayTagRemoved:WaitGameplayTagRemove'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "State.Item.Activate"
+                }
+              ]
+            },
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_False"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 60,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_WaitGameplayTagRemove_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'AbilityTask_WaitGameplayTagRemoved'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 89,
+        "CodeOffset": 199,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.ExecuteUbergraph_GA_DrinkPotionActivateBase[199]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_BindDelegate",
+        "StatementIndex": 103,
+        "FunctionName": "Removed_B01C8A3D4B24EB4F232029A52296F212",
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "DelegateFunction'WaitGameplayTagDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "ObjectTerm": {
+          "Inst": "EX_Self"
+        }
+      },
+      {
+        "Inst": "EX_AddMulticastDelegate",
+        "StatementIndex": 126,
+        "MulticastDelegate": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_WaitGameplayTagRemove_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'AbilityTask_WaitGameplayTagRemoved'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "Path": [
+              "Removed"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'AbilityTask_WaitGameplayTagRemoved'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "Removed"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'AbilityTask_WaitGameplayTagRemoved'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "DelegateFunction'WaitGameplayTagDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 167,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_WaitGameplayTagRemove_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_WaitGameplayTagRemoved'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Offset": 10,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayTask:ReadyForActivation'",
+            "ObjectPath": "/Script/GameplayTasks"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 199,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_WaitDelay_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_WaitDelay'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'AbilityTask_WaitDelay:WaitDelay'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 225,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_WaitDelay_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'AbilityTask_WaitDelay'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 254,
+        "CodeOffset": 402,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.ExecuteUbergraph_GA_DrinkPotionActivateBase[402]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_BindDelegate",
+        "StatementIndex": 268,
+        "FunctionName": "OnFinish_17D93366455B3BE35432FCBE8DFC6E4D",
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "DelegateFunction'WaitDelayDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "ObjectTerm": {
+          "Inst": "EX_Self"
+        }
+      },
+      {
+        "Inst": "EX_AddMulticastDelegate",
+        "StatementIndex": 291,
+        "MulticastDelegate": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_WaitDelay_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'AbilityTask_WaitDelay'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "Path": [
+              "OnFinish"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'AbilityTask_WaitDelay'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "OnFinish"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'AbilityTask_WaitDelay'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "DelegateFunction'WaitDelayDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 332,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_WaitDelay_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_WaitDelay'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Offset": 10,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayTask:ReadyForActivation'",
+            "ObjectPath": "/Script/GameplayTasks"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 364,
+        "CodeOffset": 402,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.ExecuteUbergraph_GA_DrinkPotionActivateBase[402]"
+      },
+      {
+        "Inst": "EX_VirtualFunction",
+        "StatementIndex": 369,
+        "Function": "K2_EndAbility",
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 383,
+        "CodeOffset": 402,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.ExecuteUbergraph_GA_DrinkPotionActivateBase[402]"
+      },
+      {
+        "Inst": "EX_VirtualFunction",
+        "StatementIndex": 388,
+        "Function": "K2_EndAbility",
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 402,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 404
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFinish_17D93366455B3BE35432FCBE8DFC6E4D",
+    "Outer": "GA_DrinkPotionActivateBase_C",
+    "Class": "UScriptClass'Function'",
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 369
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.ExecuteUbergraph_GA_DrinkPotionActivateBase[369]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Removed_B01C8A3D4B24EB4F232029A52296F212",
+    "Outer": "GA_DrinkPotionActivateBase_C",
+    "Class": "UScriptClass'Function'",
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_DrinkPotionActivateBase_C:ExecuteUbergraph_GA_DrinkPotionActivateBase'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 388
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.ExecuteUbergraph_GA_DrinkPotionActivateBase[388]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GA_DrinkPotionActivateBase_C",
+    "Name": "Default__GA_DrinkPotionActivateBase_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/GameplayAbility/GA_DrinkPotionActivateBase.GA_DrinkPotionActivateBase_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AbilityTags": [
+        "Type.Ability.Act"
+      ],
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Ability.Item.Activate"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]

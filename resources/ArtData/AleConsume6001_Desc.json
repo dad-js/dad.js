@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "AleConsume6001_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_AleConsumeDrunken_6001'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_AleConsumeDrunken_6001.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_AleConsume6001_Desc_AleConsume6001Desc",
+        "SourceString": "Text_While active, gain <StrengthBase>[0] #</> and become drunk for <Duration>[0] seconds</>.",
+        "LocalizedString": "While active, gain <StrengthBase>[0] _</> and become drunk for <Duration>[0] seconds</>."
+      }
+    }
+  }
+]

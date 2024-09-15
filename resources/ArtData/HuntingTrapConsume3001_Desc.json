@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "HuntingTrapConsume3001_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_PropsEffect_HuntingTrapHit'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Props/PropsEffect/Id_PropsEffect_HuntingTrapHit.0"
+        },
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_Trapped_Debuff_3001'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_Trapped_Debuff_3001.0"
+        },
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_PropsEffect_HuntingTrapDamageOnMove'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Props/PropsEffect/Id_PropsEffect_HuntingTrapDamageOnMove.0"
+        },
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_Trapped_Player_3001'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_Trapped_Player_3001.0"
+        },
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_Trapped_Monster'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_Trapped_Monster.0"
+        }
+      ],
+      "ItemConsumeDataAssetArray": [
+        {
+          "ObjectName": "DCItemConsumeDataAsset'Id_ItemConsume_HuntingTrap_3001'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemConsume/Id_ItemConsume_HuntingTrap_3001.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_HuntingTrapConsume_Desc_HuntingTrapConsumeDesc",
+        "SourceString": "Text_Install the trap over <ItemConsume Type=\"Duration\">[0] seconds</> When triggered, it deals <Exec.PhysicalDamageTrue>[0] #</> initially, <Exec.PhysicalDamageTrue>[1] #</> per second, and <Exec.PhysicalDamageTrue>[2] #</> with each movement. For players, the effect lasts for <Duration>[3] seconds</>, reducing <MoveSpeedMod>[3]% #</>. For monsters, the effect also lasts for <Duration>[4] seconds</>. Targets cannot move beyond a certain radius of the trap.",
+        "LocalizedString": "Set a trap over <ItemConsume Type=\"Duration\">[0] seconds</>. When triggered, immediately deal <Exec.PhysicalDamageTrue>[0] _</> and <Exec.PhysicalDamageTrue>[1] _</> per second. Additionally inflict <Exec.PhysicalDamageTrue>[2] _</> with each movement. Effect lasts <Duration>[3] seconds</> on players and <Duration>[4] seconds</> on monsters, reducing <MoveSpeedMod>_ by [3]%</>. The target cannot move beyond a certain radius of the trap."
+      }
+    }
+  }
+]

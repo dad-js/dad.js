@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataUtility",
+    "Name": "HuntingTrap",
+    "Class": "UScriptClass'ArtDataUtility'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_HuntingTrap_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/HuntingTrap/Animations/AM_HuntingTrap_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_HuntingTrap_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/HuntingTrap/Animations/AM_HuntingTrap_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_HuntingTrap_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/HuntingTrap/Animations/AS_HuntingTrap_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_HuntingTrap_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/HuntingTrap/Animations/AS_HuntingTrap_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_HuntingTrap_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/HuntingTrap/Animations/BS_HuntingTrap_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_back_pelvis_02",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_HuntingTrap'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/HuntingTrap/Icon/Item_Icon_HuntingTrap.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_HuntingTrap'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/HuntingTrap/SK_HuntingTrap.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_HuntingTrap_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/HuntingTrap/SM_HuntingTrap_Holder.2"
+      }
+    }
+  }
+]

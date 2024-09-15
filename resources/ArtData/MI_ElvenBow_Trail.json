@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_ElvenBow_Trail",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Trail_Simple'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Shared_Resource/Materials/M_Trail_Simple.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Main Tex Panning X",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": -6.0,
+          "ExpressionGUID": "669C3B3C-444C74DC-0ACA07B8-5406D628"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Cololur 02",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          },
+          "ExpressionGUID": "74696479-4ED31424-D4F6D481-81FB11CF"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Colour 01",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 0.989421,
+            "B": 0.872848,
+            "A": 1.0,
+            "Hex": "FFFEF1"
+          },
+          "ExpressionGUID": "B5400932-401809B5-AEA8A595-201B2BC1"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Main Tex",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_ElvenBow_Trail'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/ElvenBow/T_ElvenBow_Trail.0"
+          },
+          "ExpressionGUID": "5D595552-40FE4FAC-2D3CD0BD-228DEB17"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Additive",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Depthfade",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "29D3F329-4CB9465E-D42BD9B3-FC6F6633"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Subtractive Erosion",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "667882CC-46D2DA77-0BFF0D88-5DC30279"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true,
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_ElvenBow_Trail"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Flow_Noise"
+        }
+      ]
+    },
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

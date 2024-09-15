@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "Arrow",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Arrow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ammo/Arrow/Icon/Item_Icon_Arrow.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_SurvivalBow_Arrow_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/SM_SurvivalBow_Arrow_Holder.2"
+      }
+    }
+  }
+]

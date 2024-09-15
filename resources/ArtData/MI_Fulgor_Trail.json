@@ -1,0 +1,130 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Fulgor_Trail",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Monster_CommonTrail'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/WeaponTrail/MonsterTrail/M_Monster_CommonTrail.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Camera Depthfade Length",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 100.0,
+          "ExpressionGUID": "72882227-4F07393F-D1EF40B0-4CD27E14"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Camera Depthfade Offset",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 30.0,
+          "ExpressionGUID": "A4E24EC1-469750CA-EA50318A-8011668E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Fresnel Exp",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 3.0,
+          "ExpressionGUID": "7E3E7E19-466E11FA-ECA367A5-C4CDD396"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param_2",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 10.0,
+          "ExpressionGUID": "289DAD32-480BCDBD-9F123795-E22A9F7F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param_3",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.2,
+          "ExpressionGUID": "53A51C46-4085A2DF-0393E782-F88D5B34"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "T_Trail03_Maskcolor",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.249792,
+            "G": 0.656101,
+            "B": 0.963542,
+            "A": 1.0,
+            "Hex": "89D4FB"
+          },
+          "ExpressionGUID": "123830E4-403F1907-C3BE50B0-4445FB48"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_OpacityMaskClipValue": true,
+        "bOverride_TwoSided": true,
+        "TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Additive",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.0
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Soften Edge",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "6F7D0DE7-4B2525F9-686A2486-062DCC71"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Fresnel",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "AD3FD453-41644D04-1C73CBBA-370FD2C2"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true,
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 0.703125,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Fog_Proc"
+        }
+      ]
+    },
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

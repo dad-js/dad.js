@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FoulBoots_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::BootsEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FoulBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/FoulBoots/Icon/Item_Icon_FoulBoots.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_AdventurerBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/AdventurerBoots/SK_AdventurerBoots.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_boots_01",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FoulBoots'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/FoulBoots/Materials/MI_FoulBoots.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_AdventurerBoots_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/AdventurerBoots/SM_AdventurerBoots_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_boots_01",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FoulBoots_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/FoulBoots/Materials/MI_FoulBoots_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

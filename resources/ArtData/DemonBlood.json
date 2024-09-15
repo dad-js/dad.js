@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "DemonBlood",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_DemonBlood'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/DemonBlood/Icon/Item_Icon_DemonBlood.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_DemonBlood_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/DemonBlood/SM_DemonBlood_Holder.2"
+      }
+    }
+  }
+]

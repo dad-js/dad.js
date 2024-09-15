@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_BuffDurationBonus",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 45,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.BuffDurationBonus"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyBuffDurationBonus_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyBuffDurationBonus.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.BuffDurationMod"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

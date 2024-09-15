@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "RustyBrokenSword",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_RustyBrokenSword'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/RustyBrokenSword/Icon/Item_Icon_RustyBrokenSword.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_RustyBrokenSword_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/RustyBrokenSword/SM_RustyBrokenSword_Holder.2"
+      }
+    }
+  }
+]

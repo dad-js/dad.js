@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_MagicalInteractionSpeed",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 44,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.MagicalInteractionSpeed"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyMagicalInteractionSpeed_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyMagicalInteractionSpeed.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.MagicalInteractionSpeed"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

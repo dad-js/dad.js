@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Perk_Robust",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 3,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Perk.Robust"
+        },
+        "PerkId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataPerk"
+          },
+          "PrimaryAssetName": "Id_Perk_Robust"
+        }
+      }
+    }
+  }
+]

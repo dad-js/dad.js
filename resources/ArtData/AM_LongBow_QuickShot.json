@@ -1,0 +1,892 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_LongBow_QuickShot",
+    "Class": "UScriptClass'AnimMontage'",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "Loop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Start.0"
+          }
+        },
+        {
+          "SectionName": "Loop",
+          "NextSectionName": "Loop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.6,
+          "SegmentLength": 1.6,
+          "LinkValue": 0.6,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack1_Ready_Loop'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack1_Ready_Loop.0"
+          }
+        },
+        {
+          "SectionName": "AttackStart",
+          "NextSectionName": "AttackLoop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 2.2,
+          "SegmentLength": 0.7222222,
+          "LinkValue": 2.2,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack1_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack1_Start.0"
+          }
+        },
+        {
+          "SectionName": "AttackLoop",
+          "NextSectionName": "AttackLoop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 3,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 2.9222221,
+          "SegmentLength": 1.6,
+          "LinkValue": 2.9333334,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack1_Loop'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack1_Loop.0"
+          }
+        },
+        {
+          "SectionName": "End",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.522222,
+          "SegmentLength": 1.6666666,
+          "LinkValue": 4.522222,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack_End.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "UpperBody",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Start'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Start.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.6,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack1_Ready_Loop'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack1_Ready_Loop.0"
+                },
+                "StartPos": 0.6,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.6,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack1_Start'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack1_Start.0"
+                },
+                "StartPos": 2.2,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.8666667,
+                "AnimPlayRate": 1.2,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack1_Loop'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack1_Loop.0"
+                },
+                "StartPos": 2.9222221,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.6,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack_End'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack_End.0"
+                },
+                "StartPos": 4.522222,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.6666666,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "BranchingPointMarkers": [
+        {
+          "NotifyIndex": 1,
+          "TriggerTime": 2.2001,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 4,
+          "TriggerTime": 4.5245495,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 5,
+          "TriggerTime": 4.5333333,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 8,
+          "TriggerTime": 5.43333,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        }
+      ],
+      "CommonTargetFrameRate": {
+        "Numerator": 30
+      },
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent_C",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'AM_LongBow_QuickShot:AnimNotify_AkEvent_C_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.048788685,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6,
+          "LinkValue": 0.048788685,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DCMontageJumpToSectionOnSourceObject",
+          "Notify": {
+            "ObjectName": "DCAnimNotify_MontageJumpToSectionOnSourceObject'AM_LongBow_QuickShot:DCAnimNotify_MontageJumpToSectionOnSourceObject_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.2,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 2.2,
+          "SegmentLength": 0.7222222,
+          "LinkValue": 2.2,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack1_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack1_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent_C",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'AM_LongBow_QuickShot:AnimNotify_AkEvent_C_1'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.2225113,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 2.2,
+          "SegmentLength": 0.7222222,
+          "LinkValue": 2.2225113,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack1_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack1_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent_C",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'AM_LongBow_QuickShot:AnimNotify_AkEvent_C_2'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.8857324,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 2.2,
+          "SegmentLength": 0.7222222,
+          "LinkValue": 2.8857324,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack1_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack1_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DCMontageJumpToSectionOnSourceObject",
+          "Notify": {
+            "ObjectName": "DCAnimNotify_MontageJumpToSectionOnSourceObject'AM_LongBow_QuickShot:DCAnimNotify_MontageJumpToSectionOnSourceObject_1'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 4.5245495,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.522222,
+          "SegmentLength": 1.6666666,
+          "LinkValue": 4.5245495,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack_End.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DCSendGameplayEventTagToSelf",
+          "Notify": {
+            "ObjectName": "DCAnimNotify_SendGameplayEventTagToSelf'AM_LongBow_QuickShot:DCAnimNotify_SendGameplayEventTagToSelf_2'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.11"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 4.5333333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.522222,
+          "SegmentLength": 1.6666666,
+          "LinkValue": 4.5333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack_End.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent_C",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'AM_LongBow_QuickShot:AnimNotify_AkEvent_C_3'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 4.5387354,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.522222,
+          "SegmentLength": 1.6666666,
+          "LinkValue": 4.5387354,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack_End.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent_C",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'AM_LongBow_QuickShot:AnimNotify_AkEvent_C_7'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 4.978632,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.522222,
+          "SegmentLength": 1.6666666,
+          "LinkValue": 4.978632,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack_End.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DCSendGameplayEventTagToSelf",
+          "Notify": {
+            "ObjectName": "DCAnimNotify_SendGameplayEventTagToSelf'AM_LongBow_QuickShot:DCAnimNotify_SendGameplayEventTagToSelf_1'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 5.43333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.522222,
+          "SegmentLength": 1.6666666,
+          "LinkValue": 5.43333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack_End.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent_C",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'AM_LongBow_QuickShot:AnimNotify_AkEvent_C_4'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 5.437072,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.522222,
+          "SegmentLength": 1.6666666,
+          "LinkValue": 5.437072,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack_End.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent_C",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'AM_LongBow_QuickShot:AnimNotify_AkEvent_C_8'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 5.7999935,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_LongBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AM_LongBow_QuickShot.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.522222,
+          "SegmentLength": 1.6666666,
+          "LinkValue": 5.7999935,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_LongBow_QuickShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longbow/Animations/AS_LongBow_QuickShot_Attack_End.0"
+          }
+        }
+      ],
+      "SequenceLength": 6.1888833,
+      "RawCurveData": {
+        "FloatCurves": [
+          {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 0.0,
+                  "Value": 1.0,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.0,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.0
+                }
+              ],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "CurveName": "CommonWeapon",
+            "CurveTypeFlags": 4
+          }
+        ]
+      },
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_PC_Man'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Player/Meshes/SKEL_PC_Man.84"
+      }
+    },
+    "SkeletonGuid": "86C18DA5-4F726D68-AB1C48A9-134BF080"
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_0",
+    "Outer": "AM_LongBow_QuickShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'Wp_RecurveBow_QuickShot_Ready_Arrow'",
+        "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Weapons/Wp_RecurveBow_QuickShot_Ready_Arrow.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_1",
+    "Outer": "AM_LongBow_QuickShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'Wp_RecurveBow_QuickShot_Ready_2'",
+        "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Weapons/Wp_RecurveBow_QuickShot_Ready_2.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_2",
+    "Outer": "AM_LongBow_QuickShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'Wp_RecurveBow_Ready_Creak'",
+        "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Weapons/Wp_RecurveBow_Ready_Creak.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_3",
+    "Outer": "AM_LongBow_QuickShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'Wp_RecurveBow_Fire'",
+        "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Weapons/Wp_RecurveBow_Fire.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_4",
+    "Outer": "AM_LongBow_QuickShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'Wp_RecurveBow_Fire'",
+        "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Weapons/Wp_RecurveBow_Fire.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_7",
+    "Outer": "AM_LongBow_QuickShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'Wp_RecurveBow_QuickShot_Ready_2'",
+        "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Weapons/Wp_RecurveBow_QuickShot_Ready_2.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_8",
+    "Outer": "AM_LongBow_QuickShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'Wp_RecurveBow_QuickShot_Ready_2'",
+        "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Weapons/Wp_RecurveBow_QuickShot_Ready_2.0"
+      }
+    }
+  },
+  {
+    "Type": "DCAnimNotify_MontageJumpToSectionOnSourceObject",
+    "Name": "DCAnimNotify_MontageJumpToSectionOnSourceObject_0",
+    "Outer": "AM_LongBow_QuickShot",
+    "Class": "UScriptClass'DCAnimNotify_MontageJumpToSectionOnSourceObject'",
+    "Properties": {
+      "SectionName": "AttackStart"
+    }
+  },
+  {
+    "Type": "DCAnimNotify_MontageJumpToSectionOnSourceObject",
+    "Name": "DCAnimNotify_MontageJumpToSectionOnSourceObject_1",
+    "Outer": "AM_LongBow_QuickShot",
+    "Class": "UScriptClass'DCAnimNotify_MontageJumpToSectionOnSourceObject'",
+    "Properties": {
+      "SectionName": "End"
+    }
+  },
+  {
+    "Type": "DCAnimNotify_SendGameplayEventTagToSelf",
+    "Name": "DCAnimNotify_SendGameplayEventTagToSelf_1",
+    "Outer": "AM_LongBow_QuickShot",
+    "Class": "UScriptClass'DCAnimNotify_SendGameplayEventTagToSelf'",
+    "Properties": {
+      "EventTag": {
+        "TagName": "Event.Attack.FireProjectile"
+      }
+    }
+  },
+  {
+    "Type": "DCAnimNotify_SendGameplayEventTagToSelf",
+    "Name": "DCAnimNotify_SendGameplayEventTagToSelf_2",
+    "Outer": "AM_LongBow_QuickShot",
+    "Class": "UScriptClass'DCAnimNotify_SendGameplayEventTagToSelf'",
+    "Properties": {
+      "EventTag": {
+        "TagName": "Event.Attack.FireProjectile"
+      }
+    }
+  }
+]

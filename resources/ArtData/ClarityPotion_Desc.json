@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "DescData",
+    "Name": "ClarityPotion_Desc",
+    "Class": "UScriptClass'DescData'",
+    "Properties": {
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_ClarityPotion_Desc_ClarityPotionDesc",
+        "SourceString": "Text_DataAsset_ClarityPotion_Desc_ClarityPotionDesc",
+        "LocalizedString": "Restores spell memory for a certain period of time."
+      }
+    }
+  }
+]

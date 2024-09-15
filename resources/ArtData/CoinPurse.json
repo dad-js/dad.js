@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "CoinPurse",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CoinPurse'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Treasures/Icon/Item_Icon_CoinPurse.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CoinPurse_01'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Treasures/SM_CoinPurse_01.2"
+      }
+    }
+  }
+]

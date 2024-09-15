@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "CyclopsVisionCrystal_5001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_CrystalBall_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/Animations/AM_CrystalBall_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_CrystalBall_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/Animations/AM_CrystalBall_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_CrystalBall_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/Animations/AS_CrystalBall_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_CrystalBall_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/Animations/AS_CrystalBall_Stand_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_CrystalBall_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/Animations/BS_CrystalBall_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_pelvis_r_02",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CyclopsVisionCrystal'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CyclopsVisionCrystal/Icon/Item_Icon_CyclopsVisionCrystal.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_CrystalBall_7001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/SK_CrystalBall_7001.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "CrystalBall",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_CyclopsVisionCrystal'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Item/CrystalBall/MI_CyclopsVisionCrystal.0"
+          }
+        },
+        {
+          "MaterialSlotName": "EyeBall",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_CyclopsVisionCrystal_Eyeball'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Item/CrystalBall/MI_CyclopsVisionCrystal_Eyeball.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CrystalBall_7001_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/SM_CrystalBall_7001_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "M_CrystalBall_Unique_Inst",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_CyclopsVisionCrystal_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Item/CrystalBall/MI_CyclopsVisionCrystal_Holder.0"
+          }
+        },
+        {
+          "MaterialSlotName": "M_CrystallBall_Unique_Eyeball",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_CyclopsVisionCrystal_Eyeball_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Item/CrystalBall/MI_CyclopsVisionCrystal_Eyeball_Holder.0"
+          }
+        },
+        {
+          "MaterialSlotName": "holder",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_CrystalBall_6001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalBall/Materials/MI_CrystalBall_6001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

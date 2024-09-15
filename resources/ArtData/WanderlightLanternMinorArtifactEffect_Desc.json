@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "WanderlightLanternMinorArtifactEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "ConstantDataAssetArray": [
+        {
+          "ObjectName": "DCConstantDataAsset'Id_Constant_Item_WanderlightLanternChasingRadiusTooltip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Constant/Constant/Id_Constant_Item_WanderlightLanternChasingRadiusTooltip.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_LanternMinorArtifactEffect_Desc_LanternMinorArtifactEffectDesc",
+        "SourceString": "Text_The player's footprints are displayed within an <Constant Type=\"Float\" Format=\"Normal\">[0]</> radius.",
+        "LocalizedString": "Reveals the footprints of enemy players within <Constant Type=\"Float\" Format=\"Normal\">[0]m</>."
+      }
+    }
+  }
+]

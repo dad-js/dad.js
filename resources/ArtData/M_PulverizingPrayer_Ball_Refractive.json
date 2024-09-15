@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_PulverizingPrayer_Ball_Refractive",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "BlendMode": "EBlendMode::BLEND_Additive",
+      "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "bUsedWithNiagaraMeshParticles": true,
+      "bUsesDistortion": true,
+      "bRootNodeOverridesDefaultDistortion": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "RefractionMethod": "ERefractionMode::RM_IndexOfRefraction",
+      "StateId": "F70F8C23-4FDA2874-53FFF3A7-6ECE0D9C",
+      "bIncludedInBaseGame": true,
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 2.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_SoftNoise_N"
+        }
+      ]
+    },
+    "ReferencedTextures": [
+      {
+        "ObjectName": "Texture2D'T_SoftNoise_N'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/TorchFire/Textures/T_SoftNoise_N.0"
+      }
+    ]
+  }
+]

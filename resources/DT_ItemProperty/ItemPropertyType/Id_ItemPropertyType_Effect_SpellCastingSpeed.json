@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_SpellCastingSpeed",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 41,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.SpellCastingSpeed"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertySpellCastingSpeed_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertySpellCastingSpeed.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.SpellCastingSpeed"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

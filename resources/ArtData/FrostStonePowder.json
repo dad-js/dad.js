@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "FrostStonePowder",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostPowder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Powders/FrostStone/Icon/Item_Icon_FrostPowder.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_FrostStonePowder_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Powders/FrostStone/SM_FrostStonePowder_Holder.2"
+      }
+    }
+  }
+]

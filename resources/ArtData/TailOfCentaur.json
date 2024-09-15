@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "TailOfCentaur",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CentaurTail'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/TailofCentaur/Icon/Item_Icon_CentaurTail.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_TailofCentaur_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/TailofCentaur/SM_TailofCentaur_Holder.2"
+      }
+    }
+  }
+]

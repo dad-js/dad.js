@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_WP_Spellbook_Stand_Unequip",
+    "Class": "UScriptClass'AnimMontage'",
+    "Properties": {
+      "BlendModeOut": "EMontageBlendMode::Inertialization",
+      "BlendIn": {
+        "BlendTime": 0.05
+      },
+      "BlendOut": {
+        "BlendTime": 0.0
+      },
+      "BlendOutTriggerTime": 0.1,
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Spellbook_Stand_Unequip'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spellbook/Animations/AM_WP_Spellbook_Stand_Unequip.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.8333333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Spellbook_Stand_Unequip'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spellbook/Animations/AS_WP_Spellbook_Stand_Unequip.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_Spellbook_Stand_Unequip'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spellbook/Animations/AS_WP_Spellbook_Stand_Unequip.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.8333333,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "bEnableAutoBlendOut": false,
+      "CommonTargetFrameRate": {
+        "Numerator": 30
+      },
+      "SequenceLength": 0.8333333,
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_Spellbook'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spellbook/SKEL_Spellbook.7"
+      }
+    },
+    "SkeletonGuid": "296410BA-4F5A9B85-9911A081-88FA6AA3"
+  }
+]

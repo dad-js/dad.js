@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "HeaterShield_3001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_HeaterShield_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/HeaterShield/Animations/AM_HeaterShield_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_HeaterShield_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/HeaterShield/Animations/AM_HeaterShield_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_HeaterShield_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/HeaterShield/Animations/AS_HeaterShield_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_HeaterShield_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/HeaterShield/Animations/AS_HeaterShield_Stand_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_HeaterShield_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/HeaterShield/Animations/BS_HeaterShield_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_back_center_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_HeaterShield_2001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/HeaterShield/Icon/Item_Icon_HeaterShield_2001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_HeaterShield'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/HeaterShield/SK_HeaterShield.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_HeatherShield",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_HeaterShield_2001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/HeaterShield/Materials/MI_HeaterShield_2001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_HeaterShield_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/HeaterShield/SM_HeaterShield_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_HeatherShield",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_HeaterShield_2001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/HeaterShield/Materials/MI_HeaterShield_2001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

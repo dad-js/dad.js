@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataAccessory",
+    "Name": "RingOfSurvival",
+    "Class": "UScriptClass'ArtDataAccessory'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_BasicRing01'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Ring/Icon/Item_Icon_BasicRing01.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_BasicRing01_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Accessories/Ring/SM_BasicRing01_Holder.2"
+      }
+    }
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_DeadEnd_Capsule",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_BubbleMain'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Barrier/Resources/Material/M_BubbleMain.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Inverted Fresnel Exp",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 20.0,
+          "ExpressionGUID": "A6DFB35B-48970EF5-28853E96-8C2B3115"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "BaseReflectFractionIn",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.07,
+          "ExpressionGUID": "707169E9-43DB7B4B-B2A94E8A-41110207"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "ExponentIn",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 7.0,
+          "ExpressionGUID": "30EAE751-4DFFDA76-50307398-09C89FE1"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "GeneralDepthFadeDist",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 150.0,
+          "ExpressionGUID": "DCD9E3A8-4D7B3A30-87BEDBBE-3A5B26F4"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Radius (S)",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "79E4C611-4C91E0A2-8D5B5FB4-E48297F2"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Sine Cut Contrast",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "4F9D77C3-491F3225-85D647BC-CFF3048B"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "CA_Strength",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "379AF91C-4E5575DC-9B273280-04FB5252"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Chrom_Aberation",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "26D6D52A-4BBAD656-E91A9B92-ACDF0BB6"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Main_Exp",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 3.0,
+          "ExpressionGUID": "342EC67C-4C93D902-8B1EA890-590ABC93"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Main_Power",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 20.0,
+          "ExpressionGUID": "D8A4337D-47140344-FFC5079E-8433B742"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Main_Speed_X",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.2,
+          "ExpressionGUID": "6AB758C9-435973AB-B660AEB0-6E38ADFC"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Main_Speed_Y",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.3,
+          "ExpressionGUID": "50ACC555-40AD4212-58933FB1-15A04345"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Main_U",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "A673F4D2-4B10649E-8588C88E-F52EC4DB"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Main_V",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.2,
+          "ExpressionGUID": "8DA3B01B-457899B5-91177D8D-FCC1EFC6"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Max",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "9612BBF4-47E44720-F72E09A3-0C747FA9"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "OutLine_Exp",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.3,
+          "ExpressionGUID": "8A063A33-4C075C15-741D68B8-6E4E891E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "OutLine_max",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "33F9D4BE-4706407A-15299FA6-60D11073"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "OutLine_min",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "DB44D835-475432BD-2929F394-C2A68F3B"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "OutLine_Speed_X",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.01,
+          "ExpressionGUID": "B683A0FE-43F98EAD-DA339B9E-FAE7D645"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "OutLine_Speed_Y",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "B7B6915F-4D404C50-3F9F67A1-01ACEB32"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "OutLine_U",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "3D883C20-41B768F0-58222AA0-07835B4E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "OutLine_V",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 3.0,
+          "ExpressionGUID": "DB30B579-4267302E-59B2A3AE-5B81D3E3"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "FresnelBase",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "AC3AE7AD-4CD9499D-9CDFB39A-208B2A15"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "FresnelExp",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "EFE22174-4D7C3FBA-16D718A3-BC5E17DB"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Refraction_exp",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.5,
+          "ExpressionGUID": "0B3D98B3-499B5EFE-D29780B3-29472C2E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Refraction_Speed_X",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.05,
+          "ExpressionGUID": "32F142E5-47FE5987-B98C01BD-06DDDE58"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Refraction_Speed_Y",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.2,
+          "ExpressionGUID": "2E5C0FDC-402BA54B-6C091C99-3542ED3F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Refraction_U",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "CCAF686A-4E3BB87F-F39DCCB1-16F91675"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Refraction_V",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "45D7B428-42834279-423FC48F-16196CB6"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "WPO_exp",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "141B87C0-486560BD-6202DA93-CC6207D5"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "WPO_power",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "ECDAADBF-493E078E-DE110395-CF6D8992"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "WPO_Speed_X",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "6387B16E-40F4067B-870EB0AD-DC7883D9"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "WPO_Speed_Y",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "CB579F96-49055F2E-29BB5F9F-926A4572"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "WPO_U",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "24E7F479-4A52C4C2-31CB59A0-C6159ACB"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "WPO_V",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "92F44641-456EBA78-838E10B6-6F43EE9D"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Color_fresnel",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 50.0,
+            "G": 50.0,
+            "B": 50.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          },
+          "ExpressionGUID": "92C6A4F3-4716F36C-BB40DA86-F691A79E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "ColorMain",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          },
+          "ExpressionGUID": "95C16779-4D25680C-66EF15B4-087F6405"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "ColorOutLine",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.930123,
+            "G": 0.969062,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "F7FCFF"
+          },
+          "ExpressionGUID": "AD19C453-43867C09-BBBA8B90-CE709E24"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Main_mask",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'Noise03'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Shared_Resource/Texture/Noise/Noise03.0"
+          },
+          "ExpressionGUID": "75FDB754-4F227B6D-08223088-48B7D053"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "OutLine_noise",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'Noise000'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Shared_Resource/Texture/Noise/Noise000.0"
+          },
+          "ExpressionGUID": "9DF9FE2F-4920F720-2C96FD9B-90CD1BA7"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Refraction_mask",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_SoftNoise_01'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Sanctuary/Texture/T_SoftNoise_01.0"
+          },
+          "ExpressionGUID": "4AC92656-458735E2-D0B060A6-74E94A4D"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "WPO_mask",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_SoftNoise_01'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Sanctuary/Texture/T_SoftNoise_01.0"
+          },
+          "ExpressionGUID": "B813E6D1-4DAECC6B-F0C57DBF-95469F1F"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Translucent",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "FresnelRevert",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "861889B1-40EB92FD-DDD1C8B7-4654EE97"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Solid_MainColor",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "D8EAA3CF-490C8890-0DF766B7-944DD40B"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Additional Inverted Fresnel",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "645163A8-46B18C62-D19286B3-3F5888D3"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Sine Cut",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "3389A494-43C293F1-5A2E6B82-00827E6F"
+          },
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "Add_Tech_mask",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "7AE6A530-4D4115DB-26962198-E2597F9A"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "OutLine_on/off",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "EFE3C897-445EB006-A4DF6FA8-B55382A8"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "DithereRefraction_on/off",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "CE3F7B64-4F7B8236-1D7D3895-E6E5A383"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "RefractionDynamic",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "F80ED76F-4815C6EA-E9086D8A-29664CF5"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "CoordinateIndex_0/1",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "9DCA0229-47ACEDCB-3C959A80-26CCB2B6"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true
+    },
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

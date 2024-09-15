@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "TatteredCloak_2001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_TatteredCloak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/TatteredCloak/Icon/Item_Icon_TatteredCloak.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_TatteredCloak'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/TatteredCloak/SK_TatteredCloak.4"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_TatteredClock_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/TatteredCloak/SM_TatteredClock_Holder.2"
+      }
+    }
+  }
+]

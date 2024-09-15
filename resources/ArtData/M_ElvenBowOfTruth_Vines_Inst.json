@@ -1,0 +1,115 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "M_ElvenBowOfTruth_Vines_Inst",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_ElvenBowOfTruth_Vines'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/ElvenBow/M_ElvenBowOfTruth_Vines.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Param",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "0DE8CC4D-4C3D7CB5-93425788-6021A45F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param_1",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "F772BF51-481C89D4-72816E8B-657A750B"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param_2",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "54D5C41C-491E6ACE-527B4D8C-C17ED124"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param_3",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.2,
+          "ExpressionGUID": "282F977C-46F0FEAD-3894F38D-7CD978A2"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param_4",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.015,
+          "ExpressionGUID": "23F431B7-4560C052-9051D797-1DA28E16"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param_5",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "20CD7B28-418510CB-1AA41BB3-312F13FC"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param_7",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "65727108-480C25CB-9A9D21B7-4610291A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "UV X",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.900995,
+          "ExpressionGUID": "F2BA749C-4F014F01-BFC962B4-1C37E5F4"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "UV Y",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "1910A640-43BDF5B0-FADFBA87-02CB40B6"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Additive",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

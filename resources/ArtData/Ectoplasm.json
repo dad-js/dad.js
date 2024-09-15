@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "Ectoplasm",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Ectoplasm'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/Ectoplasm/Icon/Item_Icon_Ectoplasm.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Ectoplasm_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/Ectoplasm/SM_Ectoplasm_Holder.2"
+      }
+    }
+  }
+]

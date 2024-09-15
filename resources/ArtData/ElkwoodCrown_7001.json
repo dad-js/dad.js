@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "ElkwoodCrown_7001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 1.5
+        },
+        {
+          "Key": "EDCMorphTarget::MidHair",
+          "Value": 1.5
+        },
+        {
+          "Key": "EDCMorphTarget::BackHair",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::WomanFrontHair",
+          "Value": 1.2
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_ElkwoodCrown'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/ElkwoodCrown/Icon/Item_Icon_ElkwoodCrown.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_ElkwoodCrown'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/ElkwoodCrown/SK_ElkwoodCrown.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_ElkwoodCrown_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/ElkwoodCrown/SM_ElkwoodCrown_Holder.2"
+      }
+    }
+  }
+]

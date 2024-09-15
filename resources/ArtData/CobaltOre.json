@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "CobaltOre",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CobaltOre'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ores/Cobalt/Icon/Item_Icon_CobaltOre.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CobaltOre_01_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ores/Cobalt/SM_CobaltOre_01_Holder.2"
+      }
+    }
+  }
+]

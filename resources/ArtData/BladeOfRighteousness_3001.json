@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "BladeOfRighteousness_3001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_Longsword_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longsword/Animations/AM_Longsword_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_Longsword_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longsword/Animations/AM_Longsword_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_Longsword_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longsword/Animations/AS_Longsword_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_Longsword_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longsword/Animations/AS_Longsword_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_Longsword_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longsword/Animations/BS_Longsword_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "ConditionalAnimationSet": [
+        {
+          "Key": {
+            "TagName": "State.ActorStatus.Buff.NimbleHands"
+          },
+          "Value": {
+            "EquipMontage": {
+              "ObjectName": "AnimMontage'AM_RecurveBow_NimbleHand_Equip'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_RecurveBow_NimbleHand_Equip.0"
+            },
+            "UnEquipMontage": {
+              "ObjectName": "AnimMontage'AM_RecurveBow_NimbnleHand_Unequip'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_RecurveBow_NimbnleHand_Unequip.0"
+            },
+            "EquipMontageItem": null,
+            "UnEquipMontageItem": null,
+            "LocomotionAnimSet": {
+              "StandIdle": {
+                "ObjectName": "AnimSequence'AS_RecurveBow_NimbleHand_Idle'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_RecurveBow_NimbleHand_Idle.0"
+              },
+              "CrouchIdle": {
+                "ObjectName": "AnimSequence'AS_RecurveBow_NimbleHand_Idle'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_RecurveBow_NimbleHand_Idle.0"
+              },
+              "RunUpperBody": {
+                "ObjectName": "BlendSpace'BS_RecurveBow_NimbleHand_Run_UpperBody'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/BS_RecurveBow_NimbleHand_Run_UpperBody.0"
+              }
+            }
+          }
+        }
+      ],
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_back_left_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_BladeofRighteousness'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BladeOfRighteousness/Icon/Item_Icon_BladeofRighteousness.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Longsword'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longsword/SK_Longsword.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Longsword",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_BladeofRighteousness'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BladeOfRighteousness/Materials/MI_BladeofRighteousness.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Longsword_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Longsword/SM_Longsword_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Longsword",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_BladeofRighteousness_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/BladeOfRighteousness/Materials/MI_BladeofRighteousness_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

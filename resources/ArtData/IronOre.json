@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "IronOre",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_IronOre'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ores/Iron/Icon/Item_Icon_IronOre.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_IronOre_01_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ores/Iron/SM_IronOre_01_Holder.2"
+      }
+    }
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_CopperIngots_3001",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.CopperIngots"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_CopperIngots_3001"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_CopperIngots_3001",
+          "SourceString": "Text_DesignData_Item_Item_CopperIngots_3001",
+          "LocalizedString": "Copper Ingot"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_CopperIngots_3001",
+          "SourceString": "Text_DesignData_Item_Flavor_CopperIngots_3001",
+          "LocalizedString": "A highly enriched ingot of pure Copper."
+        },
+        "ItemType": "EItemType::Misc",
+        "MiscType": {
+          "TagName": "Type.Item.Misc.Ingot"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Uncommon"
+        },
+        "MaxCount": 5,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "CopperIngot"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "CopperIngot_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 2,
+        "InventoryHeight": 2,
+        "BundleInfo": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemBundleInfo"
+          },
+          "PrimaryAssetName": "Id_ItemBundleInfo_CopperIngot"
+        },
+        "AdvPoint": 2
+      }
+    }
+  }
+]

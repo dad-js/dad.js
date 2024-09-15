@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "BloodsapBladeMinorArtifactEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ItemEffect_BloodsapBladeHealing'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemEffect/Id_ItemEffect_BloodsapBladeHealing.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_BloodsapBladeMinorArtifactEffect_Desc_BloodsapBladeMinorArtifactEffectDesc",
+        "SourceString": "Text_Dealing physical damage to an enemy heals you for <Exec.MagicalHealBase>[0] #</>.",
+        "LocalizedString": "Dealing physical damage to an enemy heals you for <Exec.MagicalHealBase>[0] #</>."
+      }
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "SurgicalKitConsume4001_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "ItemConsumeDataAssetArray": [
+        {
+          "ObjectName": "DCItemConsumeDataAsset'Id_ItemConsume_SurgicalKit_4001'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Item/ItemConsume/Id_ItemConsume_SurgicalKit_4001.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_SurgicalKitConsume_Desc_SurgicalKitConsumeDesc",
+        "SourceString": "Text_Fully restores stamina. Takes <ItemConsume Type=\"Duration\">[0] seconds</> to take effect. ",
+        "LocalizedString": "Instantly recover all of your health. Takes <ItemConsume Type=\"Duration\">[0] seconds</> to apply the kit."
+      }
+    }
+  }
+]

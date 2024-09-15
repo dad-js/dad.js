@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "OldCloth",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_OldCloth'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/OldCloth/Icon/Item_Icon_OldCloth.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_OldCloth_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/OldCloth/SM_OldCloth_Holder.2"
+      }
+    }
+  }
+]

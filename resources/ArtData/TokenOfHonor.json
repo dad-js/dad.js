@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "TokenOfHonor",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_TokenOfHonor'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/TokenofHonor/Icon/Item_Icon_TokenofHonor.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_TokenOfHonor_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/TokenofHonor/SM_TokenofHonor_Holder.2"
+      }
+    }
+  }
+]

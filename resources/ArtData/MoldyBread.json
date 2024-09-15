@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "MoldyBread",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_MoldyBread'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/MoldyBread/Icon/Item_Icon_MoldyBread.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_MoldyBread_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/MoldyBread/SM_MoldyBread_Holder.2"
+      }
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "ClarityPotionConsume2001_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_ClarityPotionConsume_2001'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_ClarityPotionConsume_2001.0"
+        }
+      ],
+      "ConstantDataAssetArray": [
+        {
+          "ObjectName": "DCConstantDataAsset'Id_Constant_SpellRechargeClarityPotionAmount'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Constant/Constant/Id_Constant_SpellRechargeClarityPotionAmount.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_ClarityPotionConsume2001_Desc_ClarityPotionConsume2001Desc",
+        "SourceString": "Text_Gain <Constant Type=\"Integer\">[0]</> spell recovery over <Duration>[0] seconds</>.",
+        "LocalizedString": "While resting, Gain <Constant Type=\"Integer\">[0]</> spell recovery every second for <Duration>[0] seconds</>."
+      }
+    }
+  }
+]

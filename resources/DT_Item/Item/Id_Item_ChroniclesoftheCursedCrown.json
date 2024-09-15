@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_ChroniclesoftheCursedCrown",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.ChroniclesoftheCursedCrown"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_ChroniclesoftheCursedCrown"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_ChroniclesoftheCursedCrown",
+          "SourceString": "Text_DesignData_Item_Item_ChroniclesoftheCursedCrown",
+          "LocalizedString": "Chronicles of the Cursed Crown"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_ChroniclesoftheCursedCrown",
+          "SourceString": "Text_DesignData_Item_Flavor_ChroniclesoftheCursedCrown",
+          "LocalizedString": "Deep within the Enchanted Dark Forest, a castle shadows a story where an altruistic king's ambition spiraled into darkness. Obsessed with immortality, he sought the mythical Midnight Stag to gain demigod like powers. His tragic transformation into the Ghost King unfolds as a poignant tale of noble intentions leading to ruin, echoing through the cursed halls."
+        },
+        "ItemType": "EItemType::Misc",
+        "MiscType": {
+          "TagName": "Type.Item.Misc.HuntingLoot"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Epic"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "ChroniclesoftheCursedCrown"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "ChroniclesoftheCursedCrown_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 1,
+        "InventoryHeight": 2,
+        "AdvPoint": 3,
+        "ExpPoint": 1
+      }
+    }
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_SpellWeaver_Glow_On",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_SpellWeaver_Glow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spellbook/FX/M_SpellWeaver_Glow.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Depthfade Cut Distance",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "2F5F51B4-4E69ED45-1F92E7A9-18C93925"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Fresnel Exp Factor",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "7FD57E02-4121D2B3-C26BFFB9-BA8DBA6A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 16.0,
+          "ExpressionGUID": "BC3CBD32-4FBF5ABD-31E4ACBD-D121F175"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param_2",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "551E3F63-433BBBB8-6A5F1F98-925EA18D"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Pattern Base Offset",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": -0.25,
+          "ExpressionGUID": "667F79BC-4AFA2B9D-4ADE5789-667AE651"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "World Tiling",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.05,
+          "ExpressionGUID": "C058B241-40CD7DA1-34245CAB-4EE21877"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "WPO Base Value Offset",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "FC62C95E-4C29D24A-20903B90-1E1AE89F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Mask",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 5.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "00FF00"
+          },
+          "ExpressionGUID": "A4C2DAB9-40FC0CF9-D7A01BA0-065FDF62"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param_1",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 5.0,
+            "G": 0.2,
+            "B": 0.0,
+            "A": 0.3,
+            "Hex": "4CFF7C00"
+          },
+          "ExpressionGUID": "F307ECE1-478D9210-36AAFEB9-D9772F29"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Param_2",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.058686,
+            "G": 0.0,
+            "B": 0.3,
+            "A": 0.0,
+            "Hex": "440095"
+          },
+          "ExpressionGUID": "613EA925-4FBC1A07-D8B1E4BF-586C96E8"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Additive",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": false,
+            "ParameterInfo": {
+              "Name": "Reverse Transition",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "77E71DCC-45527C39-4EC7B186-96AC50D8"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true,
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 0.203125,
+          "UVChannelIndex": 0,
+          "TextureName": "LowResBlurredNoise"
+        }
+      ]
+    },
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

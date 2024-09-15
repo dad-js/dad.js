@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "DoubleAxeUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_DoubleAxeUnique_ImmuneAllDamage'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_DoubleAxeUnique_ImmuneAllDamage.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_DoubleAxeUniqueEffect_Desc_DoubleAxeUniqueEffectDesc",
+        "SourceString": "When receiving a killing blow, the wielder becomes invincible and remains at 1 Health for <Duration>[0] seconds</>. This effect can only be triggered once during an adventure.",
+        "LocalizedString": "When receiving a killing blow, the wielder becomes invincible and remains at 1 Health for <Duration>[0] seconds</>. This effect can only be triggered once during an adventure."
+      }
+    }
+  }
+]

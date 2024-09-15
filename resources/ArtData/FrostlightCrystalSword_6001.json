@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "FrostlightCrystalSword_6001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_CrystalSword_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/Animations/AM_CrystalSword_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_CrystalSword_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/Animations/AM_CrystalSword_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_CrystalSword_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/Animations/AS_CrystalSword_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_CrystalSword_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/Animations/AS_CrystalSword_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_CrystalSword_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/Animations/BS_CrystalSword_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_back_left_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostlightCrystalSword'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/FrostlightCrystalSword/Icon/Item_Icon_FrostlightCrystalSword.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_CrystalSword_7001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/SK_CrystalSword_7001.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "crystalsword",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightCrystalSword'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/FrostlightCrystalSword/Materials/MI_FrostlightCrystalSword.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CrystalSword_7001_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CrystalSword/SM_CrystalSword_7001_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "crystalsword",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightCrystalSword'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/FrostlightCrystalSword/Materials/MI_FrostlightCrystalSword.0"
+          }
+        }
+      ]
+    }
+  }
+]

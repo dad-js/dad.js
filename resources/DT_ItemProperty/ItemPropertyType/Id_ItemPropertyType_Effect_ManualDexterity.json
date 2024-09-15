@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_ManualDexterity",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 56,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.ManualDexterity"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyManualDexterity_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyManualDexterity.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.ManualDexterity"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

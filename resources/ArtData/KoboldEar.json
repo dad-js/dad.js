@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "KoboldEar",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_KoboldEar'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/KoboldEar/Icon/Item_Icon_KoboldEar.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_KoboldEar_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/KoboldEar/SM_KoboldEar_Holder.2"
+      }
+    }
+  }
+]

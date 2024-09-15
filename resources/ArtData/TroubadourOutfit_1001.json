@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "TroubadourOutfit_1001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Troubadour'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/TroubadourOutfit/Icon/Item_Icon_Troubadour.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_TroubadourOutfit'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/TroubadourOutfit/SK_TroubadourOutfit.2"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_TroubadourOutfit_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/TroubadourOutfit/SM_TroubadourOutfit_Holder.2"
+      }
+    }
+  }
+]

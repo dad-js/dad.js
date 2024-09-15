@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "RecurveBowUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_RecurveBowUnique_AttackHitDisease'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_RecurveBowUnique_AttackHitDisease.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_RecurveBowUniqueEffect_Desc_RecurveBowUniqueEffectDesc",
+        "SourceString": "When you deal damage to an enemy, inflict disease dealing <Exec.MagicalDamageBase>[0] #</> for <Duration>[0] seconds</>.",
+        "LocalizedString": "When you deal damage to an enemy, inflict disease dealing <Exec.MagicalDamageBase>[0] _</> for <Duration>[0] seconds</>."
+      }
+    }
+  }
+]

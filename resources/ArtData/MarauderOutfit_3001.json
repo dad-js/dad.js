@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "MarauderOutfit_3001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 1.1
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_MarauderOutfit'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/MarauderOutfit/Icon/Item_Icon_MarauderOutfit.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_MarauderOutfit'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/MarauderOutfit/SK_MarauderOutfit.3"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_MarauderOutfit_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/MarauderOutfit/SM_MarauderOutfit_Holder.2"
+      }
+    }
+  }
+]

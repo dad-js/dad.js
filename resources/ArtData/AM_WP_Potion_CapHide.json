@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_WP_Potion_CapHide",
+    "Class": "UScriptClass'AnimMontage'",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.0
+      },
+      "BlendOut": {
+        "BlendTime": 0.0
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Potion_CapHide'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AM_WP_Potion_CapHide.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.9166374,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Potion_CapHide'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AS_WP_Potion_CapHide.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_Potion_CapHide'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AS_WP_Potion_CapHide.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.033333,
+                "AnimPlayRate": 0.08,
+                "LoopingCount": 7
+              }
+            ]
+          }
+        }
+      ],
+      "CommonTargetFrameRate": {
+        "Numerator": 30
+      },
+      "SequenceLength": 2.9166334,
+      "Skeleton": {
+        "ObjectName": "Skeleton'Basic_Potion_Skeleton'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/Meshes/Basic_Potion_Skeleton.1"
+      }
+    },
+    "SkeletonGuid": "EF7039C4-4D05869F-EE26098A-29052B0F"
+  }
+]

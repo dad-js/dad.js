@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_UtilityEffectivenessBonus",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 47,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.UtilityEffectivenessBonus"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyUtilityEffectivenessBonus_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyUtilityEffectivenessBonus.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.UtilityEffectivenessMod"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

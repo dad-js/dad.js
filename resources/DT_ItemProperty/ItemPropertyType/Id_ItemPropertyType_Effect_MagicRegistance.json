@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_MagicRegistance",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 30,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.MagicRegistance"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyMagicRegistance_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyMagicRegistance.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.MagicResistance"
+        },
+        "PrimaryTooltipPriority": 2
+      }
+    }
+  }
+]

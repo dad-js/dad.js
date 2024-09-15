@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "ShadowMask_1001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::Ponytail",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Ear",
+          "Value": 0.5
+        },
+        {
+          "Key": "EDCMorphTarget::HelmetEquipped",
+          "Value": 1.2
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icom_ShadowMask'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/ShadowMask/Icon/Item_Icom_ShadowMask.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_ShadowMask'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/ShadowMask/SK_ShadowMask.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_ShadowMask_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/ShadowMask/SM_ShadowMask_Holder.2"
+      }
+    }
+  }
+]

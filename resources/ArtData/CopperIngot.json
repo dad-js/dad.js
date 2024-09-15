@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "CopperIngot",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CopperIngot'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ingots/Copper/Icon/Item_Icon_CopperIngot.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CopperIngot_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Ingots/Copper/SM_CopperIngot_Holder.2"
+      }
+    }
+  }
+]

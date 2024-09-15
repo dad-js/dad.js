@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "WolfHunterLeggings_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_WolfHunterLeggings'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/WolfHunterLeggings/Icon/Item_Icon_WolfHunterLeggings.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_HeavyLeatherLeggings'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/HeavyLeatherLeggings/SK_HeavyLeatherLeggings.1"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_legs_03_a",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_WolfHunterLeggings'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/WolfHunterLeggings/Materials/MI_WolfHunterLeggings.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_HeavyLeatherLeggings_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/HeavyLeatherLeggings/SM_HeavyLeatherLeggings_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_ArmorPants",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_WolfHunterLeggings_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/WolfHunterLeggings/Materials/MI_WolfHunterLeggings_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

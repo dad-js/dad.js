@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "DemoncladLeggings_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_DemoncladLeggings'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/DemoncladLeggings/Icon/Item_Icon_DemoncladLeggings.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_HeavyLeatherLeggings'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/HeavyLeatherLeggings/SK_HeavyLeatherLeggings.1"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_legs_03_a",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_DemoncladLeggings'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/DemoncladLeggings/Materials/MI_DemoncladLeggings.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_HeavyLeatherLeggings_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/HeavyLeatherLeggings/SM_HeavyLeatherLeggings_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_ArmorPants",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_DemoncladLeggings_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Legs/DemoncladLeggings/Materials/MI_DemoncladLeggings_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

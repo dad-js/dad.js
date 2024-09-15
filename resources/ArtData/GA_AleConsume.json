@@ -1,0 +1,2981 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_AleConsume_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemConsume.0"
+    },
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ItemConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemConsume.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_AleConsume_C:K2_OnEndAbility'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.3"
+      },
+      {
+        "ObjectName": "Function'GA_AleConsume_C:AbilityActivated'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.1"
+      },
+      {
+        "ObjectName": "Function'GA_AleConsume_C:OnConsumeSucceed'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.6"
+      },
+      {
+        "ObjectName": "Function'GA_AleConsume_C:OnConsumeStartEventReceived'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.5"
+      },
+      {
+        "ObjectName": "Function'GA_AleConsume_C:OnConsumeEndEventReceived'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.4"
+      },
+      {
+        "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DrinkPotionActor",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DrinkPotionActor_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/BP_DrinkPotionActor.1"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_AleConsume": {
+        "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+      },
+      "OnConsumeEndEventReceived": {
+        "ObjectName": "Function'GA_AleConsume_C:OnConsumeEndEventReceived'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.4"
+      },
+      "OnConsumeStartEventReceived": {
+        "ObjectName": "Function'GA_AleConsume_C:OnConsumeStartEventReceived'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.5"
+      },
+      "OnConsumeSucceed": {
+        "ObjectName": "Function'GA_AleConsume_C:OnConsumeSucceed'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.6"
+      },
+      "AbilityActivated": {
+        "ObjectName": "Function'GA_AleConsume_C:AbilityActivated'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.1"
+      },
+      "K2_OnEndAbility": {
+        "ObjectName": "Function'GA_AleConsume_C:K2_OnEndAbility'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.3"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_AleConsume_C'Default__GA_AleConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.7"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AbilityActivated",
+    "Outer": "GA_AleConsume_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'GA_ItemConsumeBase:AbilityActivated'",
+      "ObjectPath": "/Script/DungeonCrawler"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "TriggerEventData",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+          },
+          "Property": {
+            "Type": "StructProperty",
+            "Name": "K2Node_Event_TriggerEventData",
+            "Flags": "RF_Public",
+            "ElementSize": 184,
+            "PropertyFlags": "ConstParm",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayEventData'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:AbilityActivated'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.1"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "TriggerEventData",
+              "Flags": "RF_Public",
+              "ElementSize": 184,
+              "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayEventData'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 524
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.ExecuteUbergraph_GA_AleConsume[524]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_AleConsume",
+    "Outer": "GA_AleConsume_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsLocallyControlled_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bWasCancelled",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_TriggerEventData",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_HasAuthority_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAbilitySystemComponentFromActorInfo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AbilitySystemComponent'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetRemovableCurseDebuffEffectTagQuery_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 448,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEffectQuery'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentSourceObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Drink_Potion_Actor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DrinkPotionActor_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/BP_DrinkPotionActor.1"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeGameplayCueParameters_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 224,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayCueParameters'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_RemoveEffectWithTagQuery_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_ConsumeDuration",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "ConstParm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAbilitySystemComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AbilitySystemComponent'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_RemoveActiveEffectsWithGrantedTags_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsLocallyControlled_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_SetDrinkingDuration_Duration_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_PushExecutionFlow",
+        "StatementIndex": 0,
+        "PushingAddress": 1812,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.ExecuteUbergraph_GA_AleConsume[1812]"
+      },
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 5,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 15,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsLocallyControlled_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:IsLocallyControlled'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 35,
+        "CodeOffset": 50,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.ExecuteUbergraph_GA_AleConsume[50]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsLocallyControlled_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 49
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 50,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_4",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GA_AleConsume_C'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "DrinkPotionActor",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                  "PropertyClass": {
+                    "ObjectName": "BlueprintGeneratedClass'BP_DrinkPotionActor_C'",
+                    "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/BP_DrinkPotionActor.1"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 79,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_4",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 89,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'GA_AleConsume_C'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "DrinkPotionActor",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_DrinkPotionActor_C'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/BP_DrinkPotionActor.1"
+              }
+            }
+          }
+        },
+        "Offset": 23,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_LocalVirtualFunction",
+          "Function": "SetDrinkingDuration",
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 134
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 135,
+        "Function": {
+          "ObjectName": "Function'GameplayAbility:K2_OnEndAbility'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+              },
+              "Property": {
+                "Type": "BoolProperty",
+                "Name": "K2Node_Event_bWasCancelled",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_PushExecutionFlow",
+        "StatementIndex": 154,
+        "PushingAddress": 333,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.ExecuteUbergraph_GA_AleConsume[333]"
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 159,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GA_AleConsume_C'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "DrinkPotionActor",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                  "PropertyClass": {
+                    "ObjectName": "BlueprintGeneratedClass'BP_DrinkPotionActor_C'",
+                    "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/BP_DrinkPotionActor.1"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 188,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 198,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAbilitySystemComponent_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'AbilitySystemComponent'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'AbilitySystemBlueprintLibrary:GetAbilitySystemComponent'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GA_AleConsume_C'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "DrinkPotionActor",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                  "PropertyClass": {
+                    "ObjectName": "BlueprintGeneratedClass'BP_DrinkPotionActor_C'",
+                    "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/BP_DrinkPotionActor.1"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 227,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_RemoveActiveEffectsWithGrantedTags_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetAbilitySystemComponent_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyFlags": "InstancedReference",
+                "PropertyClass": {
+                  "ObjectName": "Class'AbilitySystemComponent'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          },
+          "Offset": 65,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_RemoveActiveEffectsWithGrantedTags_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'AbilitySystemComponent:RemoveActiveEffectsWithGrantedTags'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_ArrayConst",
+                    "InnerProperty": {
+                      "Path": [
+                        "GameplayTags",
+                        "GameplayTags"
+                      ],
+                      "ResolvedOwner": {
+                        "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                        "ObjectPath": "/Script/GameplayTags"
+                      }
+                    },
+                    "Values": [
+                      {
+                        "Inst": "EX_StructConst",
+                        "Struct": {
+                          "ObjectName": "ScriptStruct'GameplayTag'",
+                          "ObjectPath": "/Script/GameplayTags"
+                        },
+                        "Properties": [
+                          {
+                            "Inst": "EX_NameConst",
+                            "Value": "State.Item.Activate"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 332
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 333,
+        "CodeOffset": 348,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.ExecuteUbergraph_GA_AleConsume[348]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_Event_bWasCancelled",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 347
+      },
+      {
+        "Inst": "EX_VirtualFunction",
+        "StatementIndex": 348,
+        "Function": "SendGameplayEvent",
+        "Parameters": [
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayTag'",
+              "ObjectPath": "/Script/GameplayTags"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_NameConst",
+                "Value": "Ability.Player.Act.Drunken"
+              }
+            ]
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayEventData'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTag'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_NameConst",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayEffectContextHandle'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                },
+                "Properties": []
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_ArrayConst",
+                    "InnerProperty": {
+                      "Path": [
+                        "GameplayTags",
+                        "GameplayTags"
+                      ],
+                      "ResolvedOwner": {
+                        "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                        "ObjectPath": "/Script/GameplayTags"
+                      }
+                    },
+                    "Values": []
+                  }
+                ]
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_ArrayConst",
+                    "InnerProperty": {
+                      "Path": [
+                        "GameplayTags",
+                        "GameplayTags"
+                      ],
+                      "ResolvedOwner": {
+                        "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                        "ObjectPath": "/Script/GameplayTags"
+                      }
+                    },
+                    "Values": []
+                  }
+                ]
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.0
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayAbilityTargetDataHandle'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                },
+                "Properties": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 523
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 524,
+        "Function": {
+          "ObjectName": "Function'GA_ItemConsumeBase:AbilityActivated'",
+          "ObjectPath": "/Script/DungeonCrawler"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayEventData'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTag'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_NameConst",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayEffectContextHandle'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                },
+                "Properties": []
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_ArrayConst",
+                    "InnerProperty": {
+                      "Path": [
+                        "GameplayTags",
+                        "GameplayTags"
+                      ],
+                      "ResolvedOwner": {
+                        "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                        "ObjectPath": "/Script/GameplayTags"
+                      }
+                    },
+                    "Values": []
+                  }
+                ]
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_ArrayConst",
+                    "InnerProperty": {
+                      "Path": [
+                        "GameplayTags",
+                        "GameplayTags"
+                      ],
+                      "ResolvedOwner": {
+                        "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                        "ObjectPath": "/Script/GameplayTags"
+                      }
+                    },
+                    "Values": []
+                  }
+                ]
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.0
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayAbilityTargetDataHandle'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                },
+                "Properties": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 668,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetCurrentSourceObject_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Object'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetCurrentSourceObject'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 688,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsBP_Drink_Potion_Actor",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_DrinkPotionActor_C'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/BP_DrinkPotionActor.1"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_DrinkPotionActor_C'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/BP_DrinkPotionActor.1"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetCurrentSourceObject_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Object'",
+                  "ObjectPath": "/Script/CoreUObject"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 724,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsBP_Drink_Potion_Actor",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_DrinkPotionActor_C'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/BP_DrinkPotionActor.1"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 753,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 763,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'GA_AleConsume_C'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "DrinkPotionActor",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_DrinkPotionActor_C'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/BP_DrinkPotionActor.1"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsBP_Drink_Potion_Actor",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_DrinkPotionActor_C'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/BP_DrinkPotionActor.1"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 782
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 783,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_K2_HasAuthority_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:K2_HasAuthority'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 803,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_K2_HasAuthority_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 813,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetAvatarActorFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 833,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'Actor'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 862,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 872,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAbilitySystemComponentFromActorInfo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'AbilitySystemComponent'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetAbilitySystemComponentFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 892,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetAbilitySystemComponentFromActorInfo_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyFlags": "InstancedReference",
+                  "PropertyClass": {
+                    "ObjectName": "Class'AbilitySystemComponent'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 921,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 931,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAbilitySystemComponentFromActorInfo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'AbilitySystemComponent'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetAbilitySystemComponentFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 951,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InterfaceContext",
+            "InterfaceValue": {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetAbilitySystemComponentFromActorInfo_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyFlags": "InstancedReference",
+                  "PropertyClass": {
+                    "ObjectName": "Class'AbilitySystemComponent'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          },
+          "Offset": 41,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "HasMatchingGameplayTag",
+            "Parameters": [
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTag'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_NameConst",
+                    "Value": "State.ActorStatus.Buff.HolyWater"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 1025,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1035,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetRemovableCurseDebuffEffectTagQuery_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 448,
+              "PropertyFlags": "ContainsInstancedReference",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayEffectQuery'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'DCAbilitySystemBlueprintLibrary:GetRemovableCurseDebuffEffectTagQuery'",
+            "ObjectPath": "/Script/DungeonCrawler"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 1063,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetAvatarActorFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1083,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_RemoveEffectWithTagQuery_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'DCAbilitySystemBlueprintLibrary:RemoveEffectWithTagQuery'",
+            "ObjectPath": "/Script/DungeonCrawler"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'Actor'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_GetRemovableCurseDebuffEffectTagQuery_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 448,
+                  "PropertyFlags": "ContainsInstancedReference",
+                  "Struct": {
+                    "ObjectName": "ScriptStruct'GameplayEffectQuery'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 1129,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:GetAvatarActorFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 1149,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'SceneComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'SceneComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'Actor:K2_GetRootComponent'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1191,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_MakeGameplayCueParameters_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 224,
+              "PropertyFlags": "ContainsInstancedReference",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayCueParameters'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'AbilitySystemBlueprintLibrary:MakeGameplayCueParameters'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayEffectContextHandle'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              },
+              "Properties": []
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "None"
+                }
+              ]
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "None"
+                }
+              ]
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_ArrayConst",
+                  "InnerProperty": {
+                    "Path": [
+                      "GameplayTags",
+                      "GameplayTags"
+                    ],
+                    "ResolvedOwner": {
+                      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                      "ObjectPath": "/Script/GameplayTags"
+                    }
+                  },
+                  "Values": []
+                }
+              ]
+            },
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_ArrayConst",
+                  "InnerProperty": {
+                    "Path": [
+                      "GameplayTags",
+                      "GameplayTags"
+                    ],
+                    "ResolvedOwner": {
+                      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                      "ObjectPath": "/Script/GameplayTags"
+                    }
+                  },
+                  "Values": []
+                }
+              ]
+            },
+            {
+              "Inst": "EX_VectorConst",
+              "Value": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              }
+            },
+            {
+              "Inst": "EX_VectorConst",
+              "Value": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              }
+            },
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 1
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 1
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyFlags": "InstancedReference",
+                  "PropertyClass": {
+                    "ObjectName": "Class'SceneComponent'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_False"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_VirtualFunction",
+        "StatementIndex": 1427,
+        "Function": "K2_ExecuteGameplayCueWithParams",
+        "Parameters": [
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayTag'",
+              "ObjectPath": "/Script/GameplayTags"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_NameConst",
+                "Value": "GameplayCue.Perk.Execute.HolyWater"
+              }
+            ]
+          },
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "CallFunc_MakeGameplayCueParameters_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 224,
+                "PropertyFlags": "ContainsInstancedReference",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayCueParameters'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 1477
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 1478,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsLocallyControlled_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'GameplayAbility:IsLocallyControlled'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 1498,
+        "CodeOffset": 1513,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.ExecuteUbergraph_GA_AleConsume[1513]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsLocallyControlled_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 1512
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 1513,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_3",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GA_AleConsume_C'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "DrinkPotionActor",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                  "PropertyClass": {
+                    "ObjectName": "BlueprintGeneratedClass'BP_DrinkPotionActor_C'",
+                    "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/BP_DrinkPotionActor.1"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 1542,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_3",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1552,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_SetDrinkingDuration_Duration_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_FloatToDouble",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+              },
+              "Property": {
+                "Type": "FloatProperty",
+                "Name": "K2Node_Event_ConsumeDuration",
+                "Flags": "RF_Public",
+                "ElementSize": 4,
+                "PropertyFlags": "ConstParm"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1581,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'GA_AleConsume_C'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "DrinkPotionActor",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+              "PropertyClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_DrinkPotionActor_C'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/BP_DrinkPotionActor.1"
+              }
+            }
+          }
+        },
+        "Offset": 23,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_LocalVirtualFunction",
+          "Function": "SetDrinkingDuration",
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_SetDrinkingDuration_Duration_ImplicitCast",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 1626,
+        "Function": {
+          "ObjectName": "Function'AbilitySystemBlueprintLibrary:SendGameplayEventToActor'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'GA_AleConsume_C'",
+                "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "DrinkPotionActor",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                "PropertyClass": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_DrinkPotionActor_C'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/NewPotion/BP_DrinkPotionActor.1"
+                }
+              }
+            }
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayTag'",
+              "ObjectPath": "/Script/GameplayTags"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_NameConst",
+                "Value": "Ability.Item.Activate"
+              }
+            ]
+          },
+          {
+            "Inst": "EX_StructConst",
+            "Struct": {
+              "ObjectName": "ScriptStruct'GameplayEventData'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            },
+            "Properties": [
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTag'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_NameConst",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_NoObject"
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayEffectContextHandle'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                },
+                "Properties": []
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_ArrayConst",
+                    "InnerProperty": {
+                      "Path": [
+                        "GameplayTags",
+                        "GameplayTags"
+                      ],
+                      "ResolvedOwner": {
+                        "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                        "ObjectPath": "/Script/GameplayTags"
+                      }
+                    },
+                    "Values": []
+                  }
+                ]
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                  "ObjectPath": "/Script/GameplayTags"
+                },
+                "Properties": [
+                  {
+                    "Inst": "EX_ArrayConst",
+                    "InnerProperty": {
+                      "Path": [
+                        "GameplayTags",
+                        "GameplayTags"
+                      ],
+                      "ResolvedOwner": {
+                        "ObjectName": "ScriptStruct'GameplayTagContainer'",
+                        "ObjectPath": "/Script/GameplayTags"
+                      }
+                    },
+                    "Values": []
+                  }
+                ]
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 0.0
+              },
+              {
+                "Inst": "EX_StructConst",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'GameplayAbilityTargetDataHandle'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                },
+                "Properties": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 1806
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1807,
+        "CodeOffset": 15,
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.ExecuteUbergraph_GA_AleConsume[15]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 1812,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 1814
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_OnEndAbility",
+    "Outer": "GA_AleConsume_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'GameplayAbility:K2_OnEndAbility'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bWasCancelled",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+          },
+          "Property": {
+            "Type": "BoolProperty",
+            "Name": "K2Node_Event_bWasCancelled",
+            "Flags": "RF_Public",
+            "ElementSize": 1,
+            "FieldSize": 1,
+            "ByteOffset": 0,
+            "ByteMask": 1,
+            "FieldMask": 255,
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:K2_OnEndAbility'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.3"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "bWasCancelled",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 135
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.ExecuteUbergraph_GA_AleConsume[135]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnConsumeEndEventReceived",
+    "Outer": "GA_AleConsume_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'GA_ItemConsumeBase:OnConsumeEndEventReceived'",
+      "ObjectPath": "/Script/DungeonCrawler"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 1807
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.ExecuteUbergraph_GA_AleConsume[1807]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnConsumeStartEventReceived",
+    "Outer": "GA_AleConsume_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'GA_ItemConsumeBase:OnConsumeStartEventReceived'",
+      "ObjectPath": "/Script/DungeonCrawler"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "ConsumeDuration",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+          },
+          "Property": {
+            "Type": "FloatProperty",
+            "Name": "K2Node_Event_ConsumeDuration",
+            "Flags": "RF_Public",
+            "ElementSize": 4,
+            "PropertyFlags": "ConstParm"
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_AleConsume_C:OnConsumeStartEventReceived'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.5"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "ConsumeDuration",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 1478
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.ExecuteUbergraph_GA_AleConsume[1478]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnConsumeSucceed",
+    "Outer": "GA_AleConsume_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'GA_ItemConsumeBase:OnConsumeSucceed'",
+      "ObjectPath": "/Script/DungeonCrawler"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_AleConsume_C:ExecuteUbergraph_GA_AleConsume'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 783
+          }
+        ],
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.ExecuteUbergraph_GA_AleConsume[783]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GA_AleConsume_C",
+    "Name": "Default__GA_AleConsume_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/GameplayAbility/GA_AleConsume.GA_AleConsume_C'",
+    "Template": {
+      "ObjectName": "GA_ItemConsume_C'Default__GA_ItemConsume_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_ItemConsume.1"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "PreConsumeMontage": null,
+      "ConsumeMontage": {
+        "ObjectName": "AnimMontage'AM_Ale_Drink'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Ale/Animations/AM_Ale_Drink.0"
+      }
+    }
+  }
+]

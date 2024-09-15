@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_LanternShield_ShieldSlam_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Shield_ShieldSlam_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_Shield_ShieldSlam.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Shield_ShieldSlam_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_Shield_ShieldSlam.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_LanternShield_ShieldSlam_C'Default__GA_LanternShield_ShieldSlam_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShield_ShieldSlam.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_LanternShield_ShieldSlam_C",
+    "Name": "Default__GA_LanternShield_ShieldSlam_C",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/GameplayAbility/GA_LanternShield_ShieldSlam.GA_LanternShield_ShieldSlam_C'",
+    "Template": {
+      "ObjectName": "GA_Shield_ShieldSlam_C'Default__GA_Shield_ShieldSlam_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayAbility/GA_Shield_ShieldSlam.5"
+    },
+    "Properties": {
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_LanternShield_Slam'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/LanternShield/Animations/AM_LanternShield_Slam.0"
+      },
+      "MeleeAttackData": {
+        "ObjectName": "DesignDataAssetMeleeAttack'Id_MeleeAttack_GA_LanternShield_ShieldSlam'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/DT_MeleeAttack/MeleeAttack/Id_MeleeAttack_GA_LanternShield_ShieldSlam.0"
+      }
+    }
+  }
+]

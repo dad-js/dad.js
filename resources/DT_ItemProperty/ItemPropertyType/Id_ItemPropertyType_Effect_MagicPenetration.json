@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_MagicPenetration",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 53,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.MagicPenetration"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyMagicPenetration_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyMagicPenetration.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.MagicPenetration"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

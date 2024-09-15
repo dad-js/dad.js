@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "LacedTurnshoe_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_LacedTurnshoe'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/LacedTurnshoe/Icon/Item_Icon_LacedTurnshoe.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_LacedTurnshoe'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/LacedTurnshoe/SK_LacedTurnshoe.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_LacedTurnshoe_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/LacedTurnshoe/SM_LacedTurnshoe_Holder.2"
+      }
+    }
+  }
+]

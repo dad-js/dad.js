@@ -1,0 +1,620 @@
+[
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_0",
+    "Outer": "AM_WP_RecurveBow_QuickShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root1"
+    }
+  },
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_3",
+    "Outer": "AM_WP_RecurveBow_QuickShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root3"
+    }
+  },
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_4",
+    "Outer": "AM_WP_RecurveBow_QuickShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root2"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_0",
+    "Outer": "AM_WP_RecurveBow_QuickShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root1"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_1",
+    "Outer": "AM_WP_RecurveBow_QuickShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root2"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_2",
+    "Outer": "AM_WP_RecurveBow_QuickShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root3"
+    }
+  },
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_WP_RecurveBow_QuickShot",
+    "Class": "UScriptClass'AnimMontage'",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.1
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "Loop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_RecurveBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.6"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.53333336,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Start.0"
+          }
+        },
+        {
+          "SectionName": "Loop",
+          "NextSectionName": "Loop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_RecurveBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.6"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.53333336,
+          "SegmentLength": 1.6,
+          "LinkValue": 0.53333336,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Attack1_Ready_Loop'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Attack1_Ready_Loop.0"
+          }
+        },
+        {
+          "SectionName": "AttackStart",
+          "NextSectionName": "AttackLoop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_RecurveBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.6"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 2.1333334,
+          "SegmentLength": 0.5,
+          "LinkValue": 2.1333334,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Attack1_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Attack1_Start.0"
+          }
+        },
+        {
+          "SectionName": "AttackLoop",
+          "NextSectionName": "AttackLoop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_RecurveBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.6"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 3,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 2.6333334,
+          "SegmentLength": 1.6,
+          "LinkValue": 2.6333334,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Attack1_Loop'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Attack1_Loop.0"
+          }
+        },
+        {
+          "SectionName": "End",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_RecurveBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.6"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 3,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 2.6333334,
+          "SegmentLength": 1.6,
+          "LinkValue": 4.233333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Attack1_Loop'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Attack1_Loop.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Start'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Start.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.53333336,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Attack1_Ready_Loop'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Attack1_Ready_Loop.0"
+                },
+                "StartPos": 0.53333336,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.6,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Attack1_Start'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Attack1_Start.0"
+                },
+                "StartPos": 2.1333334,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.6,
+                "AnimPlayRate": 1.2,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Attack1_Loop'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Attack1_Loop.0"
+                },
+                "StartPos": 2.6333334,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.6,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Attack_End'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Attack_End.0"
+                },
+                "StartPos": 4.2333336,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.0,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "BranchingPointMarkers": [
+        {
+          "NotifyIndex": 0,
+          "TriggerTime": 0.08692696,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 4,
+          "TriggerTime": 4.2521696,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 5,
+          "TriggerTime": 4.914614,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 6,
+          "TriggerTime": 5.573935,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        }
+      ],
+      "CommonTargetFrameRate": {
+        "Numerator": 30
+      },
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DCPreReduceAmmoCountOnSourceObject",
+          "Notify": {
+            "ObjectName": "DCAnimNotify_PreReduceAmmoCountOnSourceObject'AM_WP_RecurveBow_QuickShot:DCAnimNotify_PreReduceAmmoCountOnSourceObject_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.318421,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_RecurveBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.6"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.53333336,
+          "LinkValue": 0.08692696,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_RecurveBow_QuickShot:AN_UnHideBone_C_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.09958476,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_RecurveBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.6"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.53333336,
+          "LinkValue": 0.09958476,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_RecurveBow_QuickShot:AN_UnHideBone_C_1'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.1,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_RecurveBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.6"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.53333336,
+          "LinkValue": 0.1,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_RecurveBow_QuickShot:AN_UnHideBone_C_2'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.10096245,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_RecurveBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.6"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.53333336,
+          "LinkValue": 0.10096245,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_RecurveBow_QuickShot:AN_HideBone_C_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.0"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 4.2521696,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_RecurveBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.6"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.2333336,
+          "SegmentLength": 2.0,
+          "LinkValue": 4.2521696,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Attack_End.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_RecurveBow_QuickShot:AN_HideBone_C_4'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 4.5928526,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_RecurveBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.6"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.2333336,
+          "SegmentLength": 2.0,
+          "LinkValue": 4.914614,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Attack_End.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_RecurveBow_QuickShot:AN_HideBone_C_3'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 4.793028,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_RecurveBow_QuickShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AM_WP_RecurveBow_QuickShot.6"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.2333336,
+          "SegmentLength": 2.0,
+          "LinkValue": 5.573935,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_RecurveBow_QuickShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/Animations/AS_WP_RecurveBow_QuickShot_Attack_End.0"
+          }
+        }
+      ],
+      "SequenceLength": 6.233333,
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_RecurveBow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/RecurveBow/SKEL_RecurveBow.4"
+      }
+    },
+    "SkeletonGuid": "2F76535A-4DB25E65-EF03CDAF-96CC6A73"
+  },
+  {
+    "Type": "DCAnimNotify_PreReduceAmmoCountOnSourceObject",
+    "Name": "DCAnimNotify_PreReduceAmmoCountOnSourceObject_0",
+    "Outer": "AM_WP_RecurveBow_QuickShot",
+    "Class": "UScriptClass'DCAnimNotify_PreReduceAmmoCountOnSourceObject'",
+    "Properties": {
+      "ReduceCount": 3
+    }
+  }
+]

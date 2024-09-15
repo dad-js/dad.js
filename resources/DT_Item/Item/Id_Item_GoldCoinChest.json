@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "DesignDataAssetItem",
+    "Name": "Id_Item_GoldCoinChest",
+    "Class": "UScriptClass'DesignDataAssetItem'",
+    "Properties": {
+      "Item": {
+        "IdTag": {
+          "TagName": "Id.Item.GoldCoinChest"
+        },
+        "OriginId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItem"
+          },
+          "PrimaryAssetName": "Id_Item_GoldCoinChest"
+        },
+        "Name": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Item_GoldCoinChest",
+          "SourceString": "Text_DesignData_Item_Item_GoldCoinChest",
+          "LocalizedString": "Gold Coin Chest"
+        },
+        "FlavorText": {
+          "Namespace": "DC",
+          "Key": "Text_DesignData_Item_Flavor_GoldCoinChest_2001",
+          "SourceString": "Text_DesignData_Item_Flavor_GoldCoinChest_2001",
+          "LocalizedString": "A chest that can hold a lot of gold coins."
+        },
+        "ItemType": "EItemType::Misc",
+        "MiscType": {
+          "TagName": "Type.Item.Misc.Container.Gold"
+        },
+        "RarityType": {
+          "TagName": "Type.Item.Rarity.Unique"
+        },
+        "MaxCount": 1,
+        "CanDrop": true,
+        "CanSaveIntoDatabase": true,
+        "IsForceTradeable": true,
+        "ArtData": {
+          "PrimaryAssetType": {
+            "Name": "ArtDataItem"
+          },
+          "PrimaryAssetName": "GoldCoinChest_01"
+        },
+        "SoundData": {
+          "PrimaryAssetType": {
+            "Name": "SoundData"
+          },
+          "PrimaryAssetName": "GoldCoinChest_Sound"
+        },
+        "ItemHolderActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_StaticMeshItemHolder_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/Item/BP_StaticMeshItemHolder.1"
+        },
+        "InventoryWidth": 3,
+        "InventoryHeight": 2,
+        "BundleInfo": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemBundleInfo"
+          },
+          "PrimaryAssetName": "Id_ItemBundleInfo_GoldCoinChest"
+        },
+        "ContainerData": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataItemContainer"
+          },
+          "PrimaryAssetName": "Id_ItemContainer_GoldCoinChest"
+        }
+      }
+    }
+  }
+]

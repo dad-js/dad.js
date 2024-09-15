@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "AimOffsetBlendSpace",
+    "Name": "AO_WP_Lantern",
+    "Class": "UScriptClass'AimOffsetBlendSpace'",
+    "Properties": {
+      "bContainsRotationOffsetMeshSpaceSamples": true,
+      "InterpolationParam": {
+        "InterpolationTime": 0.1,
+        "DampingRatio": 3.5
+      },
+      "TargetWeightInterpolationSpeedPerSec": 3.5,
+      "AnimLength": 0.033333335,
+      "SampleData": [
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AO_WP_Lantern_CC'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Lantern/Animation/AO_WP_Lantern_CC.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": -10.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AO_WP_Lantern_CD'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Lantern/Animation/AO_WP_Lantern_CD.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": -90.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'AO_WP_Lantern_CU'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Lantern/Animation/AO_WP_Lantern_CU.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": 180.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        }
+      ],
+      "BlendSpaceData": {
+        "Segments": [
+          {
+            "SampleIndices": 1,
+            "SampleIndices": 0,
+            "Vertices": 0.0,
+            "Vertices": 0.2962963
+          },
+          {
+            "SampleIndices": 0,
+            "SampleIndices": 2,
+            "Vertices": 0.2962963,
+            "Vertices": 1.0
+          }
+        ]
+      },
+      "BlendParameters": {
+        "DisplayName": "0",
+        "Min": -90.0,
+        "Max": 90.0
+      },
+      "BlendParameters": {
+        "DisplayName": "Pitch",
+        "Min": -90.0,
+        "Max": 180.0
+      },
+      "DimensionIndices": [
+        1
+      ],
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_Lantern'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Lantern/SKEL_Lantern.7"
+      }
+    }
+  }
+]

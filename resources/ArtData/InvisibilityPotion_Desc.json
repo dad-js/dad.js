@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "DescData",
+    "Name": "InvisibilityPotion_Desc",
+    "Class": "UScriptClass'DescData'",
+    "Properties": {
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_InvisibilityPotion_Desc_InvisibilityPotionDesc",
+        "SourceString": "Text_Gain invisibility when consumed. When you move or perform an action, the effect is removed.",
+        "LocalizedString": "Gain invisibility when consumed. When you move or perform an action, the effect is removed."
+      }
+    }
+  }
+]

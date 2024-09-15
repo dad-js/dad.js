@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "Lifeleaf",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Lifeleaf'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Herbs/Icon/Item_Icon_Lifeleaf.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Herb_10_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/Herbs/SM_Herb_10_Holder.2"
+      }
+    }
+  }
+]

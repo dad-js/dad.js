@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "SpectralHilt",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Icon_Dummy'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/UI/Resources/_Temp/Icon_Dummy.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Dummy_A'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Props/Common/TrainingDummy/Meshes/SM_Dummy_A.2"
+      }
+    }
+  }
+]

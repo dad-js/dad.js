@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_UndeadDamageMod",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 60,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.UndeadDamageMod"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyUndeadDamageMod_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyUndeadDamageMod.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.UndeadDamageMod"
+        },
+        "ValueRatio": 0.001
+      }
+    }
+  }
+]

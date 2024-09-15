@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "HeaterShieldUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_HeaterShieldUnique_ReflectionProjectileMagic_Activate'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_HeaterShieldUnique_ReflectionProjectileMagic_Activate.0"
+        },
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_HeaterShieldUnique_ReflectionProjectileMagic_Cooldown'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_HeaterShieldUnique_ReflectionProjectileMagic_Cooldown.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_HeaterShieldUniqueEffect_Desc_HeaterShieldUniqueEffectDesc",
+        "SourceString": "Text_While in defensive stance, gain the ability to deflect incoming projectile spells. When a project is reflected, the effect continues for <Duration>[0] seconds</>. You may not reflect spells again for <Duration>[1] seconds</>.",
+        "LocalizedString": "While in defensive stance, gain the ability to deflect incoming projectile spells. When a projectile is reflected, the effect continues for <Duration>[0] seconds</>. You may not reflect spells again for <Duration>[1] seconds</>."
+      }
+    }
+  }
+]

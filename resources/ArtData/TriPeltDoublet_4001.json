@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "TriPeltDoublet_4001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::LizardmanNeck",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_TriPeltDoublet'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/TriPeltDoublet/Icon/Item_Icon_TriPeltDoublet.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Doublet'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/Doublet/SK_Doublet.3"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_chest_merc_02_a",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_TriPeltDoublet'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/TriPeltDoublet/Materials/MI_TriPeltDoublet.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Doublet_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/Doublet/SM_Doublet_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Fbx Default Material 0",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_TriPeltDoublet_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/TriPeltDoublet/Materials/MI_TriPeltDoublet_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

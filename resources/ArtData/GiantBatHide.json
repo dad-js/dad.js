@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "GiantBatHide",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_WolfPelt'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/WolfPelt/Icon/Item_Icon_WolfPelt.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_WolfPelt_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/WolfPelt/SM_WolfPelt_Holder.2"
+      }
+    }
+  }
+]

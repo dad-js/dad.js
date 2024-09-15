@@ -1,0 +1,336 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Potion_Drink",
+    "Class": "UScriptClass'AnimMontage'",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.1,
+        "BlendOption": "EAlphaBlendOption::Cubic"
+      },
+      "BlendOut": {
+        "BlendTime": 0.2,
+        "BlendOption": "EAlphaBlendOption::Cubic"
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Potion_Drink'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AM_Potion_Drink.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.43,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_Potion_Stand_Drink'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AS_Potion_Stand_Drink.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "UpperBody",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_Potion_Stand_Drink'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AS_Potion_Stand_Drink.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.43,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "CommonTargetFrameRate": {
+        "Numerator": 30
+      },
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent_C",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'AM_Potion_Drink:AnimNotify_AkEvent_C_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AM_Potion_Drink.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.286274,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Potion_Drink'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AM_Potion_Drink.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.43,
+          "LinkValue": 0.286274,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_Potion_Stand_Drink'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AS_Potion_Stand_Drink.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DCSendGameplayEventTagsToSelf",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "DCAnimNotify_SendGameplayEventTagsToSelf'AM_Potion_Drink:DCAnimNotify_SendGameplayEventTagsToSelf_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AM_Potion_Drink.2"
+          },
+          "Duration": 1.4090258,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Potion_Drink'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AM_Potion_Drink.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.43,
+            "LinkValue": 1.7668585,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AS_Potion_Stand_Drink'",
+              "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AS_Potion_Stand_Drink.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Potion_Drink'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AM_Potion_Drink.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.43,
+          "LinkValue": 0.35783267,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_Potion_Stand_Drink'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AS_Potion_Stand_Drink.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DCSoundEvent",
+          "Notify": {
+            "ObjectName": "DCAnimNotify_SoundEvent'AM_Potion_Drink:DCAnimNotify_SoundEvent_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AM_Potion_Drink.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Potion_Drink'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AM_Potion_Drink.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.43,
+          "LinkValue": 2.1101081,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_Potion_Stand_Drink'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/Potion/Animations/AS_Potion_Stand_Drink.0"
+          }
+        }
+      ],
+      "SequenceLength": 2.43,
+      "RawCurveData": {
+        "FloatCurves": [
+          {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 0.0,
+                  "Value": 1.0,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.0,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.0
+                }
+              ],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "CurveName": "CommonWeapon",
+            "CurveTypeFlags": 4
+          },
+          {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Cubic",
+                  "TangentMode": "RCTM_User",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 0.16666667,
+                  "Value": -3.2287772E-08,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.0,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.17777777
+                },
+                {
+                  "InterpMode": "RCIM_Cubic",
+                  "TangentMode": "RCTM_User",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 0.56666666,
+                  "Value": 1.0000002,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.21516812,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.3765442
+                },
+                {
+                  "InterpMode": "RCIM_Cubic",
+                  "TangentMode": "RCTM_User",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 1.7333333,
+                  "Value": 1.0000002,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.39250788,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.15419947
+                },
+                {
+                  "InterpMode": "RCIM_Cubic",
+                  "TangentMode": "RCTM_User",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 2.1,
+                  "Value": -3.2287772E-08,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.122222185,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.0
+                }
+              ],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+              "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+            },
+            "CurveName": "IK_HAND_R_Weight",
+            "CurveTypeFlags": 4
+          }
+        ]
+      },
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_PC_Man'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Player/Meshes/SKEL_PC_Man.84"
+      }
+    },
+    "SkeletonGuid": "86C18DA5-4F726D68-AB1C48A9-134BF080"
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_0",
+    "Outer": "AM_Potion_Drink",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "DungeonCrawler/Plugins/Wwise/Content/AnimNotify_AkEvent.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'Utility_Potion_Drink'",
+        "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Weapons/Utility_Potion_Drink.0"
+      }
+    }
+  },
+  {
+    "Type": "DCAnimNotify_SendGameplayEventTagsToSelf",
+    "Name": "DCAnimNotify_SendGameplayEventTagsToSelf_0",
+    "Outer": "AM_Potion_Drink",
+    "Class": "UScriptClass'DCAnimNotify_SendGameplayEventTagsToSelf'",
+    "Properties": {
+      "BeginEventTag": {
+        "TagName": "Event.Item.Consume.Start"
+      },
+      "EndEventTag": {
+        "TagName": "Event.Item.Consume.End"
+      }
+    }
+  },
+  {
+    "Type": "DCAnimNotify_SoundEvent",
+    "Name": "DCAnimNotify_SoundEvent_0",
+    "Outer": "AM_Potion_Drink",
+    "Class": "UScriptClass'DCAnimNotify_SoundEvent'",
+    "Properties": {
+      "EventTag": {
+        "TagName": "Sound.Voice.Drink"
+      }
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "SpellbookUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_SpellbookUnique_SpellWeaver'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_SpellbookUnique_SpellWeaver.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_SpellbookUniqueEffect_Desc_SpellbookUniqueEffectDesc",
+        "SourceString": "Text_Successfully casting a spell increases your casting speed by <SpellCastingSpeed>[0]%</>, up to 5 times. The effect lasts for <Duration>[0] seconds</> and is reset each time it increases.",
+        "LocalizedString": "Successfully casting a spell increases your casting speed by <SpellCastingSpeed>[0]%</>, up to 5 times. The effect lasts for <Duration>[0] seconds</> and is reset each time it increases."
+      }
+    }
+  }
+]

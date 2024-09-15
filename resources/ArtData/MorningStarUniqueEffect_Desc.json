@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "MorningStarUniqueEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "DCGameplayEffectDataAssetArray": [
+        {
+          "ObjectName": "DCGameplayEffectDataAsset'Id_ActorStatusEffect_MorningStarUnique_Pulverizing'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/ActorStatus/StatusEffect/Id_ActorStatusEffect_MorningStarUnique_Pulverizing.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_MorningStarUniqueEffect_Desc_MorningStarUniqueEffectDesc",
+        "SourceString": "When you deal damage to an enemy, crush their armor, reducing their <PhysicalReduction># by [0]%</> for <Duration>[0] seconds</>. This effect stacks up to 3 times.",
+        "LocalizedString": "When you deal damage to an enemy, crush their armor, reducing their <PhysicalReduction>_ by [0]%</> for <Duration>[0] seconds</>. This effect stacks up to 3 times."
+      }
+    }
+  }
+]

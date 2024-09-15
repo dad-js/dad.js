@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Spell_Fireball",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 7,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Spell.Fireball"
+        },
+        "SpellId": {
+          "PrimaryAssetType": {
+            "Name": "DesignDataSpell"
+          },
+          "PrimaryAssetName": "Id_Spell_Fireball"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DescDataMultiEffectParams",
+    "Name": "SpellplunderRodMinorArtifactEffect_Desc",
+    "Class": "UScriptClass'DescDataMultiEffectParams'",
+    "Properties": {
+      "ConstantDataAssetArray": [
+        {
+          "ObjectName": "DCConstantDataAsset'Id_Constant_Item_SpellplunderRodSpellRechargeAmount'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Data/Generated/V2/Constant/Constant/Id_Constant_Item_SpellplunderRodSpellRechargeAmount.0"
+        }
+      ],
+      "DescriptionFormatTextId": {
+        "Namespace": "DC",
+        "Key": "Text_DataAsset_SpellplunderRodMinorArtifactEffect_Desc_SpellplunderRodMinorArtifactEffectDesc",
+        "SourceString": "Text_Restore <Constant Type=\"Integer\" Format=\"Normal\">[0]</> spell memory per hit when attacking with a magic staff.",
+        "LocalizedString": "Restore <Constant Type=\"Integer\" Format=\"Normal\">[0]</> spell memory per hit when attacking."
+      }
+    }
+  }
+]

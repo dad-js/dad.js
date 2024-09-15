@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "Item_Icom_GoldenCloak",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 270,
+        "Y": 360
+      },
+      "LightingGuid": "BBB0E5CE-467C85A7-92D3A98D-EA04933C",
+      "CompressionSettings": "TextureCompressionSettings::TC_EditorIcon",
+      "LODGroup": "TextureGroup::TEXTUREGROUP_UI",
+      "NeverStream": true
+    },
+    "SizeX": 270,
+    "SizeY": 360,
+    "PackedData": 1,
+    "PixelFormat": "PF_B8G8R8A8",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 388800,
+          "SizeOnDisk": 388800,
+          "OffsetInFile": "0x7B"
+        },
+        "SizeX": 270,
+        "SizeY": 360,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "CopperlightGauntlets_3001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::GlovesEquipped",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::ShortGlovesEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CopperlightGauntlet'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/CopperlightGauntlets/Icon/Item_Icon_CopperlightGauntlet.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_CopperlightGauntlet'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/CopperlightGauntlets/SK_CopperlightGauntlet.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CopperlightGauntlet_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Hands/CopperlightGauntlets/SM_CopperlightGauntlet_Holder.2"
+      },
+      "ItemsBoneModifyData": [
+        {
+          "Key": "fk_weapon_l",
+          "Value": {
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 2.5,
+              "Z": 0.0
+            }
+          }
+        }
+      ]
+    }
+  }
+]

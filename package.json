@@ -1,0 +1,54 @@
+{
+	"name": "@dad-js/dad.js",
+	"version": "0.0.1",
+	"description": "Dark and Darker Client for JS",
+	"exports": {
+		".": "./dist/index.js",
+		"./dist/index": "./dist/index.js"
+	},
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist",
+		"resources"
+	],
+	"scripts": {
+		"build": "tsc --pretty",
+		"build:publish": "pnpm clean && pnpm build && pnpm version patch --no-git-tag-version && pnpm publish --no-git-checks",
+		"clean": "rimraf dist",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dad-js/dad.js.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dad-js/dad.js/issues"
+	},
+	"homepage": "https://github.com/dad-js/dad.js#readme",
+	"publishConfig": {
+		"@dad-js:registry": "https://npm.pkg.github.com"
+	},
+	"devDependencies": {
+		"@types/fs-extra": "^11.0.4",
+		"@types/node": "^22.4.0",
+		"@types/steam-user": "^5.0.1",
+		"dotenv-cli": "^7.4.2",
+		"rimraf": "^6.0.1",
+		"steamworks.js": "^0.4.0",
+		"tsc-watch": "^6.2.0",
+		"typescript": "^5.5.4"
+	},
+	"dependencies": {
+		"@dad-js/dad-api": "^0.0.1",
+		"@types/memoizee": "^0.4.11",
+		"find-free-ports": "^3.1.1",
+		"fs-extra": "^11.2.0",
+		"memoizee": "^0.4.17",
+		"protobufjs": "^7.3.2",
+		"steam-user": "^5.0.10",
+		"ts-deepmerge": "^7.0.1"
+	}
+}

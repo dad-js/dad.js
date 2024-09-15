@@ -1,0 +1,156 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_LifeAfterDeath_Refractive",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Sprite_Refractive'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Shared_Resource/Materials/M_Sprite_Refractive.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Fade Distance",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 100.0,
+          "ExpressionGUID": "786F6FE2-48504E7A-11FEEE96-470FF1D2"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Radial Panning X",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "E2AB428E-46DEF899-9934E99A-E996DA5F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Radial Panning Y",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "635906E0-4DD496BA-9EB62EA5-4278F078"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Radial UV X",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "3DDB70E2-45395C7E-17198FAC-30910063"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Radial UV Y",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "A5B0AE49-4656AD0F-1F37D5A1-86F404C6"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Radius",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "21A2D792-4FC05315-BDE010A2-CC28C7B0"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Swirl Max",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": -0.5,
+          "ExpressionGUID": "B7371773-4CE71150-460DA08C-D885DF26"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionAmount",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.05,
+          "ExpressionGUID": "B524F2B7-4E6D11AE-0B8D7597-FAF2E37B"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Param",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_protection_caustics'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/FX/Barrier/Resources/Textures/T_protection_caustics.0"
+          },
+          "ExpressionGUID": "548E41DC-422B58B0-C5B2C782-3D828ABB"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Additive",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Depthfade",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "8849D6D7-466411F0-C0B80D85-1A9A096B"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Radial Coordinate",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "C489F127-44BE413E-9A75819E-ED28B7CA"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Swirl",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "E948BDC4-43CAA1B3-45D60095-23EABA73"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true
+    },
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataUtility",
+    "Name": "OldRustyKey",
+    "Class": "UScriptClass'ArtDataUtility'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_ThrowingKnife_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/ThrowingKnife/Animations/AM_ThrowingKnife_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_ThrowingKnife_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/ThrowingKnife/Animations/AM_ThrowingKnife_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_ThrowingKnife_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/ThrowingKnife/Animations/AS_ThrowingKnife_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_ThrowingKnife_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/ThrowingKnife/Animations/AS_ThrowingKnife_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_ThrwoingKnife_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/ThrowingKnife/Animations/BS_ThrwoingKnife_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_back_pelvis_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_OldRustyKey'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/OldRustyKey/Icon/Item_Icon_OldRustyKey.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_OldRustyKey'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/OldRustyKey/SK_OldRustyKey.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_OldRustyKey_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Utility/OldRustyKey/SM_OldRustyKey_Holder.2"
+      }
+    }
+  }
+]

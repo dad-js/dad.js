@@ -1,0 +1,928 @@
+[
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_0",
+    "Outer": "AM_WP_Survivalbow_MultiShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root4"
+    }
+  },
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_1",
+    "Outer": "AM_WP_Survivalbow_MultiShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root1"
+    }
+  },
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_2",
+    "Outer": "AM_WP_Survivalbow_MultiShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root5"
+    }
+  },
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_3",
+    "Outer": "AM_WP_Survivalbow_MultiShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root2"
+    }
+  },
+  {
+    "Type": "AN_HideBone_C",
+    "Name": "AN_HideBone_C_5",
+    "Outer": "AM_WP_Survivalbow_MultiShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.AN_HideBone_C'",
+    "Template": {
+      "ObjectName": "AN_HideBone_C'Default__AN_HideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_HideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root3"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_0",
+    "Outer": "AM_WP_Survivalbow_MultiShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_1",
+    "Outer": "AM_WP_Survivalbow_MultiShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root1"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_2",
+    "Outer": "AM_WP_Survivalbow_MultiShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root2"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_3",
+    "Outer": "AM_WP_Survivalbow_MultiShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root3"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_4",
+    "Outer": "AM_WP_Survivalbow_MultiShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root4"
+    }
+  },
+  {
+    "Type": "AN_UnHideBone_C",
+    "Name": "AN_UnHideBone_C_6",
+    "Outer": "AM_WP_Survivalbow_MultiShot",
+    "Class": "BlueprintGeneratedClass'DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.AN_UnHideBone_C'",
+    "Template": {
+      "ObjectName": "AN_UnHideBone_C'Default__AN_UnHideBone_C'",
+      "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Characters/Monster/Common/AnimNotify/AN_UnHideBone.0"
+    },
+    "Properties": {
+      "BoneName": "Arrow_Ctrl_Root5"
+    }
+  },
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_WP_Survivalbow_MultiShot",
+    "Class": "UScriptClass'AnimMontage'",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.05
+      },
+      "BlendOut": {
+        "BlendTime": 0.15
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "Loop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Ready_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Ready_Start.0"
+          }
+        },
+        {
+          "SectionName": "Loop",
+          "NextSectionName": "Loop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.6666667,
+          "SegmentLength": 1.6,
+          "LinkValue": 0.6666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Ready_Loop'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Ready_Loop.0"
+          }
+        },
+        {
+          "SectionName": "AttackStart",
+          "NextSectionName": "AttackLoop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 2.2666667,
+          "SegmentLength": 0.48484817,
+          "LinkValue": 2.2666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Attack_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Attack_Start.0"
+          }
+        },
+        {
+          "SectionName": "AttackLoop",
+          "NextSectionName": "AttackLoop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 3,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 2.751515,
+          "SegmentLength": 1.6,
+          "LinkValue": 2.7515204,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Attack_Loop'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Attack_Loop.0"
+          }
+        },
+        {
+          "SectionName": "End",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.351515,
+          "SegmentLength": 0.9,
+          "LinkValue": 4.352129,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Attack_End.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Ready_Start'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Ready_Start.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.6666667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Ready_Loop'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Ready_Loop.0"
+                },
+                "StartPos": 0.6666667,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.6,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Attack_Start'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Attack_Start.0"
+                },
+                "StartPos": 2.2666667,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.533333,
+                "AnimPlayRate": 1.1,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Attack_Loop'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Attack_Loop.0"
+                },
+                "StartPos": 2.751515,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.6,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Attack_End'",
+                  "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Attack_End.0"
+                },
+                "StartPos": 4.351515,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.9,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "BranchingPointMarkers": [
+        {
+          "NotifyIndex": 6,
+          "TriggerTime": 0.094825566,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 7,
+          "TriggerTime": 4.3787813,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 8,
+          "TriggerTime": 4.380662,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 9,
+          "TriggerTime": 4.383572,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 10,
+          "TriggerTime": 4.3859973,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 11,
+          "TriggerTime": 4.3893924,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        }
+      ],
+      "CommonTargetFrameRate": {
+        "Numerator": 30
+      },
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_Survivalbow_MultiShot:AN_UnHideBone_C_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.033333335,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666667,
+          "LinkValue": 0.033333335,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Ready_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Ready_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_Survivalbow_MultiShot:AN_UnHideBone_C_1'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.039658464,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666667,
+          "LinkValue": 0.039658464,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Ready_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Ready_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_Survivalbow_MultiShot:AN_UnHideBone_C_2'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.045713205,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666667,
+          "LinkValue": 0.045713205,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Ready_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Ready_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_Survivalbow_MultiShot:AN_UnHideBone_C_3'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.04825229,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666667,
+          "LinkValue": 0.04825229,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Ready_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Ready_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_Survivalbow_MultiShot:AN_UnHideBone_C_4'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.057658732,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666667,
+          "LinkValue": 0.057658732,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Ready_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Ready_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_UnHideBone_C",
+          "Notify": {
+            "ObjectName": "AN_UnHideBone_C'AM_WP_Survivalbow_MultiShot:AN_UnHideBone_C_6'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.069636546,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666667,
+          "LinkValue": 0.069636546,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Ready_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Ready_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DCPreReduceAmmoCountOnSourceObject",
+          "Notify": {
+            "ObjectName": "DCAnimNotify_PreReduceAmmoCountOnSourceObject'AM_WP_Survivalbow_MultiShot:DCAnimNotify_PreReduceAmmoCountOnSourceObject_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.12"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.318421,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666667,
+          "LinkValue": 0.094825566,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Ready_Start'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Ready_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_Survivalbow_MultiShot:AN_HideBone_C_1'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 4.2816615,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.351515,
+          "SegmentLength": 0.9,
+          "LinkValue": 4.3787813,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Attack_End.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_Survivalbow_MultiShot:AN_HideBone_C_3'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 4.283542,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.351515,
+          "SegmentLength": 0.9,
+          "LinkValue": 4.380662,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Attack_End.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_Survivalbow_MultiShot:AN_HideBone_C_5'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 4.2864523,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.351515,
+          "SegmentLength": 0.9,
+          "LinkValue": 4.383572,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Attack_End.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_Survivalbow_MultiShot:AN_HideBone_C_0'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.0"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 4.2888775,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.351515,
+          "SegmentLength": 0.9,
+          "LinkValue": 4.3859973,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Attack_End.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AN_HideBone_C",
+          "Notify": {
+            "ObjectName": "AN_HideBone_C'AM_WP_Survivalbow_MultiShot:AN_HideBone_C_2'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 4.2922726,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::BranchingPoint",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_WP_Survivalbow_MultiShot'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AM_WP_Survivalbow_MultiShot.11"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 4.351515,
+          "SegmentLength": 0.9,
+          "LinkValue": 4.3893924,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AS_WP_Survivalbow_MutiShot_Attack_End'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/Animations/AS_WP_Survivalbow_MutiShot_Attack_End.0"
+          }
+        }
+      ],
+      "SequenceLength": 5.251517,
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_SurvivalBow'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/SurvivalBow/SKEL_SurvivalBow.4"
+      }
+    },
+    "SkeletonGuid": "AEA6CEB6-41E6611C-19084693-EB404AB9"
+  },
+  {
+    "Type": "DCAnimNotify_PreReduceAmmoCountOnSourceObject",
+    "Name": "DCAnimNotify_PreReduceAmmoCountOnSourceObject_0",
+    "Outer": "AM_WP_Survivalbow_MultiShot",
+    "Class": "UScriptClass'DCAnimNotify_PreReduceAmmoCountOnSourceObject'",
+    "Properties": {
+      "ReduceCount": 5
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DesignDataAssetItemPropertyType",
+    "Name": "Id_ItemPropertyType_Effect_Dexterity",
+    "Class": "UScriptClass'DesignDataAssetItemPropertyType'",
+    "Properties": {
+      "Item": {
+        "PropertyTypeGroupId": 59,
+        "PropertyType": {
+          "TagName": "Type.Item.Property.Effect.Dexterity"
+        },
+        "EffectClass": {
+          "ObjectName": "BlueprintGeneratedClass'GE_ItemPropertyDexterity_C'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Core/GameplayAbilitySystem/GameplayEffect/Item/ItemProperty/GE_ItemPropertyDexterity.0"
+        },
+        "EffectType": {
+          "TagName": "Data.SetByCaller.DexterityBase"
+        },
+        "SecondaryTooltipPriority": 1
+      }
+    }
+  }
+]

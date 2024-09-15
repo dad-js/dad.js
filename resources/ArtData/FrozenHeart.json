@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "FrozenHeart",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrozenHeart'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/FrozenHeart/Icon/Item_Icon_FrozenHeart.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_FrozenHeart_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/FrozenHeart/SM_FrozenHeart_Holder.2"
+      }
+    }
+  }
+]

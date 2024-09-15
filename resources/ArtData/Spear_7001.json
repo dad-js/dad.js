@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "Spear_7001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_Spear_Stand_equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spear/Animations/AM_Spear_Stand_equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_Spear_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spear/Animations/AM_Spear_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_Spear_Stand_idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spear/Animations/AS_Spear_Stand_idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_Spear_crouch_idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spear/Animations/AS_Spear_crouch_idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_Spear_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spear/Animations/BS_Spear_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_l",
+      "SheathSocket": "sheath_back_left_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Spear_7001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spear/Icon/Item_Icon_Spear_7001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Spear_7001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spear/SK_Spear_7001.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Spear_7001_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Spear/SM_Spear_7001_Holder.2"
+      }
+    }
+  }
+]

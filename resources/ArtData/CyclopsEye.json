@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "ArtDataMisc",
+    "Name": "CyclopsEye",
+    "Class": "UScriptClass'ArtDataMisc'",
+    "Properties": {
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CyclopsEye'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/CyclopsEye/Icon/Item_Icon_CyclopsEye.0"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CyclopsEye_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/CyclopsEye/SM_CyclopsEye_Holder.2"
+      }
+    }
+  }
+]

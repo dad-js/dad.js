@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "ArmingSword_7001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_ArmingSword_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/ArmingSword/Animations/AM_ArmingSword_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_ArmingSword_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/ArmingSword/Animations/AM_ArmingSword_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_ArmingSword_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/ArmingSword/Animations/AS_ArmingSword_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_ArmingSword_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/ArmingSword/Animations/AS_ArmingSword_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_ArmingSword_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/ArmingSword/Animations/BS_ArmingSword_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_back_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_Armingsword_7001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/ArmingSword/Icon/Item_Icon_Armingsword_7001.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_ArmingSword_7001'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/ArmingSword/SK_ArmingSword_7001.1"
+      },
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_ArmingSword_7001_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/ArmingSword/SM_ArmingSword_7001_Holder.2"
+      }
+    }
+  }
+]

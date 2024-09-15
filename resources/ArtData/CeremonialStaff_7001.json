@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "CeremonialStaff_7001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_CeremonialStaff_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CeremonialStaff/Animation/AM_CeremonialStaff_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_CeremonialStaff_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CeremonialStaff/Animation/AM_CeremonialStaff_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_CeremonialStaff_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CeremonialStaff/Animation/AS_CeremonialStaff_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_CeremonialStaff_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CeremonialStaff/Animation/AS_CeremonialStaff_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_CeremonialStaff_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CeremonialStaff/Animation/BS_CeremonialStaff_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_back_left_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_CeremonialStaff'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CeremonialStaff/Icon/Item_Icon_CeremonialStaff.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_CeremonialStaff'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CeremonialStaff/SK_CeremonialStaff.6"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "ML_WizardStaff",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_WizardStaff_0001'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/Materials/MI_WizardStaff_0001.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_CeremonialStaff_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/CeremonialStaff/SM_CeremonialStaff_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Mango",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_WizardStaff_0001_Holder'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/WizardStaff/Materials/MI_WizardStaff_0001_Holder.0"
+          }
+        }
+      ]
+    }
+  }
+]

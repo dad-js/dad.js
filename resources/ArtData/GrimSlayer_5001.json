@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "ArtDataWeapon",
+    "Name": "GrimSlayer_5001",
+    "Class": "UScriptClass'ArtDataWeapon'",
+    "Properties": {
+      "AnimationSet": {
+        "EquipMontage": {
+          "ObjectName": "AnimMontage'AM_Zweihander_Stand_Equip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Zweihander/Animations/AM_Zweihander_Stand_Equip.0"
+        },
+        "UnEquipMontage": {
+          "ObjectName": "AnimMontage'AM_Zweihander_Stand_Unequip'",
+          "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Zweihander/Animations/AM_Zweihander_Stand_Unequip.0"
+        },
+        "LocomotionAnimSet": {
+          "StandIdle": {
+            "ObjectName": "AnimSequence'AS_Zweihander_Stand_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Zweihander/Animations/AS_Zweihander_Stand_Idle.0"
+          },
+          "CrouchIdle": {
+            "ObjectName": "AnimSequence'AS_Zweihander_Crouch_Idle'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Zweihander/Animations/AS_Zweihander_Crouch_Idle.0"
+          },
+          "RunUpperBody": {
+            "ObjectName": "BlendSpace'BS_Zweihander_Stand_Run_UpperBody'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Zweihander/Animations/BS_Zweihander_Stand_Run_UpperBody.0"
+          }
+        }
+      },
+      "EquipmentSocket": "weapon_r",
+      "SheathSocket": "sheath_back_right_01",
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_GrimSlayer'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/GrimSlayer/Icon/Item_Icon_GrimSlayer.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Zweihander'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Zweihander/SK_Zweihander.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Zweihander1",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_GrimSlayer'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/GrimSlayer/Materials/MI_GrimSlayer.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_Zweihander_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/Zweihander/SM_Zweihander_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "Zweihander",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_GrimSlayer'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Weapon/GrimSlayer/Materials/MI_GrimSlayer.0"
+          }
+        }
+      ]
+    }
+  }
+]

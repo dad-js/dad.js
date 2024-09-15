@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "ArtDataArmor",
+    "Name": "FrostlightRuggedBoots_6001",
+    "Class": "UScriptClass'ArtDataArmor'",
+    "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::BootsEquipped",
+          "Value": 1.0
+        }
+      ],
+      "ItemIconTexture": {
+        "ObjectName": "Texture2D'Item_Icon_FrostlightRuggedBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/FrostlightRuggedBoots/Icon/Item_Icon_FrostlightRuggedBoots.0"
+      },
+      "ItemSkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_RuggedBoots'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/RuggedBoots/SK_RuggedBoots.0"
+      },
+      "ItemSkeletalMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "MI_boots_01",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightRuggedBoots'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/FrostlightRuggedBoots/Materials/MI_FrostlightRuggedBoots.0"
+          }
+        },
+        {
+          "MaterialSlotName": "M_hair_01_dark",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightRivetedGloves_Fur'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/FrostlightRuggedBoots/Materials/MI_FrostlightRivetedGloves_Fur.0"
+          }
+        }
+      ],
+      "ItemStaticMesh": {
+        "ObjectName": "StaticMesh'SM_RuggedBoots_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/RuggedBoots/SM_RuggedBoots_Holder.2"
+      },
+      "ItemStaticMeshMaterialInfoArray": [
+        {
+          "MaterialSlotName": "ML_LeatherBoots01",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightRuggedBoots'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/FrostlightRuggedBoots/Materials/MI_FrostlightRuggedBoots.0"
+          }
+        },
+        {
+          "MaterialSlotName": "ML_LeatherBoots01_fur",
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FrostlightRivetedGloves_Fur'",
+            "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Foot/FrostlightRuggedBoots/Materials/MI_FrostlightRivetedGloves_Fur.0"
+          }
+        }
+      ]
+    }
+  }
+]
