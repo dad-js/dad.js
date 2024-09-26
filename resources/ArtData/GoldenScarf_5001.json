@@ -12,6 +12,14 @@
         {
           "Key": "EDCMorphTarget::Ear",
           "Value": 0.5
+        },
+        {
+          "Key": "EDCMorphTarget::HelmetEquipped",
+          "Value": 1.2
+        },
+        {
+          "Key": "EDCMorphTarget::Helmet",
+          "Value": 0.6
         }
       ],
       "ItemIconTexture": {
@@ -20,7 +28,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_GoldenScarf'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/GoldenScarf/SK_GoldenScarf.0"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/GoldenScarf/SK_GoldenScarf.2"
       },
       "ItemStaticMesh": {
         "ObjectName": "StaticMesh'SM_GoldenScarf_Holder'",

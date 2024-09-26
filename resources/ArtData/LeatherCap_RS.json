@@ -15,11 +15,27 @@
         },
         {
           "Key": "EDCMorphTarget::WomanFrontHair",
-          "Value": 1.0
+          "Value": 0.7
+        },
+        {
+          "Key": "EDCMorphTarget::UnderHair",
+          "Value": 0.7
         },
         {
           "Key": "EDCMorphTarget::Ear",
           "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::FrontHair",
+          "Value": 0.7
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 0.0
+        },
+        {
+          "Key": "EDCMorphTarget::Helmet",
+          "Value": 0.7
         }
       ],
       "ItemIconTexture": {

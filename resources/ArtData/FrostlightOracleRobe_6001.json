@@ -4,6 +4,12 @@
     "Name": "FrostlightOracleRobe_6001",
     "Class": "UScriptClass'ArtDataArmor'",
     "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::Hood",
+          "Value": 1.0
+        }
+      ],
       "ItemIconTexture": {
         "ObjectName": "Texture2D'Item_Icon_FrostlightOracleRobe'",
         "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/FrostlightOracleRobe/Icon/Item_Icon_FrostlightOracleRobe.0"

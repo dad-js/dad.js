@@ -20,6 +20,10 @@
         {
           "Key": "EDCMorphTarget::Ear",
           "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 1.0
         }
       ],
       "ItemIconTexture": {

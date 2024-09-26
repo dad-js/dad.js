@@ -32,6 +32,22 @@
         {
           "Key": "EDCMorphTarget::UnderHair",
           "Value": 0.7
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Cap",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::HalfCap",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Helmet",
+          "Value": 0.5
         }
       ],
       "ItemIconTexture": {
@@ -40,7 +56,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_Topfhelm'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Topfhelm/SK_Topfhelm.0"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Topfhelm/SK_Topfhelm.2"
       },
       "ItemStaticMesh": {
         "ObjectName": "StaticMesh'SM_Topfhelm_Holder'",

@@ -32,6 +32,10 @@
         {
           "Key": "EDCMorphTarget::Ear",
           "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 1.0
         }
       ],
       "ItemIconTexture": {
@@ -40,7 +44,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_BarbutaHelm'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/BarbutaHelm/SK_BarbutaHelm.0"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/BarbutaHelm/SK_BarbutaHelm.2"
       },
       "ItemStaticMesh": {
         "ObjectName": "StaticMesh'SM_BarbutaHelm_Holder'",

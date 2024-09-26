@@ -10,8 +10,8 @@
             "TagName": "Sound.On"
           },
           "Value": {
-            "ObjectName": "AkAudioEvent'Wp_FrostStoneTorch_Start'",
-            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Weapons/Wp_FrostStoneTorch_Start.0"
+            "ObjectName": "AkAudioEvent'Utility_ElvenTorch_Start'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Utilitys/Utility_ElvenTorch_Start.0"
           }
         },
         {
@@ -19,8 +19,8 @@
             "TagName": "Sound.Off"
           },
           "Value": {
-            "ObjectName": "AkAudioEvent'Wp_FrostStoneTorch_End'",
-            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Weapons/Wp_FrostStoneTorch_End.0"
+            "ObjectName": "AkAudioEvent'Utility_ElvenTorch_End'",
+            "ObjectPath": "DungeonCrawler/Content/WwiseAudio/Events/Default_Work_Unit/Utilitys/Utility_ElvenTorch_End.0"
           }
         },
         {

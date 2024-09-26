@@ -36,6 +36,18 @@
         {
           "Key": "EDCMorphTarget::Ponytail",
           "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::HalfCap",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Helmet",
+          "Value": 1.0
         }
       ],
       "ItemIconTexture": {
@@ -44,7 +56,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_Armet'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Armet/SK_Armet.0"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Armet/SK_Armet.2"
       },
       "ItemStaticMesh": {
         "ObjectName": "StaticMesh'SM_Armet_Holder'",

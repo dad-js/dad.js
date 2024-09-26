@@ -32,6 +32,22 @@
         {
           "Key": "EDCMorphTarget::UnderHair",
           "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Helmet",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Cap",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::HalfCap",
+          "Value": 1.0
         }
       ],
       "ItemIconTexture": {
@@ -40,7 +56,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_GreatHelm'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/GreatHelm/SK_GreatHelm.0"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/GreatHelm/SK_GreatHelm.2"
       },
       "ItemStaticMesh": {
         "ObjectName": "StaticMesh'SM_GreatHelm_Holder'",

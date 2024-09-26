@@ -27,7 +27,7 @@
       },
       "ItemStaticMeshMaterialInfoArray": [
         {
-          "MaterialSlotName": "MI_RadiantCloak",
+          "MaterialSlotName": "MI_AdventurerCloak_Holder",
           "MaterialInterface": {
             "ObjectName": "MaterialInstanceConstant'MI_FrostlightCloak'",
             "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Back/FrostlightCloak/Materials/MI_FrostlightCloak.0"

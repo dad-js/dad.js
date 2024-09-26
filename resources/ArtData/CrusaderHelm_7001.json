@@ -32,6 +32,18 @@
         {
           "Key": "EDCMorphTarget::UnderHair",
           "Value": 0.7
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Cap",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Helmet",
+          "Value": 1.0
         }
       ],
       "ItemIconTexture": {
@@ -40,7 +52,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_CrusaderHelm'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CrusaderHelm/SK_CrusaderHelm.1"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CrusaderHelm/SK_CrusaderHelm.2"
       },
       "ItemStaticMesh": {
         "ObjectName": "StaticMesh'SM_CrusaderHelm_Holder'",

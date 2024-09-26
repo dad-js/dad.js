@@ -16,6 +16,14 @@
         {
           "Key": "EDCMorphTarget::WomanFrontHair",
           "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Helmet",
+          "Value": 0.5
         }
       ],
       "ItemIconTexture": {

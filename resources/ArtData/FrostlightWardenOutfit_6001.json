@@ -8,6 +8,10 @@
         {
           "Key": "EDCMorphTarget::LizardmanNeck",
           "Value": 1.1
+        },
+        {
+          "Key": "EDCMorphTarget::Hood",
+          "Value": 1.0
         }
       ],
       "ItemIconTexture": {
@@ -44,7 +48,7 @@
       },
       "ItemStaticMeshMaterialInfoArray": [
         {
-          "MaterialSlotName": "MI_chest_merc_02_a",
+          "MaterialSlotName": "MI_WardenOutfit_Holder",
           "MaterialInterface": {
             "ObjectName": "MaterialInstanceConstant'MI_FrostlightWardenOutfit'",
             "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/FrostlightWardenOutfit/Materials/MI_FrostlightWardenOutfit.0"

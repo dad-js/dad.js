@@ -28,6 +28,10 @@
         {
           "Key": "EDCMorphTarget::Ear",
           "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 1.0
         }
       ],
       "ItemIconTexture": {
@@ -36,7 +40,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_OpenSallet'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/OpenSallet/SK_OpenSallet.0"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/OpenSallet/SK_OpenSallet.2"
       },
       "ItemStaticMesh": {
         "ObjectName": "StaticMesh'SM_OpenSallet_Holder'",

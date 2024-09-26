@@ -32,6 +32,14 @@
         {
           "Key": "EDCMorphTarget::HelmetEquipped",
           "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 0.0
+        },
+        {
+          "Key": "EDCMorphTarget::Helmet",
+          "Value": 1.0
         }
       ],
       "ItemIconTexture": {
@@ -40,7 +48,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_CopperlightShadowHood'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CopperlightShadowHood/SK_CopperlightShadowHood.0"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CopperlightShadowHood/SK_CopperlightShadowHood.2"
       },
       "ItemStaticMesh": {
         "ObjectName": "StaticMesh'SM_CopperlightShadowHood_Holder'",

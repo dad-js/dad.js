@@ -16,6 +16,10 @@
         {
           "Key": "EDCMorphTarget::HelmetEquipped",
           "Value": 1.2
+        },
+        {
+          "Key": "EDCMorphTarget::Helmet",
+          "Value": 0.6
         }
       ],
       "ItemIconTexture": {
@@ -24,7 +28,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_ShadowMask'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/ShadowMask/SK_ShadowMask.1"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/ShadowMask/SK_ShadowMask.2"
       },
       "ItemStaticMesh": {
         "ObjectName": "StaticMesh'SM_ShadowMask_Holder'",

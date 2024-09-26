@@ -28,6 +28,10 @@
         {
           "Key": "EDCMorphTarget::Ear",
           "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 1.0
         }
       ],
       "ItemIconTexture": {
@@ -36,7 +40,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_CobaltVikingHelm'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CobaltVikingHelm/SK_CobaltVikingHelm.4"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CobaltVikingHelm/SK_CobaltVikingHelm.5"
       },
       "ItemStaticMesh": {
         "ObjectName": "StaticMesh'SM_CobaltVikingHelm_Holder'",

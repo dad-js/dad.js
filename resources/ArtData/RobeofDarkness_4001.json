@@ -4,6 +4,12 @@
     "Name": "RobeofDarkness_4001",
     "Class": "UScriptClass'ArtDataArmor'",
     "Properties": {
+      "MorphTargetsV2": [
+        {
+          "Key": "EDCMorphTarget::Hood",
+          "Value": 1.0
+        }
+      ],
       "ItemIconTexture": {
         "ObjectName": "Texture2D'Item_Icon_RobeofDarkness'",
         "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Chest/RobeofDarkness/Icon/Item_Icon_RobeofDarkness.0"

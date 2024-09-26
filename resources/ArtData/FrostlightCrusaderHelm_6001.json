@@ -32,6 +32,18 @@
         {
           "Key": "EDCMorphTarget::UnderHair",
           "Value": 0.7
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Cap",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Helmet",
+          "Value": 1.0
         }
       ],
       "ItemIconTexture": {
@@ -40,7 +52,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_CrusaderHelm'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CrusaderHelm/SK_CrusaderHelm.1"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/CrusaderHelm/SK_CrusaderHelm.2"
       },
       "ItemSkeletalMeshMaterialInfoArray": [
         {
@@ -57,7 +69,7 @@
       },
       "ItemStaticMeshMaterialInfoArray": [
         {
-          "MaterialSlotName": "MI_CrusaderHelm",
+          "MaterialSlotName": "MI_CrusaderHelm_Holder",
           "MaterialInterface": {
             "ObjectName": "MaterialInstanceConstant'MI_FrostlightCrusaderHelm'",
             "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/FrostlightCrusaderHelm/Materials/MI_FrostlightCrusaderHelm.0"

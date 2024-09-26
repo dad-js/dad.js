@@ -99,42 +99,6 @@ export class LobbyModule extends Module {
 		toInv.items.push(item);
 
 		this.allInventories.value = this.allInventories.value;
-		/* 
-		const mappedItemData = {
-			itemAmmoCount: item.ammo,
-			itemContentsCount: item.contents,
-			itemCount: item.count,
-			itemId: item.id,
-			itemUniqueId: item.uid,
-			lootState: item.lootState,
-			primaryPropertyArray: item.primaryProperties.map((prop) => ({
-				propertyTypeId: prop.type,
-				propertyValue: prop.value,
-			})),
-			secondaryPropertyArray: item.secondaryProperties.map((prop) => ({
-				propertyTypeId: prop.type,
-				propertyValue: prop.value,
-			})),
-		};
-
-		const payload = encode("S2C_INVENTORY_SINGLE_UPDATE_RES", {
-			result: 1,
-			oldItem: [
-				{
-					inventoryId: from.inventory,
-					slotId: from.slot,
-					...mappedItemData,
-				},
-			],
-			newItem: [
-				{
-					inventoryId: to.inventory,
-					slotId: to.slot,
-					...mappedItemData,
-				},
-			],
-		});
-		this.client.networker.server.send("S2C_INVENTORY_SINGLE_UPDATE_RES", payload); */
 	}
 
 	async swapItem(from: ItemPosition, to: ItemPosition) {

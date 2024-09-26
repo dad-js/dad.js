@@ -28,6 +28,14 @@
         {
           "Key": "EDCMorphTarget::HelmetEquipped",
           "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Mask",
+          "Value": 0.5
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 0.0
         }
       ],
       "ItemIconTexture": {
@@ -36,7 +44,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_RogueCowl'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/RogueCowl/SK_RogueCowl.0"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/RogueCowl/SK_RogueCowl.2"
       },
       "ItemStaticMesh": {
         "ObjectName": "StaticMesh'SM_RogueCowl_Holder'",

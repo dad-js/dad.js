@@ -28,6 +28,10 @@
         {
           "Key": "EDCMorphTarget::HelmetEquipped",
           "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Helmet",
+          "Value": 1.0
         }
       ],
       "ItemIconTexture": {
@@ -36,7 +40,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_OccultistHood'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/OccultistHood/SK_OccultistHood.0"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/OccultistHood/SK_OccultistHood.2"
       },
       "ItemStaticMesh": {
         "ObjectName": "StaticMesh'SM_OccultistHood_Holder'",

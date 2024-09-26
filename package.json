@@ -1,6 +1,6 @@
 {
 	"name": "@dad-js/dad.js",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Dark and Darker Client for JS",
 	"exports": {
 		".": "./dist/index.js",
@@ -14,6 +14,7 @@
 	"scripts": {
 		"build": "tsc --pretty",
 		"build:publish": "pnpm clean && pnpm build && pnpm version patch --no-git-tag-version && pnpm publish --no-git-checks",
+		"update:dad-api": "pnpm update @dad-js/dad-api@latest",
 		"clean": "rimraf dist",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -42,7 +43,7 @@
 		"typescript": "^5.5.4"
 	},
 	"dependencies": {
-		"@dad-js/dad-api": "^0.0.3",
+		"@dad-js/dad-api": "^0.0.4",
 		"@types/memoizee": "^0.4.11",
 		"find-free-ports": "^3.1.1",
 		"fs-extra": "^11.2.0",

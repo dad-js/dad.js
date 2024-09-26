@@ -28,6 +28,10 @@
         {
           "Key": "EDCMorphTarget::Ear",
           "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 1.0
         }
       ],
       "ItemIconTexture": {
@@ -36,7 +40,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_Gjermundbu'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Gjermundbu/SK_Gjermundbu.4"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Gjermundbu/SK_Gjermundbu.5"
       },
       "ItemSkeletalMeshMaterialInfoArray": [
         {

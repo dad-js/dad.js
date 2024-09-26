@@ -5,12 +5,12 @@
     "Class": "UScriptClass'ArtDataMisc'",
     "Properties": {
       "ItemIconTexture": {
-        "ObjectName": "Texture2D'Icon_Dummy'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/UI/Resources/_Temp/Icon_Dummy.0"
+        "ObjectName": "Texture2D'Item_Icon_SpectralHilt'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/SpectralHilt/Icon/Item_Icon_SpectralHilt.0"
       },
       "ItemStaticMesh": {
-        "ObjectName": "StaticMesh'SM_Dummy_A'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Props/Common/TrainingDummy/Meshes/SM_Dummy_A.2"
+        "ObjectName": "StaticMesh'SM_SpectralHilt_Holder'",
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Misc/HuntingLoots/SpectralHilt/SM_SpectralHilt_Holder.2"
       }
     }
   }

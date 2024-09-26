@@ -28,6 +28,10 @@
         {
           "Key": "EDCMorphTarget::Ear",
           "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 1.0
         }
       ],
       "ItemIconTexture": {
@@ -36,7 +40,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_Spangenhelm'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Spangenhelm/SK_Spangenhelm.1"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/Spangenhelm/SK_Spangenhelm.2"
       },
       "ItemStaticMesh": {
         "ObjectName": "StaticMesh'SM_Spangenhelm_Holder'",

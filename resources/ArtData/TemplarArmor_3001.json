@@ -8,6 +8,10 @@
         {
           "Key": "EDCMorphTarget::LizardmanNeck",
           "Value": 0.9
+        },
+        {
+          "Key": "EDCMorphTarget::Hood",
+          "Value": 1.0
         }
       ],
       "ItemIconTexture": {

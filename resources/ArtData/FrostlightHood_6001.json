@@ -26,12 +26,12 @@
           "Value": 1.0
         },
         {
-          "Key": "EDCMorphTarget::FrontHair",
+          "Key": "EDCMorphTarget::HelmetEquipped",
           "Value": 1.0
         },
         {
-          "Key": "EDCMorphTarget::HelmetEquipped",
-          "Value": 1.0
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 0.0
         }
       ],
       "ItemIconTexture": {

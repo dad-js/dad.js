@@ -32,6 +32,14 @@
         {
           "Key": "EDCMorphTarget::UnderHair",
           "Value": 0.7
+        },
+        {
+          "Key": "EDCMorphTarget::Hat",
+          "Value": 1.0
+        },
+        {
+          "Key": "EDCMorphTarget::Helmet",
+          "Value": 1.0
         }
       ],
       "ItemIconTexture": {
@@ -40,7 +48,7 @@
       },
       "ItemSkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_VisoredSallet'",
-        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/VisoredSallet/SK_VisoredSallet.0"
+        "ObjectPath": "DungeonCrawler/Content/DungeonCrawler/Item/Armor/Head/VisoredSallet/SK_VisoredSallet.2"
       },
       "ItemStaticMesh": {
         "ObjectName": "StaticMesh'SM_VisoredSallet_Holder'",
